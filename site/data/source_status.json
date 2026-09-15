@@ -5,28 +5,53 @@
     "name": "Renewable Watch",
     "role": "风电政策/项目/规划",
     "adapter": "Wind Power 专栏 + RSS + 站内搜索",
-    "status": "error",
-    "found_count": 0,
-    "checked_at": "2026-09-15T03:59:58+00:00",
-    "error": "KeyError: 'query'",
-    "attempts": []
+    "status": "success",
+    "found_count": 21,
+    "checked_at": "2026-09-15T06:53:55+00:00",
+    "error": "",
+    "attempts": [
+      {
+        "strategy": "rss",
+        "url": "https://renewablewatch.in/category/wind-power/feed/",
+        "ok": true,
+        "candidates": 10
+      },
+      {
+        "strategy": "entry:requests",
+        "url": "https://renewablewatch.in/category/wind-power/",
+        "ok": true,
+        "candidates": 32
+      },
+      {
+        "strategy": "search",
+        "url": "https://renewablewatch.in/?s=wind",
+        "ok": false,
+        "error": "RetryError: HTTPSConnectionPool(host='renewablewatch.in', port=443): Max retries exceeded with url: /?s=wind (Caused by ResponseError('too many 429 error responses'))"
+      },
+      {
+        "strategy": "search",
+        "url": "https://renewablewatch.in/?s=offshore+wind",
+        "ok": false,
+        "error": "RetryError: HTTPSConnectionPool(host='renewablewatch.in', port=443): Max retries exceeded with url: /?s=offshore+wind (Caused by ResponseError('too many 429 error responses'))"
+      }
+    ]
   },
   {
     "id": "energetica_india",
     "country": "印度",
     "name": "Energetica India – Wind Power",
     "role": "风电行业/项目",
-    "adapter": "Wind Power 专栏",
-    "status": "no_news",
-    "found_count": 0,
-    "checked_at": "2026-09-15T04:00:27+00:00",
+    "adapter": "Wind Power 专栏 + 链接纠正",
+    "status": "success",
+    "found_count": 24,
+    "checked_at": "2026-09-15T06:54:25+00:00",
     "error": "",
     "attempts": [
       {
         "strategy": "entry:requests",
         "url": "https://www.energetica-india.net/news/renewable-energy/wind-power",
         "ok": true,
-        "candidates": 28
+        "candidates": 36
       }
     ]
   },
@@ -35,17 +60,17 @@
     "country": "哈萨克斯坦",
     "name": "QazaqGreen",
     "role": "政策/项目/规划",
-    "adapter": "News 列表 + 详情页核验",
+    "adapter": "News 列表 + 详情页核验 + 标题过滤",
     "status": "success",
     "found_count": 10,
-    "checked_at": "2026-09-15T04:00:48+00:00",
+    "checked_at": "2026-09-15T06:54:44+00:00",
     "error": "",
     "attempts": [
       {
         "strategy": "entry:requests",
         "url": "https://qazaqgreen.com/en/news/",
         "ok": true,
-        "candidates": 20
+        "candidates": 22
       }
     ]
   },
@@ -54,23 +79,23 @@
     "country": "乌兹别克斯坦",
     "name": "乌兹别克斯坦能源部",
     "role": "政府政策/项目",
-    "adapter": "能源部 All news + 多语言关键词 + 浏览器兜底",
+    "adapter": "All News + Chromium 强制渲染 + 详情页风电过滤",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-15T04:00:51+00:00",
+    "checked_at": "2026-09-15T06:59:51+00:00",
     "error": "",
     "attempts": [
       {
-        "strategy": "entry:requests",
+        "strategy": "entry:browser",
         "url": "https://gov.uz/en/minenergy/news/news",
         "ok": true,
-        "candidates": 0
+        "candidates": 21
       },
       {
-        "strategy": "entry:requests",
+        "strategy": "entry:browser",
         "url": "https://gov.uz/en/minenergy",
         "ok": true,
-        "candidates": 0
+        "candidates": 22
       }
     ]
   },
@@ -80,28 +105,53 @@
     "name": "Power Philippines",
     "role": "政策/招标/项目",
     "adapter": "News + RSS + 站内搜索",
-    "status": "error",
+    "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-15T04:00:53+00:00",
-    "error": "KeyError: 'query'",
-    "attempts": []
+    "checked_at": "2026-09-15T06:59:56+00:00",
+    "error": "",
+    "attempts": [
+      {
+        "strategy": "rss",
+        "url": "https://powerphilippines.com/category/news/feed/",
+        "ok": true,
+        "candidates": 0
+      },
+      {
+        "strategy": "entry:requests",
+        "url": "https://powerphilippines.com/category/news/",
+        "ok": true,
+        "candidates": 0
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://powerphilippines.com/?s=wind",
+        "ok": true,
+        "candidates": 0
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://powerphilippines.com/?s=offshore+wind",
+        "ok": true,
+        "candidates": 0
+      }
+    ]
   },
   {
     "id": "vietnam_energy",
     "country": "越南",
     "name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
     "role": "政策/规划/项目",
-    "adapter": "可再生能源栏目 + 越南语关键词",
-    "status": "no_news",
-    "found_count": 0,
-    "checked_at": "2026-09-15T04:00:54+00:00",
+    "adapter": "可再生能源栏目 + 越南语关键词 + 单层文章链接识别",
+    "status": "success",
+    "found_count": 9,
+    "checked_at": "2026-09-15T07:00:20+00:00",
     "error": "",
     "attempts": [
       {
         "strategy": "entry:requests",
         "url": "https://nangluongvietnam.vn/dien-hat-nhan-nang-luong-tai-tao/nang-luong-tai-tao",
         "ok": true,
-        "candidates": 0
+        "candidates": 24
       }
     ]
   },
@@ -111,11 +161,36 @@
     "name": "MME",
     "role": "政府政策/规划",
     "adapter": "MME Notícias + 葡语站内搜索 + 浏览器兜底",
-    "status": "error",
-    "found_count": 0,
-    "checked_at": "2026-09-15T04:00:56+00:00",
-    "error": "KeyError: 'query'",
-    "attempts": []
+    "status": "success",
+    "found_count": 3,
+    "checked_at": "2026-09-15T07:00:52+00:00",
+    "error": "",
+    "attempts": [
+      {
+        "strategy": "entry:requests",
+        "url": "https://www.gov.br/mme/pt-br/assuntos/noticias",
+        "ok": true,
+        "candidates": 31
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.gov.br/mme/pt-br/@@search?SearchableText=energia+eolica",
+        "ok": true,
+        "candidates": 1
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.gov.br/mme/pt-br/@@search?SearchableText=eolica",
+        "ok": true,
+        "candidates": 1
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.gov.br/mme/pt-br/@@search?SearchableText=offshore",
+        "ok": true,
+        "candidates": 1
+      }
+    ]
   },
   {
     "id": "daily_news_egypt",
@@ -123,40 +198,96 @@
     "name": "Daily News Egypt",
     "role": "政策/项目/市场",
     "adapter": "首页 + RSS + 站内搜索",
-    "status": "error",
-    "found_count": 0,
-    "checked_at": "2026-09-15T04:00:57+00:00",
-    "error": "KeyError: 'query'",
-    "attempts": []
+    "status": "success",
+    "found_count": 5,
+    "checked_at": "2026-09-15T07:02:54+00:00",
+    "error": "",
+    "attempts": [
+      {
+        "strategy": "rss",
+        "url": "https://www.dailynewsegypt.com/feed/",
+        "ok": true,
+        "candidates": 0
+      },
+      {
+        "strategy": "entry:requests",
+        "url": "https://www.dailynewsegypt.com/",
+        "ok": true,
+        "candidates": 36
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.dailynewsegypt.com/?s=wind",
+        "ok": true,
+        "candidates": 25
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.dailynewsegypt.com/?s=wind+energy",
+        "ok": true,
+        "candidates": 25
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.dailynewsegypt.com/?s=offshore+wind",
+        "ok": true,
+        "candidates": 25
+      }
+    ]
   },
   {
     "id": "windinsider",
     "country": "中东、南亚、北非",
     "name": "WindInsider",
     "role": "风电政策/规划/行业",
-    "adapter": "News + RSS",
-    "status": "error",
-    "found_count": 0,
-    "checked_at": "2026-09-15T04:00:58+00:00",
-    "error": "KeyError: 'query'",
-    "attempts": []
+    "adapter": "News + RSS + 站内搜索",
+    "status": "success",
+    "found_count": 10,
+    "checked_at": "2026-09-15T07:03:17+00:00",
+    "error": "",
+    "attempts": [
+      {
+        "strategy": "rss",
+        "url": "https://windinsider.com/category/news/feed/",
+        "ok": true,
+        "candidates": 10
+      },
+      {
+        "strategy": "entry",
+        "url": "https://windinsider.com/category/news/",
+        "ok": false,
+        "error": "RetryError: HTTPSConnectionPool(host='windinsider.com', port=443): Max retries exceeded with url: /category/news/ (Caused by ResponseError('too many 429 error responses'))"
+      },
+      {
+        "strategy": "search",
+        "url": "https://windinsider.com/?s=wind",
+        "ok": false,
+        "error": "RetryError: HTTPSConnectionPool(host='windinsider.com', port=443): Max retries exceeded with url: /?s=wind (Caused by ResponseError('too many 429 error responses'))"
+      },
+      {
+        "strategy": "search",
+        "url": "https://windinsider.com/?s=offshore",
+        "ok": false,
+        "error": "RetryError: HTTPSConnectionPool(host='windinsider.com', port=443): Max retries exceeded with url: /?s=offshore (Caused by ResponseError('too many 429 error responses'))"
+      }
+    ]
   },
   {
     "id": "asean_wind_expo",
     "country": "东南亚",
     "name": "ASEAN Wind Energy Expo",
     "role": "风电市场/政策/项目",
-    "adapter": "Media & News 专页",
+    "adapter": "Media & News 列表 + 日期提示 + 详情页兜底",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-15T04:01:20+00:00",
+    "checked_at": "2026-09-15T07:03:44+00:00",
     "error": "",
     "attempts": [
       {
         "strategy": "entry:requests",
         "url": "https://www.aseanwindenergyexpo.com/article/article.php?id=23",
         "ok": true,
-        "candidates": 22
+        "candidates": 33
       }
     ]
   },
@@ -165,10 +296,10 @@
     "country": "阿曼",
     "name": "能源与矿产部",
     "role": "政府政策/规划/项目",
-    "adapter": "News + Chromium 动态渲染",
+    "adapter": "News + Chromium 动态渲染 + 宽入口详情核验",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-15T04:01:47+00:00",
+    "checked_at": "2026-09-15T07:04:09+00:00",
     "error": "",
     "attempts": [
       {
@@ -192,15 +323,15 @@
     "role": "风电/海风/YEKA/行业快讯",
     "adapter": "Wind 专栏",
     "status": "success",
-    "found_count": 8,
-    "checked_at": "2026-09-15T04:02:18+00:00",
+    "found_count": 11,
+    "checked_at": "2026-09-15T07:04:41+00:00",
     "error": "",
     "attempts": [
       {
         "strategy": "entry:requests",
         "url": "https://www.aa.com.tr/en/energy/wind",
         "ok": true,
-        "candidates": 28
+        "candidates": 36
       }
     ]
   },
@@ -210,11 +341,48 @@
     "name": "ANEV",
     "role": "风电行业/政策",
     "adapter": "NEWS + Comunicati Stampa + 意大利语搜索",
-    "status": "error",
-    "found_count": 0,
-    "checked_at": "2026-09-15T04:02:23+00:00",
-    "error": "KeyError: 'query'",
-    "attempts": []
+    "status": "success",
+    "found_count": 9,
+    "checked_at": "2026-09-15T07:05:51+00:00",
+    "error": "",
+    "attempts": [
+      {
+        "strategy": "rss",
+        "url": "https://www.anev.org/feed/",
+        "ok": true,
+        "candidates": 10
+      },
+      {
+        "strategy": "entry:requests",
+        "url": "https://www.anev.org/category/notizie/",
+        "ok": true,
+        "candidates": 13
+      },
+      {
+        "strategy": "entry:requests",
+        "url": "https://www.anev.org/category/comunicati-stampa/",
+        "ok": true,
+        "candidates": 13
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.anev.org/?s=eolico",
+        "ok": true,
+        "candidates": 9
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.anev.org/?s=eolica",
+        "ok": true,
+        "candidates": 13
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.anev.org/?s=offshore",
+        "ok": true,
+        "candidates": 8
+      }
+    ]
   },
   {
     "id": "recharge",
@@ -223,8 +391,8 @@
     "role": "全球风电专业媒体",
     "adapter": "Latest + 首页 + 浏览器兜底（不绕过付费墙）",
     "status": "success",
-    "found_count": 10,
-    "checked_at": "2026-09-15T04:05:17+00:00",
+    "found_count": 20,
+    "checked_at": "2026-09-15T07:08:19+00:00",
     "error": "",
     "attempts": [
       {
@@ -237,7 +405,7 @@
         "strategy": "entry:requests",
         "url": "https://www.rechargenews.com/",
         "ok": true,
-        "candidates": 17
+        "candidates": 18
       }
     ]
   },
@@ -248,15 +416,15 @@
     "role": "欧洲风电行业/政策",
     "adapter": "News 专页 + 详情页",
     "status": "success",
-    "found_count": 6,
-    "checked_at": "2026-09-15T04:05:53+00:00",
+    "found_count": 8,
+    "checked_at": "2026-09-15T07:08:46+00:00",
     "error": "",
     "attempts": [
       {
         "strategy": "entry:requests",
         "url": "https://windeurope.org/news/",
         "ok": true,
-        "candidates": 9
+        "candidates": 18
       }
     ]
   },
@@ -265,23 +433,77 @@
     "country": "全球",
     "name": "Renewables Now",
     "role": "全球风电新闻",
-    "adapter": "Wind 栏目 + 当月归档 + 浏览器兜底",
-    "status": "no_news",
-    "found_count": 0,
-    "checked_at": "2026-09-15T04:06:04+00:00",
+    "adapter": "月度归档 → 日期归档 → 风电文章（403 时使用列表信息）",
+    "status": "success",
+    "found_count": 24,
+    "checked_at": "2026-09-15T07:13:48+00:00",
     "error": "",
     "attempts": [
       {
-        "strategy": "entry:browser",
-        "url": "https://renewablesnow.com/news/wind/",
-        "ok": true,
-        "candidates": 0
-      },
-      {
-        "strategy": "entry:requests",
+        "strategy": "archive-month:requests",
         "url": "https://renewablesnow.com/sitemaps/2026/september/",
         "ok": true,
-        "candidates": 0
+        "candidates": 10
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/15/",
+        "ok": true,
+        "candidates": 10
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/14/",
+        "ok": true,
+        "candidates": 36
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/11/",
+        "ok": true,
+        "candidates": 36
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/10/",
+        "ok": true,
+        "candidates": 36
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/9/",
+        "ok": true,
+        "candidates": 36
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/8/",
+        "ok": true,
+        "candidates": 36
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/7/",
+        "ok": true,
+        "candidates": 36
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/4/",
+        "ok": true,
+        "candidates": 36
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/3/",
+        "ok": true,
+        "candidates": 36
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/2/",
+        "ok": true,
+        "candidates": 36
       }
     ]
   }
