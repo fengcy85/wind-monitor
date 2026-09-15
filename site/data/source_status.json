@@ -5,10 +5,10 @@
     "name": "Renewable Watch",
     "role": "风电政策/项目/规划",
     "adapter": "Wind Power 专栏 + RSS + 站内搜索",
-    "status": "pending",
+    "status": "error",
     "found_count": 0,
-    "checked_at": null,
-    "error": "",
+    "checked_at": "2026-09-15T03:59:58+00:00",
+    "error": "KeyError: 'query'",
     "attempts": []
   },
   {
@@ -17,11 +17,18 @@
     "name": "Energetica India – Wind Power",
     "role": "风电行业/项目",
     "adapter": "Wind Power 专栏",
-    "status": "pending",
+    "status": "no_news",
     "found_count": 0,
-    "checked_at": null,
+    "checked_at": "2026-09-15T04:00:27+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:requests",
+        "url": "https://www.energetica-india.net/news/renewable-energy/wind-power",
+        "ok": true,
+        "candidates": 28
+      }
+    ]
   },
   {
     "id": "qazaqgreen",
@@ -29,11 +36,18 @@
     "name": "QazaqGreen",
     "role": "政策/项目/规划",
     "adapter": "News 列表 + 详情页核验",
-    "status": "pending",
-    "found_count": 0,
-    "checked_at": null,
+    "status": "success",
+    "found_count": 10,
+    "checked_at": "2026-09-15T04:00:48+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:requests",
+        "url": "https://qazaqgreen.com/en/news/",
+        "ok": true,
+        "candidates": 20
+      }
+    ]
   },
   {
     "id": "uzbek_energy",
@@ -41,11 +55,24 @@
     "name": "乌兹别克斯坦能源部",
     "role": "政府政策/项目",
     "adapter": "能源部 All news + 多语言关键词 + 浏览器兜底",
-    "status": "pending",
+    "status": "no_news",
     "found_count": 0,
-    "checked_at": null,
+    "checked_at": "2026-09-15T04:00:51+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:requests",
+        "url": "https://gov.uz/en/minenergy/news/news",
+        "ok": true,
+        "candidates": 0
+      },
+      {
+        "strategy": "entry:requests",
+        "url": "https://gov.uz/en/minenergy",
+        "ok": true,
+        "candidates": 0
+      }
+    ]
   },
   {
     "id": "power_philippines",
@@ -53,10 +80,10 @@
     "name": "Power Philippines",
     "role": "政策/招标/项目",
     "adapter": "News + RSS + 站内搜索",
-    "status": "pending",
+    "status": "error",
     "found_count": 0,
-    "checked_at": null,
-    "error": "",
+    "checked_at": "2026-09-15T04:00:53+00:00",
+    "error": "KeyError: 'query'",
     "attempts": []
   },
   {
@@ -65,11 +92,18 @@
     "name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
     "role": "政策/规划/项目",
     "adapter": "可再生能源栏目 + 越南语关键词",
-    "status": "pending",
+    "status": "no_news",
     "found_count": 0,
-    "checked_at": null,
+    "checked_at": "2026-09-15T04:00:54+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:requests",
+        "url": "https://nangluongvietnam.vn/dien-hat-nhan-nang-luong-tai-tao/nang-luong-tai-tao",
+        "ok": true,
+        "candidates": 0
+      }
+    ]
   },
   {
     "id": "brazil_mme",
@@ -77,10 +111,10 @@
     "name": "MME",
     "role": "政府政策/规划",
     "adapter": "MME Notícias + 葡语站内搜索 + 浏览器兜底",
-    "status": "pending",
+    "status": "error",
     "found_count": 0,
-    "checked_at": null,
-    "error": "",
+    "checked_at": "2026-09-15T04:00:56+00:00",
+    "error": "KeyError: 'query'",
     "attempts": []
   },
   {
@@ -89,10 +123,10 @@
     "name": "Daily News Egypt",
     "role": "政策/项目/市场",
     "adapter": "首页 + RSS + 站内搜索",
-    "status": "pending",
+    "status": "error",
     "found_count": 0,
-    "checked_at": null,
-    "error": "",
+    "checked_at": "2026-09-15T04:00:57+00:00",
+    "error": "KeyError: 'query'",
     "attempts": []
   },
   {
@@ -101,10 +135,10 @@
     "name": "WindInsider",
     "role": "风电政策/规划/行业",
     "adapter": "News + RSS",
-    "status": "pending",
+    "status": "error",
     "found_count": 0,
-    "checked_at": null,
-    "error": "",
+    "checked_at": "2026-09-15T04:00:58+00:00",
+    "error": "KeyError: 'query'",
     "attempts": []
   },
   {
@@ -113,11 +147,18 @@
     "name": "ASEAN Wind Energy Expo",
     "role": "风电市场/政策/项目",
     "adapter": "Media & News 专页",
-    "status": "pending",
+    "status": "no_news",
     "found_count": 0,
-    "checked_at": null,
+    "checked_at": "2026-09-15T04:01:20+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:requests",
+        "url": "https://www.aseanwindenergyexpo.com/article/article.php?id=23",
+        "ok": true,
+        "candidates": 22
+      }
+    ]
   },
   {
     "id": "oman_mem",
@@ -125,11 +166,24 @@
     "name": "能源与矿产部",
     "role": "政府政策/规划/项目",
     "adapter": "News + Chromium 动态渲染",
-    "status": "pending",
+    "status": "no_news",
     "found_count": 0,
-    "checked_at": null,
+    "checked_at": "2026-09-15T04:01:47+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:browser",
+        "url": "https://mem.gov.om/public/news",
+        "ok": true,
+        "candidates": 0
+      },
+      {
+        "strategy": "entry:browser",
+        "url": "https://mem.gov.om/public/home",
+        "ok": true,
+        "candidates": 0
+      }
+    ]
   },
   {
     "id": "aa_wind",
@@ -137,11 +191,18 @@
     "name": "Anadolu Agency Energy – Wind",
     "role": "风电/海风/YEKA/行业快讯",
     "adapter": "Wind 专栏",
-    "status": "pending",
-    "found_count": 0,
-    "checked_at": null,
+    "status": "success",
+    "found_count": 8,
+    "checked_at": "2026-09-15T04:02:18+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:requests",
+        "url": "https://www.aa.com.tr/en/energy/wind",
+        "ok": true,
+        "candidates": 28
+      }
+    ]
   },
   {
     "id": "anev",
@@ -149,10 +210,10 @@
     "name": "ANEV",
     "role": "风电行业/政策",
     "adapter": "NEWS + Comunicati Stampa + 意大利语搜索",
-    "status": "pending",
+    "status": "error",
     "found_count": 0,
-    "checked_at": null,
-    "error": "",
+    "checked_at": "2026-09-15T04:02:23+00:00",
+    "error": "KeyError: 'query'",
     "attempts": []
   },
   {
@@ -161,11 +222,24 @@
     "name": "Recharge",
     "role": "全球风电专业媒体",
     "adapter": "Latest + 首页 + 浏览器兜底（不绕过付费墙）",
-    "status": "pending",
-    "found_count": 0,
-    "checked_at": null,
+    "status": "success",
+    "found_count": 10,
+    "checked_at": "2026-09-15T04:05:17+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:requests",
+        "url": "https://www.rechargenews.com/latest",
+        "ok": true,
+        "candidates": 18
+      },
+      {
+        "strategy": "entry:requests",
+        "url": "https://www.rechargenews.com/",
+        "ok": true,
+        "candidates": 17
+      }
+    ]
   },
   {
     "id": "windeurope",
@@ -173,11 +247,18 @@
     "name": "WindEurope",
     "role": "欧洲风电行业/政策",
     "adapter": "News 专页 + 详情页",
-    "status": "pending",
-    "found_count": 0,
-    "checked_at": null,
+    "status": "success",
+    "found_count": 6,
+    "checked_at": "2026-09-15T04:05:53+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:requests",
+        "url": "https://windeurope.org/news/",
+        "ok": true,
+        "candidates": 9
+      }
+    ]
   },
   {
     "id": "renewables_now",
@@ -185,10 +266,23 @@
     "name": "Renewables Now",
     "role": "全球风电新闻",
     "adapter": "Wind 栏目 + 当月归档 + 浏览器兜底",
-    "status": "pending",
+    "status": "no_news",
     "found_count": 0,
-    "checked_at": null,
+    "checked_at": "2026-09-15T04:06:04+00:00",
     "error": "",
-    "attempts": []
+    "attempts": [
+      {
+        "strategy": "entry:browser",
+        "url": "https://renewablesnow.com/news/wind/",
+        "ok": true,
+        "candidates": 0
+      },
+      {
+        "strategy": "entry:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/",
+        "ok": true,
+        "candidates": 0
+      }
+    ]
   }
 ]
