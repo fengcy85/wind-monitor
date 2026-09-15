@@ -6,8 +6,7 @@
     "role": "风电政策/项目/规划",
     "adapter": "Wind Power 专栏 + RSS + 站内搜索",
     "entry_urls": [
-      "https://renewablewatch.in/category/wind-power/",
-      "https://renewablewatch.in/category/news/"
+      "https://renewablewatch.in/category/wind-power/"
     ],
     "feed_urls": [
       "https://renewablewatch.in/category/wind-power/feed/"
@@ -23,6 +22,8 @@
       "/20",
       "/wind"
     ],
+    "assume_wind_listing": true,
+    "listing_fallback": true,
     "browser_fallback": false
   },
   {
@@ -30,7 +31,7 @@
     "country": "印度",
     "name": "Energetica India – Wind Power",
     "role": "风电行业/项目",
-    "adapter": "Wind Power 专栏",
+    "adapter": "Wind Power 专栏 + 链接纠正",
     "entry_urls": [
       "https://www.energetica-india.net/news/renewable-energy/wind-power"
     ],
@@ -42,6 +43,8 @@
     "article_path_hints": [
       "/news/"
     ],
+    "assume_wind_listing": true,
+    "listing_fallback": true,
     "browser_fallback": false
   },
   {
@@ -49,7 +52,7 @@
     "country": "哈萨克斯坦",
     "name": "QazaqGreen",
     "role": "政策/项目/规划",
-    "adapter": "News 列表 + 详情页核验",
+    "adapter": "News 列表 + 详情页核验 + 标题过滤",
     "entry_urls": [
       "https://qazaqgreen.com/en/news/"
     ],
@@ -62,6 +65,7 @@
     "article_path_hints": [
       "/en/news/"
     ],
+    "strict_wind": true,
     "browser_fallback": false
   },
   {
@@ -69,7 +73,7 @@
     "country": "乌兹别克斯坦",
     "name": "乌兹别克斯坦能源部",
     "role": "政府政策/项目",
-    "adapter": "能源部 All news + 多语言关键词 + 浏览器兜底",
+    "adapter": "All News + Chromium 强制渲染 + 详情页风电过滤",
     "entry_urls": [
       "https://gov.uz/en/minenergy/news/news",
       "https://gov.uz/en/minenergy"
@@ -85,7 +89,10 @@
       "/minenergy/news/"
     ],
     "browser_fallback": true,
-    "render_if_text_lt": 900
+    "force_browser": true,
+    "browser_wait_ms": 3000,
+    "broad_discovery": true,
+    "strict_wind": true
   },
   {
     "id": "power_philippines",
@@ -109,14 +116,16 @@
     "article_path_hints": [
       "/20"
     ],
-    "browser_fallback": false
+    "listing_fallback": true,
+    "browser_fallback": false,
+    "strict_wind": true
   },
   {
     "id": "vietnam_energy",
     "country": "越南",
     "name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
     "role": "政策/规划/项目",
-    "adapter": "可再生能源栏目 + 越南语关键词",
+    "adapter": "可再生能源栏目 + 越南语关键词 + 单层文章链接识别",
     "entry_urls": [
       "https://nangluongvietnam.vn/dien-hat-nhan-nang-luong-tai-tao/nang-luong-tai-tao"
     ],
@@ -128,8 +137,10 @@
       "offshore wind"
     ],
     "article_path_hints": [
-      "/"
+      ".html"
     ],
+    "allow_single_segment_articles": true,
+    "listing_fallback": true,
     "browser_fallback": false
   },
   {
@@ -154,7 +165,9 @@
       "/assuntos/noticias/"
     ],
     "browser_fallback": true,
-    "render_if_text_lt": 1200
+    "render_if_text_lt": 1200,
+    "broad_discovery": true,
+    "strict_wind": true
   },
   {
     "id": "daily_news_egypt",
@@ -179,6 +192,8 @@
     "article_path_hints": [
       "/20"
     ],
+    "listing_fallback": true,
+    "strict_wind": true,
     "browser_fallback": false
   },
   {
@@ -186,7 +201,7 @@
     "country": "中东、南亚、北非",
     "name": "WindInsider",
     "role": "风电政策/规划/行业",
-    "adapter": "News + RSS",
+    "adapter": "News + RSS + 站内搜索",
     "entry_urls": [
       "https://windinsider.com/category/news/"
     ],
@@ -204,6 +219,8 @@
       "/20",
       "/news/"
     ],
+    "assume_wind_listing": true,
+    "listing_fallback": true,
     "browser_fallback": false
   },
   {
@@ -211,7 +228,7 @@
     "country": "东南亚",
     "name": "ASEAN Wind Energy Expo",
     "role": "风电市场/政策/项目",
-    "adapter": "Media & News 专页",
+    "adapter": "Media & News 列表 + 日期提示 + 详情页兜底",
     "entry_urls": [
       "https://www.aseanwindenergyexpo.com/article/article.php?id=23"
     ],
@@ -222,16 +239,18 @@
       "offshore"
     ],
     "article_path_hints": [
-      "/article/"
+      "/article/show_article.php"
     ],
-    "browser_fallback": false
+    "listing_fallback": true,
+    "browser_fallback": false,
+    "assume_wind_listing": true
   },
   {
     "id": "oman_mem",
     "country": "阿曼",
     "name": "能源与矿产部",
     "role": "政府政策/规划/项目",
-    "adapter": "News + Chromium 动态渲染",
+    "adapter": "News + Chromium 动态渲染 + 宽入口详情核验",
     "entry_urls": [
       "https://mem.gov.om/public/news",
       "https://mem.gov.om/public/home"
@@ -241,14 +260,19 @@
     "search_terms": [
       "wind",
       "renewable energy",
-      "طاقة الرياح"
+      "طاقة الرياح",
+      "رياح"
     ],
     "article_path_hints": [
-      "/public/news/"
+      "/public/news/",
+      "/public/news",
+      "/news/"
     ],
     "browser_fallback": true,
     "force_browser": true,
-    "browser_wait_ms": 2500
+    "browser_wait_ms": 3500,
+    "broad_discovery": true,
+    "strict_wind": true
   },
   {
     "id": "aa_wind",
@@ -269,6 +293,8 @@
     "article_path_hints": [
       "/en/energy/"
     ],
+    "assume_wind_listing": true,
+    "listing_fallback": true,
     "browser_fallback": false
   },
   {
@@ -295,7 +321,9 @@
     "article_path_hints": [
       "/20"
     ],
-    "browser_fallback": false
+    "listing_fallback": true,
+    "browser_fallback": false,
+    "assume_wind_listing": true
   },
   {
     "id": "recharge",
@@ -319,10 +347,14 @@
       "/offshore-wind",
       "/onshore-wind",
       "/policy/",
-      "/auctions/"
+      "/auctions/",
+      "/analysis/",
+      "/finance/"
     ],
     "browser_fallback": true,
-    "render_if_text_lt": 1800
+    "render_if_text_lt": 1800,
+    "strict_wind": true,
+    "listing_fallback": true
   },
   {
     "id": "windeurope",
@@ -343,6 +375,8 @@
     "article_path_hints": [
       "/news/"
     ],
+    "assume_wind_listing": true,
+    "listing_fallback": true,
     "browser_fallback": false
   },
   {
@@ -350,9 +384,8 @@
     "country": "全球",
     "name": "Renewables Now",
     "role": "全球风电新闻",
-    "adapter": "Wind 栏目 + 当月归档 + 浏览器兜底",
+    "adapter": "月度归档 → 日期归档 → 风电文章（403 时使用列表信息）",
     "entry_urls": [
-      "https://renewablesnow.com/news/wind/",
       "https://renewablesnow.com/sitemaps/{year}/{month_name_lower}/"
     ],
     "feed_urls": [],
@@ -363,10 +396,13 @@
       "onshore wind"
     ],
     "article_path_hints": [
-      "/news/",
-      "/wind/"
+      "/news/"
     ],
     "browser_fallback": true,
-    "render_if_text_lt": 1600
+    "render_if_text_lt": 1200,
+    "archive_expand_days": true,
+    "archive_days_limit": 10,
+    "listing_fallback": true,
+    "strict_wind": true
   }
 ]

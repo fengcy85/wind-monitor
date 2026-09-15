@@ -10,30 +10,32 @@ function setOptions(el,vals,label){
 }
 function withinDays(item,days){if(days>=9999)return true;const a=ageDays(item.published_at);return a>=0&&a<=days}
 function renderNews(){
-  const q=$("searchInput").value.trim().toLowerCase(),country=$("countryFilter").value,source=$("sourceFilter").value,days=Number($("daysFilter").value||90);
+  const q=$("searchInput").value.trim().toLowerCase();
+  const country=$("countryFilter").value,source=$("sourceFilter").value;
+  const days=Number($("daysFilter").value||90);
   const data=allNews.filter(n=>{
-    const hay=[n.country,n.source_name,n.title,n.translated_title,n.excerpt,n.excerpt_zh].join(" ").toLowerCase();
+    const hay=[n.country,n.source_name,n.title,n.translated_title].join(" ").toLowerCase();
     return withinDays(n,days)&&(!q||hay.includes(q))&&(!country||n.country===country)&&(!source||n.source_name===source);
   });
-  $("newsList").innerHTML=data.map(n=>`<article class="news-card">
-    <div class="meta"><span class="badge">${esc(n.country)}</span><span class="source">${esc(n.source_name)}</span><span class="date">${esc(n.published_at)}</span></div>
-    <h3 class="news-title">${esc(n.translated_title||n.title)}</h3>
-    ${n.translated_title?`<div class="title-original">${esc(n.title)}</div>`:""}
-    ${n.excerpt_zh?`<div class="summary-box"><div class="box-label">中文翻译（节选）</div>${esc(n.excerpt_zh)}</div>`:""}
-    ${n.excerpt?`<details><summary>查看原文节选</summary><div class="original-box"><div class="box-label">ORIGINAL EXCERPT</div>${esc(n.excerpt)}</div></details>`:""}
-    <div class="actions"><a class="open-link" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">查看完整原文 ↗</a></div>
-  </article>`).join("");
+  $("newsTableBody").innerHTML=data.map(n=>`<tr>
+    <td><span class="country-badge">${esc(n.country||"")}</span></td>
+    <td class="source-cell">${esc(n.source_name||"")}</td>
+    <td class="title-cell">${esc(n.title||"")}</td>
+    <td class="translation-cell">${n.translated_title?esc(n.translated_title):'<span class="translation-empty">—</span>'}</td>
+    <td class="date-cell">${esc(n.published_at||"")}</td>
+    <td class="link-cell"><a class="open-link" href="${esc(n.url||'#')}" target="_blank" rel="noopener noreferrer">查看原文 ↗</a></td>
+  </tr>`).join("");
   $("emptyState").classList.toggle("hidden",data.length>0);
   $("weekCount").textContent=allNews.filter(n=>withinDays(n,7)).length;
   $("totalCount").textContent=allNews.length;
-  $("resultInfo").textContent=`当前筛选显示 ${data.length} 条；历史共 ${allNews.length} 条。`;
+  $("resultInfo").textContent=`当前显示 ${data.length} 条记录 · 历史共 ${allNews.length} 条`;
 }
 function stateLabel(s){if(s==="success")return["抓取成功","success"];if(s==="no_news")return["暂无相关新闻","no_news"];if(s==="error")return["抓取异常","error"];return["尚未运行","pending"]}
 function renderSources(){
   const c={success:0,no_news:0,error:0};allSources.forEach(s=>{if(c[s.status]!==undefined)c[s.status]++});
   $("successCount").textContent=c.success;$("noNewsCount").textContent=c.no_news;$("errorCount").textContent=c.error;
   $("sourceGrid").innerHTML=allSources.map(s=>{
-    const [label,cls]=stateLabel(s.status);const err=s.error?`<br><small class="bad">${esc(s.error)}</small>`:"";
+    const [label,cls]=stateLabel(s.status);const err=s.error?`<br><small class="bad-text">${esc(s.error)}</small>`:"";
     return `<div class="source-card"><div class="source-top"><strong>${esc(s.name)}</strong><span class="state ${cls}">${label}</span></div>
       <small>${esc(s.country)} · ${esc(s.role||"")}</small><div class="adapter"><small><b>适配：</b>${esc(s.adapter||"通用")}</small>
       <br><small>本轮识别：${Number(s.found_count||0)} 条</small>${err}</div></div>`;
@@ -42,7 +44,11 @@ function renderSources(){
 async function loadAll(){
   try{
     const ts=Date.now();
-    const [n,s,m]=await Promise.all([fetch(`./data/news.json?ts=${ts}`),fetch(`./data/source_status.json?ts=${ts}`),fetch(`./data/meta.json?ts=${ts}`)]);
+    const [n,s,m]=await Promise.all([
+      fetch(`./data/news.json?ts=${ts}`),
+      fetch(`./data/source_status.json?ts=${ts}`),
+      fetch(`./data/meta.json?ts=${ts}`)
+    ]);
     allNews=await n.json();allSources=await s.json();meta=await m.json();
     setOptions($("countryFilter"),allNews.map(x=>x.country),"全部国家/地区");
     setOptions($("sourceFilter"),allNews.map(x=>x.source_name),"全部来源");
