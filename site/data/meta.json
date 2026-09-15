@@ -1,0 +1,11 @@
+{
+  "started_at": null,
+  "finished_at": null,
+  "source_total": 16,
+  "success_sources": 0,
+  "no_news_sources": 0,
+  "error_sources": 0,
+  "fresh_articles_found": 0,
+  "total_articles_kept": 0,
+  "schedule_note": "首次上传后请在 GitHub Actions 中手动运行一次。"
+}
