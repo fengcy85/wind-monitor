@@ -24,7 +24,8 @@
     ],
     "assume_wind_listing": true,
     "listing_fallback": true,
-    "browser_fallback": false
+    "browser_fallback": false,
+    "language": "en"
   },
   {
     "id": "energetica_india",
@@ -45,7 +46,8 @@
     ],
     "assume_wind_listing": true,
     "listing_fallback": true,
-    "browser_fallback": false
+    "browser_fallback": false,
+    "language": "en"
   },
   {
     "id": "qazaqgreen",
@@ -66,7 +68,9 @@
       "/en/news/"
     ],
     "strict_wind": true,
-    "browser_fallback": false
+    "browser_fallback": false,
+    "language": "en",
+    "title_must_match_wind": true
   },
   {
     "id": "uzbek_energy",
@@ -92,7 +96,9 @@
     "force_browser": true,
     "browser_wait_ms": 3000,
     "broad_discovery": true,
-    "strict_wind": true
+    "strict_wind": true,
+    "language": "en",
+    "title_must_match_wind": true
   },
   {
     "id": "power_philippines",
@@ -118,7 +124,10 @@
     ],
     "listing_fallback": true,
     "browser_fallback": false,
-    "strict_wind": true
+    "strict_wind": true,
+    "language": "en",
+    "title_must_match_wind": true,
+    "time_budget_seconds": 70
   },
   {
     "id": "vietnam_energy",
@@ -141,7 +150,9 @@
     ],
     "allow_single_segment_articles": true,
     "listing_fallback": true,
-    "browser_fallback": false
+    "browser_fallback": false,
+    "language": "vi",
+    "title_must_match_wind": true
   },
   {
     "id": "brazil_mme",
@@ -167,7 +178,9 @@
     "browser_fallback": true,
     "render_if_text_lt": 1200,
     "broad_discovery": true,
-    "strict_wind": true
+    "strict_wind": true,
+    "language": "pt",
+    "title_must_match_wind": true
   },
   {
     "id": "daily_news_egypt",
@@ -194,7 +207,10 @@
     ],
     "listing_fallback": true,
     "strict_wind": true,
-    "browser_fallback": false
+    "browser_fallback": false,
+    "language": "en",
+    "title_must_match_wind": true,
+    "time_budget_seconds": 70
   },
   {
     "id": "windinsider",
@@ -221,7 +237,8 @@
     ],
     "assume_wind_listing": true,
     "listing_fallback": true,
-    "browser_fallback": false
+    "browser_fallback": false,
+    "language": "en"
   },
   {
     "id": "asean_wind_expo",
@@ -243,7 +260,8 @@
     ],
     "listing_fallback": true,
     "browser_fallback": false,
-    "assume_wind_listing": true
+    "assume_wind_listing": true,
+    "language": "en"
   },
   {
     "id": "oman_mem",
@@ -272,7 +290,9 @@
     "force_browser": true,
     "browser_wait_ms": 3500,
     "broad_discovery": true,
-    "strict_wind": true
+    "strict_wind": true,
+    "language": "ar",
+    "title_must_match_wind": true
   },
   {
     "id": "aa_wind",
@@ -295,7 +315,8 @@
     ],
     "assume_wind_listing": true,
     "listing_fallback": true,
-    "browser_fallback": false
+    "browser_fallback": false,
+    "language": "en"
   },
   {
     "id": "anev",
@@ -323,7 +344,8 @@
     ],
     "listing_fallback": true,
     "browser_fallback": false,
-    "assume_wind_listing": true
+    "assume_wind_listing": true,
+    "language": "it"
   },
   {
     "id": "recharge",
@@ -354,7 +376,10 @@
     "browser_fallback": true,
     "render_if_text_lt": 1800,
     "strict_wind": true,
-    "listing_fallback": true
+    "listing_fallback": true,
+    "language": "en",
+    "title_must_match_wind": true,
+    "time_budget_seconds": 70
   },
   {
     "id": "windeurope",
@@ -377,7 +402,8 @@
     ],
     "assume_wind_listing": true,
     "listing_fallback": true,
-    "browser_fallback": false
+    "browser_fallback": false,
+    "language": "en"
   },
   {
     "id": "renewables_now",
@@ -401,8 +427,11 @@
     "browser_fallback": true,
     "render_if_text_lt": 1200,
     "archive_expand_days": true,
-    "archive_days_limit": 10,
+    "archive_days_limit": 4,
     "listing_fallback": true,
-    "strict_wind": true
+    "strict_wind": true,
+    "language": "en",
+    "title_must_match_wind": true,
+    "time_budget_seconds": 75
   }
 ]

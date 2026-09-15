@@ -14,7 +14,6 @@ import dateparser
 import feedparser
 import requests
 from bs4 import BeautifulSoup
-from deep_translator import GoogleTranslator
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -32,23 +31,24 @@ CSV_FILE = DATA / "wind_news.csv"
 MAX_AGE_DAYS = int(os.getenv("MAX_AGE_DAYS", "120"))
 MAX_KEEP_DAYS = int(os.getenv("MAX_KEEP_DAYS", "730"))
 MAX_KEEP_ARTICLES = int(os.getenv("MAX_KEEP_ARTICLES", "1500"))
-MAX_ARTICLES_PER_SOURCE = int(os.getenv("MAX_ARTICLES_PER_SOURCE", "24"))
-MAX_CANDIDATES = int(os.getenv("MAX_CANDIDATES_PER_ENTRY", "36"))
-REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT", "24"))
+MAX_ARTICLES_PER_SOURCE = int(os.getenv("MAX_ARTICLES_PER_SOURCE", "12"))
+MAX_CANDIDATES = int(os.getenv("MAX_CANDIDATES_PER_ENTRY", "20"))
+REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT", "15"))
 MIN_HOST_INTERVAL = float(os.getenv("MIN_HOST_INTERVAL_SECONDS", "0.8"))
 ENABLE_BROWSER = os.getenv("ENABLE_BROWSER_FALLBACK", "1") == "1"
-BROWSER_TIMEOUT_MS = int(os.getenv("BROWSER_TIMEOUT_MS", "35000"))
+BROWSER_TIMEOUT_MS = int(os.getenv("BROWSER_TIMEOUT_MS", "22000"))
 MAX_EXCERPT_CHARS = int(os.getenv("MAX_EXCERPT_CHARS", "700"))
 ENABLE_TRANSLATION = os.getenv("ENABLE_TRANSLATION", "1") == "1"
-MAX_TRANSLATIONS = int(os.getenv("MAX_TRANSLATIONS_PER_RUN", "180"))
-TRANSLATE_TIMEOUT = int(os.getenv("TRANSLATE_TIMEOUT", "15"))
+MAX_TRANSLATIONS = int(os.getenv("MAX_TRANSLATIONS_PER_RUN", "240"))
+SOURCE_TIME_BUDGET_SECONDS = int(os.getenv("SOURCE_TIME_BUDGET_SECONDS", "70"))
+ARGOS_SOURCE_CODES = [x.strip() for x in os.getenv("ARGOS_SOURCE_CODES", "en,vi,pt,it,ar").split(",") if x.strip()]
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
-log = logging.getLogger("wind-monitor-v4.2")
+log = logging.getLogger("wind-monitor-v4.4")
 
 UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/129.0 Safari/537.36 WindPolicyMonitor/4.2"
+    "(KHTML, like Gecko) Chrome/129.0 Safari/537.36 WindPolicyMonitor/4.4"
 )
 HEADERS = {
     "User-Agent": UA,
@@ -61,9 +61,9 @@ SESSION.mount(
     "https://",
     HTTPAdapter(
         max_retries=Retry(
-            total=2,
-            connect=2,
-            read=2,
+            total=1,
+            connect=1,
+            read=1,
             backoff_factor=0.7,
             status_forcelist=[429, 500, 502, 503, 504],
             allowed_methods=frozenset(["GET"]),
@@ -92,6 +92,17 @@ BAD_TITLES = {
 }
 LAST_HOST: dict[str, float] = {}
 TRANSLATION_CACHE: dict[str, str] = {}
+ARGOS_READY = False
+
+NON_WIND_TITLE_TERMS = [
+    "solar", "photovoltaic", "floating solar", "pv project", "battery", "bess",
+    "hydrogen", "hydropower", "hydro power", "geothermal", "biomass", "nuclear",
+]
+LOW_VALUE_TITLE_TERMS = [
+    "40 under 40", "newsletter", "podcast", "webinar", "photo gallery",
+    "people 10.", "people 09.", "people 08.", "people 07.", "sponsored content",
+]
+DOMAIN_TITLE_RE = re.compile(r"^(?:https?://)?(?:www\.)?[a-z0-9.-]+\.(?:com|net|org|news|eu|it|vn|in|gov)(?:/)?$", re.I)
 
 
 def now_iso() -> str:
@@ -104,7 +115,13 @@ def clean(v: str | None) -> str:
 
 def is_wind(text: str) -> bool:
     low = clean(text).lower()
-    return any(t in low for t in WIND_TERMS)
+    if re.search(r"\b(?:wind(?:\s+(?:power|energy|farm))?|windfarm|offshore(?:\s+wind)?|onshore(?:\s+wind)?|turbines?|repowering)\b", low):
+        return True
+    local_terms = [t for t in WIND_TERMS if t not in {
+        "wind", "wind power", "wind energy", "wind farm", "windfarm", "offshore", "onshore",
+        "turbine", "turbines", "repowering"
+    }]
+    return any(t in low for t in local_terms)
 
 
 def norm(url: str) -> str:
@@ -499,21 +516,54 @@ def clean_title(title: str, source: dict) -> str:
 
 
 def bad_title(title: str, source: dict | None = None) -> bool:
-    t = clean(title).strip(" -–—|:_").lower()
+    raw = clean(title).strip(" -–—|:_")
+    t = raw.lower()
     if not t or len(t) < 8:
         return True
-    if t in BAD_TITLES:
+    if t in BAD_TITLES or DOMAIN_TITLE_RE.fullmatch(t):
         return True
     if source and t == clean(source.get("name", "")).lower():
+        return True
+    if re.fullmatch(r"(?:news|latest|home|homepage|read more|learn more)(?:\s*[|–—-].*)?", t):
         return True
     return False
 
 
+def title_wind_relevant(title: str) -> bool:
+    t = clean(title).lower()
+    if not t:
+        return False
+    if is_wind(t):
+        return True
+    if any(term in t for term in NON_WIND_TITLE_TERMS):
+        return False
+    if any(term in t for term in LOW_VALUE_TITLE_TERMS):
+        return False
+    return False
+
+
 def relevant_article(title: str, desc: str, body: str, url: str, source: dict) -> bool:
+    """Keep broad-source results strict so solar/battery/navigation items cannot leak in.
+
+    For broad news/government sources we require the *headline itself* to contain a
+    wind signal. Dedicated wind-only sources may use headline + article text, but
+    low-value interview/newsletter titles are rejected unless the headline is wind-specific.
+    """
+    if bad_title(title, source):
+        return False
+    title_low = clean(title).lower()
+    if any(term in title_low for term in NON_WIND_TITLE_TERMS) and not is_wind(title):
+        return False
+    if any(term in title_low for term in LOW_VALUE_TITLE_TERMS) and not is_wind(title):
+        return False
+    if source.get("title_must_match_wind"):
+        return is_wind(title)
+    content = f"{title} {desc} {body[:1800]}"
     if source.get("strict_wind"):
-        lead = f"{title} {desc} {body[:1400]} {url}"
-        return is_wind(lead)
-    return is_wind(f"{title} {desc} {body[:5000]} {url}") or source.get("assume_wind_listing", False)
+        return is_wind(content)
+    if source.get("assume_wind_listing"):
+        return is_wind(content) or (not any(term in title_low for term in LOW_VALUE_TITLE_TERMS))
+    return is_wind(content)
 
 
 def extract_article(url: str, source: dict, browser: Browser, candidate: dict | None = None) -> dict | None:
@@ -603,7 +653,15 @@ def listing_fallback(candidate: dict, source: dict) -> dict | None:
     url = fix_source_url(candidate.get("url", ""), source)
     if bad_title(title, source) or not recent(d) or not article_url(url, source):
         return None
-    if not (is_wind(f"{title} {candidate.get('context_hint','')} {url}") or source.get("assume_wind_listing")):
+    title_low = title.lower()
+    if any(term in title_low for term in NON_WIND_TITLE_TERMS) and not is_wind(title):
+        return None
+    if any(term in title_low for term in LOW_VALUE_TITLE_TERMS) and not is_wind(title):
+        return None
+    if source.get("title_must_match_wind"):
+        if not is_wind(title):
+            return None
+    elif not (is_wind(f"{title} {candidate.get('context_hint','')}") or source.get("assume_wind_listing")):
         return None
     return {
         "country": source["country"],
@@ -647,9 +705,12 @@ def recent_archive_day_links(markup: str, base_url: str, source: dict) -> list[t
     return out
 
 
-def collect(source: dict, browser: Browser) -> tuple[list[dict], list[dict]]:
+def collect(source: dict, browser: Browser, deadline: float | None = None) -> tuple[list[dict], list[dict]]:
     found: dict[str, dict] = {}
     attempts: list[dict] = []
+
+    def expired() -> bool:
+        return deadline is not None and time.monotonic() >= deadline
 
     def add(items: list[dict]):
         for i in items:
@@ -658,6 +719,9 @@ def collect(source: dict, browser: Browser) -> tuple[list[dict], list[dict]]:
                 found[u] = i
 
     for raw in source.get("feed_urls", []):
+        if expired():
+            attempts.append({"strategy": "budget", "url": "", "ok": False, "error": "单站达到时间上限，已继续下一个站点。"})
+            break
         url = expand_template(raw)
         try:
             items = discover_feed(url, source)
@@ -667,6 +731,8 @@ def collect(source: dict, browser: Browser) -> tuple[list[dict], list[dict]]:
             attempts.append({"strategy": "rss", "url": url, "ok": False, "error": f"{type(e).__name__}: {e}"})
 
     for raw in source.get("entry_urls", []):
+        if expired():
+            break
         url = expand_template(raw)
         try:
             page, final, mode = fetch_page(url, source, browser)
@@ -674,6 +740,8 @@ def collect(source: dict, browser: Browser) -> tuple[list[dict], list[dict]]:
                 day_links = recent_archive_day_links(page, final, source)
                 attempts.append({"strategy": f"archive-month:{mode}", "url": url, "ok": True, "candidates": len(day_links)})
                 for day_url, day_date in day_links:
+                    if expired():
+                        break
                     try:
                         dpage, dfinal, dmode = fetch_page(day_url, source, browser)
                         items = discover_html(dpage, dfinal, source, default_date=day_date)
@@ -689,7 +757,11 @@ def collect(source: dict, browser: Browser) -> tuple[list[dict], list[dict]]:
             attempts.append({"strategy": "entry", "url": url, "ok": False, "error": f"{type(e).__name__}: {e}"})
 
     for tpl in source.get("search_urls", []):
-        for term in source.get("search_terms", [])[:3]:
+        if expired():
+            break
+        for term in source.get("search_terms", [])[:2]:
+            if expired():
+                break
             url = expand_template(tpl, query=term)
             try:
                 page, final, mode = fetch_page(url, source, browser)
@@ -712,10 +784,12 @@ def collect(source: dict, browser: Browser) -> tuple[list[dict], list[dict]]:
 
 
 def scrape_source(source: dict, browser: Browser) -> tuple[list[dict], list[dict]]:
-    candidates, attempts = collect(source, browser)
+    started = time.monotonic()
+    deadline = started + int(source.get("time_budget_seconds", SOURCE_TIME_BUDGET_SECONDS))
+    candidates, attempts = collect(source, browser, deadline)
     articles: dict[str, dict] = {}
     for c in candidates:
-        if len(articles) >= MAX_ARTICLES_PER_SOURCE:
+        if len(articles) >= MAX_ARTICLES_PER_SOURCE or time.monotonic() >= deadline:
             break
         try:
             item = extract_article(c["url"], source, browser, c)
@@ -726,9 +800,10 @@ def scrape_source(source: dict, browser: Browser) -> tuple[list[dict], list[dict
             item = listing_fallback(c, source)
         if item:
             articles[item["url"]] = item
+    if time.monotonic() >= deadline:
+        attempts.append({"strategy": "budget", "url": "", "ok": True, "candidates": len(articles), "note": "单站达到时间上限，已停止继续深挖。"})
     items = sorted(articles.values(), key=lambda x: x["published_at"], reverse=True)
     return items, attempts
-
 
 def load_news() -> list[dict]:
     try:
@@ -738,59 +813,143 @@ def load_news() -> list[dict]:
         return []
 
 
-def google_translate_http(text: str) -> str:
-    params = {
-        "client": "gtx",
-        "sl": "auto",
-        "tl": "zh-CN",
-        "dt": "t",
-        "q": text,
+def _installed_argos_pairs() -> set[tuple[str, str]]:
+    try:
+        import argostranslate.package
+        return {(p.from_code, p.to_code) for p in argostranslate.package.get_installed_packages()}
+    except Exception:
+        return set()
+
+
+def ensure_argos_models() -> bool:
+    """Install/cache small offline translation models; never block publishing on failure."""
+    global ARGOS_READY
+    if ARGOS_READY or not ENABLE_TRANSLATION:
+        return ARGOS_READY
+    try:
+        import argostranslate.package
+        import argostranslate.translate  # noqa: F401
+    except Exception as exc:
+        log.warning("Argos Translate unavailable: %s", exc)
+        return False
+
+    wanted = [("en", "zh")]
+    for code in ARGOS_SOURCE_CODES:
+        if code not in {"en", "zh"}:
+            wanted.append((code, "en"))
+
+    installed = _installed_argos_pairs()
+    missing = [pair for pair in wanted if pair not in installed]
+    if missing:
+        try:
+            log.info("offline translation models missing=%s; updating Argos package index", missing)
+            argostranslate.package.update_package_index()
+            available = argostranslate.package.get_available_packages()
+            for src, dst in missing:
+                pkg = next((x for x in available if x.from_code == src and x.to_code == dst), None)
+                if pkg is None:
+                    log.warning("Argos model not found: %s -> %s", src, dst)
+                    continue
+                log.info("installing offline translation model %s -> %s", src, dst)
+                argostranslate.package.install_from_path(pkg.download())
+        except Exception as exc:
+            log.warning("offline translation model setup failed: %s", exc)
+            return False
+
+    installed = _installed_argos_pairs()
+    ARGOS_READY = ("en", "zh") in installed
+    return ARGOS_READY
+
+
+def detect_title_language(text: str, source_name: str = "") -> str:
+    if re.search(r"[\u4e00-\u9fff]", text):
+        return "zh"
+    if re.search(r"[\u0600-\u06ff]", text):
+        return "ar"
+    if re.search(r"[\u0400-\u04ff]", text):
+        return "ru"
+    source = SOURCE_BY_NAME.get(source_name, {})
+    hint = source.get("language")
+    try:
+        from langdetect import DetectorFactory, detect
+        DetectorFactory.seed = 0
+        code = detect(text)
+        aliases = {"zh-cn": "zh", "zh-tw": "zh", "pt-br": "pt"}
+        code = aliases.get(code.lower(), code.lower())
+        # Short technical headlines are frequently misdetected. Prefer a source hint
+        # when the detector returns an unsupported language for a known source.
+        supported = set(ARGOS_SOURCE_CODES) | {"zh"}
+        if code in supported:
+            return code
+    except Exception:
+        pass
+    if hint:
+        return hint
+    return "en"
+
+
+def polish_zh(text: str) -> str:
+    text = clean(text)
+    replacements = {
+        "风能农场": "风电场",
+        "风力农场": "风电场",
+        "离岸风": "海上风电",
+        "离岸风电": "海上风电",
+        "陆上风能": "陆上风电",
+        "风力涡轮机": "风电机组",
+        "涡轮机": "风机",
+        "再供电": "改造升级",
     }
-    r = SESSION.get(
-        "https://translate.googleapis.com/translate_a/single",
-        params=params,
-        headers={"User-Agent": UA, "Accept": "application/json,text/plain,*/*"},
-        timeout=TRANSLATE_TIMEOUT,
-    )
-    r.raise_for_status()
-    data = r.json()
-    parts = []
-    if isinstance(data, list) and data and isinstance(data[0], list):
-        for row in data[0]:
-            if isinstance(row, list) and row and isinstance(row[0], str):
-                parts.append(row[0])
-    return clean("".join(parts))
+    for a, b in replacements.items():
+        text = text.replace(a, b)
+    return text
 
 
-def translate_title(text: str) -> str:
+def translate_title(text: str, source_name: str = "") -> str:
     text = clean(text)
     if not text or not ENABLE_TRANSLATION:
         return ""
     if re.search(r"[\u4e00-\u9fff]", text):
         return text
-    if text in TRANSLATION_CACHE:
-        return TRANSLATION_CACHE[text]
-    result = ""
+    cache_key = f"{source_name}\n{text}"
+    if cache_key in TRANSLATION_CACHE:
+        return TRANSLATION_CACHE[cache_key]
+    if not ensure_argos_models():
+        return ""
+    src = detect_title_language(text, source_name)
     try:
-        result = google_translate_http(text)
-    except Exception as e:
-        log.warning("google endpoint translation failed: %s", e)
-    if not result:
+        import argostranslate.translate
+        if src == "zh":
+            result = text
+        else:
+            result = argostranslate.translate.translate(text, src, "zh")
+        result = polish_zh(result)
+    except Exception as exc:
+        # If language detection was wrong but the headline is mostly ASCII, retry as English.
         try:
-            result = clean(GoogleTranslator(source="auto", target="zh-CN").translate(text))
-        except Exception as e:
-            log.warning("deep-translator failed: %s", e)
-    TRANSLATION_CACHE[text] = result
-    if result:
-        time.sleep(0.12)
+            if src != "en" and sum(ch.isascii() for ch in text) / max(len(text), 1) > 0.82:
+                import argostranslate.translate
+                result = polish_zh(argostranslate.translate.translate(text, "en", "zh"))
+            else:
+                raise exc
+        except Exception as exc2:
+            log.warning("offline title translation failed (%s): %s", src, exc2)
+            result = ""
+    TRANSLATION_CACHE[cache_key] = result
     return result
-
 
 def valid_existing_item(x: dict) -> bool:
     url = clean(x.get("url", ""))
     title = clean(x.get("title", ""))
     source = SOURCE_BY_NAME.get(x.get("source_name", ""), {})
     if not url or bad_title(title, source):
+        return False
+    title_low = title.lower()
+    if any(term in title_low for term in NON_WIND_TITLE_TERMS) and not is_wind(title):
+        return False
+    if any(term in title_low for term in LOW_VALUE_TITLE_TERMS) and not is_wind(title):
+        return False
+    if source.get("title_must_match_wind") and not is_wind(title):
         return False
     # Clean up old V4 records that accidentally stored a homepage/category/search URL.
     if source:
@@ -825,8 +984,11 @@ def merge(existing: list[dict], fresh: list[dict]) -> list[dict]:
 
 
 def backfill_title_translations(news: list[dict], budget: int) -> int:
+    """Fill missing Chinese headlines with local Argos models; no external translation API."""
     used = 0
-    consecutive_failures = 0
+    if not ENABLE_TRANSLATION:
+        return used
+    ensure_argos_models()
     for item in news:
         if used >= budget:
             break
@@ -835,18 +997,11 @@ def backfill_title_translations(news: list[dict], budget: int) -> int:
         title = clean(item.get("title", ""))
         if not title:
             continue
-        translated = translate_title(title)
+        translated = translate_title(title, item.get("source_name", ""))
         used += 1
         if translated:
             item["translated_title"] = translated
-            consecutive_failures = 0
-        else:
-            consecutive_failures += 1
-            if consecutive_failures >= 8:
-                log.warning("translation provider failed 8 times consecutively; stop this run")
-                break
     return used
-
 
 def save_csv(news: list[dict]) -> None:
     with CSV_FILE.open("w", encoding="utf-8-sig", newline="") as f:
@@ -911,10 +1066,15 @@ def main() -> None:
         browser.close()
 
     news = merge(existing, fresh)
-    translations_used = backfill_title_translations(news, MAX_TRANSLATIONS)
 
+    # Persist crawl results first. Translation is optional and must never hold the whole workflow hostage.
     NEWS_FILE.write_text(json.dumps(news, ensure_ascii=False, indent=2), encoding="utf-8")
     STATUS_FILE.write_text(json.dumps(statuses, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    translations_used = backfill_title_translations(news, MAX_TRANSLATIONS)
+
+    # Save again after any successful title translations.
+    NEWS_FILE.write_text(json.dumps(news, ensure_ascii=False, indent=2), encoding="utf-8")
     save_csv(news)
     counts = {k: sum(1 for s in statuses if s["status"] == k) for k in ("success", "no_news", "error")}
     META_FILE.write_text(
@@ -930,7 +1090,7 @@ def main() -> None:
                 "total_articles_kept": len(news),
                 "title_translations_attempted": translations_used,
                 "schedule_note": "GitHub Actions 每日 00:00 UTC 触发，约等于北京时间 08:00；实际时间可能因排队略有延迟。",
-                "version": "4.2",
+                "version": "4.4",
             },
             ensure_ascii=False,
             indent=2,
