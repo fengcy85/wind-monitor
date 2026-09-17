@@ -1,13 +1,13 @@
 {
-  "started_at": "2026-09-16T00:18:49+00:00",
-  "finished_at": "2026-09-16T00:27:47+00:00",
+  "started_at": "2026-09-17T00:18:33+00:00",
+  "finished_at": "2026-09-17T00:27:15+00:00",
   "source_total": 16,
   "success_sources": 12,
   "no_news_sources": 4,
   "error_sources": 0,
-  "fresh_articles_found": 94,
-  "total_articles_kept": 124,
-  "title_translations_attempted": 4,
+  "fresh_articles_found": 85,
+  "total_articles_kept": 134,
+  "title_translations_attempted": 10,
   "schedule_note": "GitHub Actions 每日 00:00 UTC 触发，约等于北京时间 08:00；实际时间可能因排队略有延迟。",
   "version": "4.4"
 }
