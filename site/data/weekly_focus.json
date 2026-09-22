@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T10:25:41+00:00",
+  "generated_at": "2026-09-22T00:28:15+00:00",
   "period": {
     "days": 7,
-    "start": "2026-09-15",
-    "end": "2026-09-21"
+    "start": "2026-09-16",
+    "end": "2026-09-22"
   },
   "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
   "count": 8,
@@ -17,7 +17,7 @@
   ],
   "tag_counts": {
     "竞对资讯": 6,
-    "招标采购": 6,
+    "招标采购": 7,
     "市场机制": 1,
     "电网建设": 1,
     "宏观政策": 1,
@@ -74,21 +74,26 @@
     {
       "country": "全球",
       "source_name": "Recharge",
-      "title": "Six takeaways from South Africa offshore wind roadmap report – as first potential project delayed",
-      "translated_title": "6起南非岸外风速图报告,",
+      "title": "Orsted chief: Germany should cut offshore wind target and get rest from abroad",
+      "translated_title": "骨灰头:德国应该切断岸外风力目标,从国外得到休息",
       "published_at": "2026-09-21",
-      "url": "https://www.rechargenews.com/offshore-wind/six-takeaways-from-south-africa-offshore-wind-roadmap-report-as-first-potential-project-delayed/2-1-2045950",
+      "url": "https://www.rechargenews.com/interviews/orsted-chief-germany-should-cut-offshore-wind-target-and-get-rest-from-abroad/2-1-2043610",
       "tags": [
+        "竞对资讯",
+        "招标采购",
         "宏观政策"
       ],
-      "competitors": [],
-      "monitor_reason": "宏观/产业政策 · 标题明确风电",
+      "competitors": [
+        "Orsted"
+      ],
+      "monitor_reason": "正文含招标/采购 · 宏观/产业政策 · 竞对项目动态 · 标题明确风电",
       "signals": [
-        "宏观政策",
-        "宏观/产业政策"
+        "竞对资讯",
+        "招标采购",
+        "Orsted"
       ],
       "rank": 3,
-      "importance_reason": "宏观政策 · 宏观/产业政策"
+      "importance_reason": "竞对资讯 · 招标采购 · Orsted"
     },
     {
       "country": "全球",
@@ -140,32 +145,6 @@
       "importance_reason": "215 MW · 竞对资讯 · 招标采购"
     },
     {
-      "country": "中东、南亚、北非",
-      "source_name": "WindInsider",
-      "title": "Nordex Group Secures 91 MW Wind Turbine Order For Brandenburg Project",
-      "translated_title": "德国Nordex集团安全91兆瓦风电机组",
-      "published_at": "2026-09-17",
-      "url": "https://windinsider.com/2026/09/17/nordex-group-secures-91-mw-wind-turbine-order-for-brandenburg-project/",
-      "tags": [
-        "竞对资讯",
-        "招标采购"
-      ],
-      "competitors": [
-        "Nordex",
-        "ACWA Power",
-        "ReNew",
-        "NTPC Renewable Energy"
-      ],
-      "monitor_reason": "招标/采购节点 · 竞对项目动态 · GW级项目 · 标题明确风电",
-      "signals": [
-        "1.5 GW",
-        "竞对资讯",
-        "招标采购"
-      ],
-      "rank": 6,
-      "importance_reason": "1.5 GW · 竞对资讯 · 招标采购"
-    },
-    {
       "country": "印度",
       "source_name": "Energetica India – Wind Power",
       "title": "Refex Green Power Receives LoA from SJVN for 80 MW Wind Project in Andhra Pradesh",
@@ -187,7 +166,7 @@
         "竞对资讯",
         "招标采购"
       ],
-      "rank": 7,
+      "rank": 6,
       "importance_reason": "215 MW · 竞对资讯 · 招标采购"
     },
     {
@@ -212,8 +191,30 @@
         "竞对资讯",
         "招标采购"
       ],
-      "rank": 8,
+      "rank": 7,
       "importance_reason": "215 MW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "全球",
+      "source_name": "Renewables Now",
+      "title": "Germany picks 2.5 GW of onshore wind in oversubscribed tender",
+      "translated_title": "德国选取2.5千兆瓦的岸上风能",
+      "published_at": "2026-09-18",
+      "url": "https://renewablesnow.com/news/germany-picks-2-5-gw-of-onshore-wind-in-oversubscribed-tender-1301484/",
+      "tags": [
+        "招标采购"
+      ],
+      "competitors": [
+        "ReNew"
+      ],
+      "monitor_reason": "招标/采购节点 · GW级项目 · 标题明确风电",
+      "signals": [
+        "2.5 GW",
+        "招标采购",
+        "ReNew"
+      ],
+      "rank": 8,
+      "importance_reason": "2.5 GW · 招标采购 · ReNew"
     }
   ]
 }
