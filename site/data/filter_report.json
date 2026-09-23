@@ -1,72 +1,80 @@
 {
-  "generated_at": "2026-09-22T00:28:15+00:00",
-  "before": 143,
-  "kept": 95,
-  "filtered_out": 48,
+  "generated_at": "2026-09-23T00:27:50+00:00",
+  "before": 158,
+  "kept": 109,
+  "filtered_out": 49,
   "tag_counts": {
-    "竞对资讯": 81,
-    "电网建设": 9,
+    "竞对资讯": 93,
     "招标采购": 31,
     "宏观政策": 2,
     "市场机制": 7,
-    "审批政策": 13
+    "电网建设": 11,
+    "审批政策": 15
   },
   "rejected_examples": [
     {
-      "title": "deugro opens Antwerp port setup for wind components handling",
+      "title": "Saudi Arabia adds 7 GW of solar and wind, 14 GWh of BESS in 2026",
       "source_name": "Renewables Now",
-      "published_at": "2026-09-21",
-      "url": "https://renewablesnow.com/news/deugro-opens-antwerp-port-setup-for-wind-components-handling-1301590/",
+      "published_at": "2026-09-22",
+      "url": "https://renewablesnow.com/news/saudi-arabia-adds-7-gw-of-solar-and-wind-14-gwh-of-bess-in-2026-1301638/",
       "reasons": [
-        "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Cadeler, Vattenfall to jointly explore offshore wind O&M solutions",
-      "source_name": "Renewables Now",
-      "published_at": "2026-09-21",
-      "url": "https://renewablesnow.com/news/cadeler-vattenfall-to-jointly-explore-offshore-wind-om-solutions-1301573/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "European Energy grabs 89.6 MW in Germany’s latest onshore wind call",
-      "source_name": "Renewables Now",
-      "published_at": "2026-09-21",
-      "url": "https://renewablesnow.com/news/european-energy-grabs-89-6-mw-in-germanys-latest-onshore-wind-call-1301535/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Floating wind developer unveils lower cost platform for mega-turbines",
+      "title": "Five issues on the agenda at Hamburg wind summit",
       "source_name": "Recharge",
-      "published_at": "2026-09-21",
-      "url": "https://www.rechargenews.com/technology/floating-wind-developer-unveils-lower-cost-platform-for-mega-turbines/2-1-2046463",
+      "published_at": "2026-09-22",
+      "url": "https://www.rechargenews.com/opinion/five-issues-on-the-agenda-at-hamburg-wind-summit/2-1-2046183",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "The two problems offshore wind will face if investors back off now: TGS 4C",
+      "title": "EU-backed floating offshore wind pioneer plans pilot project in Australia",
       "source_name": "Recharge",
-      "published_at": "2026-09-21",
-      "url": "https://www.rechargenews.com/offshore-wind/the-two-problems-offshore-wind-will-face-if-investors-back-off-now-tgs-4c/2-1-2046196",
+      "published_at": "2026-09-22",
+      "url": "https://www.rechargenews.com/floating-wind/eu-backed-floating-offshore-wind-pioneer-plans-pilot-project-in-australia/2-1-2047055",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "21.09.2026 Aktobe region to increase wind power capacity to 746 MW",
+      "title": "30GW gone in 12 months: Analysts predict far slower offshore wind build-out",
+      "source_name": "Recharge",
+      "published_at": "2026-09-22",
+      "url": "https://www.rechargenews.com/offshore-wind/30gw-gone-in-12-months-analysts-predict-far-slower-offshore-wind-build-out/2-1-2046196",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "APTEL Grants Review Petition: Key Findings on Arbitration Powers",
+      "source_name": "WindInsider",
+      "published_at": "2026-09-22",
+      "url": "https://windinsider.com/2026/09/22/aptel-clarifies-cerc-arbitration-powers-and-corrects-dvc-judgment-interpretation/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Aktobe region to increase wind power capacity to 746 MW",
       "source_name": "QazaqGreen",
-      "published_at": "2026-09-21",
+      "published_at": "2026-09-22",
       "url": "https://qazaqgreen.com/en/news/kazakhstan/3875/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "ACWA starts construction of 1.5 GW wind farm in Uzbekistan",
+      "source_name": "QazaqGreen",
+      "published_at": "2026-09-22",
+      "url": "https://qazaqgreen.com/en/news/central-asia/3878/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -75,7 +83,7 @@
     {
       "title": "Kshema Power Commissions Two In-House Batching Plants in Madhya Pradesh for WTG Foundation - Asia Pacific | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-21",
+      "published_at": "2026-09-22",
       "url": "https://www.energetica-india.net/news/kshema-power-commissions-two-in-house-batching-plants-in-madhya-pradesh-for-wtg-foundation",
       "reasons": [
         "正文明确涉及风电"
@@ -84,16 +92,16 @@
     {
       "title": "Free subscription magazine",
       "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-21",
+      "published_at": "2026-09-22",
       "url": "https://www.energetica-india.net/news/renewable-energy/subscriptions/printed-magazine",
       "reasons": [
-        "正文明确涉及风电"
+        "风电相关性不足"
       ]
     },
     {
       "title": "Alfanar Power Signs 100 MW Wind PPA with GUVNL - Asia Pacific | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-21",
+      "published_at": "2026-09-22",
       "url": "https://www.energetica-india.net/news/alfanar-power-signs-100-mw-wind-ppa-with-guvnl",
       "reasons": [
         "无六类监测标签",
@@ -103,11 +111,65 @@
     {
       "title": "Windergy India 2026 Charts India’s Wind Growth Path - Asia Pacific | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-21",
+      "published_at": "2026-09-22",
       "url": "https://www.energetica-india.net/news/windergy-india-2026-charts-indias-wind-growth-path",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
+      ]
+    },
+    {
+      "title": "Hybrids and Energy Storage",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-22",
+      "url": "https://renewablewatch.in/2026/09/01/cip-acquires-gawara-baya-hybrid-project-in-australia/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-22",
+      "url": "https://renewablewatch.in/2026/09/08/sunsure-energy-and-kajaria-ceramics-sign-20-mw-hybrid-ppa/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "September 22, 2026",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-22",
+      "url": "https://renewablewatch.in/2026/09/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Hybrids and Energy Storage",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-22",
+      "url": "https://renewablewatch.in/2026/09/11/invenergy-and-hasi-close-equity-deal-for-2-7-gw-renewable-portfolio-in-us/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "International News",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-22",
+      "url": "https://renewablewatch.in/2026/09/11/turkiye-plans-200-billion-energy-investment/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Hybrids and Energy Storage",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-22",
+      "url": "https://renewablewatch.in/2026/09/18/actis-launches-yeltica-energy-in-mexico/",
+      "reasons": [
+        "标题无效/栏目标题"
       ]
     },
     {
@@ -129,19 +191,19 @@
       ]
     },
     {
-      "title": "Actis launches Yeltica Energy in Mexico",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-18",
-      "url": "https://renewablewatch.in/2026/09/18/actis-launches-yeltica-energy-in-mexico/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
       "title": "Europe needs faster permits and stronger grids to be competitive",
       "source_name": "WindEurope",
       "published_at": "2026-09-16",
       "url": "https://windeurope.org/news/europe-needs-faster-permits-and-stronger-grids-to-be-competitive/",
+      "reasons": [
+        "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "3 July 2026 The EU must turn the ETS into Europe’s electrification engine",
+      "source_name": "WindEurope",
+      "published_at": "2026-09-16",
+      "url": "https://windeurope.org/news/the-eu-must-turn-the-ets-into-europes-electrification-engine/",
       "reasons": [
         "正文明确涉及风电"
       ]
@@ -153,15 +215,6 @@
       "url": "https://windeurope.org/news/europes-plan-to-double-down-on-electricity-will-require-a-more-robust-ets/",
       "reasons": [
         "风电相关性不足"
-      ]
-    },
-    {
-      "title": "3 July 2026 The EU must turn the ETS into Europe’s electrification engine",
-      "source_name": "WindEurope",
-      "published_at": "2026-09-16",
-      "url": "https://windeurope.org/news/the-eu-must-turn-the-ets-into-europes-electrification-engine/",
-      "reasons": [
-        "正文明确涉及风电"
       ]
     },
     {
@@ -195,20 +248,20 @@
       ]
     },
     {
-      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
+      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
       "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
       "published_at": "2026-09-16",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
+      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
+      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
       "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
       "published_at": "2026-09-16",
-      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -245,21 +298,13 @@
       ]
     },
     {
-      "title": "Invenergy and HASI close equity deal for 2.7 GW renewable portfolio in US",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-11",
-      "url": "https://renewablewatch.in/2026/09/11/invenergy-and-hasi-close-equity-deal-for-2-7-gw-renewable-portfolio-in-us/",
+      "title": "NTPC Green Energy Commissions 6.3 MW Second-Part Capacity Of Vanki Wind Project In Gujarat",
+      "source_name": "WindInsider",
+      "published_at": "2026-09-15",
+      "url": "https://windinsider.com/2026/09/15/ntpc-green-energy-commissions-6-3-mw-second-part-capacity-of-vanki-wind-project-in-gujarat/",
       "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Türkiye plans $200 billion energy investment",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-11",
-      "url": "https://renewablewatch.in/2026/09/11/turkiye-plans-200-billion-energy-investment/",
-      "reasons": [
-        "风电相关性不足"
+        "无六类监测标签",
+        "标题明确风电"
       ]
     },
     {
@@ -273,35 +318,6 @@
       ]
     },
     {
-      "title": "Sturdee Energy Enters Zambia With 200 MW Masaiti Wind Project",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-07",
-      "url": "https://windinsider.com/2026/09/07/sturdee-energy-enters-zambia-with-200-mw-masaiti-wind-project/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Egypt Signs 25-Year PPA For 1GW Ras Shokeir Wind Farm",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-04",
-      "url": "https://windinsider.com/2026/09/04/egypt-signs-25-year-ppa-for-1gw-ras-shokeir-wind-farm/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Inox Clean Energy Completes INR 5,000 Crore Acquisition Of 1,337 MW Vibrant Energy Platform",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-03",
-      "url": "https://windinsider.com/2026/09/03/inox-clean-energy-completes-inr-5000-crore-acquisition-of-1337-mw-vibrant-energy-platform/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
       "title": "La sicurezza nel Parco Eolico - CORSO DI FORMAZIONE 1/2026 - ANEV",
       "source_name": "ANEV",
       "published_at": "2026-09-02",
@@ -309,6 +325,33 @@
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
+      ]
+    },
+    {
+      "title": "UAE’s Masdar and Egypt review wind, solar and battery storage projects to meet 2028 energy targets - Dailynewsegypt",
+      "source_name": "Daily News Egypt",
+      "published_at": "2026-08-29",
+      "url": "https://www.dailynewsegypt.com/2026/08/29/uaes-masdar-and-egypt-review-wind-solar-and-battery-storage-projects-to-meet-2028-energy-targets/",
+      "reasons": [
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-08-20",
+      "url": "https://www.aa.com.tr/en/energy/renewable",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-08-20",
+      "url": "https://www.aa.com.tr/en/energy/electricity",
+      "reasons": [
+        "风电相关性不足"
       ]
     },
     {
@@ -326,15 +369,6 @@
       "source_name": "ANEV",
       "published_at": "2026-08-03",
       "url": "https://www.anev.org/2026/08/03/om-e-asset-management-corso-di-formazione-3-2026/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-07-31",
-      "url": "https://www.aa.com.tr/en/energy/renewable",
       "reasons": [
         "风电相关性不足"
       ]
@@ -369,19 +403,19 @@
       ]
     },
     {
-      "title": "Anadolu Agency",
+      "title": "Türkiye's installed power capacity reaches 125,598 MW as renewables drive growth",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-06-24",
-      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
+      "url": "https://www.aa.com.tr/en/energy/regulation-renewable/turkiyes-installed-power-capacity-reaches-125-598-mw-as-renewables-drive-growth/57849",
       "reasons": [
         "风电相关性不足"
       ]
     },
     {
-      "title": "Türkiye's installed power capacity reaches 125,598 MW as renewables drive growth",
+      "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-06-24",
-      "url": "https://www.aa.com.tr/en/energy/regulation-renewable/turkiyes-installed-power-capacity-reaches-125-598-mw-as-renewables-drive-growth/57849",
+      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
       "reasons": [
         "风电相关性不足"
       ]
@@ -431,34 +465,6 @@
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
-      ]
-    },
-    {
-      "title": "Global offshore wind capacity rises 16% in 2025, led by China",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-06-10",
-      "url": "https://www.aa.com.tr/en/energy/wind/global-offshore-wind-capacity-rises-16-in-2025-led-by-china/57573",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Türkiye emerges as potential green energy corridor between Europe, Asia",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-06-07",
-      "url": "https://www.aa.com.tr/en/energy/finance/turkiye-emerges-as-potential-green-energy-corridor-between-europe-asia/57481",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Renewable energy growth supports Türkiye’s climate, energy targets",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-06-05",
-      "url": "https://www.aa.com.tr/en/energy/regulation-renewable/renewable-energy-growth-supports-turkiye-s-climate-energy-targets/57423",
-      "reasons": [
-        "风电相关性不足"
       ]
     },
     {

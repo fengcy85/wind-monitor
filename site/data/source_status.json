@@ -6,8 +6,8 @@
     "role": "风电政策/项目/规划",
     "adapter": "Wind Power 专栏 + RSS + 站内搜索",
     "status": "success",
-    "found_count": 10,
-    "checked_at": "2026-09-22T00:18:53+00:00",
+    "found_count": 12,
+    "checked_at": "2026-09-23T00:18:41+00:00",
     "error": "",
     "attempts": [
       {
@@ -17,10 +17,10 @@
         "candidates": 10
       },
       {
-        "strategy": "entry",
+        "strategy": "entry:requests",
         "url": "https://renewablewatch.in/category/wind-power/",
-        "ok": false,
-        "error": "RetryError: HTTPSConnectionPool(host='renewablewatch.in', port=443): Max retries exceeded with url: /category/wind-power/ (Caused by ResponseError('too many 429 error responses'))"
+        "ok": true,
+        "candidates": 20
       },
       {
         "strategy": "search",
@@ -45,7 +45,7 @@
     "adapter": "Wind Power 专栏 + 链接纠正",
     "status": "success",
     "found_count": 12,
-    "checked_at": "2026-09-22T00:19:12+00:00",
+    "checked_at": "2026-09-23T00:19:00+00:00",
     "error": "",
     "attempts": [
       {
@@ -55,7 +55,7 @@
         "candidates": 20
       }
     ],
-    "strategic_kept_total": 9
+    "strategic_kept_total": 10
   },
   {
     "id": "qazaqgreen",
@@ -64,8 +64,8 @@
     "role": "政策/项目/规划",
     "adapter": "News 列表 + 详情页核验 + 标题过滤",
     "status": "success",
-    "found_count": 1,
-    "checked_at": "2026-09-22T00:19:29+00:00",
+    "found_count": 3,
+    "checked_at": "2026-09-23T00:19:18+00:00",
     "error": "",
     "attempts": [
       {
@@ -75,7 +75,7 @@
         "candidates": 20
       }
     ],
-    "strategic_kept_total": 2
+    "strategic_kept_total": 3
   },
   {
     "id": "uzbek_energy",
@@ -85,7 +85,7 @@
     "adapter": "All News + Chromium 强制渲染 + 详情页风电过滤",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-22T00:20:49+00:00",
+    "checked_at": "2026-09-23T00:20:39+00:00",
     "error": "",
     "attempts": [
       {
@@ -118,7 +118,7 @@
     "adapter": "News + RSS + 站内搜索",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-22T00:20:54+00:00",
+    "checked_at": "2026-09-23T00:20:45+00:00",
     "error": "",
     "attempts": [
       {
@@ -156,7 +156,7 @@
     "adapter": "可再生能源栏目 + 越南语关键词 + 单层文章链接识别",
     "status": "success",
     "found_count": 8,
-    "checked_at": "2026-09-22T00:21:10+00:00",
+    "checked_at": "2026-09-23T00:21:00+00:00",
     "error": "",
     "attempts": [
       {
@@ -176,7 +176,7 @@
     "adapter": "MME Notícias + 葡语站内搜索 + 浏览器兜底",
     "status": "success",
     "found_count": 1,
-    "checked_at": "2026-09-22T00:21:32+00:00",
+    "checked_at": "2026-09-23T00:21:23+00:00",
     "error": "",
     "attempts": [
       {
@@ -206,16 +206,16 @@
     "name": "Daily News Egypt",
     "role": "政策/项目/市场",
     "adapter": "首页 + RSS + 站内搜索",
-    "status": "no_news",
-    "found_count": 0,
-    "checked_at": "2026-09-22T00:22:42+00:00",
+    "status": "success",
+    "found_count": 2,
+    "checked_at": "2026-09-23T00:22:10+00:00",
     "error": "",
     "attempts": [
       {
         "strategy": "rss",
         "url": "https://www.dailynewsegypt.com/feed/",
         "ok": true,
-        "candidates": 1
+        "candidates": 0
       },
       {
         "strategy": "entry:requests",
@@ -224,23 +224,16 @@
         "candidates": 20
       },
       {
-        "strategy": "search",
+        "strategy": "search:requests",
         "url": "https://www.dailynewsegypt.com/?s=wind",
-        "ok": false,
-        "error": "ConnectionError: HTTPSConnectionPool(host='www.dailynewsegypt.com', port=443): Max retries exceeded with url: /?s=wind (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.dailynewsegypt.com', port=443): Read timed out. (read timeout=15)\"))"
-      },
-      {
-        "strategy": "search",
-        "url": "https://www.dailynewsegypt.com/?s=wind+energy",
-        "ok": false,
-        "error": "ConnectionError: HTTPSConnectionPool(host='www.dailynewsegypt.com', port=443): Max retries exceeded with url: /?s=wind+energy (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.dailynewsegypt.com', port=443): Read timed out. (read timeout=15)\"))"
-      },
-      {
-        "strategy": "budget",
-        "url": "",
         "ok": true,
-        "candidates": 0,
-        "note": "单站达到时间上限，已停止继续深挖。"
+        "candidates": 20
+      },
+      {
+        "strategy": "search:requests",
+        "url": "https://www.dailynewsegypt.com/?s=wind+energy",
+        "ok": true,
+        "candidates": 20
       }
     ],
     "strategic_kept_total": 2
@@ -252,8 +245,8 @@
     "role": "风电政策/规划/行业",
     "adapter": "News + RSS + 站内搜索",
     "status": "success",
-    "found_count": 12,
-    "checked_at": "2026-09-22T00:22:53+00:00",
+    "found_count": 10,
+    "checked_at": "2026-09-23T00:22:30+00:00",
     "error": "",
     "attempts": [
       {
@@ -263,10 +256,10 @@
         "candidates": 10
       },
       {
-        "strategy": "entry:requests",
+        "strategy": "entry",
         "url": "https://windinsider.com/category/news/",
-        "ok": true,
-        "candidates": 16
+        "ok": false,
+        "error": "RetryError: HTTPSConnectionPool(host='windinsider.com', port=443): Max retries exceeded with url: /category/news/ (Caused by ResponseError('too many 429 error responses'))"
       },
       {
         "strategy": "search",
@@ -275,10 +268,10 @@
         "error": "RetryError: HTTPSConnectionPool(host='windinsider.com', port=443): Max retries exceeded with url: /?s=wind (Caused by ResponseError('too many 429 error responses'))"
       },
       {
-        "strategy": "search:requests",
+        "strategy": "search",
         "url": "https://windinsider.com/?s=offshore",
-        "ok": true,
-        "candidates": 15
+        "ok": false,
+        "error": "RetryError: HTTPSConnectionPool(host='windinsider.com', port=443): Max retries exceeded with url: /?s=offshore (Caused by ResponseError('too many 429 error responses'))"
       }
     ],
     "strategic_kept_total": 11
@@ -291,7 +284,7 @@
     "adapter": "Media & News 列表 + 日期提示 + 详情页兜底",
     "status": "success",
     "found_count": 2,
-    "checked_at": "2026-09-22T00:23:13+00:00",
+    "checked_at": "2026-09-23T00:22:51+00:00",
     "error": "",
     "attempts": [
       {
@@ -311,7 +304,7 @@
     "adapter": "News + Chromium 动态渲染 + 宽入口详情核验",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-22T00:23:41+00:00",
+    "checked_at": "2026-09-23T00:23:18+00:00",
     "error": "",
     "attempts": [
       {
@@ -337,7 +330,7 @@
     "adapter": "Wind 专栏",
     "status": "success",
     "found_count": 12,
-    "checked_at": "2026-09-22T00:23:55+00:00",
+    "checked_at": "2026-09-23T00:23:31+00:00",
     "error": "",
     "attempts": [
       {
@@ -347,7 +340,7 @@
         "candidates": 20
       }
     ],
-    "strategic_kept_total": 2
+    "strategic_kept_total": 4
   },
   {
     "id": "anev",
@@ -357,7 +350,7 @@
     "adapter": "NEWS + Comunicati Stampa + 意大利语搜索",
     "status": "success",
     "found_count": 6,
-    "checked_at": "2026-09-22T00:24:46+00:00",
+    "checked_at": "2026-09-23T00:24:25+00:00",
     "error": "",
     "attempts": [
       {
@@ -400,8 +393,8 @@
     "role": "全球风电专业媒体",
     "adapter": "Latest + 首页 + 浏览器兜底（不绕过付费墙）",
     "status": "success",
-    "found_count": 10,
-    "checked_at": "2026-09-22T00:26:02+00:00",
+    "found_count": 11,
+    "checked_at": "2026-09-23T00:25:38+00:00",
     "error": "",
     "attempts": [
       {
@@ -420,11 +413,11 @@
         "strategy": "budget",
         "url": "",
         "ok": true,
-        "candidates": 10,
+        "candidates": 11,
         "note": "单站达到时间上限，已停止继续深挖。"
       }
     ],
-    "strategic_kept_total": 23
+    "strategic_kept_total": 27
   },
   {
     "id": "windeurope",
@@ -434,7 +427,7 @@
     "adapter": "News 专页 + 详情页",
     "status": "success",
     "found_count": 8,
-    "checked_at": "2026-09-22T00:26:27+00:00",
+    "checked_at": "2026-09-23T00:26:04+00:00",
     "error": "",
     "attempts": [
       {
@@ -454,7 +447,7 @@
     "adapter": "月度归档 → 日期归档 → 风电文章（403 时使用列表信息）",
     "status": "success",
     "found_count": 7,
-    "checked_at": "2026-09-22T00:27:45+00:00",
+    "checked_at": "2026-09-23T00:27:21+00:00",
     "error": "",
     "attempts": [
       {
@@ -462,6 +455,12 @@
         "url": "https://renewablesnow.com/sitemaps/2026/september/",
         "ok": true,
         "candidates": 4
+      },
+      {
+        "strategy": "archive-day:requests",
+        "url": "https://renewablesnow.com/sitemaps/2026/september/22/",
+        "ok": true,
+        "candidates": 20
       },
       {
         "strategy": "archive-day:requests",
@@ -482,12 +481,6 @@
         "candidates": 20
       },
       {
-        "strategy": "archive-day:requests",
-        "url": "https://renewablesnow.com/sitemaps/2026/september/16/",
-        "ok": true,
-        "candidates": 20
-      },
-      {
         "strategy": "budget",
         "url": "",
         "ok": true,
@@ -495,6 +488,6 @@
         "note": "单站达到时间上限，已停止继续深挖。"
       }
     ],
-    "strategic_kept_total": 26
+    "strategic_kept_total": 32
   }
 ]
