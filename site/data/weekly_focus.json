@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T00:27:50+00:00",
+  "generated_at": "2026-09-24T00:27:24+00:00",
   "period": {
     "days": 7,
-    "start": "2026-09-17",
-    "end": "2026-09-23"
+    "start": "2026-09-18",
+    "end": "2026-09-24"
   },
   "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
   "count": 8,
@@ -16,41 +16,41 @@
     "审批政策"
   ],
   "tag_counts": {
-    "竞对资讯": 6,
-    "招标采购": 8,
+    "竞对资讯": 7,
+    "招标采购": 7,
     "市场机制": 1,
-    "电网建设": 2,
+    "电网建设": 1,
     "宏观政策": 1,
     "审批政策": 1
   },
   "items": [
     {
-      "country": "全球",
-      "source_name": "Recharge",
-      "title": "Germany 'could save over $5bn' on offshore wind with policy tweak",
-      "translated_title": "德国\"可以节省超过5bn\"的岸外风 政策调整",
-      "published_at": "2026-09-22",
-      "url": "https://www.rechargenews.com/policy/germany-could-save-over-5bn-on-offshore-wind-with-policy-tweak/2-1-2046599",
+      "country": "欧盟/欧洲",
+      "source_name": "WindEurope",
+      "title": "French and German onshore wind auction results call for more volumes",
+      "translated_title": "法国和德国的上岸风能拍卖结果 需要更多卷",
+      "published_at": "2026-09-23",
+      "url": "https://windeurope.org/news/french-and-german-onshore-wind-auction-results-call-for-more-volumes/",
       "tags": [
         "招标采购",
         "市场机制"
       ],
       "competitors": [],
-      "monitor_reason": "正文含招标/采购 · 政策正文涉及市场机制 · 标题明确风电",
+      "monitor_reason": "招标/采购节点 · 政策正文涉及市场机制 · GW级项目 · 标题明确风电",
       "signals": [
+        "3 GW",
         "招标采购",
-        "市场机制",
-        "正文含招标/采购"
+        "市场机制"
       ],
       "rank": 1,
-      "importance_reason": "招标采购 · 市场机制 · 正文含招标/采购"
+      "importance_reason": "3 GW · 招标采购 · 市场机制"
     },
     {
       "country": "全球",
       "source_name": "Recharge",
       "title": "Orsted CEO: 'Germany should retender 16GW of unwanted offshore wind projects blocking pipeline'",
       "translated_title": "Orsted CEO:\"德国应该重新招标 16GW不想要的岸外风能项目 阻断管道\"",
-      "published_at": "2026-09-22",
+      "published_at": "2026-09-23",
       "url": "https://www.rechargenews.com/policy/orsted-ceo-germany-should-retender-16gw-of-unwanted-offshore-wind-projects-blocking-pipeline/2-1-2047180",
       "tags": [
         "竞对资讯",
@@ -93,39 +93,35 @@
       "importance_reason": "竞对资讯 · 招标采购 · Orsted"
     },
     {
-      "country": "中东、南亚、北非",
-      "source_name": "WindInsider",
-      "title": "Bid Invitation for 600 MW Wind Power Project in Kurnool",
-      "translated_title": "库尔诺勒600兆瓦风能发电项目招标书",
-      "published_at": "2026-09-22",
-      "url": "https://windinsider.com/2026/09/22/ntpc-rel-floats-tender-for-600-mw-wind-project-in-andhra-pradesh/",
+      "country": "全球",
+      "source_name": "Recharge",
+      "title": "Two major UK offshore wind sites win key planning consent",
+      "translated_title": "英国两大岸外风景区获得关键规划同意",
+      "published_at": "2026-09-21",
+      "url": "https://www.rechargenews.com/offshore-wind/two-major-uk-offshore-wind-sites-win-key-planning-consent/2-1-2043419",
       "tags": [
         "竞对资讯",
-        "招标采购",
-        "电网建设",
         "审批政策"
       ],
       "competitors": [
-        "ReNew",
-        "NTPC Renewable Energy",
-        "NTPC REL"
+        "ReNew"
       ],
-      "monitor_reason": "招标/采购节点 · 项目涉及电网/送出 · 正文涉及审批/许可 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
+      "monitor_reason": "审批/许可节点 · 竞对项目动态 · 标题明确风电",
       "signals": [
-        "600 MW",
         "竞对资讯",
-        "招标采购"
+        "审批政策",
+        "ReNew"
       ],
       "rank": 4,
-      "importance_reason": "600 MW · 竞对资讯 · 招标采购"
+      "importance_reason": "竞对资讯 · 审批政策 · ReNew"
     },
     {
       "country": "印度",
       "source_name": "Renewable Watch",
-      "title": "NTPC REL floats tender for 215 MW wind project in Madhya Pradesh",
-      "translated_title": "NTPC REL 为中央邦的215兆瓦风能项目提供浮标",
-      "published_at": "2026-09-17",
-      "url": "https://renewablewatch.in/2026/09/17/ntpc-rel-floats-tender-for-215-mw-wind-project-in-madhya-pradesh/",
+      "title": "NTPC REL floats 600 MW wind turbine supply tender in Andhra Pradesh",
+      "translated_title": "NTPC REL在安得拉邦浮动600兆瓦风电机组供应招标",
+      "published_at": "2026-09-22",
+      "url": "https://renewablewatch.in/2026/09/22/ntpc-rel-floats-600-mw-wind-turbine-supply-tender-in-andhra-pradesh/",
       "tags": [
         "竞对资讯",
         "招标采购",
@@ -136,85 +132,87 @@
         "NTPC Renewable Energy",
         "NTPC REL"
       ],
-      "monitor_reason": "招标/采购节点 · 项目涉及电网/送出 · 竞对项目动态 · 标题明确风电",
+      "monitor_reason": "招标/采购节点 · 项目涉及电网/送出 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
       "signals": [
-        "215 MW",
+        "600 MW",
         "竞对资讯",
         "招标采购"
       ],
       "rank": 5,
-      "importance_reason": "215 MW · 竞对资讯 · 招标采购"
+      "importance_reason": "600 MW · 竞对资讯 · 招标采购"
     },
     {
       "country": "印度",
-      "source_name": "Energetica India – Wind Power",
-      "title": "Refex Green Power Receives LoA from SJVN for 80 MW Wind Project in Andhra Pradesh",
-      "translated_title": "Refex Green Power 接收来自 SJVN 用于安得拉邦80兆瓦风能项目的 LoA",
-      "published_at": "2026-09-21",
-      "url": "https://www.energetica-india.net/news/refex-green-power-receives-loa-from-sjvn-for-80-mw-wind-project-in-andhra-pradesh",
+      "source_name": "Renewable Watch",
+      "title": "Germany awards 2.5 GW onshore wind projects",
+      "translated_title": "德国授予2.5GW岸风项目",
+      "published_at": "2026-09-23",
+      "url": "https://renewablewatch.in/2026/09/23/germany-awards-2-5-gw-onshore-wind-projects/",
       "tags": [
         "竞对资讯",
         "招标采购"
       ],
       "competitors": [
-        "ReNew",
-        "NTPC Renewable Energy",
-        "NTPC REL"
+        "ReNew"
       ],
-      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · 标题明确风电",
+      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
       "signals": [
-        "215 MW",
+        "5 GW",
         "竞对资讯",
         "招标采购"
       ],
       "rank": 6,
-      "importance_reason": "215 MW · 竞对资讯 · 招标采购"
+      "importance_reason": "5 GW · 竞对资讯 · 招标采购"
     },
     {
-      "country": "全球",
-      "source_name": "Renewables Now",
-      "title": "Germany picks 2.5 GW of onshore wind in oversubscribed tender",
-      "translated_title": "德国选取2.5千兆瓦的岸上风能",
-      "published_at": "2026-09-18",
-      "url": "https://renewablesnow.com/news/germany-picks-2-5-gw-of-onshore-wind-in-oversubscribed-tender-1301484/",
-      "tags": [
-        "招标采购"
-      ],
-      "competitors": [
-        "ReNew"
-      ],
-      "monitor_reason": "招标/采购节点 · GW级项目 · 标题明确风电",
-      "signals": [
-        "2.5 GW",
-        "招标采购",
-        "ReNew"
-      ],
-      "rank": 7,
-      "importance_reason": "2.5 GW · 招标采购 · ReNew"
-    },
-    {
-      "country": "全球",
-      "source_name": "Renewables Now",
-      "title": "Oracle to procure 433 MW of wind energy from RWE",
-      "translated_title": "甲骨文公司从RWE采购了433兆瓦风能",
-      "published_at": "2026-09-18",
-      "url": "https://renewablesnow.com/news/oracle-to-procure-433-mw-of-wind-energy-from-rwe-1301458/",
+      "country": "中东、南亚、北非",
+      "source_name": "WindInsider",
+      "title": "NTPC Adds 56.7 MW Wind Capacity In Gujarat, Group Capacity Reaches 91,221 MW",
+      "translated_title": "NTPC 在古吉拉特邦增加了56.7兆瓦风力发电,集体发电能力达到91 221兆瓦",
+      "published_at": "2026-09-23",
+      "url": "https://windinsider.com/2026/09/23/ntpc-adds-56-7-mw-wind-capacity-in-gujarat-group-capacity-reaches-91221-mw/",
       "tags": [
         "竞对资讯",
         "招标采购"
       ],
       "competitors": [
-        "RWE",
-        "ReNew"
+        "Nordex",
+        "ACWA Power",
+        "NTPC REL"
       ],
-      "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
+      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
       "signals": [
-        "433 MW",
+        "1.5 GW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 7,
+      "importance_reason": "1.5 GW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "中东、南亚、北非",
+      "source_name": "WindInsider",
+      "title": "ACWA Power Advances $2.6 Billion 1.5 GW Kungrad Wind Project In Uzbekistan",
+      "translated_title": "ACWA 电力预付款2.6亿美元 1.5 GW Kungrad Wind 工程在乌兹别克斯坦",
+      "published_at": "2026-09-21",
+      "url": "https://windinsider.com/2026/09/21/acwa-power-advances-2-6-billion-1-5-gw-kungrad-wind-project-in-uzbekistan/",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "Nordex",
+        "ACWA Power",
+        "NTPC REL"
+      ],
+      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
+      "signals": [
+        "1.5 GW",
         "竞对资讯",
         "招标采购"
       ],
       "rank": 8,
-      "importance_reason": "433 MW · 竞对资讯 · 招标采购"
+      "importance_reason": "1.5 GW · 竞对资讯 · 招标采购"
     }
   ]
 }
