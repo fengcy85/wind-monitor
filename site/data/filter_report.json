@@ -1,32 +1,22 @@
 {
-  "generated_at": "2026-09-24T00:27:24+00:00",
-  "before": 170,
-  "kept": 121,
-  "filtered_out": 49,
+  "generated_at": "2026-09-25T00:29:41+00:00",
+  "before": 173,
+  "kept": 130,
+  "filtered_out": 43,
   "tag_counts": {
-    "竞对资讯": 105,
-    "电网建设": 10,
+    "竞对资讯": 113,
+    "审批政策": 16,
+    "电网建设": 12,
     "招标采购": 34,
     "市场机制": 7,
-    "宏观政策": 2,
-    "审批政策": 13
+    "宏观政策": 2
   },
   "rejected_examples": [
     {
-      "title": "States sue US govt over offshore wind lease buyouts",
+      "title": "Ocean Winds breaks ground on O&M base for BC-Wind off Poland",
       "source_name": "Renewables Now",
-      "published_at": "2026-09-23",
-      "url": "https://renewablesnow.com/news/states-sue-us-govt-over-offshore-wind-lease-buyouts-1301721/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Wind Estate nabs GBP-60m NatWest loan to advance UK wind portfolio",
-      "source_name": "Renewables Now",
-      "published_at": "2026-09-23",
-      "url": "https://renewablesnow.com/news/wind-estate-nabs-gbp-60m-natwest-loan-to-advance-uk-wind-portfolio-1301686/",
+      "published_at": "2026-09-24",
+      "url": "https://renewablesnow.com/news/ocean-winds-breaks-ground-on-om-base-for-bc-wind-off-poland-1301828/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -35,25 +25,16 @@
     {
       "title": "Europe’s plan to double down on electricity will require a more robust ETS",
       "source_name": "WindEurope",
-      "published_at": "2026-09-23",
+      "published_at": "2026-09-24",
       "url": "https://windeurope.org/news/europes-plan-to-double-down-on-electricity-will-require-a-more-robust-ets/",
       "reasons": [
         "风电相关性不足"
       ]
     },
     {
-      "title": "3 July 2026 The EU must turn the ETS into Europe’s electrification engine",
-      "source_name": "WindEurope",
-      "published_at": "2026-09-23",
-      "url": "https://windeurope.org/news/the-eu-must-turn-the-ets-into-europes-electrification-engine/",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
       "title": "Wind industry names new leadership to turn record year into lasting momentum",
       "source_name": "WindEurope",
-      "published_at": "2026-09-23",
+      "published_at": "2026-09-24",
       "url": "https://windeurope.org/news/wind-industry-names-new-leadership-to-turn-record-year-into-lasting-momentum/",
       "reasons": [
         "无六类监测标签",
@@ -63,7 +44,7 @@
     {
       "title": "Wind sector commits to strengthening Europe’s literacy to boost skills and fight disinformation",
       "source_name": "WindEurope",
-      "published_at": "2026-09-23",
+      "published_at": "2026-09-24",
       "url": "https://windeurope.org/news/wind-sector-commits-to-strengthening-europes-literacy-to-boost-skills-and-fight-disinformation/",
       "reasons": [
         "无六类监测标签",
@@ -71,20 +52,30 @@
       ]
     },
     {
-      "title": "EU-backed floating offshore wind pioneer plans pilot project in Australia",
+      "title": "Wind energy is hiring. Here's how to get a job in it",
+      "source_name": "WindEurope",
+      "published_at": "2026-09-24",
+      "url": "https://windeurope.org/news/wind-energy-is-hiring-heres-how-to-get-a-job-in-it/",
+      "reasons": [
+        "标题明确风电",
+        "低价值内容"
+      ]
+    },
+    {
+      "title": "California and New York sue Trump administration over offshore wind buyouts",
       "source_name": "Recharge",
-      "published_at": "2026-09-23",
-      "url": "https://www.rechargenews.com/floating-wind/eu-backed-floating-offshore-wind-pioneer-plans-pilot-project-in-australia/2-1-2047055",
+      "published_at": "2026-09-24",
+      "url": "https://www.rechargenews.com/legal/california-and-new-york-sue-trump-administration-over-offshore-wind-buyouts/2-1-2047639",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "California and New York sue Trump administration over offshore wind buyouts",
+      "title": "Singapore giant says its 'integrated solution' can unlock floating wind",
       "source_name": "Recharge",
-      "published_at": "2026-09-23",
-      "url": "https://www.rechargenews.com/legal/california-and-new-york-sue-trump-administration-over-offshore-wind-buyouts/2-1-2047639",
+      "published_at": "2026-09-24",
+      "url": "https://www.rechargenews.com/floating-wind/singapore-giant-says-its-integrated-solution-can-unlock-floating-wind/2-1-2048893",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -93,7 +84,7 @@
     {
       "title": "Aktobe region to increase wind power capacity to 746 MW",
       "source_name": "QazaqGreen",
-      "published_at": "2026-09-23",
+      "published_at": "2026-09-24",
       "url": "https://qazaqgreen.com/en/news/kazakhstan/3875/",
       "reasons": [
         "无六类监测标签",
@@ -103,65 +94,11 @@
     {
       "title": "ACWA starts construction of 1.5 GW wind farm in Uzbekistan",
       "source_name": "QazaqGreen",
-      "published_at": "2026-09-23",
+      "published_at": "2026-09-24",
       "url": "https://qazaqgreen.com/en/news/central-asia/3878/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
-      ]
-    },
-    {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-23",
-      "url": "https://renewablewatch.in/2026/09/11/invenergy-and-hasi-close-equity-deal-for-2-7-gw-renewable-portfolio-in-us/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-23",
-      "url": "https://renewablewatch.in/2026/09/08/sunsure-energy-and-kajaria-ceramics-sign-20-mw-hybrid-ppa/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "September 23, 2026",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-23",
-      "url": "https://renewablewatch.in/2026/09/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "International News",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-23",
-      "url": "https://renewablewatch.in/2026/09/11/turkiye-plans-200-billion-energy-investment/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-23",
-      "url": "https://renewablewatch.in/2026/09/18/actis-launches-yeltica-energy-in-mexico/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-23",
-      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
-      "reasons": [
-        "标题无效/栏目标题"
       ]
     },
     {
@@ -212,6 +149,15 @@
       ]
     },
     {
+      "title": "Juniper Green commissions 75 MW hybrid project in Maharashtra",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-21",
+      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
       "title": "Training & Education - News | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
       "published_at": "2026-09-19",
@@ -221,13 +167,12 @@
       ]
     },
     {
-      "title": "Sturdee Energy Acquires 200 MW Masaiti Wind Project In Zambia",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-16",
-      "url": "https://windinsider.com/2026/09/16/sturdee-energy-acquires-200-mw-masaiti-wind-project-in-zambia/",
+      "title": "Actis launches Yeltica Energy in Mexico",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-18",
+      "url": "https://renewablewatch.in/2026/09/18/actis-launches-yeltica-energy-in-mexico/",
       "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
+        "风电相关性不足"
       ]
     },
     {
@@ -311,6 +256,34 @@
       ]
     },
     {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-11",
+      "url": "https://www.aa.com.tr/en/energy/renewable",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "EBRD backs 131 MW wind farm in North Macedonia",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-11",
+      "url": "https://www.aa.com.tr/en/energy/wind/ebrd-backs-131-mw-wind-farm-in-north-macedonia/59518",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Türkiye plans $200 billion energy investment",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-11",
+      "url": "https://renewablewatch.in/2026/09/11/turkiye-plans-200-billion-energy-investment/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
       "title": "GERC Hears Dispute With GUVNL Over 200 MW Wind Project Delays",
       "source_name": "WindInsider",
       "published_at": "2026-09-09",
@@ -318,25 +291,6 @@
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
-      ]
-    },
-    {
-      "title": "Sturdee Energy Enters Zambia With 200 MW Masaiti Wind Project",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-07",
-      "url": "https://windinsider.com/2026/09/07/sturdee-energy-enters-zambia-with-200-mw-masaiti-wind-project/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-04",
-      "url": "https://www.aa.com.tr/en/energy/renewable",
-      "reasons": [
-        "风电相关性不足"
       ]
     },
     {
@@ -417,19 +371,19 @@
       ]
     },
     {
-      "title": "Türkiye's installed power capacity reaches 125,598 MW as renewables drive growth",
+      "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-06-24",
-      "url": "https://www.aa.com.tr/en/energy/regulation-renewable/turkiyes-installed-power-capacity-reaches-125-598-mw-as-renewables-drive-growth/57849",
+      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
       "reasons": [
         "风电相关性不足"
       ]
     },
     {
-      "title": "Anadolu Agency",
+      "title": "Türkiye's installed power capacity reaches 125,598 MW as renewables drive growth",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-06-24",
-      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
+      "url": "https://www.aa.com.tr/en/energy/regulation-renewable/turkiyes-installed-power-capacity-reaches-125-598-mw-as-renewables-drive-growth/57849",
       "reasons": [
         "风电相关性不足"
       ]
@@ -460,16 +414,6 @@
       "url": "https://www.anev.org/2026/06/15/giornata-mondiale-del-vento-gli-italiani-chiedono-piu-sicurezza-e-riduzione-delle-bollette-l82-teme-gli-effetti-negativi-della-dipendenza-dalle-fossili-e-il-73-vede-nelle-rinnovabili-la-sol/",
       "reasons": [
         "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Floating offshore wind sees first pause in new installations in decade: GWEC",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-06-14",
-      "url": "https://www.aa.com.tr/en/energy/finance/floating-offshore-wind-sees-first-pause-in-new-installations-in-decade-gwec/57629",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
       ]
     },
     {
