@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-25T00:29:41+00:00",
+  "generated_at": "2026-09-26T00:27:59+00:00",
   "period": {
     "days": 7,
-    "start": "2026-09-19",
-    "end": "2026-09-25"
+    "start": "2026-09-20",
+    "end": "2026-09-26"
   },
   "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
   "count": 8,
@@ -16,8 +16,8 @@
     "审批政策"
   ],
   "tag_counts": {
-    "竞对资讯": 7,
-    "招标采购": 7,
+    "竞对资讯": 6,
+    "招标采购": 6,
     "市场机制": 1,
     "电网建设": 2,
     "宏观政策": 1,
@@ -48,18 +48,18 @@
     {
       "country": "全球",
       "source_name": "Recharge",
-      "title": "Orsted CEO: 'Germany should retender 16GW of unwanted offshore wind projects blocking pipeline'",
-      "translated_title": "Orsted CEO:\"德国应该重新招标 16GW不想要的岸外风能项目 阻断管道\"",
-      "published_at": "2026-09-24",
-      "url": "https://www.rechargenews.com/policy/orsted-ceo-germany-should-retender-16gw-of-unwanted-offshore-wind-projects-blocking-pipeline/2-1-2047180",
+      "title": "Siemens Gamesa offshore chief: factory utilisation under pressure from lack of German FIDs",
+      "translated_title": "Siemens Gamesa 离岸主任:工厂在缺乏德国食品公司的压力下使用",
+      "published_at": "2026-09-25",
+      "url": "https://www.rechargenews.com/offshore-wind/siemens-gamesa-offshore-chief-factory-utilisation-under-pressure-from-lack-of-german-fids/2-1-2047962",
       "tags": [
         "竞对资讯",
         "招标采购"
       ],
       "competitors": [
-        "Orsted"
+        "Siemens Gamesa"
       ],
-      "monitor_reason": "招标/采购节点 · 竞对项目动态 · GW级项目 · 标题明确风电",
+      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
       "signals": [
         "16 GW",
         "竞对资讯",
@@ -95,98 +95,25 @@
     {
       "country": "全球",
       "source_name": "Renewables Now",
-      "title": "Pacifico secures survey licence for 1.3-GW Vietnam offshore wind project",
-      "translated_title": "Pacifico为1.3-GW越南近海风能项目取得勘测许可证",
-      "published_at": "2026-09-24",
-      "url": "https://renewablesnow.com/news/pacifico-secures-survey-licence-for-1-3-gw-vietnam-offshore-wind-project-1301820/",
+      "title": "Australia grants offshore license to 1.5-GW Marinus Link interconnector",
+      "translated_title": "澳大利亚向1.5-GW Marinus Link 连接器发放境外许可证",
+      "published_at": "2026-09-25",
+      "url": "https://renewablesnow.com/news/australia-grants-offshore-license-to-1-5-gw-marinus-link-interconnector-1301860/",
       "tags": [
-        "竞对资讯",
-        "审批政策"
-      ],
-      "competitors": [
-        "ReNew"
-      ],
-      "monitor_reason": "审批/许可节点 · 竞对项目动态 · GW级项目 · 标题明确风电",
-      "signals": [
-        "1.3 GW",
-        "竞对资讯",
-        "审批政策"
-      ],
-      "rank": 4,
-      "importance_reason": "1.3 GW · 竞对资讯 · 审批政策"
-    },
-    {
-      "country": "中东、南亚、北非",
-      "source_name": "WindInsider",
-      "title": "Bid Invitation for 600 MW Wind Power Project in Kurnool",
-      "translated_title": "库尔诺勒600兆瓦风能发电项目招标书",
-      "published_at": "2026-09-22",
-      "url": "https://windinsider.com/2026/09/22/ntpc-rel-floats-tender-for-600-mw-wind-project-in-andhra-pradesh/",
-      "tags": [
-        "竞对资讯",
-        "招标采购",
         "电网建设",
         "审批政策"
       ],
       "competitors": [
-        "ReNew",
-        "NTPC Renewable Energy",
-        "NTPC REL"
-      ],
-      "monitor_reason": "招标/采购节点 · 项目涉及电网/送出 · 正文涉及审批/许可 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
-      "signals": [
-        "600 MW",
-        "竞对资讯",
-        "招标采购"
-      ],
-      "rank": 5,
-      "importance_reason": "600 MW · 竞对资讯 · 招标采购"
-    },
-    {
-      "country": "全球",
-      "source_name": "Recharge",
-      "title": "Siemens Gamesa offshore chief: factory utilisation under pressure from lack of German FIDs",
-      "translated_title": "Siemens Gamesa 离岸主任:工厂在缺乏德国食品公司的压力下使用",
-      "published_at": "2026-09-24",
-      "url": "https://www.rechargenews.com/offshore-wind/siemens-gamesa-offshore-chief-factory-utilisation-under-pressure-from-lack-of-german-fids/2-1-2047962",
-      "tags": [
-        "竞对资讯",
-        "招标采购"
-      ],
-      "competitors": [
-        "Siemens Gamesa"
-      ],
-      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
-      "signals": [
-        "16 GW",
-        "竞对资讯",
-        "招标采购"
-      ],
-      "rank": 6,
-      "importance_reason": "16 GW · 竞对资讯 · 招标采购"
-    },
-    {
-      "country": "印度",
-      "source_name": "Renewable Watch",
-      "title": "Germany awards 2.5 GW onshore wind projects",
-      "translated_title": "德国授予2.5GW岸风项目",
-      "published_at": "2026-09-23",
-      "url": "https://renewablewatch.in/2026/09/23/germany-awards-2-5-gw-onshore-wind-projects/",
-      "tags": [
-        "竞对资讯",
-        "招标采购"
-      ],
-      "competitors": [
         "ReNew"
       ],
-      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
+      "monitor_reason": "电网/送出建设 · 审批/许可节点 · GW级项目 · 标题明确风电",
       "signals": [
-        "5 GW",
-        "竞对资讯",
-        "招标采购"
+        "1.5 GW",
+        "电网建设",
+        "审批政策"
       ],
-      "rank": 7,
-      "importance_reason": "5 GW · 竞对资讯 · 招标采购"
+      "rank": 4,
+      "importance_reason": "1.5 GW · 电网建设 · 审批政策"
     },
     {
       "country": "印度",
@@ -211,8 +138,78 @@
         "竞对资讯",
         "招标采购"
       ],
-      "rank": 8,
+      "rank": 5,
       "importance_reason": "600 MW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "全球",
+      "source_name": "Recharge",
+      "title": "Orsted CEO: 'Germany should retender 16GW of unwanted offshore wind projects blocking pipeline'",
+      "translated_title": "Orsted CEO:\"德国应该重新招标 16GW不想要的岸外风能项目 阻断管道\"",
+      "published_at": "2026-09-24",
+      "url": "https://www.rechargenews.com/policy/orsted-ceo-germany-should-retender-16gw-of-unwanted-offshore-wind-projects-blocking-pipeline/2-1-2047180",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "Orsted"
+      ],
+      "monitor_reason": "招标/采购节点 · 竞对项目动态 · GW级项目 · 标题明确风电",
+      "signals": [
+        "16 GW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 6,
+      "importance_reason": "16 GW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "印度",
+      "source_name": "Energetica India – Wind Power",
+      "title": "Juniper Green Energy Commissions 35 MW Wind Project in Gujarat",
+      "translated_title": "古吉拉特35兆瓦风能项目",
+      "published_at": "2026-09-25",
+      "url": "https://www.energetica-india.net/news/juniper-green-energy-commissions-35-mw-wind-project-in-gujarat",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "ReNew",
+        "NTPC Renewable Energy"
+      ],
+      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
+      "signals": [
+        "500 MW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 7,
+      "importance_reason": "500 MW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "全球",
+      "source_name": "Renewables Now",
+      "title": "Pacifico secures survey licence for 1.3-GW Vietnam offshore wind project",
+      "translated_title": "Pacifico为1.3-GW越南近海风能项目取得勘测许可证",
+      "published_at": "2026-09-24",
+      "url": "https://renewablesnow.com/news/pacifico-secures-survey-licence-for-1-3-gw-vietnam-offshore-wind-project-1301820/",
+      "tags": [
+        "竞对资讯",
+        "审批政策"
+      ],
+      "competitors": [
+        "ReNew"
+      ],
+      "monitor_reason": "审批/许可节点 · 竞对项目动态 · GW级项目 · 标题明确风电",
+      "signals": [
+        "1.3 GW",
+        "竞对资讯",
+        "审批政策"
+      ],
+      "rank": 8,
+      "importance_reason": "1.3 GW · 竞对资讯 · 审批政策"
     }
   ]
 }
