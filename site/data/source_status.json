@@ -7,7 +7,7 @@
     "adapter": "Wind Power 专栏 + RSS + 站内搜索",
     "status": "success",
     "found_count": 12,
-    "checked_at": "2026-09-26T00:18:53+00:00",
+    "checked_at": "2026-09-27T00:20:21+00:00",
     "error": "",
     "attempts": [
       {
@@ -45,7 +45,7 @@
     "adapter": "Wind Power 专栏 + 链接纠正",
     "status": "success",
     "found_count": 12,
-    "checked_at": "2026-09-26T00:19:10+00:00",
+    "checked_at": "2026-09-27T00:20:38+00:00",
     "error": "",
     "attempts": [
       {
@@ -65,7 +65,7 @@
     "adapter": "News 列表 + 详情页核验 + 标题过滤",
     "status": "success",
     "found_count": 5,
-    "checked_at": "2026-09-26T00:19:28+00:00",
+    "checked_at": "2026-09-27T00:20:57+00:00",
     "error": "",
     "attempts": [
       {
@@ -85,7 +85,7 @@
     "adapter": "All News + Chromium 强制渲染 + 详情页风电过滤",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-26T00:20:43+00:00",
+    "checked_at": "2026-09-27T00:22:18+00:00",
     "error": "",
     "attempts": [
       {
@@ -118,7 +118,7 @@
     "adapter": "News + RSS + 站内搜索",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-26T00:20:50+00:00",
+    "checked_at": "2026-09-27T00:22:24+00:00",
     "error": "",
     "attempts": [
       {
@@ -156,7 +156,7 @@
     "adapter": "可再生能源栏目 + 越南语关键词 + 单层文章链接识别",
     "status": "success",
     "found_count": 8,
-    "checked_at": "2026-09-26T00:21:07+00:00",
+    "checked_at": "2026-09-27T00:22:40+00:00",
     "error": "",
     "attempts": [
       {
@@ -176,7 +176,7 @@
     "adapter": "MME Notícias + 葡语站内搜索 + 浏览器兜底",
     "status": "success",
     "found_count": 1,
-    "checked_at": "2026-09-26T00:21:30+00:00",
+    "checked_at": "2026-09-27T00:23:01+00:00",
     "error": "",
     "attempts": [
       {
@@ -208,7 +208,7 @@
     "adapter": "首页 + RSS + 站内搜索",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-26T00:22:49+00:00",
+    "checked_at": "2026-09-27T00:24:12+00:00",
     "error": "",
     "attempts": [
       {
@@ -253,7 +253,7 @@
     "adapter": "News + RSS + 站内搜索",
     "status": "success",
     "found_count": 12,
-    "checked_at": "2026-09-26T00:23:05+00:00",
+    "checked_at": "2026-09-27T00:24:49+00:00",
     "error": "",
     "attempts": [
       {
@@ -281,7 +281,7 @@
         "error": "RetryError: HTTPSConnectionPool(host='windinsider.com', port=443): Max retries exceeded with url: /?s=offshore (Caused by ResponseError('too many 429 error responses'))"
       }
     ],
-    "strategic_kept_total": 11
+    "strategic_kept_total": 14
   },
   {
     "id": "asean_wind_expo",
@@ -291,7 +291,7 @@
     "adapter": "Media & News 列表 + 日期提示 + 详情页兜底",
     "status": "success",
     "found_count": 2,
-    "checked_at": "2026-09-26T00:23:24+00:00",
+    "checked_at": "2026-09-27T00:25:11+00:00",
     "error": "",
     "attempts": [
       {
@@ -311,7 +311,7 @@
     "adapter": "News + Chromium 动态渲染 + 宽入口详情核验",
     "status": "no_news",
     "found_count": 0,
-    "checked_at": "2026-09-26T00:23:48+00:00",
+    "checked_at": "2026-09-27T00:25:34+00:00",
     "error": "",
     "attempts": [
       {
@@ -337,7 +337,7 @@
     "adapter": "Wind 专栏",
     "status": "success",
     "found_count": 12,
-    "checked_at": "2026-09-26T00:24:01+00:00",
+    "checked_at": "2026-09-27T00:25:47+00:00",
     "error": "",
     "attempts": [
       {
@@ -357,7 +357,7 @@
     "adapter": "NEWS + Comunicati Stampa + 意大利语搜索",
     "status": "success",
     "found_count": 6,
-    "checked_at": "2026-09-26T00:24:39+00:00",
+    "checked_at": "2026-09-27T00:26:36+00:00",
     "error": "",
     "attempts": [
       {
@@ -400,8 +400,8 @@
     "role": "全球风电专业媒体",
     "adapter": "Latest + 首页 + 浏览器兜底（不绕过付费墙）",
     "status": "success",
-    "found_count": 12,
-    "checked_at": "2026-09-26T00:25:56+00:00",
+    "found_count": 11,
+    "checked_at": "2026-09-27T00:27:50+00:00",
     "error": "",
     "attempts": [
       {
@@ -420,7 +420,7 @@
         "strategy": "budget",
         "url": "",
         "ok": true,
-        "candidates": 12,
+        "candidates": 11,
         "note": "单站达到时间上限，已停止继续深挖。"
       }
     ],
@@ -434,7 +434,7 @@
     "adapter": "News 专页 + 详情页",
     "status": "success",
     "found_count": 8,
-    "checked_at": "2026-09-26T00:26:16+00:00",
+    "checked_at": "2026-09-27T00:28:17+00:00",
     "error": "",
     "attempts": [
       {
@@ -454,7 +454,7 @@
     "adapter": "月度归档 → 日期归档 → 风电文章（403 时使用列表信息）",
     "status": "success",
     "found_count": 7,
-    "checked_at": "2026-09-26T00:27:35+00:00",
+    "checked_at": "2026-09-27T00:29:34+00:00",
     "error": "",
     "attempts": [
       {

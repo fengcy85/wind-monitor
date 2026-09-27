@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-26T00:27:59+00:00",
+  "generated_at": "2026-09-27T00:29:58+00:00",
   "period": {
     "days": 7,
-    "start": "2026-09-20",
-    "end": "2026-09-26"
+    "start": "2026-09-21",
+    "end": "2026-09-27"
   },
   "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
   "count": 8,
@@ -21,7 +21,7 @@
     "市场机制": 1,
     "电网建设": 2,
     "宏观政策": 1,
-    "审批政策": 2
+    "审批政策": 3
   },
   "items": [
     {
@@ -116,23 +116,24 @@
       "importance_reason": "1.5 GW · 电网建设 · 审批政策"
     },
     {
-      "country": "印度",
-      "source_name": "Renewable Watch",
-      "title": "NTPC REL floats 600 MW wind turbine supply tender in Andhra Pradesh",
-      "translated_title": "NTPC REL在安得拉邦浮动600兆瓦风电机组供应招标",
+      "country": "中东、南亚、北非",
+      "source_name": "WindInsider",
+      "title": "Bid Invitation for 600 MW Wind Power Project in Kurnool",
+      "translated_title": "库尔诺勒600兆瓦风能发电项目招标书",
       "published_at": "2026-09-22",
-      "url": "https://renewablewatch.in/2026/09/22/ntpc-rel-floats-600-mw-wind-turbine-supply-tender-in-andhra-pradesh/",
+      "url": "https://windinsider.com/2026/09/22/ntpc-rel-floats-tender-for-600-mw-wind-project-in-andhra-pradesh/",
       "tags": [
         "竞对资讯",
         "招标采购",
-        "电网建设"
+        "电网建设",
+        "审批政策"
       ],
       "competitors": [
         "ReNew",
         "NTPC Renewable Energy",
         "NTPC REL"
       ],
-      "monitor_reason": "招标/采购节点 · 项目涉及电网/送出 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
+      "monitor_reason": "招标/采购节点 · 项目涉及电网/送出 · 正文涉及审批/许可 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
       "signals": [
         "600 MW",
         "竞对资讯",
