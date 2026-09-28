@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T00:29:58+00:00",
+  "generated_at": "2026-09-28T00:31:16+00:00",
   "period": {
     "days": 7,
-    "start": "2026-09-21",
-    "end": "2026-09-27"
+    "start": "2026-09-22",
+    "end": "2026-09-28"
   },
   "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
   "count": 8,
@@ -16,8 +16,8 @@
     "审批政策"
   ],
   "tag_counts": {
-    "竞对资讯": 6,
-    "招标采购": 6,
+    "竞对资讯": 5,
+    "招标采购": 5,
     "市场机制": 1,
     "电网建设": 2,
     "宏观政策": 1,
@@ -71,26 +71,21 @@
     {
       "country": "全球",
       "source_name": "Recharge",
-      "title": "Orsted chief: Germany should cut offshore wind target and get rest from abroad",
-      "translated_title": "骨灰头:德国应该切断岸外风力目标,从国外得到休息",
-      "published_at": "2026-09-21",
-      "url": "https://www.rechargenews.com/interviews/orsted-chief-germany-should-cut-offshore-wind-target-and-get-rest-from-abroad/2-1-2043610",
+      "title": "Six takeaways from South Africa offshore wind roadmap report – as first potential project delayed",
+      "translated_title": "6起南非岸外风速图报告,",
+      "published_at": "2026-09-22",
+      "url": "https://www.rechargenews.com/offshore-wind/six-takeaways-from-south-africa-offshore-wind-roadmap-report-as-first-potential-project-delayed/2-1-2045950",
       "tags": [
-        "竞对资讯",
-        "招标采购",
         "宏观政策"
       ],
-      "competitors": [
-        "Orsted"
-      ],
-      "monitor_reason": "正文含招标/采购 · 宏观/产业政策 · 竞对项目动态 · 标题明确风电",
+      "competitors": [],
+      "monitor_reason": "宏观/产业政策 · 标题明确风电",
       "signals": [
-        "竞对资讯",
-        "招标采购",
-        "Orsted"
+        "宏观政策",
+        "宏观/产业政策"
       ],
       "rank": 3,
-      "importance_reason": "竞对资讯 · 招标采购 · Orsted"
+      "importance_reason": "宏观政策 · 宏观/产业政策"
     },
     {
       "country": "全球",

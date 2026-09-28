@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-27T00:29:58+00:00",
-  "before": 192,
-  "kept": 143,
+  "generated_at": "2026-09-28T00:31:16+00:00",
+  "before": 190,
+  "kept": 141,
   "filtered_out": 49,
   "tag_counts": {
-    "竞对资讯": 123,
-    "电网建设": 16,
-    "审批政策": 18,
-    "招标采购": 40,
-    "市场机制": 7,
+    "竞对资讯": 118,
+    "电网建设": 12,
+    "审批政策": 19,
+    "招标采购": 39,
+    "市场机制": 8,
     "宏观政策": 2
   },
   "rejected_examples": [
@@ -28,16 +28,6 @@
       "published_at": "2026-09-25",
       "url": "https://renewablesnow.com/news/queenslands-bungaban-wind-solar-bess-project-gets-enviro-approval-1301880/",
       "reasons": [
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Singapore giant says its 'integrated solution' can unlock floating wind",
-      "source_name": "Recharge",
-      "published_at": "2026-09-25",
-      "url": "https://www.rechargenews.com/floating-wind/singapore-giant-says-its-integrated-solution-can-unlock-floating-wind/2-1-2048893",
-      "reasons": [
-        "无六类监测标签",
         "标题明确风电"
       ]
     },
@@ -120,66 +110,30 @@
       ]
     },
     {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/08/sunsure-energy-and-kajaria-ceramics-sign-20-mw-hybrid-ppa/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/11/invenergy-and-hasi-close-equity-deal-for-2-7-gw-renewable-portfolio-in-us/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "International News",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/11/turkiye-plans-200-billion-energy-investment/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/18/actis-launches-yeltica-energy-in-mexico/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Hybrids and Energy Storage",
+      "title": "ESR to acquire Aquila Clean Energy APAC",
       "source_name": "Renewable Watch",
       "published_at": "2026-09-25",
       "url": "https://renewablewatch.in/2026/09/25/esr-to-acquire-aquila-clean-energy-apac/",
       "reasons": [
-        "标题无效/栏目标题"
+        "风电相关性不足"
       ]
     },
     {
-      "title": "Projects",
+      "title": "New York awards 1.7 GW clean energy projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-25",
+      "url": "https://renewablewatch.in/2026/09/25/new-york-awards-1-7-gw-clean-energy-projects/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Oyster Renewable to develop hybrid project for MS Agarwal Foundries",
       "source_name": "Renewable Watch",
       "published_at": "2026-09-25",
       "url": "https://renewablewatch.in/2026/09/25/oyster-renewable-to-develop-hybrid-project-for-ms-agarwal-foundries/",
       "reasons": [
-        "标题无效/栏目标题"
+        "风电相关性不足"
       ]
     },
     {
@@ -228,6 +182,15 @@
       "url": "https://renewablewatch.in/2026/09/",
       "reasons": [
         "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Juniper Green commissions 75 MW hybrid project in Maharashtra",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-23",
+      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
+      "reasons": [
+        "正文明确涉及风电"
       ]
     },
     {
@@ -291,6 +254,25 @@
       "url": "https://www.energetica-india.net/news/training-and-education",
       "reasons": [
         "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Actis launches Yeltica Energy in Mexico",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-18",
+      "url": "https://renewablewatch.in/2026/09/18/actis-launches-yeltica-energy-in-mexico/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Sturdee Energy Acquires 200 MW Masaiti Wind Project In Zambia",
+      "source_name": "WindInsider",
+      "published_at": "2026-09-16",
+      "url": "https://windinsider.com/2026/09/16/sturdee-energy-acquires-200-mw-masaiti-wind-project-in-zambia/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
       ]
     },
     {
@@ -364,6 +346,16 @@
       ]
     },
     {
+      "title": "NTPC Green Energy Commissions 6.3 MW Second-Part Capacity Of Vanki Wind Project In Gujarat",
+      "source_name": "WindInsider",
+      "published_at": "2026-09-15",
+      "url": "https://windinsider.com/2026/09/15/ntpc-green-energy-commissions-6-3-mw-second-part-capacity-of-vanki-wind-project-in-gujarat/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
       "title": "EBRD backs 131 MW wind farm in North Macedonia",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-11",
@@ -374,10 +366,20 @@
       ]
     },
     {
-      "title": "GERC Dispute: Solarcraft Seeks Relief from GUVNL for Wind Project",
+      "title": "GERC Hears Dispute With GUVNL Over 200 MW Wind Project Delays",
       "source_name": "WindInsider",
       "published_at": "2026-09-09",
       "url": "https://windinsider.com/2026/09/09/gerc-hears-dispute-with-guvnl-over-200-mw-wind-project-delays/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Sturdee Energy Enters Zambia With 200 MW Masaiti Wind Project",
+      "source_name": "WindInsider",
+      "published_at": "2026-09-07",
+      "url": "https://windinsider.com/2026/09/07/sturdee-energy-enters-zambia-with-200-mw-masaiti-wind-project/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
