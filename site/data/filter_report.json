@@ -1,40 +1,51 @@
 {
-  "generated_at": "2026-09-28T00:31:16+00:00",
-  "before": 190,
-  "kept": 141,
-  "filtered_out": 49,
+  "generated_at": "2026-09-29T00:29:27+00:00",
+  "before": 203,
+  "kept": 152,
+  "filtered_out": 51,
   "tag_counts": {
-    "竞对资讯": 118,
-    "电网建设": 12,
+    "竞对资讯": 127,
+    "招标采购": 40,
     "审批政策": 19,
-    "招标采购": 39,
+    "电网建设": 13,
     "市场机制": 8,
     "宏观政策": 2
   },
   "rejected_examples": [
     {
-      "title": "Glencore to off-take 820 MWh of wind in Poland from ERG",
+      "title": "Lirion Power snaps up 77-MW Irish wind portfolio from GIP",
       "source_name": "Renewables Now",
-      "published_at": "2026-09-25",
-      "url": "https://renewablesnow.com/news/glencore-to-off-take-820-mwh-of-wind-in-poland-from-erg-1301901/",
+      "published_at": "2026-09-28",
+      "url": "https://renewablesnow.com/news/lirion-power-snaps-up-77-mw-irish-wind-portfolio-from-gip-1301964/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Queensland’s Bungaban wind-solar-BESS project gets enviro approval",
-      "source_name": "Renewables Now",
-      "published_at": "2026-09-25",
-      "url": "https://renewablesnow.com/news/queenslands-bungaban-wind-solar-bess-project-gets-enviro-approval-1301880/",
+      "title": "Four security criteria the UK should use to assess Chinese turbines and other power technology",
+      "source_name": "Recharge",
+      "published_at": "2026-09-28",
+      "url": "https://www.rechargenews.com/opinion/four-security-criteria-the-uk-should-use-to-assess-chinese-turbines-and-other-power-technology/2-1-2047548",
       "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Big boost for Scottish port as SSE makes its choices for offshore wind mega-project",
+      "source_name": "Recharge",
+      "published_at": "2026-09-28",
+      "url": "https://www.rechargenews.com/ports/big-boost-for-scottish-port-as-sse-makes-its-choices-for-offshore-wind-mega-project/2-1-2050388",
+      "reasons": [
+        "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
       "title": "Wind farm ban based on overstated modelling for UK nuclear monitoring site 'risks £60bn investment'",
       "source_name": "Recharge",
-      "published_at": "2026-09-25",
+      "published_at": "2026-09-28",
       "url": "https://www.rechargenews.com/onshore-wind/wind-farm-ban-based-on-overstated-modelling-for-uk-nuclear-monitoring-site-risks-60bn-investment/2-1-2049763",
       "reasons": [
         "无六类监测标签",
@@ -44,7 +55,7 @@
     {
       "title": "England's largest onshore wind farm plan unveiled",
       "source_name": "Recharge",
-      "published_at": "2026-09-25",
+      "published_at": "2026-09-28",
       "url": "https://www.rechargenews.com/onshore-wind/englands-largest-onshore-wind-farm-plan-unveiled/2-1-2049903",
       "reasons": [
         "无六类监测标签",
@@ -54,7 +65,7 @@
     {
       "title": "Aktobe region to increase wind power capacity to 746 MW",
       "source_name": "QazaqGreen",
-      "published_at": "2026-09-25",
+      "published_at": "2026-09-28",
       "url": "https://qazaqgreen.com/en/news/kazakhstan/3875/",
       "reasons": [
         "无六类监测标签",
@@ -64,7 +75,7 @@
     {
       "title": "ACWA starts construction of 1.5 GW wind farm in Uzbekistan",
       "source_name": "QazaqGreen",
-      "published_at": "2026-09-25",
+      "published_at": "2026-09-28",
       "url": "https://qazaqgreen.com/en/news/central-asia/3878/",
       "reasons": [
         "无六类监测标签",
@@ -74,7 +85,7 @@
     {
       "title": "Kshema Power Commissions Two In-House Batching Plants in Madhya Pradesh for WTG Foundation - Asia Pacific | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-25",
+      "published_at": "2026-09-28",
       "url": "https://www.energetica-india.net/news/kshema-power-commissions-two-in-house-batching-plants-in-madhya-pradesh-for-wtg-foundation",
       "reasons": [
         "正文明确涉及风电"
@@ -83,7 +94,7 @@
     {
       "title": "Free subscription magazine",
       "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-25",
+      "published_at": "2026-09-28",
       "url": "https://www.energetica-india.net/news/renewable-energy/subscriptions/printed-magazine",
       "reasons": [
         "正文明确涉及风电"
@@ -92,7 +103,7 @@
     {
       "title": "Alfanar Power Signs 100 MW Wind PPA with GUVNL - Asia Pacific | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-25",
+      "published_at": "2026-09-28",
       "url": "https://www.energetica-india.net/news/alfanar-power-signs-100-mw-wind-ppa-with-guvnl",
       "reasons": [
         "无六类监测标签",
@@ -102,7 +113,7 @@
     {
       "title": "Windergy India 2026 Charts India’s Wind Growth Path - Asia Pacific | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-25",
+      "published_at": "2026-09-28",
       "url": "https://www.energetica-india.net/news/windergy-india-2026-charts-indias-wind-growth-path",
       "reasons": [
         "无六类监测标签",
@@ -110,21 +121,57 @@
       ]
     },
     {
-      "title": "ESR to acquire Aquila Clean Energy APAC",
+      "title": "Hybrids and Energy Storage",
       "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/25/esr-to-acquire-aquila-clean-energy-apac/",
+      "published_at": "2026-09-28",
+      "url": "https://renewablewatch.in/2026/09/11/invenergy-and-hasi-close-equity-deal-for-2-7-gw-renewable-portfolio-in-us/",
       "reasons": [
-        "风电相关性不足"
+        "标题无效/栏目标题"
       ]
     },
     {
-      "title": "New York awards 1.7 GW clean energy projects",
+      "title": "September 28, 2026",
       "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/25/new-york-awards-1-7-gw-clean-energy-projects/",
+      "published_at": "2026-09-28",
+      "url": "https://renewablewatch.in/2026/09/",
       "reasons": [
-        "风电相关性不足"
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "International News",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-28",
+      "url": "https://renewablewatch.in/2026/09/11/turkiye-plans-200-billion-energy-investment/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Hybrids and Energy Storage",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-28",
+      "url": "https://renewablewatch.in/2026/09/18/actis-launches-yeltica-energy-in-mexico/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-28",
+      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Hybrids and Energy Storage",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-28",
+      "url": "https://renewablewatch.in/2026/09/25/esr-to-acquire-aquila-clean-energy-apac/",
+      "reasons": [
+        "标题无效/栏目标题"
       ]
     },
     {
@@ -176,21 +223,22 @@
       ]
     },
     {
-      "title": "September 23, 2026",
-      "source_name": "Renewable Watch",
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-23",
-      "url": "https://renewablewatch.in/2026/09/",
+      "url": "https://www.aa.com.tr/en/energy/renewable",
       "reasons": [
-        "标题无效/栏目标题"
+        "风电相关性不足"
       ]
     },
     {
-      "title": "Juniper Green commissions 75 MW hybrid project in Maharashtra",
-      "source_name": "Renewable Watch",
+      "title": "Türkiye seeks stronger international cooperation for resilient wind energy supply chains",
+      "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-23",
-      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
+      "url": "https://www.aa.com.tr/en/energy/wind/turkiye-seeks-stronger-international-cooperation-for-resilient-wind-energy-supply-chains/59763",
       "reasons": [
-        "正文明确涉及风电"
+        "无六类监测标签",
+        "标题明确风电"
       ]
     },
     {
@@ -224,25 +272,16 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/finance",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/renewable",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-19",
       "url": "https://www.aa.com.tr/en/energy/electricity",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-19",
+      "url": "https://www.aa.com.tr/en/energy/finance",
       "reasons": [
         "风电相关性不足"
       ]
@@ -252,15 +291,6 @@
       "source_name": "Energetica India – Wind Power",
       "published_at": "2026-09-19",
       "url": "https://www.energetica-india.net/news/training-and-education",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Actis launches Yeltica Energy in Mexico",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-18",
-      "url": "https://renewablewatch.in/2026/09/18/actis-launches-yeltica-energy-in-mexico/",
       "reasons": [
         "风电相关性不足"
       ]
@@ -340,16 +370,6 @@
       "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
       "published_at": "2026-09-16",
       "url": "https://nangluongvietnam.vn/akrocean-trien-khai-thanh-cong-chien-dich-do-gio-ngoai-khoi-thong-qua-he-thong-floating-lidar-cho-du-an-dien-gio-nam-bo-3-36645.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "NTPC Green Energy Commissions 6.3 MW Second-Part Capacity Of Vanki Wind Project In Gujarat",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-15",
-      "url": "https://windinsider.com/2026/09/15/ntpc-green-energy-commissions-6-3-mw-second-part-capacity-of-vanki-wind-project-in-gujarat/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
