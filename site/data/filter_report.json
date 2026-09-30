@@ -1,22 +1,32 @@
 {
-  "generated_at": "2026-09-29T00:29:27+00:00",
-  "before": 203,
-  "kept": 152,
-  "filtered_out": 51,
+  "generated_at": "2026-09-30T00:30:48+00:00",
+  "before": 217,
+  "kept": 164,
+  "filtered_out": 53,
   "tag_counts": {
-    "竞对资讯": 127,
-    "招标采购": 40,
-    "审批政策": 19,
-    "电网建设": 13,
-    "市场机制": 8,
+    "竞对资讯": 140,
+    "电网建设": 17,
+    "招标采购": 41,
+    "审批政策": 20,
+    "市场机制": 7,
     "宏观政策": 2
   },
   "rejected_examples": [
     {
-      "title": "Lirion Power snaps up 77-MW Irish wind portfolio from GIP",
+      "title": "Source Agriventures plans Nasdaq IPO after RWE wind lease",
       "source_name": "Renewables Now",
-      "published_at": "2026-09-28",
-      "url": "https://renewablesnow.com/news/lirion-power-snaps-up-77-mw-irish-wind-portfolio-from-gip-1301964/",
+      "published_at": "2026-09-29",
+      "url": "https://renewablesnow.com/news/source-agriventures-plans-nasdaq-ipo-after-rwe-wind-lease-1302048/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Net Zero Atlantic, European groups to share offshore wind expertise",
+      "source_name": "Renewables Now",
+      "published_at": "2026-09-29",
+      "url": "https://renewablesnow.com/news/net-zero-atlantic-european-groups-to-share-offshore-wind-expertise-1302021/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -25,7 +35,7 @@
     {
       "title": "Four security criteria the UK should use to assess Chinese turbines and other power technology",
       "source_name": "Recharge",
-      "published_at": "2026-09-28",
+      "published_at": "2026-09-29",
       "url": "https://www.rechargenews.com/opinion/four-security-criteria-the-uk-should-use-to-assess-chinese-turbines-and-other-power-technology/2-1-2047548",
       "reasons": [
         "无六类监测标签",
@@ -35,7 +45,7 @@
     {
       "title": "Big boost for Scottish port as SSE makes its choices for offshore wind mega-project",
       "source_name": "Recharge",
-      "published_at": "2026-09-28",
+      "published_at": "2026-09-29",
       "url": "https://www.rechargenews.com/ports/big-boost-for-scottish-port-as-sse-makes-its-choices-for-offshore-wind-mega-project/2-1-2050388",
       "reasons": [
         "无六类监测标签",
@@ -45,7 +55,7 @@
     {
       "title": "Wind farm ban based on overstated modelling for UK nuclear monitoring site 'risks £60bn investment'",
       "source_name": "Recharge",
-      "published_at": "2026-09-28",
+      "published_at": "2026-09-29",
       "url": "https://www.rechargenews.com/onshore-wind/wind-farm-ban-based-on-overstated-modelling-for-uk-nuclear-monitoring-site-risks-60bn-investment/2-1-2049763",
       "reasons": [
         "无六类监测标签",
@@ -55,8 +65,46 @@
     {
       "title": "England's largest onshore wind farm plan unveiled",
       "source_name": "Recharge",
-      "published_at": "2026-09-28",
+      "published_at": "2026-09-29",
       "url": "https://www.rechargenews.com/onshore-wind/englands-largest-onshore-wind-farm-plan-unveiled/2-1-2049903",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Lightning, snow and bears: How one Japanese region is hurdling offshore wind obstacles",
+      "source_name": "Recharge",
+      "published_at": "2026-09-29",
+      "url": "https://www.rechargenews.com/offshore-wind/lightning-snow-and-bears-how-one-japanese-region-is-hurdling-offshore-wind-obstacles/2-1-2043722",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "SEMINARIO 4/2026 - Power Purchase Agreement per le Rinnovabili per supportare gli obiettivi di crescita del PNIEC - ANEV",
+      "source_name": "ANEV",
+      "published_at": "2026-09-29",
+      "url": "https://www.anev.org/2026/09/29/seminario-4-2026-power-purchase-agreement-per-le-rinnovabili-per-supportare-gli-obiettivi-di-crescita-del-pniec/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "SEMINARIO 3/2026 - IMPIANTI EOLICI-Interventi sugli impianti in esercizio e nuove opportunità del DM FER X definitivo - ANEV",
+      "source_name": "ANEV",
+      "published_at": "2026-09-29",
+      "url": "https://www.anev.org/2026/09/29/seminario-3-2026-impianti-eolici-interventi-sugli-impianti-in-esercizio-e-nuove-opportunita-del-dm-fer-x-definitivo/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Wind Offshore - CORSO DI FORMAZIONE 4/2026 - ANEV",
+      "source_name": "ANEV",
+      "published_at": "2026-09-29",
+      "url": "https://www.anev.org/2026/09/29/wind-offshore-3/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -65,7 +113,7 @@
     {
       "title": "Aktobe region to increase wind power capacity to 746 MW",
       "source_name": "QazaqGreen",
-      "published_at": "2026-09-28",
+      "published_at": "2026-09-29",
       "url": "https://qazaqgreen.com/en/news/kazakhstan/3875/",
       "reasons": [
         "无六类监测标签",
@@ -75,7 +123,7 @@
     {
       "title": "ACWA starts construction of 1.5 GW wind farm in Uzbekistan",
       "source_name": "QazaqGreen",
-      "published_at": "2026-09-28",
+      "published_at": "2026-09-29",
       "url": "https://qazaqgreen.com/en/news/central-asia/3878/",
       "reasons": [
         "无六类监测标签",
@@ -121,57 +169,21 @@
       ]
     },
     {
-      "title": "Hybrids and Energy Storage",
+      "title": "New York awards 1.7 GW clean energy projects",
       "source_name": "Renewable Watch",
-      "published_at": "2026-09-28",
-      "url": "https://renewablewatch.in/2026/09/11/invenergy-and-hasi-close-equity-deal-for-2-7-gw-renewable-portfolio-in-us/",
+      "published_at": "2026-09-25",
+      "url": "https://renewablewatch.in/2026/09/25/new-york-awards-1-7-gw-clean-energy-projects/",
       "reasons": [
-        "标题无效/栏目标题"
+        "风电相关性不足"
       ]
     },
     {
-      "title": "September 28, 2026",
+      "title": "ESR to acquire Aquila Clean Energy APAC",
       "source_name": "Renewable Watch",
-      "published_at": "2026-09-28",
-      "url": "https://renewablewatch.in/2026/09/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "International News",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-28",
-      "url": "https://renewablewatch.in/2026/09/11/turkiye-plans-200-billion-energy-investment/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-28",
-      "url": "https://renewablewatch.in/2026/09/18/actis-launches-yeltica-energy-in-mexico/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-28",
-      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-28",
+      "published_at": "2026-09-25",
       "url": "https://renewablewatch.in/2026/09/25/esr-to-acquire-aquila-clean-energy-apac/",
       "reasons": [
-        "标题无效/栏目标题"
+        "风电相关性不足"
       ]
     },
     {
@@ -223,15 +235,6 @@
       ]
     },
     {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-23",
-      "url": "https://www.aa.com.tr/en/energy/renewable",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
       "title": "Türkiye seeks stronger international cooperation for resilient wind energy supply chains",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-23",
@@ -242,10 +245,38 @@
       ]
     },
     {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-23",
+      "url": "https://www.aa.com.tr/en/energy/renewable",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Global wind power capacity to rise by more than 180 GW this year",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-23",
+      "url": "https://www.aa.com.tr/en/energy/wind/global-wind-power-capacity-to-rise-by-more-than-180-gw-this-year/59784",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
       "title": "APTEL Grants Review Petition: Key Findings on Arbitration Powers",
       "source_name": "WindInsider",
       "published_at": "2026-09-22",
       "url": "https://windinsider.com/2026/09/22/aptel-clarifies-cerc-arbitration-powers-and-corrects-dvc-judgment-interpretation/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Juniper Green commissions 75 MW hybrid project in Maharashtra",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-21",
+      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
       "reasons": [
         "风电相关性不足"
       ]
@@ -272,7 +303,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/electricity",
+      "url": "https://www.aa.com.tr/en/energy/finance",
       "reasons": [
         "风电相关性不足"
       ]
@@ -281,7 +312,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/finance",
+      "url": "https://www.aa.com.tr/en/energy/electricity",
       "reasons": [
         "风电相关性不足"
       ]
@@ -293,16 +324,6 @@
       "url": "https://www.energetica-india.net/news/training-and-education",
       "reasons": [
         "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Sturdee Energy Acquires 200 MW Masaiti Wind Project In Zambia",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-16",
-      "url": "https://windinsider.com/2026/09/16/sturdee-energy-acquires-200-mw-masaiti-wind-project-in-zambia/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
       ]
     },
     {
