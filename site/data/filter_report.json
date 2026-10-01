@@ -1,61 +1,21 @@
 {
-  "generated_at": "2026-09-30T00:30:48+00:00",
-  "before": 217,
-  "kept": 164,
-  "filtered_out": 53,
+  "generated_at": "2026-10-01T00:30:51+00:00",
+  "before": 221,
+  "kept": 169,
+  "filtered_out": 52,
   "tag_counts": {
-    "竞对资讯": 140,
     "电网建设": 17,
-    "招标采购": 41,
-    "审批政策": 20,
+    "竞对资讯": 145,
+    "招标采购": 42,
+    "审批政策": 21,
     "市场机制": 7,
     "宏观政策": 2
   },
   "rejected_examples": [
     {
-      "title": "Source Agriventures plans Nasdaq IPO after RWE wind lease",
-      "source_name": "Renewables Now",
-      "published_at": "2026-09-29",
-      "url": "https://renewablesnow.com/news/source-agriventures-plans-nasdaq-ipo-after-rwe-wind-lease-1302048/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Net Zero Atlantic, European groups to share offshore wind expertise",
-      "source_name": "Renewables Now",
-      "published_at": "2026-09-29",
-      "url": "https://renewablesnow.com/news/net-zero-atlantic-european-groups-to-share-offshore-wind-expertise-1302021/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Four security criteria the UK should use to assess Chinese turbines and other power technology",
-      "source_name": "Recharge",
-      "published_at": "2026-09-29",
-      "url": "https://www.rechargenews.com/opinion/four-security-criteria-the-uk-should-use-to-assess-chinese-turbines-and-other-power-technology/2-1-2047548",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Big boost for Scottish port as SSE makes its choices for offshore wind mega-project",
-      "source_name": "Recharge",
-      "published_at": "2026-09-29",
-      "url": "https://www.rechargenews.com/ports/big-boost-for-scottish-port-as-sse-makes-its-choices-for-offshore-wind-mega-project/2-1-2050388",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
       "title": "Wind farm ban based on overstated modelling for UK nuclear monitoring site 'risks £60bn investment'",
       "source_name": "Recharge",
-      "published_at": "2026-09-29",
+      "published_at": "2026-09-30",
       "url": "https://www.rechargenews.com/onshore-wind/wind-farm-ban-based-on-overstated-modelling-for-uk-nuclear-monitoring-site-risks-60bn-investment/2-1-2049763",
       "reasons": [
         "无六类监测标签",
@@ -65,7 +25,7 @@
     {
       "title": "England's largest onshore wind farm plan unveiled",
       "source_name": "Recharge",
-      "published_at": "2026-09-29",
+      "published_at": "2026-09-30",
       "url": "https://www.rechargenews.com/onshore-wind/englands-largest-onshore-wind-farm-plan-unveiled/2-1-2049903",
       "reasons": [
         "无六类监测标签",
@@ -75,11 +35,97 @@
     {
       "title": "Lightning, snow and bears: How one Japanese region is hurdling offshore wind obstacles",
       "source_name": "Recharge",
-      "published_at": "2026-09-29",
+      "published_at": "2026-09-30",
       "url": "https://www.rechargenews.com/offshore-wind/lightning-snow-and-bears-how-one-japanese-region-is-hurdling-offshore-wind-obstacles/2-1-2043722",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
+      ]
+    },
+    {
+      "title": "Aktobe region to increase wind power capacity to 746 MW",
+      "source_name": "QazaqGreen",
+      "published_at": "2026-09-30",
+      "url": "https://qazaqgreen.com/en/news/kazakhstan/3875/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "22.09.2026 ACWA starts construction of 1.5 GW wind farm in Uzbekistan",
+      "source_name": "QazaqGreen",
+      "published_at": "2026-09-30",
+      "url": "https://qazaqgreen.com/en/news/central-asia/3878/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Training & Education - News | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-09-30",
+      "url": "https://www.energetica-india.net/news/training-and-education",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Kshema Power Commissions Two In-House Batching Plants in Madhya Pradesh for WTG Foundation - Asia Pacific | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-09-30",
+      "url": "https://www.energetica-india.net/news/kshema-power-commissions-two-in-house-batching-plants-in-madhya-pradesh-for-wtg-foundation",
+      "reasons": [
+        "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "Free subscription magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-09-30",
+      "url": "https://www.energetica-india.net/news/renewable-energy/subscriptions/printed-magazine",
+      "reasons": [
+        "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "Alfanar Power Signs 100 MW Wind PPA with GUVNL - Asia Pacific | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-09-30",
+      "url": "https://www.energetica-india.net/news/alfanar-power-signs-100-mw-wind-ppa-with-guvnl",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Windergy India 2026 Charts India’s Wind Growth Path - Asia Pacific | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-09-30",
+      "url": "https://www.energetica-india.net/news/windergy-india-2026-charts-indias-wind-growth-path",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "KPI Green Energy to Acquire 507.9 MW Wind Portfolio for INR 2,410 Crore - Asia Pacific | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-09-30",
+      "url": "https://www.energetica-india.net/news/kpi-green-energy-to-acquire-507-9-mw-wind-portfolio-for-inr-2410-crore",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "CleanMax and Nuvoco partner for 46.4 MW hybrid project in Rajasthan",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-30",
+      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
+      "reasons": [
+        "风电相关性不足"
       ]
     },
     {
@@ -111,58 +157,10 @@
       ]
     },
     {
-      "title": "Aktobe region to increase wind power capacity to 746 MW",
-      "source_name": "QazaqGreen",
+      "title": "Renewables on the Rise: Solar and wind drive capacity growth while storage gathers momentum",
+      "source_name": "Renewable Watch",
       "published_at": "2026-09-29",
-      "url": "https://qazaqgreen.com/en/news/kazakhstan/3875/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "ACWA starts construction of 1.5 GW wind farm in Uzbekistan",
-      "source_name": "QazaqGreen",
-      "published_at": "2026-09-29",
-      "url": "https://qazaqgreen.com/en/news/central-asia/3878/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Kshema Power Commissions Two In-House Batching Plants in Madhya Pradesh for WTG Foundation - Asia Pacific | Energetica India Magazine",
-      "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-28",
-      "url": "https://www.energetica-india.net/news/kshema-power-commissions-two-in-house-batching-plants-in-madhya-pradesh-for-wtg-foundation",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Free subscription magazine",
-      "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-28",
-      "url": "https://www.energetica-india.net/news/renewable-energy/subscriptions/printed-magazine",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Alfanar Power Signs 100 MW Wind PPA with GUVNL - Asia Pacific | Energetica India Magazine",
-      "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-28",
-      "url": "https://www.energetica-india.net/news/alfanar-power-signs-100-mw-wind-ppa-with-guvnl",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Windergy India 2026 Charts India’s Wind Growth Path - Asia Pacific | Energetica India Magazine",
-      "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-28",
-      "url": "https://www.energetica-india.net/news/windergy-india-2026-charts-indias-wind-growth-path",
+      "url": "https://renewablewatch.in/2026/09/29/renewables-on-the-rise-solar-and-wind-drive-capacity-growth-while-storage-gathers-momentum/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -178,21 +176,22 @@
       ]
     },
     {
-      "title": "ESR to acquire Aquila Clean Energy APAC",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/25/esr-to-acquire-aquila-clean-energy-apac/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
       "title": "Oyster Renewable to develop hybrid project for MS Agarwal Foundries",
       "source_name": "Renewable Watch",
       "published_at": "2026-09-25",
       "url": "https://renewablewatch.in/2026/09/25/oyster-renewable-to-develop-hybrid-project-for-ms-agarwal-foundries/",
       "reasons": [
         "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Exploring Alternatives: Tamil Nadu widens its renewables horizon amidst wind slowdown",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-09-25",
+      "url": "https://renewablewatch.in/2026/09/25/exploring-alternatives-tamil-nadu-widens-its-renewables-horizon-amidst-wind-slowdown/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
       ]
     },
     {
@@ -235,6 +234,15 @@
       ]
     },
     {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-23",
+      "url": "https://www.aa.com.tr/en/energy/renewable",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
       "title": "Türkiye seeks stronger international cooperation for resilient wind energy supply chains",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-23",
@@ -242,15 +250,6 @@
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-23",
-      "url": "https://www.aa.com.tr/en/energy/renewable",
-      "reasons": [
-        "风电相关性不足"
       ]
     },
     {
@@ -268,15 +267,6 @@
       "source_name": "WindInsider",
       "published_at": "2026-09-22",
       "url": "https://windinsider.com/2026/09/22/aptel-clarifies-cerc-arbitration-powers-and-corrects-dvc-judgment-interpretation/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Juniper Green commissions 75 MW hybrid project in Maharashtra",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-21",
-      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
       "reasons": [
         "风电相关性不足"
       ]
@@ -313,15 +303,6 @@
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
       "url": "https://www.aa.com.tr/en/energy/electricity",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Training & Education - News | Energetica India Magazine",
-      "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-09-19",
-      "url": "https://www.energetica-india.net/news/training-and-education",
       "reasons": [
         "风电相关性不足"
       ]
@@ -443,6 +424,15 @@
       "url": "https://www.anev.org/2026/02/09/corso-di-formazione-1-2026-la-sicurezza-nel-parco-eolico/",
       "reasons": [
         "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "UAE’s Masdar and Egypt review wind, solar and battery storage projects to meet 2028 energy targets",
+      "source_name": "Daily News Egypt",
+      "published_at": "2026-08-29",
+      "url": "https://www.dailynewsegypt.com/2026/08/29/uaes-masdar-and-egypt-review-wind-solar-and-battery-storage-projects-to-meet-2028-energy-targets/",
+      "reasons": [
         "标题明确风电"
       ]
     },
