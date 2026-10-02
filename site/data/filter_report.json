@@ -1,32 +1,42 @@
 {
-  "generated_at": "2026-10-01T00:30:51+00:00",
-  "before": 221,
-  "kept": 169,
-  "filtered_out": 52,
+  "generated_at": "2026-10-02T00:30:22+00:00",
+  "before": 235,
+  "kept": 180,
+  "filtered_out": 55,
   "tag_counts": {
+    "竞对资讯": 155,
+    "招标采购": 43,
     "电网建设": 17,
-    "竞对资讯": 145,
-    "招标采购": 42,
-    "审批政策": 21,
+    "审批政策": 22,
     "市场机制": 7,
     "宏观政策": 2
   },
   "rejected_examples": [
     {
-      "title": "Wind farm ban based on overstated modelling for UK nuclear monitoring site 'risks £60bn investment'",
-      "source_name": "Recharge",
-      "published_at": "2026-09-30",
-      "url": "https://www.rechargenews.com/onshore-wind/wind-farm-ban-based-on-overstated-modelling-for-uk-nuclear-monitoring-site-risks-60bn-investment/2-1-2049763",
+      "title": "Eurus inks wind VPPAs with Toyota affiliates in Japan",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-01",
+      "url": "https://renewablesnow.com/news/eurus-inks-wind-vppas-with-toyota-affiliates-in-japan-1302242/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "England's largest onshore wind farm plan unveiled",
+      "title": "Taiwan gets two bids in 3.6-GW offshore wind round",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-01",
+      "url": "https://renewablesnow.com/news/taiwan-gets-two-bids-in-3-6-gw-offshore-wind-round-1302215/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Big boost for Scottish port as SSE makes its choices for offshore wind mega-project",
       "source_name": "Recharge",
-      "published_at": "2026-09-30",
-      "url": "https://www.rechargenews.com/onshore-wind/englands-largest-onshore-wind-farm-plan-unveiled/2-1-2049903",
+      "published_at": "2026-10-01",
+      "url": "https://www.rechargenews.com/ports/big-boost-for-scottish-port-as-sse-makes-its-choices-for-offshore-wind-mega-project/2-1-2050388",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -35,7 +45,7 @@
     {
       "title": "Lightning, snow and bears: How one Japanese region is hurdling offshore wind obstacles",
       "source_name": "Recharge",
-      "published_at": "2026-09-30",
+      "published_at": "2026-10-01",
       "url": "https://www.rechargenews.com/offshore-wind/lightning-snow-and-bears-how-one-japanese-region-is-hurdling-offshore-wind-obstacles/2-1-2043722",
       "reasons": [
         "无六类监测标签",
@@ -43,23 +53,137 @@
       ]
     },
     {
-      "title": "Aktobe region to increase wind power capacity to 746 MW",
-      "source_name": "QazaqGreen",
-      "published_at": "2026-09-30",
-      "url": "https://qazaqgreen.com/en/news/kazakhstan/3875/",
+      "title": "Chấp thuận chủ trương đầu tư dự án Nhà máy Điện gió Ia Le 2 (tỉnh Gia Lai)",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-01",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-du-an-nha-may-dien-gio-ia-le-2-tinh-gia-lai-36391.html",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "22.09.2026 ACWA starts construction of 1.5 GW wind farm in Uzbekistan",
+      "title": "Quan điểm của Chính phủ trong xử lý các dự án điện gió ở Lâm Đồng chồng lấn với quy hoạch khoáng sản",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-01",
+      "url": "https://nangluongvietnam.vn/quan-diem-cua-chinh-phu-trong-xu-ly-cac-du-an-dien-gio-o-lam-dong-chong-lan-voi-quy-hoach-khoang-san-36423.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-01",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-01",
+      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án điện gió An Phúc Đông Hải và Đông Hải 1, 3, 13 (giai đoạn tiếp theo)",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-01",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-dien-gio-an-phuc-dong-hai-va-dong-hai-1-3-13-giai-doan-tiep-theo-36554.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Việt Nam muốn phát triển điện gió ngoài khơi, năng lực logistics cũng phải sẵn sàng",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-01",
+      "url": "https://nangluongvietnam.vn/viet-nam-muon-phat-trien-dien-gio-ngoai-khoi-nang-luc-logistics-cung-phai-san-sang-36561.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "AKROCEAN triển khai thành công chiến dịch đo gió ngoài khơi thông qua hệ thống Floating LiDAR cho dự án Điện gió Nam Bộ 3",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-01",
+      "url": "https://nangluongvietnam.vn/akrocean-trien-khai-thanh-cong-chien-dich-do-gio-ngoai-khoi-thong-qua-he-thong-floating-lidar-cho-du-an-dien-gio-nam-bo-3-36645.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "ACWA starts construction of 1.5 GW wind farm in Uzbekistan",
       "source_name": "QazaqGreen",
-      "published_at": "2026-09-30",
+      "published_at": "2026-10-01",
       "url": "https://qazaqgreen.com/en/news/central-asia/3878/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
+      ]
+    },
+    {
+      "title": "“Our aim is to digitise the project lifecycle”: Interview with Aditya Birla Renewables’ Narendra Somoshi",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-01",
+      "url": "https://renewablewatch.in/2026/10/01/our-aim-is-to-digitise-the-project-lifecycle-interview-with-aditya-birla-renewables-narendra-somoshi/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Hybrids and Energy Storage",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-01",
+      "url": "https://renewablewatch.in/2026/09/25/esr-to-acquire-aquila-clean-energy-apac/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-01",
+      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-01",
+      "url": "https://renewablewatch.in/2026/09/25/oyster-renewable-to-develop-hybrid-project-for-ms-agarwal-foundries/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "October 1, 2026",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-01",
+      "url": "https://renewablewatch.in/2026/10/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-01",
+      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
+      "reasons": [
+        "标题无效/栏目标题"
       ]
     },
     {
@@ -120,12 +244,12 @@
       ]
     },
     {
-      "title": "CleanMax and Nuvoco partner for 46.4 MW hybrid project in Rajasthan",
+      "title": "September 30, 2026",
       "source_name": "Renewable Watch",
       "published_at": "2026-09-30",
-      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
+      "url": "https://renewablewatch.in/2026/09/",
       "reasons": [
-        "风电相关性不足"
+        "标题无效/栏目标题"
       ]
     },
     {
@@ -157,38 +281,20 @@
       ]
     },
     {
-      "title": "Renewables on the Rise: Solar and wind drive capacity growth while storage gathers momentum",
+      "title": "CGN commissions 2 GW offshore wind project in Guangdong",
       "source_name": "Renewable Watch",
       "published_at": "2026-09-29",
-      "url": "https://renewablewatch.in/2026/09/29/renewables-on-the-rise-solar-and-wind-drive-capacity-growth-while-storage-gathers-momentum/",
+      "url": "https://renewablewatch.in/2026/09/29/cgn-commissions-2-gw-offshore-wind-project-in-guangdong/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "New York awards 1.7 GW clean energy projects",
+      "title": "Renewables on the Rise: Solar and wind drive capacity growth while storage gathers momentum",
       "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/25/new-york-awards-1-7-gw-clean-energy-projects/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Oyster Renewable to develop hybrid project for MS Agarwal Foundries",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/25/oyster-renewable-to-develop-hybrid-project-for-ms-agarwal-foundries/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Exploring Alternatives: Tamil Nadu widens its renewables horizon amidst wind slowdown",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-25",
-      "url": "https://renewablewatch.in/2026/09/25/exploring-alternatives-tamil-nadu-widens-its-renewables-horizon-amidst-wind-slowdown/",
+      "published_at": "2026-09-29",
+      "url": "https://renewablewatch.in/2026/09/29/renewables-on-the-rise-solar-and-wind-drive-capacity-growth-while-storage-gathers-momentum/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -284,7 +390,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
+      "url": "https://www.aa.com.tr/en/energy/finance",
       "reasons": [
         "风电相关性不足"
       ]
@@ -293,7 +399,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/finance",
+      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
       "reasons": [
         "风电相关性不足"
       ]
@@ -305,76 +411,6 @@
       "url": "https://www.aa.com.tr/en/energy/electricity",
       "reasons": [
         "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Chấp thuận chủ trương đầu tư dự án Nhà máy Điện gió Ia Le 2 (tỉnh Gia Lai)",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-09-16",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-du-an-nha-may-dien-gio-ia-le-2-tinh-gia-lai-36391.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Quan điểm của Chính phủ trong xử lý các dự án điện gió ở Lâm Đồng chồng lấn với quy hoạch khoáng sản",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-09-16",
-      "url": "https://nangluongvietnam.vn/quan-diem-cua-chinh-phu-trong-xu-ly-cac-du-an-dien-gio-o-lam-dong-chong-lan-voi-quy-hoach-khoang-san-36423.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-09-16",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-09-16",
-      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án điện gió An Phúc Đông Hải và Đông Hải 1, 3, 13 (giai đoạn tiếp theo)",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-09-16",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-dien-gio-an-phuc-dong-hai-va-dong-hai-1-3-13-giai-doan-tiep-theo-36554.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Việt Nam muốn phát triển điện gió ngoài khơi, năng lực logistics cũng phải sẵn sàng",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-09-16",
-      "url": "https://nangluongvietnam.vn/viet-nam-muon-phat-trien-dien-gio-ngoai-khoi-nang-luc-logistics-cung-phai-san-sang-36561.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "AKROCEAN triển khai thành công chiến dịch đo gió ngoài khơi thông qua hệ thống Floating LiDAR cho dự án Điện gió Nam Bộ 3",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-09-16",
-      "url": "https://nangluongvietnam.vn/akrocean-trien-khai-thanh-cong-chien-dich-do-gio-ngoai-khoi-thong-qua-he-thong-floating-lidar-cho-du-an-dien-gio-nam-bo-3-36645.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
       ]
     },
     {
@@ -500,16 +536,6 @@
       "url": "https://www.anev.org/2026/06/15/giornata-mondiale-del-vento-gli-italiani-chiedono-piu-sicurezza-e-riduzione-delle-bollette-l82-teme-gli-effetti-negativi-della-dipendenza-dalle-fossili-e-il-73-vede-nelle-rinnovabili-la-sol/",
       "reasons": [
         "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "CONCLUSO IL CONVEGNO DELL’ANEV A RIMINI, CONFRONTO SU EOLICO, TERRITORI E COMUNITÀ E PREMIAZIONE DEL PREMIO GIORNALISTICO ANEV – GIUSEPPE PASQUALICCHIO “ENERGIA DEL VENTO 2026” - ANEV",
-      "source_name": "ANEV",
-      "published_at": "2026-06-03",
-      "url": "https://www.anev.org/2026/03/06/concluso-il-convegno-dellanev-a-rimini-confronto-su-eolico-territori-e-comunita-e-premiazione-del-premio-giornalistico-anev-giuseppe-pasqualicchio-energia-del-vento-2026/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
       ]
     }
   ]
