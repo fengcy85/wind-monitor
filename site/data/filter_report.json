@@ -1,52 +1,22 @@
 {
-  "generated_at": "2026-10-02T00:30:22+00:00",
-  "before": 235,
-  "kept": 180,
-  "filtered_out": 55,
+  "generated_at": "2026-10-03T00:28:59+00:00",
+  "before": 237,
+  "kept": 194,
+  "filtered_out": 43,
   "tag_counts": {
-    "竞对资讯": 155,
-    "招标采购": 43,
+    "竞对资讯": 169,
+    "招标采购": 45,
+    "审批政策": 29,
     "电网建设": 17,
-    "审批政策": 22,
     "市场机制": 7,
-    "宏观政策": 2
+    "宏观政策": 3
   },
   "rejected_examples": [
     {
-      "title": "Eurus inks wind VPPAs with Toyota affiliates in Japan",
-      "source_name": "Renewables Now",
-      "published_at": "2026-10-01",
-      "url": "https://renewablesnow.com/news/eurus-inks-wind-vppas-with-toyota-affiliates-in-japan-1302242/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Taiwan gets two bids in 3.6-GW offshore wind round",
-      "source_name": "Renewables Now",
-      "published_at": "2026-10-01",
-      "url": "https://renewablesnow.com/news/taiwan-gets-two-bids-in-3-6-gw-offshore-wind-round-1302215/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Big boost for Scottish port as SSE makes its choices for offshore wind mega-project",
+      "title": "Bring it on! One Japanese region is determined to make offshore wind work",
       "source_name": "Recharge",
-      "published_at": "2026-10-01",
-      "url": "https://www.rechargenews.com/ports/big-boost-for-scottish-port-as-sse-makes-its-choices-for-offshore-wind-mega-project/2-1-2050388",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Lightning, snow and bears: How one Japanese region is hurdling offshore wind obstacles",
-      "source_name": "Recharge",
-      "published_at": "2026-10-01",
-      "url": "https://www.rechargenews.com/offshore-wind/lightning-snow-and-bears-how-one-japanese-region-is-hurdling-offshore-wind-obstacles/2-1-2043722",
+      "published_at": "2026-10-02",
+      "url": "https://www.rechargenews.com/offshore-wind/bring-it-on-one-japanese-region-is-determined-to-make-offshore-wind-work/2-1-2043722",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -73,20 +43,20 @@
       ]
     },
     {
-      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
+      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
       "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
       "published_at": "2026-10-01",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
+      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
+      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
       "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
       "published_at": "2026-10-01",
-      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -123,67 +93,12 @@
       ]
     },
     {
-      "title": "ACWA starts construction of 1.5 GW wind farm in Uzbekistan",
-      "source_name": "QazaqGreen",
-      "published_at": "2026-10-01",
-      "url": "https://qazaqgreen.com/en/news/central-asia/3878/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
       "title": "“Our aim is to digitise the project lifecycle”: Interview with Aditya Birla Renewables’ Narendra Somoshi",
       "source_name": "Renewable Watch",
       "published_at": "2026-10-01",
       "url": "https://renewablewatch.in/2026/10/01/our-aim-is-to-digitise-the-project-lifecycle-interview-with-aditya-birla-renewables-narendra-somoshi/",
       "reasons": [
         "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/09/25/esr-to-acquire-aquila-clean-energy-apac/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/09/25/oyster-renewable-to-develop-hybrid-project-for-ms-agarwal-foundries/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "October 1, 2026",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/10/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
-      "reasons": [
-        "标题无效/栏目标题"
       ]
     },
     {
@@ -244,12 +159,12 @@
       ]
     },
     {
-      "title": "September 30, 2026",
+      "title": "CleanMax and Nuvoco partner for 46.4 MW hybrid project in Rajasthan",
       "source_name": "Renewable Watch",
       "published_at": "2026-09-30",
-      "url": "https://renewablewatch.in/2026/09/",
+      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
       "reasons": [
-        "标题无效/栏目标题"
+        "风电相关性不足"
       ]
     },
     {
@@ -275,16 +190,6 @@
       "source_name": "ANEV",
       "published_at": "2026-09-29",
       "url": "https://www.anev.org/2026/09/29/wind-offshore-3/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "CGN commissions 2 GW offshore wind project in Guangdong",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-29",
-      "url": "https://renewablewatch.in/2026/09/29/cgn-commissions-2-gw-offshore-wind-project-in-guangdong/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -342,20 +247,10 @@
     {
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-23",
+      "published_at": "2026-09-24",
       "url": "https://www.aa.com.tr/en/energy/renewable",
       "reasons": [
         "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Türkiye seeks stronger international cooperation for resilient wind energy supply chains",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-23",
-      "url": "https://www.aa.com.tr/en/energy/wind/turkiye-seeks-stronger-international-cooperation-for-resilient-wind-energy-supply-chains/59763",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
       ]
     },
     {
@@ -363,6 +258,16 @@
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-23",
       "url": "https://www.aa.com.tr/en/energy/wind/global-wind-power-capacity-to-rise-by-more-than-180-gw-this-year/59784",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Türkiye seeks stronger international cooperation for resilient wind energy supply chains",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-23",
+      "url": "https://www.aa.com.tr/en/energy/wind/turkiye-seeks-stronger-international-cooperation-for-resilient-wind-energy-supply-chains/59763",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -390,7 +295,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/finance",
+      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
       "reasons": [
         "风电相关性不足"
       ]
@@ -399,7 +304,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
+      "url": "https://www.aa.com.tr/en/energy/finance",
       "reasons": [
         "风电相关性不足"
       ]
@@ -424,20 +329,10 @@
       ]
     },
     {
-      "title": "GERC Hears Dispute With GUVNL Over 200 MW Wind Project Delays",
+      "title": "GERC Dispute: Solarcraft Seeks Relief from GUVNL for Wind Project",
       "source_name": "WindInsider",
       "published_at": "2026-09-09",
       "url": "https://windinsider.com/2026/09/09/gerc-hears-dispute-with-guvnl-over-200-mw-wind-project-delays/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Sturdee Energy Enters Zambia With 200 MW Masaiti Wind Project",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-07",
-      "url": "https://windinsider.com/2026/09/07/sturdee-energy-enters-zambia-with-200-mw-masaiti-wind-project/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -489,16 +384,6 @@
       "url": "https://www.anev.org/2026/08/03/om-e-asset-management-corso-di-formazione-3-2026/",
       "reasons": [
         "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Europe transforms aging wind farms through \"repowering\" investments",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-07-31",
-      "url": "https://www.aa.com.tr/en/energy/wind/europe-transforms-aging-wind-farms-through-repowering-investments/58667",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
       ]
     },
     {

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T00:30:22+00:00",
+  "generated_at": "2026-10-03T00:28:59+00:00",
   "period": {
     "days": 7,
-    "start": "2026-09-26",
-    "end": "2026-10-02"
+    "start": "2026-09-27",
+    "end": "2026-10-03"
   },
   "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
   "count": 8,
@@ -16,8 +16,8 @@
     "审批政策"
   ],
   "tag_counts": {
-    "竞对资讯": 5,
-    "招标采购": 4,
+    "竞对资讯": 6,
+    "招标采购": 5,
     "市场机制": 0,
     "电网建设": 1,
     "宏观政策": 0,
@@ -48,12 +48,12 @@
       "importance_reason": "16 GW · 竞对资讯 · 招标采购"
     },
     {
-      "country": "哈萨克斯坦",
-      "source_name": "QazaqGreen",
-      "title": "A major wind farm worth KZT380 billion be built in Kostanay region",
-      "translated_title": "在科斯塔奈地区建造了价值3 800亿捷克先令的大风电场",
-      "published_at": "2026-10-01",
-      "url": "https://qazaqgreen.com/en/news/kazakhstan/3908/",
+      "country": "印度",
+      "source_name": "Renewable Watch",
+      "title": "Pacifico Energy secures license for 1.3 GW offshore wind project in Vietnam",
+      "translated_title": "越南1.3GW近海风能项目能源安全许可证",
+      "published_at": "2026-09-30",
+      "url": "https://renewablewatch.in/2026/09/30/pacifico-energy-secures-license-for-1-3-gw-offshore-wind-project-in-vietnam/",
       "tags": [
         "竞对资讯",
         "审批政策"
@@ -61,21 +61,21 @@
       "competitors": [
         "ReNew"
       ],
-      "monitor_reason": "正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
+      "monitor_reason": "审批/许可节点 · 竞对项目动态 · GW级项目 · 标题明确风电",
       "signals": [
-        "300 MW",
+        "3 GW",
         "竞对资讯",
         "审批政策"
       ],
       "rank": 2,
-      "importance_reason": "300 MW · 竞对资讯 · 审批政策"
+      "importance_reason": "3 GW · 竞对资讯 · 审批政策"
     },
     {
       "country": "哈萨克斯坦",
       "source_name": "QazaqGreen",
-      "title": "28.09.2026 Australia grants first licence under new offshore infrastructure regime",
+      "title": "Australia grants first licence under new offshore infrastructure regime",
       "translated_title": "澳大利亚根据新的离岸基础设施制度颁发第一张许可证",
-      "published_at": "2026-10-01",
+      "published_at": "2026-10-02",
       "url": "https://qazaqgreen.com/en/news/world/3898/",
       "tags": [
         "电网建设",
@@ -90,6 +90,30 @@
       ],
       "rank": 3,
       "importance_reason": "电网建设 · 审批政策 · 项目涉及电网/送出"
+    },
+    {
+      "country": "全球",
+      "source_name": "Recharge",
+      "title": "Vestas bags new onshore wind turbine orders totalling over 600MW",
+      "translated_title": "Vestas 新的岸上风电机组订单,共计600多兆瓦",
+      "published_at": "2026-10-02",
+      "url": "https://www.rechargenews.com/onshore-wind/vestas-bags-new-onshore-wind-turbine-orders-totalling-over-600mw/2-1-2051554",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "Vestas",
+        "ReNew"
+      ],
+      "monitor_reason": "招标/采购节点 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
+      "signals": [
+        "600 MW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 4,
+      "importance_reason": "600 MW · 竞对资讯 · 招标采购"
     },
     {
       "country": "全球",
@@ -112,32 +136,8 @@
         "竞对资讯",
         "招标采购"
       ],
-      "rank": 4,
-      "importance_reason": "536 MW · 竞对资讯 · 招标采购"
-    },
-    {
-      "country": "全球",
-      "source_name": "Recharge",
-      "title": "Vestas bags new onshore wind turbine orders totalling over 600MW",
-      "translated_title": "Vestas 新的岸上风电机组订单,共计600多兆瓦",
-      "published_at": "2026-10-01",
-      "url": "https://www.rechargenews.com/onshore-wind/vestas-bags-new-onshore-wind-turbine-orders-totalling-over-600mw/2-1-2051554",
-      "tags": [
-        "竞对资讯",
-        "招标采购"
-      ],
-      "competitors": [
-        "Vestas",
-        "ReNew"
-      ],
-      "monitor_reason": "招标/采购节点 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
-      "signals": [
-        "600 MW",
-        "竞对资讯",
-        "招标采购"
-      ],
       "rank": 5,
-      "importance_reason": "600 MW · 竞对资讯 · 招标采购"
+      "importance_reason": "536 MW · 竞对资讯 · 招标采购"
     },
     {
       "country": "全球",
@@ -162,49 +162,51 @@
       "importance_reason": "2.5 GW · 招标采购 · ReNew"
     },
     {
-      "country": "印度",
-      "source_name": "Renewable Watch",
-      "title": "Pacifico Energy secures license for 1.3 GW offshore wind project in Vietnam",
-      "translated_title": "越南1.3GW近海风能项目能源安全许可证",
-      "published_at": "2026-09-30",
-      "url": "https://renewablewatch.in/2026/09/30/pacifico-energy-secures-license-for-1-3-gw-offshore-wind-project-in-vietnam/",
+      "country": "全球",
+      "source_name": "Renewables Now",
+      "title": "Vestas reports 119 MW of Asia Pacific wind turbine orders at Q3-end",
+      "translated_title": "Vestas报告119兆瓦亚太风电机组订单Q3端",
+      "published_at": "2026-10-02",
+      "url": "https://renewablesnow.com/news/vestas-reports-119-mw-of-asia-pacific-wind-turbine-orders-at-q3-end-1302295/",
       "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "Vestas",
+        "ReNew"
+      ],
+      "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
+      "signals": [
+        "119 MW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 7,
+      "importance_reason": "119 MW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "哈萨克斯坦",
+      "source_name": "QazaqGreen",
+      "title": "A major wind farm worth KZT380 billion be built in Kostanay region",
+      "translated_title": "在科斯塔奈地区建造了价值3 800亿捷克先令的大风电场",
+      "published_at": "2026-10-02",
+      "url": "https://qazaqgreen.com/en/news/kazakhstan/3908/",
+      "tags": [
+        "竞对资讯",
         "审批政策"
       ],
       "competitors": [
         "ReNew"
       ],
-      "monitor_reason": "审批/许可节点 · GW级项目 · 标题明确风电",
+      "monitor_reason": "正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
       "signals": [
-        "1.3 GW",
-        "审批政策",
-        "ReNew"
-      ],
-      "rank": 7,
-      "importance_reason": "1.3 GW · 审批政策 · ReNew"
-    },
-    {
-      "country": "哈萨克斯坦",
-      "source_name": "QazaqGreen",
-      "title": "28.09.2026 Samruk-Kazyna and Chinese companies agree to jointly develop up to 1 GW wind power project",
-      "translated_title": "28.09.2026 萨姆鲁克-卡日纳和中国公司同意联合开发最多1个GW风能项目.",
-      "published_at": "2026-10-01",
-      "url": "https://qazaqgreen.com/en/news/kazakhstan/3897/",
-      "tags": [
-        "竞对资讯"
-      ],
-      "competitors": [
-        "Sany",
-        "ReNew"
-      ],
-      "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
-      "signals": [
-        "1 GW",
+        "300 MW",
         "竞对资讯",
-        "Sany"
+        "审批政策"
       ],
       "rank": 8,
-      "importance_reason": "1 GW · 竞对资讯 · Sany"
+      "importance_reason": "300 MW · 竞对资讯 · 审批政策"
     }
   ]
 }
