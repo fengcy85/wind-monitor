@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T03:21:26+00:00",
-  "before": 243,
-  "kept": 196,
-  "filtered_out": 47,
+  "generated_at": "2026-10-05T00:30:57+00:00",
+  "before": 238,
+  "kept": 197,
+  "filtered_out": 41,
   "tag_counts": {
-    "竞对资讯": 170,
+    "竞对资讯": 172,
     "招标采购": 45,
     "审批政策": 29,
     "电网建设": 17,
@@ -141,51 +141,6 @@
       ]
     },
     {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/09/25/esr-to-acquire-aquila-clean-energy-apac/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/09/21/juniper-green-commissions-75-mw-hybrid-project-in-maharashtra/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/09/25/oyster-renewable-to-develop-hybrid-project-for-ms-agarwal-foundries/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "October 1, 2026",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/10/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
       "title": "Training & Education - News | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
       "published_at": "2026-09-30",
@@ -195,12 +150,12 @@
       ]
     },
     {
-      "title": "September 30, 2026",
+      "title": "CleanMax and Nuvoco partner for 46.4 MW hybrid project in Rajasthan",
       "source_name": "Renewable Watch",
       "published_at": "2026-09-30",
-      "url": "https://renewablewatch.in/2026/09/",
+      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
       "reasons": [
-        "标题无效/栏目标题"
+        "风电相关性不足"
       ]
     },
     {
@@ -226,16 +181,6 @@
       "source_name": "ANEV",
       "published_at": "2026-09-29",
       "url": "https://www.anev.org/2026/09/29/wind-offshore-3/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "CGN commissions 2 GW offshore wind project in Guangdong",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-29",
-      "url": "https://renewablewatch.in/2026/09/29/cgn-commissions-2-gw-offshore-wind-project-in-guangdong/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -375,7 +320,7 @@
       ]
     },
     {
-      "title": "GERC Hears Dispute With GUVNL Over 200 MW Wind Project Delays",
+      "title": "GERC Dispute: Solarcraft Seeks Relief from GUVNL for Wind Project",
       "source_name": "WindInsider",
       "published_at": "2026-09-09",
       "url": "https://windinsider.com/2026/09/09/gerc-hears-dispute-with-guvnl-over-200-mw-wind-project-delays/",
