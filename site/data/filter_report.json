@@ -1,17 +1,67 @@
 {
-  "generated_at": "2026-10-06T00:31:03+00:00",
-  "before": 250,
-  "kept": 203,
-  "filtered_out": 47,
+  "generated_at": "2026-10-07T00:31:53+00:00",
+  "before": 261,
+  "kept": 211,
+  "filtered_out": 50,
   "tag_counts": {
-    "竞对资讯": 177,
-    "招标采购": 45,
-    "审批政策": 26,
+    "竞对资讯": 185,
+    "招标采购": 46,
+    "审批政策": 24,
     "电网建设": 17,
     "市场机制": 7,
     "宏观政策": 3
   },
   "rejected_examples": [
+    {
+      "title": "EMEC gets GBP-3m funding from UK for deepwater wind test site",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-06",
+      "url": "https://renewablesnow.com/news/emec-gets-gbp-3m-funding-from-uk-for-deepwater-wind-test-site-1302543/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "World's floating wind capacity reaches 382 MW - RenewableUK",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-06",
+      "url": "https://renewablesnow.com/news/worlds-floating-wind-capacity-reaches-382-mw-renewableuk-1302525/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Cost of capital, standardisation key to cutting floating wind costs",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-06",
+      "url": "https://renewablesnow.com/news/cost-of-capital-standardisation-key-to-cutting-floating-wind-costs-1302505/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Turkey's renewables share hits 56.4% in Aug as solar, wind set record",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-06",
+      "url": "https://renewablesnow.com/news/turkeys-renewables-share-hits-56-4-percent-in-aug-as-solar-wind-set-record-1302501/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Austrian province clears way for up to 700 MW of new wind capacity",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-06",
+      "url": "https://renewablesnow.com/news/austrian-province-clears-way-for-up-to-700-mw-of-new-wind-capacity-1302485/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
     {
       "title": "Quan điểm của Chính phủ trong xử lý các dự án điện gió ở Lâm Đồng chồng lấn với quy hoạch khoáng sản",
       "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
@@ -73,10 +123,20 @@
       ]
     },
     {
-      "title": "Training & Education - News | Energetica India Magazine",
-      "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-10-05",
-      "url": "https://www.energetica-india.net/news/training-and-education",
+      "title": "China completes world’s tallest wind measurement tower",
+      "source_name": "QazaqGreen",
+      "published_at": "2026-10-06",
+      "url": "https://qazaqgreen.com/en/news/world/3917/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Vardhman Textiles and Serentica partner for captive hybrid project",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-06",
+      "url": "https://renewablewatch.in/2026/10/06/vardhman-textiles-and-serentica-partner-for-captive-hybrid-project/",
       "reasons": [
         "风电相关性不足"
       ]
@@ -138,15 +198,6 @@
       ]
     },
     {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-05",
-      "url": "https://renewablewatch.in/2026/09/25/esr-to-acquire-aquila-clean-energy-apac/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
       "title": "Sumitro Corporation to acquire stake in HFE’s 500 MW renewable energy project in Karnataka",
       "source_name": "Renewable Watch",
       "published_at": "2026-10-05",
@@ -156,49 +207,21 @@
       ]
     },
     {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-05",
-      "url": "https://renewablewatch.in/2026/09/25/oyster-renewable-to-develop-hybrid-project-for-ms-agarwal-foundries/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "October 5, 2026",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-05",
-      "url": "https://renewablewatch.in/2026/10/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-05",
-      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Foresight reaches financial close for Kondinin wind farm in Australia",
+      "title": "“Our aim is to digitise the project lifecycle”: Interview with Aditya Birla Renewables’ Narendra Somoshi",
       "source_name": "Renewable Watch",
       "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/10/01/foresight-reaches-financial-close-for-kondinin-wind-farm-in-australia/",
+      "url": "https://renewablewatch.in/2026/10/01/our-aim-is-to-digitise-the-project-lifecycle-interview-with-aditya-birla-renewables-narendra-somoshi/",
       "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
+        "风电相关性不足"
       ]
     },
     {
-      "title": "September 30, 2026",
+      "title": "CleanMax and Nuvoco partner for 46.4 MW hybrid project in Rajasthan",
       "source_name": "Renewable Watch",
       "published_at": "2026-09-30",
-      "url": "https://renewablewatch.in/2026/09/",
+      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
       "reasons": [
-        "标题无效/栏目标题"
+        "风电相关性不足"
       ]
     },
     {
@@ -230,23 +253,31 @@
       ]
     },
     {
-      "title": "CGN commissions 2 GW offshore wind project in Guangdong",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-29",
-      "url": "https://renewablewatch.in/2026/09/29/cgn-commissions-2-gw-offshore-wind-project-in-guangdong/",
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-25",
+      "url": "https://www.aa.com.tr/en/energy/renewable",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Türkiye's first offshore wind YEKA project expected to draw $3B investment",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-25",
+      "url": "https://www.aa.com.tr/en/energy/electricity/turkiyes-first-offshore-wind-yeka-project-expected-to-draw-3b-investment/59836",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Renewables on the Rise: Solar and wind drive capacity growth while storage gathers momentum",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-29",
-      "url": "https://renewablewatch.in/2026/09/29/renewables-on-the-rise-solar-and-wind-drive-capacity-growth-while-storage-gathers-momentum/",
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-25",
+      "url": "https://www.aa.com.tr/en/energy/electricity",
       "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
+        "风电相关性不足"
       ]
     },
     {
@@ -286,15 +317,6 @@
       "reasons": [
         "标题明确风电",
         "低价值内容"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-24",
-      "url": "https://www.aa.com.tr/en/energy/renewable",
-      "reasons": [
-        "风电相关性不足"
       ]
     },
     {
@@ -354,15 +376,6 @@
       ]
     },
     {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/electricity",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
       "title": "EBRD backs 131 MW wind farm in North Macedonia",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-11",
@@ -373,7 +386,7 @@
       ]
     },
     {
-      "title": "GERC Hears Dispute With GUVNL Over 200 MW Wind Project Delays",
+      "title": "GERC Dispute: Solarcraft Seeks Relief from GUVNL for Wind Project",
       "source_name": "WindInsider",
       "published_at": "2026-09-09",
       "url": "https://windinsider.com/2026/09/09/gerc-hears-dispute-with-guvnl-over-200-mw-wind-project-delays/",
@@ -456,6 +469,26 @@
       "url": "https://www.anev.org/2026/06/15/giornata-mondiale-del-vento-gli-italiani-chiedono-piu-sicurezza-e-riduzione-delle-bollette-l82-teme-gli-effetti-negativi-della-dipendenza-dalle-fossili-e-il-73-vede-nelle-rinnovabili-la-sol/",
       "reasons": [
         "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "Worker dies at wind turbine tower factory in Portugal",
+      "source_name": "Recharge",
+      "published_at": "2026-06-10",
+      "url": "https://www.rechargenews.com/accidents-and-casualties/worker-dies-at-wind-turbine-tower-factory-in-portugal/2-1-2052625",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Worst year ever for one Nordic nation's wind industry",
+      "source_name": "Recharge",
+      "published_at": "2026-06-10",
+      "url": "https://www.rechargenews.com/analysis/worst-year-ever-for-one-nordic-nations-wind-industry/2-1-2053588",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
       ]
     }
   ]

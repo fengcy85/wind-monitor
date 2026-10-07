@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-06T00:31:03+00:00",
+  "generated_at": "2026-10-07T00:31:53+00:00",
   "period": {
     "days": 7,
-    "start": "2026-09-30",
-    "end": "2026-10-06"
+    "start": "2026-10-01",
+    "end": "2026-10-07"
   },
   "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
   "count": 8,
@@ -53,7 +53,7 @@
       "source_name": "QazaqGreen",
       "title": "01.10.2026 A major wind farm worth KZT380 billion be built in Kostanay region",
       "translated_title": "在科斯塔奈地区建造了价值3 800亿捷克先令的大风电场",
-      "published_at": "2026-10-05",
+      "published_at": "2026-10-06",
       "url": "https://qazaqgreen.com/en/news/kazakhstan/3908/",
       "tags": [
         "竞对资讯",
@@ -140,31 +140,6 @@
       "importance_reason": "1 GW · 竞对资讯 · Sany"
     },
     {
-      "country": "全球",
-      "source_name": "Recharge",
-      "title": "Orsted and CIP reportedly facing off in Taiwan offshore wind auction",
-      "translated_title": "据报道,Orsted和CIP在台湾的岸外风能拍卖中正对着他们",
-      "published_at": "2026-10-05",
-      "url": "https://www.rechargenews.com/auctions/orsted-and-cip-reportedly-facing-off-in-taiwan-offshore-wind-auction/2-1-2051774",
-      "tags": [
-        "竞对资讯",
-        "招标采购"
-      ],
-      "competitors": [
-        "Orsted",
-        "CIP",
-        "ReNew"
-      ],
-      "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
-      "signals": [
-        "竞对资讯",
-        "招标采购",
-        "Orsted"
-      ],
-      "rank": 6,
-      "importance_reason": "竞对资讯 · 招标采购 · Orsted"
-    },
-    {
       "country": "印度",
       "source_name": "Energetica India – Wind Power",
       "title": "Renewable energy > Wind Power - News | Energetica India Magazine",
@@ -185,7 +160,7 @@
         "竞对资讯",
         "审批政策"
       ],
-      "rank": 7,
+      "rank": 6,
       "importance_reason": "135 MW · 竞对资讯 · 审批政策"
     },
     {
@@ -208,8 +183,33 @@
         "招标采购",
         "ReNew"
       ],
-      "rank": 8,
+      "rank": 7,
       "importance_reason": "竞对资讯 · 招标采购 · ReNew"
+    },
+    {
+      "country": "全球",
+      "source_name": "Recharge",
+      "title": "Orsted and CIP reportedly facing off in Taiwan offshore wind auction",
+      "translated_title": "据报道,Orsted和CIP在台湾的岸外风能拍卖中正对着他们",
+      "published_at": "2026-10-05",
+      "url": "https://www.rechargenews.com/auctions/orsted-and-cip-reportedly-facing-off-in-taiwan-offshore-wind-auction/2-1-2051774",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "Orsted",
+        "CIP",
+        "ReNew"
+      ],
+      "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
+      "signals": [
+        "竞对资讯",
+        "招标采购",
+        "Orsted"
+      ],
+      "rank": 8,
+      "importance_reason": "竞对资讯 · 招标采购 · Orsted"
     }
   ]
 }
