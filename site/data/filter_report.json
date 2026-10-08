@@ -1,65 +1,138 @@
 {
-  "generated_at": "2026-10-07T00:31:53+00:00",
-  "before": 261,
-  "kept": 211,
-  "filtered_out": 50,
+  "generated_at": "2026-10-08T00:30:57+00:00",
+  "before": 272,
+  "kept": 218,
+  "filtered_out": 54,
   "tag_counts": {
-    "竞对资讯": 185,
-    "招标采购": 46,
-    "审批政策": 24,
+    "竞对资讯": 192,
+    "招标采购": 50,
+    "审批政策": 23,
     "电网建设": 17,
     "市场机制": 7,
     "宏观政策": 3
   },
   "rejected_examples": [
     {
-      "title": "EMEC gets GBP-3m funding from UK for deepwater wind test site",
+      "title": "Intilion to set up 98-MWh battery at German wind park",
       "source_name": "Renewables Now",
-      "published_at": "2026-10-06",
-      "url": "https://renewablesnow.com/news/emec-gets-gbp-3m-funding-from-uk-for-deepwater-wind-test-site-1302543/",
+      "published_at": "2026-10-07",
+      "url": "https://renewablesnow.com/news/intilion-to-set-up-98-mwh-battery-at-german-wind-park-1302576/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "World's floating wind capacity reaches 382 MW - RenewableUK",
+      "title": "Neretek, Vestas to collaborate on deeper-water offshore wind",
       "source_name": "Renewables Now",
-      "published_at": "2026-10-06",
-      "url": "https://renewablesnow.com/news/worlds-floating-wind-capacity-reaches-382-mw-renewableuk-1302525/",
+      "published_at": "2026-10-07",
+      "url": "https://renewablesnow.com/news/neretek-vestas-to-collaborate-on-deeper-water-offshore-wind-1302575/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Cost of capital, standardisation key to cutting floating wind costs",
+      "title": "Nadara seals 200 GWh/yr wind PPA with BKW in France",
       "source_name": "Renewables Now",
-      "published_at": "2026-10-06",
-      "url": "https://renewablesnow.com/news/cost-of-capital-standardisation-key-to-cutting-floating-wind-costs-1302505/",
+      "published_at": "2026-10-07",
+      "url": "https://renewablesnow.com/news/nadara-seals-200-gwhyr-wind-ppa-with-bkw-in-france-1302551/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Turkey's renewables share hits 56.4% in Aug as solar, wind set record",
-      "source_name": "Renewables Now",
-      "published_at": "2026-10-06",
-      "url": "https://renewablesnow.com/news/turkeys-renewables-share-hits-56-4-percent-in-aug-as-solar-wind-set-record-1302501/",
+      "title": "06.10.2026 China completes world’s tallest wind measurement tower",
+      "source_name": "QazaqGreen",
+      "published_at": "2026-10-07",
+      "url": "https://qazaqgreen.com/en/news/world/3917/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Austrian province clears way for up to 700 MW of new wind capacity",
-      "source_name": "Renewables Now",
-      "published_at": "2026-10-06",
-      "url": "https://renewablesnow.com/news/austrian-province-clears-way-for-up-to-700-mw-of-new-wind-capacity-1302485/",
+      "title": "Pralhad Joshi to Inaugurate Windergy India 2026 in Chennai",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-10-07",
+      "url": "https://www.energetica-india.net/news/pralhad-joshi-to-inaugurate-windergy-india-2026-in-chennai",
+      "reasons": [
+        "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "Free subscription magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-10-07",
+      "url": "https://www.energetica-india.net/news/renewable-energy/subscriptions/printed-magazine",
+      "reasons": [
+        "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "Windergy India 2026 Charts India’s Wind Growth Path - Asia Pacific | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-10-07",
+      "url": "https://www.energetica-india.net/news/windergy-india-2026-charts-indias-wind-growth-path",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
+      ]
+    },
+    {
+      "title": "KPI Green Energy to Acquire 507.9 MW Wind Portfolio for INR 2,410 Crore - Asia Pacific | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-10-07",
+      "url": "https://www.energetica-india.net/news/kpi-green-energy-to-acquire-507-9-mw-wind-portfolio-for-inr-2410-crore",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "October 7, 2026",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-07",
+      "url": "https://renewablewatch.in/2026/10/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-07",
+      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Tech Focus",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-07",
+      "url": "https://renewablewatch.in/2026/10/05/india-needs-to-improve-its-design-capabilities-interview-with-gurits-jesper-sloth/",
+      "reasons": [
+        "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "Projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-07",
+      "url": "https://renewablewatch.in/2026/10/05/actis-launches-leo-energies-in-india/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Financings",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-07",
+      "url": "https://renewablewatch.in/2026/10/05/sumitro-corporation-to-acquire-stake-in-hfes-500-mw-renewable-energy-project-in-karnataka/",
+      "reasons": [
+        "正文明确涉及风电"
       ]
     },
     {
@@ -123,16 +196,6 @@
       ]
     },
     {
-      "title": "China completes world’s tallest wind measurement tower",
-      "source_name": "QazaqGreen",
-      "published_at": "2026-10-06",
-      "url": "https://qazaqgreen.com/en/news/world/3917/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
       "title": "Vardhman Textiles and Serentica partner for captive hybrid project",
       "source_name": "Renewable Watch",
       "published_at": "2026-10-06",
@@ -142,86 +205,23 @@
       ]
     },
     {
-      "title": "Pralhad Joshi to Inaugurate Windergy India 2026 in Chennai",
-      "source_name": "Energetica India – Wind Power",
+      "title": "KPI Green Energy to acquire 507.9 MW wind portfolio from Alfanar Group",
+      "source_name": "Renewable Watch",
       "published_at": "2026-10-05",
-      "url": "https://www.energetica-india.net/news/pralhad-joshi-to-inaugurate-windergy-india-2026-in-chennai",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Free subscription magazine",
-      "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-10-05",
-      "url": "https://www.energetica-india.net/news/renewable-energy/subscriptions/printed-magazine",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Windergy India 2026 Charts India’s Wind Growth Path - Asia Pacific | Energetica India Magazine",
-      "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-10-05",
-      "url": "https://www.energetica-india.net/news/windergy-india-2026-charts-indias-wind-growth-path",
+      "url": "https://renewablewatch.in/2026/10/05/kpi-green-energy-to-acquire-507-9-mw-wind-portfolio-from-alfanar-group/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "KPI Green Energy to Acquire 507.9 MW Wind Portfolio for INR 2,410 Crore - Asia Pacific | Energetica India Magazine",
-      "source_name": "Energetica India – Wind Power",
-      "published_at": "2026-10-05",
-      "url": "https://www.energetica-india.net/news/kpi-green-energy-to-acquire-507-9-mw-wind-portfolio-for-inr-2410-crore",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "“India needs to improve its design capabilities”: Interview with Gurit’s Jesper Sloth",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-05",
-      "url": "https://renewablewatch.in/2026/10/05/india-needs-to-improve-its-design-capabilities-interview-with-gurits-jesper-sloth/",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Actis launches Leo Energies in India",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-05",
-      "url": "https://renewablewatch.in/2026/10/05/actis-launches-leo-energies-in-india/",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Sumitro Corporation to acquire stake in HFE’s 500 MW renewable energy project in Karnataka",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-05",
-      "url": "https://renewablewatch.in/2026/10/05/sumitro-corporation-to-acquire-stake-in-hfes-500-mw-renewable-energy-project-in-karnataka/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "“Our aim is to digitise the project lifecycle”: Interview with Aditya Birla Renewables’ Narendra Somoshi",
+      "title": "Foresight reaches financial close for Kondinin wind farm in Australia",
       "source_name": "Renewable Watch",
       "published_at": "2026-10-01",
-      "url": "https://renewablewatch.in/2026/10/01/our-aim-is-to-digitise-the-project-lifecycle-interview-with-aditya-birla-renewables-narendra-somoshi/",
+      "url": "https://renewablewatch.in/2026/10/01/foresight-reaches-financial-close-for-kondinin-wind-farm-in-australia/",
       "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "CleanMax and Nuvoco partner for 46.4 MW hybrid project in Rajasthan",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-09-30",
-      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
-      "reasons": [
-        "风电相关性不足"
+        "无六类监测标签",
+        "标题明确风电"
       ]
     },
     {
@@ -253,6 +253,24 @@
       ]
     },
     {
+      "title": "SEMINARIO VIA - ANEV",
+      "source_name": "ANEV",
+      "published_at": "2026-09-28",
+      "url": "https://www.anev.org/2026/09/28/seminario-via/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-25",
+      "url": "https://www.aa.com.tr/en/energy/electricity",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-25",
@@ -269,15 +287,6 @@
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-25",
-      "url": "https://www.aa.com.tr/en/energy/electricity",
-      "reasons": [
-        "风电相关性不足"
       ]
     },
     {
@@ -361,7 +370,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
+      "url": "https://www.aa.com.tr/en/energy/finance",
       "reasons": [
         "风电相关性不足"
       ]
@@ -370,7 +379,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/finance",
+      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
       "reasons": [
         "风电相关性不足"
       ]
@@ -386,7 +395,7 @@
       ]
     },
     {
-      "title": "GERC Dispute: Solarcraft Seeks Relief from GUVNL for Wind Project",
+      "title": "GERC Hears Dispute With GUVNL Over 200 MW Wind Project Delays",
       "source_name": "WindInsider",
       "published_at": "2026-09-09",
       "url": "https://windinsider.com/2026/09/09/gerc-hears-dispute-with-guvnl-over-200-mw-wind-project-delays/",
@@ -439,6 +448,36 @@
       "source_name": "MME",
       "published_at": "2026-07-28",
       "url": "https://www.gov.br/mme/pt-br/assuntos/noticias/eolica-offshore-publicada-metodologia-de-selecao-de-areas-ofertadas-no-pais",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "'Stop, reset': Over 600 wind assets exposed to cyberattacks across Europe, finds report",
+      "source_name": "Recharge",
+      "published_at": "2026-07-10",
+      "url": "https://www.rechargenews.com/energy-security/stop-reset-over-600-wind-assets-exposed-to-cyberattacks-across-europe-finds-report/2-1-2054937",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Inox Green Completes INR 550 Crore WWIL Wind O&M Deal - Asia Pacific | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-07-10",
+      "url": "https://www.energetica-india.net/news/inox-green-completes-inr-550-crore-wwil-wind-om-deal",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Purvah Green Signs PPA with SECI for 175 MW Wind Project - Asia Pacific | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-07-10",
+      "url": "https://www.energetica-india.net/news/purvah-green-signs-ppa-with-seci-for-175-mw-wind-project",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
