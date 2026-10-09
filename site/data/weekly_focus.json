@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-08T00:30:57+00:00",
+  "generated_at": "2026-10-09T00:32:33+00:00",
   "period": {
     "days": 7,
-    "start": "2026-10-02",
-    "end": "2026-10-08"
+    "start": "2026-10-03",
+    "end": "2026-10-09"
   },
   "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
   "count": 8,
@@ -17,13 +17,110 @@
   ],
   "tag_counts": {
     "竞对资讯": 7,
-    "招标采购": 3,
-    "市场机制": 0,
+    "招标采购": 5,
+    "市场机制": 1,
     "电网建设": 1,
     "宏观政策": 0,
     "审批政策": 3
   },
   "items": [
+    {
+      "country": "全球",
+      "source_name": "Renewables Now",
+      "title": "German association pushes for CfD-only offshore wind tenders",
+      "translated_title": "德国协会推动只有CfD的岸外风能招标",
+      "published_at": "2026-10-08",
+      "url": "https://renewablesnow.com/news/german-association-pushes-for-cfd-only-offshore-wind-tenders-1302672/",
+      "tags": [
+        "招标采购",
+        "市场机制"
+      ],
+      "competitors": [
+        "ReNew"
+      ],
+      "monitor_reason": "招标/采购节点 · 电价/市场机制 · 标题明确风电",
+      "signals": [
+        "招标采购",
+        "市场机制",
+        "ReNew"
+      ],
+      "rank": 1,
+      "importance_reason": "招标采购 · 市场机制 · ReNew"
+    },
+    {
+      "country": "印度",
+      "source_name": "Energetica India – Wind Power",
+      "title": "NTPC REL Invites Bids for 215 MW Wind Project in Madhya Pradesh - Asia Pacific | Energetica India Magazine",
+      "translated_title": "NTPC REL 邀请参加中央邦215兆瓦风能项目的投标-亚太",
+      "published_at": "2026-10-09",
+      "url": "https://www.energetica-india.net/news/ntpc-rel-invites-bids-for-215-mw-wind-project-in-madhya-pradesh",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "ReNew",
+        "NTPC Renewable Energy",
+        "NTPC REL"
+      ],
+      "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
+      "signals": [
+        "215 MW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 2,
+      "importance_reason": "215 MW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "全球",
+      "source_name": "Recharge",
+      "title": "Mika Ohbayashi Progress and challenges in the quest to grow offshore wind in Japan opinion 05.10.2026",
+      "translated_title": "大林美嘉在日本寻求发展近海风力方面的进展和挑战",
+      "published_at": "2026-10-08",
+      "url": "https://www.rechargenews.com/opinion/progress-and-challenges-in-the-quest-to-grow-offshore-wind-in-japan/2-1-2046756",
+      "tags": [
+        "竞对资讯",
+        "招标采购",
+        "审批政策"
+      ],
+      "competitors": [
+        "RWE",
+        "Equinor",
+        "TotalEnergies"
+      ],
+      "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
+      "signals": [
+        "竞对资讯",
+        "招标采购",
+        "RWE"
+      ],
+      "rank": 3,
+      "importance_reason": "竞对资讯 · 招标采购 · RWE"
+    },
+    {
+      "country": "印度",
+      "source_name": "Renewable Watch",
+      "title": "UltraTech commissions 116.55 MW wind capacity in Rajasthan",
+      "translated_title": "拉贾斯坦邦的超技术委员会 116.55兆瓦风能",
+      "published_at": "2026-10-07",
+      "url": "https://renewablewatch.in/2026/10/07/ultratech-commissions-116-55-mw-wind-capacity-in-rajasthan/",
+      "tags": [
+        "竞对资讯",
+        "电网建设"
+      ],
+      "competitors": [
+        "ReNew"
+      ],
+      "monitor_reason": "项目涉及电网/送出 · 竞对项目动态 · 标题明确风电",
+      "signals": [
+        "117 MW",
+        "竞对资讯",
+        "电网建设"
+      ],
+      "rank": 4,
+      "importance_reason": "117 MW · 竞对资讯 · 电网建设"
+    },
     {
       "country": "全球",
       "source_name": "Recharge",
@@ -45,129 +142,42 @@
         "竞对资讯",
         "招标采购"
       ],
-      "rank": 1,
+      "rank": 5,
       "importance_reason": "600 MW · 竞对资讯 · 招标采购"
     },
     {
       "country": "全球",
       "source_name": "Recharge",
-      "title": "Wind left waiting as US permitting overhaul targets wider energy bottleneck policy 02.10.2026",
-      "translated_title": "随着美国允许大修,风力离开 目标更广阔的能源瓶颈政策",
-      "published_at": "2026-10-07",
-      "url": "https://www.rechargenews.com/policy/wind-left-waiting-as-us-permitting-overhaul-targets-wider-energy-bottleneck/2-1-2052789",
+      "title": "Second Siemens Gamesa turbine issue at same Orsted offshore wind farm in two months accidents and casualties 05.10.2026",
+      "translated_title": "第二次西门子赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛",
+      "published_at": "2026-10-08",
+      "url": "https://www.rechargenews.com/accidents-and-casualties/second-siemens-gamesa-turbine-issue-at-same-orsted-offshore-wind-farm-in-two-months/2-1-2053655",
       "tags": [
         "竞对资讯",
         "招标采购",
         "审批政策"
       ],
       "competitors": [
-        "Vestas",
+        "Siemens Gamesa",
         "Orsted",
         "RWE",
         "Equinor"
       ],
-      "monitor_reason": "正文含招标/采购 · 审批/许可节点 · 竞对项目动态 · 标题明确风电",
+      "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
       "signals": [
         "竞对资讯",
         "招标采购",
-        "Vestas"
-      ],
-      "rank": 2,
-      "importance_reason": "竞对资讯 · 招标采购 · Vestas"
-    },
-    {
-      "country": "哈萨克斯坦",
-      "source_name": "QazaqGreen",
-      "title": "Australia grants first licence under new offshore infrastructure regime",
-      "translated_title": "澳大利亚根据新的离岸基础设施制度颁发第一张许可证",
-      "published_at": "2026-10-05",
-      "url": "https://qazaqgreen.com/en/news/world/3898/",
-      "tags": [
-        "电网建设",
-        "审批政策"
-      ],
-      "competitors": [],
-      "monitor_reason": "项目涉及电网/送出 · 审批/许可节点 · 标题明确风电",
-      "signals": [
-        "电网建设",
-        "审批政策",
-        "项目涉及电网/送出"
-      ],
-      "rank": 3,
-      "importance_reason": "电网建设 · 审批政策 · 项目涉及电网/送出"
-    },
-    {
-      "country": "全球",
-      "source_name": "Renewables Now",
-      "title": "Inox Green wraps up buy of Wind World’s 4.5-GW renewable O&M ops",
-      "translated_title": "Inox Green 结束了对Wind World4.5-GW可再生 O&M业务的收购",
-      "published_at": "2026-10-07",
-      "url": "https://renewablesnow.com/news/inox-green-wraps-up-buy-of-wind-worlds-4-5-gw-renewable-om-ops-1302558/",
-      "tags": [
-        "竞对资讯"
-      ],
-      "competitors": [
-        "ReNew"
-      ],
-      "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
-      "signals": [
-        "4.5 GW",
-        "竞对资讯",
-        "ReNew"
-      ],
-      "rank": 4,
-      "importance_reason": "4.5 GW · 竞对资讯 · ReNew"
-    },
-    {
-      "country": "印度",
-      "source_name": "Energetica India – Wind Power",
-      "title": "Rezolv Energy Energises 192 MW Wind Project in Romania",
-      "translated_title": "罗马尼亚Rezolv能源能源能源192兆瓦风能项目",
-      "published_at": "2026-10-07",
-      "url": "https://www.energetica-india.net/news/rezolv-energy-energises-192-mw-wind-project-in-romania",
-      "tags": [
-        "竞对资讯"
-      ],
-      "competitors": [
-        "ReNew"
-      ],
-      "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
-      "signals": [
-        "4.5 GW",
-        "竞对资讯",
-        "ReNew"
-      ],
-      "rank": 5,
-      "importance_reason": "4.5 GW · 竞对资讯 · ReNew"
-    },
-    {
-      "country": "印度",
-      "source_name": "Energetica India – Wind Power",
-      "title": "Alfanar to Sell 507.9 MW Gujarat Wind Portfolio to KPI Green",
-      "translated_title": "Alfanar向KPI Green出售507.9兆瓦古吉拉特风能组合",
-      "published_at": "2026-10-07",
-      "url": "https://www.energetica-india.net/news/alfanar-to-sell-5079-mw-gujarat-wind-portfolio-to-kpi-green",
-      "tags": [
-        "竞对资讯"
-      ],
-      "competitors": [
-        "ReNew"
-      ],
-      "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
-      "signals": [
-        "4.5 GW",
-        "竞对资讯",
-        "ReNew"
+        "Siemens Gamesa"
       ],
       "rank": 6,
-      "importance_reason": "4.5 GW · 竞对资讯 · ReNew"
+      "importance_reason": "竞对资讯 · 招标采购 · Siemens Gamesa"
     },
     {
       "country": "哈萨克斯坦",
       "source_name": "QazaqGreen",
       "title": "A major wind farm worth KZT380 billion be built in Kostanay region",
       "translated_title": "在科斯塔奈地区建造了价值3 800亿捷克先令的大风电场",
-      "published_at": "2026-10-07",
+      "published_at": "2026-10-08",
       "url": "https://qazaqgreen.com/en/news/kazakhstan/3908/",
       "tags": [
         "竞对资讯",
@@ -186,30 +196,26 @@
       "importance_reason": "300 MW · 竞对资讯 · 审批政策"
     },
     {
-      "country": "全球",
-      "source_name": "Recharge",
-      "title": "Second Siemens Gamesa turbine issue at same Orsted offshore wind farm in two months accidents and casualties 05.10.2026",
-      "translated_title": "第二次西门子赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛马赛",
+      "country": "印度",
+      "source_name": "Renewable Watch",
+      "title": "Inox Green acquires WWIL’s 4.5 GW wind O&M business",
+      "translated_title": "Inox Green 收购 WWIL 的 4.5 GW风能 O&M 业务",
       "published_at": "2026-10-07",
-      "url": "https://www.rechargenews.com/accidents-and-casualties/second-siemens-gamesa-turbine-issue-at-same-orsted-offshore-wind-farm-in-two-months/2-1-2053655",
+      "url": "https://renewablewatch.in/2026/10/07/inox-green-acquires-wwils-4-5-gw-wind-om-business/",
       "tags": [
-        "竞对资讯",
-        "招标采购"
+        "竞对资讯"
       ],
       "competitors": [
-        "Vestas",
-        "Siemens Gamesa",
-        "Orsted",
-        "RWE"
+        "ReNew"
       ],
-      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · 标题明确风电",
+      "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
       "signals": [
+        "5 GW",
         "竞对资讯",
-        "招标采购",
-        "Vestas"
+        "ReNew"
       ],
       "rank": 8,
-      "importance_reason": "竞对资讯 · 招标采购 · Vestas"
+      "importance_reason": "5 GW · 竞对资讯 · ReNew"
     }
   ]
 }
