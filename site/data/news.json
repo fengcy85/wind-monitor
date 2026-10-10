@@ -1,5 +1,407 @@
 [
   {
+    "country": "全球",
+    "source_name": "Renewables Now",
+    "role": "全球风电新闻",
+    "title": "HSI Joint Venture ships two offshore substations for German wind farm",
+    "published_at": "2026-10-09",
+    "url": "https://renewablesnow.com/news/hsi-joint-venture-ships-two-offshore-substations-for-german-wind-farm-1302776/",
+    "excerpt": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nVerification successful. Waiting for renewablesnow.com to respond",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:33:00+00:00",
+    "translated_title": "HSI合资公司为德国风力发电场建造了两个岸外分站",
+    "tags": [
+      "竞对资讯",
+      "电网建设"
+    ],
+    "strategic_score": 22,
+    "monitor_reason": "电网/送出建设 · 竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Renewables Now",
+    "role": "全球风电新闻",
+    "title": "RWE sells 33.33% stake in Five Estuaries offshore wind project to EDF",
+    "published_at": "2026-10-09",
+    "url": "https://renewablesnow.com/news/rwe-sells-33-33-percent-stake-in-five-estuaries-offshore-wind-project-to-edf-1302763/",
+    "excerpt": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nVerification successful. Waiting for renewablesnow.com to respond",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:32:50+00:00",
+    "translated_title": "RWE将5 Estuary岸外风力项目的33.33%的股权卖给欧洲发展基金",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "RWE",
+      "ReNew"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Renewables Now",
+    "role": "全球风电新闻",
+    "title": "Ocean Breeze closes purchase of 60-MW alpha ventus wind farm in Germany",
+    "published_at": "2026-10-09",
+    "url": "https://renewablesnow.com/news/ocean-breeze-closes-purchase-of-60-mw-alpha-ventus-wind-farm-in-germany-1302753/",
+    "excerpt": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nVerification successful. Waiting for renewablesnow.com to respond",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:32:39+00:00",
+    "translated_title": "德国的海洋微风关闭了60兆瓦阿尔法喷口风力场",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Renewables Now",
+    "role": "全球风电新闻",
+    "title": "France Energies Marines okays four offshore wind research projects",
+    "published_at": "2026-10-09",
+    "url": "https://renewablesnow.com/news/france-energies-marines-okays-four-offshore-wind-research-projects-1302745/",
+    "excerpt": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nVerification successful. Waiting for renewablesnow.com to respond",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:32:29+00:00",
+    "translated_title": "法国能源 海军陆战队 4个岸外风力研究项目",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Renewables Now",
+    "role": "全球风电新闻",
+    "title": "Germany amends offshore wind development plan",
+    "published_at": "2026-10-09",
+    "url": "https://renewablesnow.com/news/germany-amends-offshore-wind-development-plan-1302728/",
+    "excerpt": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nVerification successful. Waiting for renewablesnow.com to respond",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:32:18+00:00",
+    "translated_title": "德国修正近海风力发展计划",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Renewables Now",
+    "role": "全球风电新闻",
+    "title": "Energiekontor wins permits for 142 MW of new German wind farms",
+    "published_at": "2026-10-09",
+    "url": "https://renewablesnow.com/news/energiekontor-wins-permits-for-142-mw-of-new-german-wind-farms-1302725/",
+    "excerpt": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nVerification successful. Waiting for renewablesnow.com to respond",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:32:08+00:00",
+    "translated_title": "能源公司赢得142兆瓦德国新风电场的许可证",
+    "tags": [
+      "竞对资讯",
+      "审批政策"
+    ],
+    "strategic_score": 25,
+    "monitor_reason": "审批/许可节点 · 竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Renewables Now",
+    "role": "全球风电新闻",
+    "title": "Germany’s Koehler wins permit for 36-MW Scottish wind project",
+    "published_at": "2026-10-09",
+    "url": "https://renewablesnow.com/news/germanys-koehler-wins-permit-for-36-mw-scottish-wind-project-1302712/",
+    "excerpt": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nVerification successful. Waiting for renewablesnow.com to respond",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:31:57+00:00",
+    "translated_title": "德国克勒获36MW苏格兰风力项目的许可",
+    "tags": [
+      "竞对资讯",
+      "审批政策"
+    ],
+    "strategic_score": 23,
+    "monitor_reason": "审批/许可节点 · 竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Recharge",
+    "role": "全球风电专业媒体",
+    "title": "Norway's wind industry suffers worst year ever analysis 06.10.2026",
+    "published_at": "2026-10-09",
+    "url": "https://www.rechargenews.com/analysis/worst-year-ever-for-one-nordic-nations-wind-industry/2-1-2053588",
+    "excerpt": "Latest News Former Orsted US CEO Hardy trades wind for solar in move from GE Vernova people 09.10.2026 RWE sells stake in gigawatt-scale UK offshore wind project offshore wind 09.10.2026 Why two pioneering floating wind farms ended up worlds apart analysis 09.10.2026 US permitting bill offers data centre ratepayer relief but years of grid delays remain policy 08.10.2026 RWE boss Krebber breaks silence over Uniper bid finance 08.10.2026 Last-ditch appeal launched to alter German offshore wind reform policy 08.10.2026 Gordon Buchan GB Grid may be less powerful than Andy Burnham's rhetoric opinion 08.10.2026 Inside TotalEnergies' big German power plan: 'we don't do niche' interviews 08.10.2026",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:31:10+00:00",
+    "translated_title": "挪威的风力工业遭受了有史以来最糟糕的一年的分析",
+    "tags": [
+      "竞对资讯",
+      "招标采购",
+      "审批政策"
+    ],
+    "strategic_score": 26,
+    "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "GE Vernova",
+      "Orsted",
+      "RWE",
+      "TotalEnergies"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Recharge",
+    "role": "全球风电专业媒体",
+    "title": "Turbine troubles at pioneer project 'not just a floating problem' analysis 06.10.2026",
+    "published_at": "2026-10-09",
+    "url": "https://www.rechargenews.com/analysis/vestas-turbine-troubles-at-pioneer-project-not-just-a-floating-problem/2-1-2053956",
+    "excerpt": "Latest News Former Orsted US CEO Hardy trades wind for solar in move from GE Vernova people 09.10.2026 RWE sells stake in gigawatt-scale UK offshore wind project offshore wind 09.10.2026 Why two pioneering floating wind farms ended up worlds apart analysis 09.10.2026 US permitting bill offers data centre ratepayer relief but years of grid delays remain policy 08.10.2026 RWE boss Krebber breaks silence over Uniper bid finance 08.10.2026 Last-ditch appeal launched to alter German offshore wind reform policy 08.10.2026 Gordon Buchan GB Grid may be less powerful than Andy Burnham's rhetoric opinion 08.10.2026 Inside TotalEnergies' big German power plan: 'we don't do niche' interviews 08.10.2026",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:31:04+00:00",
+    "translated_title": "Vestas风机在先驱项目上的麻烦 \"不仅仅是一个浮出水面的问题\"",
+    "tags": [
+      "竞对资讯",
+      "招标采购",
+      "审批政策"
+    ],
+    "strategic_score": 26,
+    "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "Vestas",
+      "GE Vernova",
+      "Orsted",
+      "RWE"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Recharge",
+    "role": "全球风电专业媒体",
+    "title": "Vestas joins Neretek's push into deeper-water offshore wind as hybrids challenge floating offshore wind 06.10.2026",
+    "published_at": "2026-10-09",
+    "url": "https://www.rechargenews.com/offshore-wind/vestas-joins-nereteks-push-into-deeper-water-offshore-wind-as-hybrids-challenge-floating/2-1-2054562",
+    "excerpt": "Latest News Former Orsted US CEO Hardy trades wind for solar in move from GE Vernova people 09.10.2026 RWE sells stake in gigawatt-scale UK offshore wind project offshore wind 09.10.2026 Why two pioneering floating wind farms ended up worlds apart analysis 09.10.2026 US permitting bill offers data centre ratepayer relief but years of grid delays remain policy 08.10.2026 RWE boss Krebber breaks silence over Uniper bid finance 08.10.2026 Last-ditch appeal launched to alter German offshore wind reform policy 08.10.2026 Gordon Buchan GB Grid may be less powerful than Andy Burnham's rhetoric opinion 08.10.2026 Inside TotalEnergies' big German power plan: 'we don't do niche' interviews 08.10.2026",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:30:58+00:00",
+    "translated_title": "维斯塔斯加入内雷特克的冲入 更深水的岸外风 混合体挑战漂浮",
+    "tags": [
+      "竞对资讯",
+      "招标采购",
+      "审批政策"
+    ],
+    "strategic_score": 26,
+    "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "Vestas",
+      "GE Vernova",
+      "Orsted",
+      "RWE"
+    ]
+  },
+  {
+    "country": "哈萨克斯坦",
+    "source_name": "QazaqGreen",
+    "role": "政策/项目/规划",
+    "title": "Global floating offshore wind capacity rises 38% in a year",
+    "published_at": "2026-10-09",
+    "url": "https://qazaqgreen.com/en/news/world/3922/",
+    "excerpt": "QAZAQ GREEN. Global floating offshore wind capacity in fully operational projects has increased by 38% over the past year, reaching 382 MW compared with 277 MW a year earlier, according to RenewableUK's latest EnergyPulse report.\n\nNorway has the largest share of operating capacity at 97 MW, followed by France with 87 MW, the UK with 78 MW and China with 72 MW.",
+    "fetch_mode": "requests",
+    "fetched_at": "2026-10-10T00:24:58+00:00",
+    "translated_title": "07.10.2026 全球浮动近海风力在一年内上升38%",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 11,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Energetica India – Wind Power",
+    "role": "风电行业/项目",
+    "title": "Renewable energy > Wind Power - News | Energetica India Magazine",
+    "published_at": "2026-10-09",
+    "url": "https://www.energetica-india.net/news/renewable-energy/wind-power?page=174",
+    "excerpt": "ISO New England Selects GL Garrad Hassan as Wind Power Forecaster\n\nIn order to manage wind generation in its real-time and day-ahead markets, the system operator for the New England area of the U.S., ISO New England Inc., has...",
+    "fetch_mode": "requests",
+    "fetched_at": "2026-10-10T00:24:55+00:00",
+    "translated_title": "可再生能源 > 风能 -- -- 新闻 -- -- 印度能源杂志",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Energetica India – Wind Power",
+    "role": "风电行业/项目",
+    "title": "Prism Johnson to Procure 49.5 MW Captive Wind Power from Purvah Green - Asia Pacific | Energetica India Magazine",
+    "published_at": "2026-10-09",
+    "url": "https://www.energetica-india.net/news/prism-johnson-to-procure-49-5-mw-captive-wind-power-from-purvah-green",
+    "excerpt": "Prism Johnson has announced an investment of up to INR 40 crore in KUS Renewable, a Purvah Green SPV, to develop a 49.5 MW captive wind power project in Madhya Pradesh for supplying renewable power to its Satna cement plant.\n\nGPI Targets 45 CBG Projects in Three Years, Says GPI Business Head Vipin Malhotra",
+    "fetch_mode": "requests",
+    "fetched_at": "2026-10-10T00:24:55+00:00",
+    "translated_title": "Prism Johnson to Procure 49.5 MW Captive Wind Power from Purvah Green - 亚太 能源印度杂志",
+    "tags": [
+      "竞对资讯",
+      "招标采购"
+    ],
+    "strategic_score": 23,
+    "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Energetica India – Wind Power",
+    "role": "风电行业/项目",
+    "title": "Envision Energy Unveils 8 MW-Class EN175/8.0 Wind Turbine at WindEnergy Hamburg - Europe | Energetica India Magazine",
+    "published_at": "2026-10-09",
+    "url": "https://www.energetica-india.net/news/envision-energy-unveils-8-mw-class-en175-80-wind-turbine-at-windenergy-hamburg",
+    "excerpt": "Envision Energy has launched the 8 MW-class Model T–EN175/8.0 onshore wind turbine, combining a 175-metre rotor, advanced grid-forming technology and AI-powered autonomous optimisation for higher energy yield and reliability, at WindEnergy Hamburg 2026.\n\nGPI Targets 45 CBG Projects in Three Years, Says GPI Business Head Vipin Malhotra",
+    "fetch_mode": "requests",
+    "fetched_at": "2026-10-10T00:24:54+00:00",
+    "translated_title": "Envision Energy Unveils 8 MW-Class EN175/8.0 Wind Turbine at Wind Energy Hamburg - Europe – 能源印度杂志",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "Envision"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Energetica India – Wind Power",
+    "role": "风电行业/项目",
+    "title": "Rezolv Energy Energises 192 MW Wind Project in Romania",
+    "published_at": "2026-10-09",
+    "url": "https://www.energetica-india.net/news/rezolv-energy-energises-192-mw-wind-project-in-romania",
+    "excerpt": "Energy Guide Guide online Free signup Advertise my Company Magazine Free subscription magazine Last edition July-August 2026 All magazines Our bloggers Bharat Vasandani Madhavan N. & Hari... Urvish Dave wind-power India’s Wind Capacity to Reach 107 GW by FY31 Windergy India 2026 highlighted India’s growing wind energy pipeline, with annual installations projected to reach 13.2 GW by FY31. Renewable energy wind-power | October 09, 2026 | By News Bureau | 402 readings DEE Fabricom Secures INR 55 Crore Wind Tower Supply Intent DEE Development Engineers’ wholly owned subsidiary is set to execute the 5 MW windmill tower mandate by August 2027. Renewable energy wind-power | October 09, 2026 | By A",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:24:51+00:00",
+    "translated_title": "罗马尼亚Rezolv能源能源能源192兆瓦风能项目",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 15,
+    "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Energetica India – Wind Power",
+    "role": "风电行业/项目",
+    "title": "Alfanar to Sell 507.9 MW Gujarat Wind Portfolio to KPI Green",
+    "published_at": "2026-10-09",
+    "url": "https://www.energetica-india.net/news/alfanar-to-sell-5079-mw-gujarat-wind-portfolio-to-kpi-green",
+    "excerpt": "Energy Guide Guide online Free signup Advertise my Company Magazine Free subscription magazine Last edition July-August 2026 All magazines Our bloggers Bharat Vasandani Madhavan N. & Hari... Urvish Dave wind-power India’s Wind Capacity to Reach 107 GW by FY31 Windergy India 2026 highlighted India’s growing wind energy pipeline, with annual installations projected to reach 13.2 GW by FY31. Renewable energy wind-power | October 09, 2026 | By News Bureau | 402 readings DEE Fabricom Secures INR 55 Crore Wind Tower Supply Intent DEE Development Engineers’ wholly owned subsidiary is set to execute the 5 MW windmill tower mandate by August 2027. Renewable energy wind-power | October 09, 2026 | By A",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:24:50+00:00",
+    "translated_title": "Alfanar向KPI Green出售507.9兆瓦古吉拉特风能组合",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 15,
+    "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Renewable Watch",
+    "role": "风电政策/项目/规划",
+    "title": "Greenvolt bags financing for 253.1 MW wind project in Romania",
+    "published_at": "2026-10-09",
+    "url": "https://renewablewatch.in/2026/10/09/greenvolt-bags-financing-for-253-1-mw-wind-project-in-romania/",
+    "excerpt": "Greenvolt Power has raised € 284 million in project financing for its 253.1 MW wind project in Gurbănești, located east of Bucharest, Romania. The project is currently under construction and is expected to begin commercial <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/09/greenvolt-bags-financing-for-253-1-mw-wind-project-in-romania/\" title=\"Greenvolt bags financing for 253.1 MW wind project in Romania\">[...]</a>",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:24:39+00:00",
+    "translated_title": "罗马尼亚253.1兆瓦风力项目绿伏袋融资",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 11,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Renewable Watch",
+    "role": "风电政策/项目/规划",
+    "title": "SECI tenders 1.2 GW wind projects",
+    "published_at": "2026-10-09",
+    "url": "https://renewablewatch.in/2026/10/09/seci-tenders-1-2-gw-wind-projects/",
+    "excerpt": "The Solar Energy Corporation of India Limited (SECI) has issued a request for selection of wind power developers to set up 1,200 MW of inter-state transmission system (ISTS)-connected wind power projects across India under tariff-based <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/09/seci-tenders-1-2-gw-wind-projects/\" title=\"SECI tenders 1.2 GW wind projects\">[...]</a>",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:24:38+00:00",
+    "translated_title": "1.2 GW风力项目",
+    "tags": [
+      "竞对资讯",
+      "招标采购",
+      "电网建设"
+    ],
+    "strategic_score": 36,
+    "monitor_reason": "招标/采购节点 · 项目涉及电网/送出 · 竞对项目动态 · GW级项目 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Renewable Watch",
+    "role": "风电政策/项目/规划",
+    "title": "Scout signs 300 MW wind VPPA with Oracle",
+    "published_at": "2026-10-09",
+    "url": "https://renewablewatch.in/2026/10/09/scout-signs-300-mw-wind-vppa-with-oracle/",
+    "excerpt": "Scout Clean Energy has signed a virtual power purchase agreement (VPPA) with Oracle for a majority of the power generated by its 300 MW Ranchero wind farm in Crockett County, Texas. Ranchero Wind Farm started <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/09/scout-signs-300-mw-wind-vppa-with-oracle/\" title=\"Scout signs 300 MW wind VPPA with Oracle\">[...]</a>",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:24:38+00:00",
+    "translated_title": "带甲骨文的300兆瓦风力VPPA",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 11,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
     "country": "印度",
     "source_name": "Energetica India – Wind Power",
     "role": "风电行业/项目",
@@ -20,6 +422,46 @@
       "ReNew",
       "NTPC Renewable Energy",
       "NTPC REL"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Renewable Watch",
+    "role": "风电政策/项目/规划",
+    "title": "Cargill signs wind VPPA in US",
+    "published_at": "2026-10-08",
+    "url": "https://renewablewatch.in/2026/10/08/cargill-expands-renewable-electricity-portfolio-in-the-us-2/",
+    "excerpt": "Cargill is expanding its renewable electricity portfolio in the US through solar and wind projects in Oklahoma and South Dakota. It has signed a 12.6-year virtual power purchase agreement (VPPA) for 87 MW of wind <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/08/cargill-expands-renewable-electricity-portfolio-in-the-us-2/\" title=\"Cargill signs wind VPPA in US\">[...]</a>",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:24:41+00:00",
+    "translated_title": "卡吉尔在美国标出风能VPPA",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Renewable Watch",
+    "role": "风电政策/项目/规划",
+    "title": "Purvah Green signs 175 MW wind PPA with SECI",
+    "published_at": "2026-10-08",
+    "url": "https://renewablewatch.in/2026/10/08/purvah-green-and-seci-sign-175-mw-wind-ppa/",
+    "excerpt": "Purvah Green Power Private Limited, a subsidiary of Calcutta Electric Supply Corporation, has entered into a power purchase agreement (PPA) with the Solar Energy Corporation of India Limited (SECI) for a 175 MW wind power <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/08/purvah-green-and-seci-sign-175-mw-wind-ppa/\" title=\"Purvah Green signs 175 MW wind PPA with SECI\">[...]</a>",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:24:40+00:00",
+    "translated_title": "Purvah绿色标志 175兆瓦风能PPA与SECI",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 11,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "ReNew"
     ]
   },
   {
@@ -178,80 +620,6 @@
     ]
   },
   {
-    "country": "全球",
-    "source_name": "Recharge",
-    "role": "全球风电专业媒体",
-    "title": "Norway's wind industry suffers worst year ever analysis 06.10.2026",
-    "published_at": "2026-10-08",
-    "url": "https://www.rechargenews.com/analysis/worst-year-ever-for-one-nordic-nations-wind-industry/2-1-2053588",
-    "excerpt": "Latest News US permitting bill offers data centre ratepayer relief but years of grid delays remain policy 08.10.2026 RWE boss Krebber breaks silence over Uniper bid finance 08.10.2026 Last-ditch appeal launched to alter German offshore wind reform policy 08.10.2026 Gordon Buchan GB Grid may be less powerful than Andy Burnham's rhetoric opinion 08.10.2026 Inside TotalEnergies' big German power plan: 'we don't do niche' interviews 08.10.2026 Norway sweetens deal for Equinor and EDF floating wind projects auctions 07.10.2026 Claus Urbanke 'Like catching a falling knife': German energy storage owners cashing in, for now opinion 07.10.2026 'Stop, reset': Over 600 wind assets exposed to cyberattac",
-    "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:29:49+00:00",
-    "translated_title": "挪威的风力工业遭受了有史以来最糟糕的一年的分析",
-    "tags": [
-      "竞对资讯",
-      "招标采购",
-      "审批政策"
-    ],
-    "strategic_score": 26,
-    "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "RWE",
-      "Equinor",
-      "TotalEnergies"
-    ]
-  },
-  {
-    "country": "全球",
-    "source_name": "Recharge",
-    "role": "全球风电专业媒体",
-    "title": "Turbine troubles at pioneer project 'not just a floating problem' analysis 06.10.2026",
-    "published_at": "2026-10-08",
-    "url": "https://www.rechargenews.com/analysis/vestas-turbine-troubles-at-pioneer-project-not-just-a-floating-problem/2-1-2053956",
-    "excerpt": "Latest News US permitting bill offers data centre ratepayer relief but years of grid delays remain policy 08.10.2026 RWE boss Krebber breaks silence over Uniper bid finance 08.10.2026 Last-ditch appeal launched to alter German offshore wind reform policy 08.10.2026 Gordon Buchan GB Grid may be less powerful than Andy Burnham's rhetoric opinion 08.10.2026 Inside TotalEnergies' big German power plan: 'we don't do niche' interviews 08.10.2026 Norway sweetens deal for Equinor and EDF floating wind projects auctions 07.10.2026 Claus Urbanke 'Like catching a falling knife': German energy storage owners cashing in, for now opinion 07.10.2026 'Stop, reset': Over 600 wind assets exposed to cyberattac",
-    "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:29:43+00:00",
-    "translated_title": "Vestas风机在先驱项目上的麻烦 \"不仅仅是一个浮出水面的问题\"",
-    "tags": [
-      "竞对资讯",
-      "招标采购",
-      "审批政策"
-    ],
-    "strategic_score": 26,
-    "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "Vestas",
-      "RWE",
-      "Equinor",
-      "TotalEnergies"
-    ]
-  },
-  {
-    "country": "全球",
-    "source_name": "Recharge",
-    "role": "全球风电专业媒体",
-    "title": "Vestas joins Neretek's push into deeper-water offshore wind as hybrids challenge floating offshore wind 06.10.2026",
-    "published_at": "2026-10-08",
-    "url": "https://www.rechargenews.com/offshore-wind/vestas-joins-nereteks-push-into-deeper-water-offshore-wind-as-hybrids-challenge-floating/2-1-2054562",
-    "excerpt": "Latest News US permitting bill offers data centre ratepayer relief but years of grid delays remain policy 08.10.2026 RWE boss Krebber breaks silence over Uniper bid finance 08.10.2026 Last-ditch appeal launched to alter German offshore wind reform policy 08.10.2026 Gordon Buchan GB Grid may be less powerful than Andy Burnham's rhetoric opinion 08.10.2026 Inside TotalEnergies' big German power plan: 'we don't do niche' interviews 08.10.2026 Norway sweetens deal for Equinor and EDF floating wind projects auctions 07.10.2026 Claus Urbanke 'Like catching a falling knife': German energy storage owners cashing in, for now opinion 07.10.2026 'Stop, reset': Over 600 wind assets exposed to cyberattac",
-    "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:29:37+00:00",
-    "translated_title": "维斯塔斯加入内雷特克的冲入 更深水的岸外风 混合体挑战漂浮",
-    "tags": [
-      "竞对资讯",
-      "招标采购",
-      "审批政策"
-    ],
-    "strategic_score": 26,
-    "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "Vestas",
-      "RWE",
-      "Equinor",
-      "TotalEnergies"
-    ]
-  },
-  {
     "country": "哈萨克斯坦",
     "source_name": "QazaqGreen",
     "role": "政策/项目/规划",
@@ -273,66 +641,6 @@
     ]
   },
   {
-    "country": "哈萨克斯坦",
-    "source_name": "QazaqGreen",
-    "role": "政策/项目/规划",
-    "title": "Global floating offshore wind capacity rises 38% in a year",
-    "published_at": "2026-10-08",
-    "url": "https://qazaqgreen.com/en/news/world/3922/",
-    "excerpt": "QAZAQ GREEN. Global floating offshore wind capacity in fully operational projects has increased by 38% over the past year, reaching 382 MW compared with 277 MW a year earlier, according to RenewableUK's latest EnergyPulse report.\n\nNorway has the largest share of operating capacity at 97 MW, followed by France with 87 MW, the UK with 78 MW and China with 72 MW.",
-    "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:25:10+00:00",
-    "translated_title": "07.10.2026 全球浮动近海风力在一年内上升38%",
-    "tags": [
-      "竞对资讯"
-    ],
-    "strategic_score": 11,
-    "monitor_reason": "竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "ReNew"
-    ]
-  },
-  {
-    "country": "印度",
-    "source_name": "Renewable Watch",
-    "role": "风电政策/项目/规划",
-    "title": "Cargill signs wind VPPA in US",
-    "published_at": "2026-10-08",
-    "url": "https://renewablewatch.in/2026/10/08/cargill-expands-renewable-electricity-portfolio-in-the-us-2/",
-    "excerpt": "Cargill is expanding its renewable electricity portfolio in the US through solar and wind projects in Oklahoma and South Dakota. It has signed a 12.6-year virtual power purchase agreement (VPPA) for 87 MW of wind <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/08/cargill-expands-renewable-electricity-portfolio-in-the-us-2/\" title=\"Cargill signs wind VPPA in US\">[...]</a>",
-    "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:25:01+00:00",
-    "translated_title": "卡吉尔在美国标出风能VPPA",
-    "tags": [
-      "竞对资讯"
-    ],
-    "strategic_score": 9,
-    "monitor_reason": "竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "ReNew"
-    ]
-  },
-  {
-    "country": "印度",
-    "source_name": "Renewable Watch",
-    "role": "风电政策/项目/规划",
-    "title": "Purvah Green signs 175 MW wind PPA with SECI",
-    "published_at": "2026-10-08",
-    "url": "https://renewablewatch.in/2026/10/08/purvah-green-and-seci-sign-175-mw-wind-ppa/",
-    "excerpt": "Purvah Green Power Private Limited, a subsidiary of Calcutta Electric Supply Corporation, has entered into a power purchase agreement (PPA) with the Solar Energy Corporation of India Limited (SECI) for a 175 MW wind power <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/08/purvah-green-and-seci-sign-175-mw-wind-ppa/\" title=\"Purvah Green signs 175 MW wind PPA with SECI\">[...]</a>",
-    "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:25:00+00:00",
-    "translated_title": "Purvah绿色标志 175兆瓦风能PPA与SECI",
-    "tags": [
-      "竞对资讯"
-    ],
-    "strategic_score": 11,
-    "monitor_reason": "竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "ReNew"
-    ]
-  },
-  {
     "country": "印度",
     "source_name": "Renewable Watch",
     "role": "风电政策/项目/规划",
@@ -341,7 +649,7 @@
     "url": "https://renewablewatch.in/2026/10/07/scatec-and-edf-begin-construction-on-900-mw-wind-project-in-egypt/",
     "excerpt": "Scatec, in partnership with EDF Power Solutions, has commenced construction of the 900 MW Shadwan onshore wind project in Egypt. The project has a total capital expenditure of $716 million and is expected to generate <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/07/scatec-and-edf-begin-construction-on-900-mw-wind-project-in-egypt/\" title=\"Scatec and EDF begin construction on 900 MW wind project in Egypt\">[...]</a>",
     "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:25:04+00:00",
+    "fetched_at": "2026-10-10T00:24:44+00:00",
     "translated_title": "Scatec和EDF在埃及的900兆瓦风力项目上开始建造",
     "tags": [
       "竞对资讯"
@@ -361,7 +669,7 @@
     "url": "https://renewablewatch.in/2026/10/07/ultratech-commissions-116-55-mw-wind-capacity-in-rajasthan/",
     "excerpt": "UltraTech Cement Limited, the cement business of Aditya Birla Group, has commissioned 116.55 MW of wind capacity at its inter-state transmission system-connected wind-solar hybrid project located in Barmer, Rajasthan. Additionally, the company has commissioned 10 <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/07/ultratech-commissions-116-55-mw-wind-capacity-in-rajasthan/\" title=\"UltraTech commissions 116.55 MW wind capacity in Rajasthan\">[...]</a>",
     "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:25:03+00:00",
+    "fetched_at": "2026-10-10T00:24:43+00:00",
     "translated_title": "拉贾斯坦邦的超技术委员会 116.55兆瓦风能",
     "tags": [
       "竞对资讯",
@@ -382,7 +690,7 @@
     "url": "https://renewablewatch.in/2026/10/07/inox-green-acquires-wwils-4-5-gw-wind-om-business/",
     "excerpt": "Inox Green Energy Solutions Limited, part of the INOXGFL Group, has completed the payment for the transfer of Wind World India Limited’s (WWIL) wind operation and maintenance (O&#38;M) business. The transaction is valued at around <a class=\"mh-excerpt-more\" href=\"https://renewablewatch.in/2026/10/07/inox-green-acquires-wwils-4-5-gw-wind-om-business/\" title=\"Inox Green acquires WWIL’s 4.5 GW wind O&#038;M business \">[...]</a>",
     "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:25:02+00:00",
+    "fetched_at": "2026-10-10T00:24:42+00:00",
     "translated_title": "Inox Green 收购 WWIL 的 4.5 GW风能 O&M 业务",
     "tags": [
       "竞对资讯"
@@ -547,27 +855,6 @@
     "country": "印度",
     "source_name": "Energetica India – Wind Power",
     "role": "风电行业/项目",
-    "title": "Renewable energy > Wind Power - News | Energetica India Magazine",
-    "published_at": "2026-10-07",
-    "url": "https://www.energetica-india.net/news/renewable-energy/wind-power?page=174",
-    "excerpt": "Suzlon wins 20.5MW order in Britain from Your Energy\n\nWind turbine maker Suzlon Energy�s German subsidiary REpower has signed a deal with the British renewable energy company Your Energy to supply ten 20.5 MW turbines...",
-    "fetch_mode": "requests",
-    "fetched_at": "2026-10-08T00:22:04+00:00",
-    "translated_title": "可再生能源 > 风能 -- -- 新闻 -- -- 印度能源杂志",
-    "tags": [
-      "竞对资讯"
-    ],
-    "strategic_score": 9,
-    "monitor_reason": "竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "Suzlon",
-      "ReNew"
-    ]
-  },
-  {
-    "country": "印度",
-    "source_name": "Energetica India – Wind Power",
-    "role": "风电行业/项目",
     "title": "NTPC Green Energy Adds 72.45 MW Wind Capacity in Gujarat - Asia Pacific | Energetica India Magazine",
     "published_at": "2026-10-07",
     "url": "https://www.energetica-india.net/news/ntpc-green-energy-adds-72-45-mw-wind-capacity-in-gujarat",
@@ -583,87 +870,6 @@
     "competitors": [
       "ReNew",
       "NTPC Renewable Energy"
-    ]
-  },
-  {
-    "country": "印度",
-    "source_name": "Energetica India – Wind Power",
-    "role": "风电行业/项目",
-    "title": "Prism Johnson to Procure 49.5 MW Captive Wind Power from Purvah Green - Asia Pacific | Energetica India Magazine",
-    "published_at": "2026-10-07",
-    "url": "https://www.energetica-india.net/news/prism-johnson-to-procure-49-5-mw-captive-wind-power-from-purvah-green",
-    "excerpt": "Prism Johnson has announced an investment of up to INR 40 crore in KUS Renewable, a Purvah Green SPV, to develop a 49.5 MW captive wind power project in Madhya Pradesh for supplying renewable power to its Satna cement plant.\n\nGPI Targets 45 CBG Projects in Three Years, Says GPI Business Head Vipin Malhotra",
-    "fetch_mode": "requests",
-    "fetched_at": "2026-10-08T00:22:02+00:00",
-    "translated_title": "Prism Johnson to Procure 49.5 MW Captive Wind Power from Purvah Green - 亚太 能源印度杂志",
-    "tags": [
-      "竞对资讯",
-      "招标采购"
-    ],
-    "strategic_score": 23,
-    "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "ReNew"
-    ]
-  },
-  {
-    "country": "印度",
-    "source_name": "Energetica India – Wind Power",
-    "role": "风电行业/项目",
-    "title": "Envision Energy Unveils 8 MW-Class EN175/8.0 Wind Turbine at WindEnergy Hamburg - Europe | Energetica India Magazine",
-    "published_at": "2026-10-07",
-    "url": "https://www.energetica-india.net/news/envision-energy-unveils-8-mw-class-en175-80-wind-turbine-at-windenergy-hamburg",
-    "excerpt": "Envision Energy has launched the 8 MW-class Model T–EN175/8.0 onshore wind turbine, combining a 175-metre rotor, advanced grid-forming technology and AI-powered autonomous optimisation for higher energy yield and reliability, at WindEnergy Hamburg 2026.\n\nGPI Targets 45 CBG Projects in Three Years, Says GPI Business Head Vipin Malhotra",
-    "fetch_mode": "requests",
-    "fetched_at": "2026-10-08T00:22:01+00:00",
-    "translated_title": "Envision Energy Unveils 8 MW-Class EN175/8.0 Wind Turbine at Wind Energy Hamburg - Europe – 能源印度杂志",
-    "tags": [
-      "竞对资讯"
-    ],
-    "strategic_score": 9,
-    "monitor_reason": "竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "Envision"
-    ]
-  },
-  {
-    "country": "印度",
-    "source_name": "Energetica India – Wind Power",
-    "role": "风电行业/项目",
-    "title": "Rezolv Energy Energises 192 MW Wind Project in Romania",
-    "published_at": "2026-10-07",
-    "url": "https://www.energetica-india.net/news/rezolv-energy-energises-192-mw-wind-project-in-romania",
-    "excerpt": "Energy Guide Guide online Free signup Advertise my Company Magazine Free subscription magazine Last edition July-August 2026 All magazines Our bloggers Bharat Vasandani Madhavan N. & Hari... Urvish Dave wind-power Purvah Green Signs PPA with SECI for 175 MW Wind Project Purvah Green Power has signed a PPA with Solar Energy Corporation of India for a 175 MW ISTS-connected wind power project at a tariff of INR 3.85/kWh. Renewable energy wind-power | October 07, 2026 | By Mrinmoy Dey | 500 readings Inox Green Completes INR 550 Crore WWIL Wind O&M Deal Inox Green Energy Solutions completes the payment for the transfer of Wind World India’s 4.5 GW wind O&M business for INR 550 crore. Renewable en",
-    "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-08T00:21:58+00:00",
-    "translated_title": "罗马尼亚Rezolv能源能源能源192兆瓦风能项目",
-    "tags": [
-      "竞对资讯"
-    ],
-    "strategic_score": 15,
-    "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
-    "competitors": [
-      "ReNew"
-    ]
-  },
-  {
-    "country": "印度",
-    "source_name": "Energetica India – Wind Power",
-    "role": "风电行业/项目",
-    "title": "Alfanar to Sell 507.9 MW Gujarat Wind Portfolio to KPI Green",
-    "published_at": "2026-10-07",
-    "url": "https://www.energetica-india.net/news/alfanar-to-sell-5079-mw-gujarat-wind-portfolio-to-kpi-green",
-    "excerpt": "Energy Guide Guide online Free signup Advertise my Company Magazine Free subscription magazine Last edition July-August 2026 All magazines Our bloggers Bharat Vasandani Madhavan N. & Hari... Urvish Dave wind-power Purvah Green Signs PPA with SECI for 175 MW Wind Project Purvah Green Power has signed a PPA with Solar Energy Corporation of India for a 175 MW ISTS-connected wind power project at a tariff of INR 3.85/kWh. Renewable energy wind-power | October 07, 2026 | By Mrinmoy Dey | 500 readings Inox Green Completes INR 550 Crore WWIL Wind O&M Deal Inox Green Energy Solutions completes the payment for the transfer of Wind World India’s 4.5 GW wind O&M business for INR 550 crore. Renewable en",
-    "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-08T00:21:57+00:00",
-    "translated_title": "Alfanar向KPI Green出售507.9兆瓦古吉拉特风能组合",
-    "tags": [
-      "竞对资讯"
-    ],
-    "strategic_score": 15,
-    "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
-    "competitors": [
-      "ReNew"
     ]
   },
   {
@@ -1594,20 +1800,21 @@
     "country": "中东、南亚、北非",
     "source_name": "WindInsider",
     "role": "风电政策/规划/行业",
-    "title": "Innovative Wind Tunnel Method Boosts Wind Turbine Performance",
+    "title": "Pressurized Wind Tunnel Tests Reveal New Ways to Boost Wind Turbine Power Output",
     "published_at": "2026-09-29",
     "url": "https://windinsider.com/2026/09/29/pressurized-wind-tunnel-tests-reveal-new-ways-to-boost-wind-turbine-power-output/",
-    "excerpt": "Researchers have developed a new experimental approach using highly pressurized wind tunnels that could help improve wind turbine performance and increase power generation from existing wind farms. The method is designed to reproduce the aerodynamic conditions experienced by full-scale wind turbines more accurately than conventional laboratory experiments.\n\nThe research involved scientists from MIT, Queen’s University, Princeton University and Penn State University. The work was supported in part by the Natural Sciences and Engineering Research Council of Canada, the U.S. National Science Foundation and the MIT-GE Vernova Alliance. According to MIT News, the research was published in PNAS Nex",
-    "fetch_mode": "requests",
-    "fetched_at": "2026-10-08T00:25:23+00:00",
+    "excerpt": "Alfanar Accepts KPI Green’s Offer For 507.9 MW Bhuj Wind Portfolio, To Fund 3 GW India Pipeline Pressurized Wind Tunnel Tests Reveal New Ways to Boost Wind Turbine Power Output NTPC Adds 56.7 MW Wind Capacity In Gujarat, Group Capacity Reaches 91,221 MW APTEL Clarifies CERC Arbitration Powers And Corrects DVC Judgment Interpretation NTPC REL Floats Tender For 600 MW Wind Project In Andhra Pradesh",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:28:33+00:00",
     "translated_title": "创新风道方法助推风道性能",
     "tags": [
-      "竞对资讯"
+      "竞对资讯",
+      "招标采购"
     ],
-    "strategic_score": 9,
-    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "strategic_score": 25,
+    "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
     "competitors": [
-      "GE Vernova"
+      "NTPC REL"
     ]
   },
   {
@@ -2165,7 +2372,7 @@
     "url": "https://windeurope.org/news/offshore-wind-in-the-mediterranean-new-study-sets-out-priorities-for-growth/",
     "excerpt": "Offshore Wind in the Mediterranean: New Study Sets Out Priorities for Growth\n\nA joint study by Politecnico di Torino and WindEurope identifies what the Mediterranean needs to grow its offshore wind sector. Published in Renewable and Sustainable Energy Reviews , the study finds that clear rules, strong infrastructure and grid readiness matter as much as technology. The goal is to turn the region’s wind potential into real, competitive projects, in line with Europe’s energy transition goals.",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:30:39+00:00",
+    "fetched_at": "2026-10-10T00:31:32+00:00",
     "translated_title": "地中海近海风:新的研究确定了增长的优先事项",
     "excerpt_zh": "",
     "tags": [
@@ -2186,7 +2393,7 @@
     "url": "https://windeurope.org/news/offshore-wind-delivers-first-electricity-to-polish-grid/",
     "excerpt": "Offshore wind delivers first electricity to Polish grid\n\nOn 10 July Poland celebrated a major offshore wind milestone. For the first time, a Polish offshore wind farm delivered electricity to the country’s power grid. On the same day, Polish Prime Minister Donald Tusk inaugurated the Choczewo substation in Pomerania, Poland’s first major grid hub to receive power from offshore wind farms in the Baltic Sea.",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:30:36+00:00",
+    "fetched_at": "2026-10-10T00:31:31+00:00",
     "translated_title": "岸外风能给波兰电网输送第一电",
     "excerpt_zh": "",
     "tags": [
@@ -2204,7 +2411,7 @@
     "url": "https://windeurope.org/news/french-and-german-onshore-wind-auction-results-call-for-more-volumes/",
     "excerpt": "French and German onshore wind auction results call for more volumes\n\nFrance and Germany held successful onshore wind auction rounds. Together they awarded more than 3 GW of new onshore wind capacity. Upon commissioning, these volumes will strengthen the countries’ energy security and help bring down power prices. But these auctions also stress the need for more market visibility if Europe is to deliver on its electrification agenda.",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:30:34+00:00",
+    "fetched_at": "2026-10-10T00:31:29+00:00",
     "translated_title": "法国和德国的上岸风能拍卖结果 需要更多卷",
     "excerpt_zh": "",
     "tags": [
@@ -2223,7 +2430,7 @@
     "url": "https://windeurope.org/news/successful-danish-offshore-wind-tender-proves-that-cfds-deliver-competitive-bids/",
     "excerpt": "News See all 24 September 2026 Wind energy is hiring. Here's how to get a job in it 23 September 2026 Wind sector commits to strengthening Europe’s literacy to boost skills and fight disinformation 16 September 2026 Wind industry names new leadership to turn record year into lasting momentum 5 August 2026 Successful Danish offshore wind tender proves that CfDs deliver competitive bids 17 July 2026 Europe’s plan to double down on electricity will require a more robust ETS 16 July 2026 French and German onshore wind auction results call for more volumes 15 July 2026 Offshore wind delivers first electricity to Polish grid 14 July 2026 Offshore Wind in the Mediterranean: New Study Sets Out Prior",
     "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:30:31+00:00",
+    "fetched_at": "2026-10-10T00:31:28+00:00",
     "translated_title": "2026年8月5日 成功的丹麦岸外风能招标证明 CfDs 提供竞争性出价",
     "tags": [
       "招标采购"
@@ -2240,7 +2447,7 @@
     "url": "https://www.aa.com.tr/en/energy/wind/global-interest-builds-for-turkiyes-first-offshore-wind-tender-set-for-2027/59803",
     "excerpt": "- More than 44 institutions contributed to Türkiye's offshore wind framework as country prepares to launch its first tender - Anadolu Agency",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:29:03+00:00",
+    "fetched_at": "2026-10-10T00:29:23+00:00",
     "translated_title": "全球利益为Türkiye的2027年首次海上风能招标",
     "tags": [
       "招标采购",
@@ -2414,6 +2621,28 @@
     "monitor_reason": "招标/采购节点 · 竞对项目动态 · GW级项目 · 标题明确风电",
     "competitors": [
       "Orsted"
+    ]
+  },
+  {
+    "country": "中东、南亚、北非",
+    "source_name": "WindInsider",
+    "role": "风电政策/规划/行业",
+    "title": "NTPC Adds 56.7 MW Wind Capacity In Gujarat, Group Capacity Reaches 91,221 MW",
+    "published_at": "2026-09-23",
+    "url": "https://windinsider.com/2026/09/23/ntpc-adds-56-7-mw-wind-capacity-in-gujarat-group-capacity-reaches-91221-mw/",
+    "excerpt": "NTPC Adds 56.7 MW Wind Capacity In Gujarat, Group Capacity Reaches 91,221 MW APTEL Clarifies CERC Arbitration Powers And Corrects DVC Judgment Interpretation NTPC REL Floats Tender For 600 MW Wind Project In Andhra Pradesh ACWA Power Advances $2.6 Billion 1.5 GW Kungrad Wind Project In Uzbekistan",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:28:33+00:00",
+    "translated_title": "NTPC 在古吉拉特邦增加了56.7兆瓦风力发电,集体发电能力达到91 221兆瓦",
+    "tags": [
+      "竞对资讯",
+      "招标采购"
+    ],
+    "strategic_score": 25,
+    "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
+    "competitors": [
+      "ACWA Power",
+      "NTPC REL"
     ]
   },
   {
@@ -2605,19 +2834,18 @@
     "title": "NTPC REL Floats Tender For 600 MW Wind Project In Andhra Pradesh",
     "published_at": "2026-09-22",
     "url": "https://windinsider.com/2026/09/22/ntpc-rel-floats-tender-for-600-mw-wind-project-in-andhra-pradesh/",
-    "excerpt": "<a href=\"https://windinsider.com/2026/09/22/ntpc-rel-floats-tender-for-600-mw-wind-project-in-andhra-pradesh/\" rel=\"nofollow\" title=\"NTPC REL Floats Tender For 600 MW Wind Project In Andhra Pradesh\"><img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"392\" src=\"https://i0.wp.com/windinsider.com/wp-content/uploads/2026/07/Website-blog-banner-design-2026-07-24T120405.470.jpg?fit=696%2C392&amp;ssl=1\" style=\"display: block; margin-bottom: 5px; clear: both;\" width=\"696\" /></a>NTPC Renewable Energy Limited is soliciting bids for supplying and installing 200 Wind Turbine Generators for a 600 MW wind power project in Kurnool, Andhra Pradesh. Bidders must meet specified technical and fina",
+    "excerpt": "NTPC Adds 56.7 MW Wind Capacity In Gujarat, Group Capacity Reaches 91,221 MW APTEL Clarifies CERC Arbitration Powers And Corrects DVC Judgment Interpretation NTPC REL Floats Tender For 600 MW Wind Project In Andhra Pradesh ACWA Power Advances $2.6 Billion 1.5 GW Kungrad Wind Project In Uzbekistan",
     "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:28:12+00:00",
+    "fetched_at": "2026-10-10T00:28:34+00:00",
     "translated_title": "库尔诺勒600兆瓦风能发电项目招标书",
     "tags": [
       "竞对资讯",
       "招标采购"
     ],
-    "strategic_score": 27,
-    "monitor_reason": "招标/采购节点 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
+    "strategic_score": 29,
+    "monitor_reason": "招标/采购节点 · 竞对项目动态 · GW级项目 · 标题明确风电",
     "competitors": [
-      "ReNew",
-      "NTPC Renewable Energy",
+      "ACWA Power",
       "NTPC REL"
     ]
   },
@@ -2844,6 +3072,28 @@
     ],
     "strategic_score": 12,
     "monitor_reason": "宏观/产业政策 · 标题明确风电"
+  },
+  {
+    "country": "中东、南亚、北非",
+    "source_name": "WindInsider",
+    "role": "风电政策/规划/行业",
+    "title": "ACWA Power Advances $2.6 Billion 1.5 GW Kungrad Wind Project In Uzbekistan",
+    "published_at": "2026-09-21",
+    "url": "https://windinsider.com/2026/09/21/acwa-power-advances-2-6-billion-1-5-gw-kungrad-wind-project-in-uzbekistan/",
+    "excerpt": "NTPC Adds 56.7 MW Wind Capacity In Gujarat, Group Capacity Reaches 91,221 MW APTEL Clarifies CERC Arbitration Powers And Corrects DVC Judgment Interpretation NTPC REL Floats Tender For 600 MW Wind Project In Andhra Pradesh ACWA Power Advances $2.6 Billion 1.5 GW Kungrad Wind Project In Uzbekistan",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:28:36+00:00",
+    "translated_title": "ACWA 电力预付款2.6亿美元 1.5 GW Kungrad Wind 工程在乌兹别克斯坦",
+    "tags": [
+      "竞对资讯",
+      "招标采购"
+    ],
+    "strategic_score": 25,
+    "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
+    "competitors": [
+      "ACWA Power",
+      "NTPC REL"
+    ]
   },
   {
     "country": "印度",
@@ -3280,27 +3530,6 @@
     "monitor_reason": "正文涉及审批/许可 · 标题明确风电"
   },
   {
-    "country": "中东、南亚、北非",
-    "source_name": "WindInsider",
-    "role": "风电政策/规划/行业",
-    "title": "Nordex Group Secures 91 MW Wind Turbine Order For Brandenburg Project",
-    "published_at": "2026-09-17",
-    "url": "https://windinsider.com/2026/09/17/nordex-group-secures-91-mw-wind-turbine-order-for-brandenburg-project/",
-    "excerpt": "<a href=\"https://windinsider.com/2026/09/17/nordex-group-secures-91-mw-wind-turbine-order-for-brandenburg-project/\" rel=\"nofollow\" title=\"Nordex Group Secures 91 MW Wind Turbine Order For Brandenburg Project\"><img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"392\" src=\"https://i0.wp.com/windinsider.com/wp-content/uploads/2026/08/Website-blog-banner-design-2026-08-04T121057.342.jpg?fit=696%2C392&amp;ssl=1\" style=\"display: block; margin-bottom: 5px; clear: both;\" width=\"696\" /></a>The Nordex Group has secured a 91 MW wind turbine order from TEUT Energieprojekte for the Schönermark-Passow wind farm in Brandenburg, Germany. The contract includes a 20-year Premium Service agreement.",
-    "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:28:16+00:00",
-    "translated_title": "德国Nordex集团安全91兆瓦风电机组",
-    "tags": [
-      "竞对资讯",
-      "招标采购"
-    ],
-    "strategic_score": 23,
-    "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "Nordex"
-    ]
-  },
-  {
     "country": "印度",
     "source_name": "Renewable Watch",
     "role": "风电政策/项目/规划",
@@ -3467,20 +3696,22 @@
     "country": "中东、南亚、北非",
     "source_name": "WindInsider",
     "role": "风电政策/规划/行业",
-    "title": "Sturdee Energy Acquires 200 MW Masaiti Wind Project In Zambia",
+    "title": "NTPC Renewable Energy Invites Bids For 215 MW Wind Power Project In Madhya Pradesh",
     "published_at": "2026-09-16",
-    "url": "https://windinsider.com/2026/09/16/sturdee-energy-acquires-200-mw-masaiti-wind-project-in-zambia/",
-    "excerpt": "<a href=\"https://windinsider.com/2026/09/16/sturdee-energy-acquires-200-mw-masaiti-wind-project-in-zambia/\" rel=\"nofollow\" title=\"Sturdee Energy Acquires 200 MW Masaiti Wind Project In Zambia\"><img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"392\" src=\"https://i0.wp.com/windinsider.com/wp-content/uploads/2026/08/Website-blog-banner-design-2026-08-04T121057.342.jpg?fit=696%2C392&amp;ssl=1\" style=\"display: block; margin-bottom: 5px; clear: both;\" width=\"696\" /></a>Sturdee Energy has acquired the 200 MW Masaiti wind project in Zambia, enhancing its renewable energy efforts in Africa. This project will connect to Zambia’s national grid and integrates solar and battery systems for",
+    "url": "https://windinsider.com/2026/09/16/ntpc-renewable-energy-invites-bids-for-215-mw-wind-power-project-in-madhya-pradesh/",
+    "excerpt": "NTPC Renewable Energy Invites Bids For 215 MW Wind Power Project... Mohan Gupta - 16th September 2026 0",
     "fetch_mode": "listing-fallback",
-    "fetched_at": "2026-10-09T00:28:19+00:00",
-    "translated_title": "Sturdee 能源扩展,赞比亚200兆瓦Masaiti风力项目",
+    "fetched_at": "2026-10-10T00:28:37+00:00",
+    "translated_title": "NTPC 邀请中央邦215兆瓦风能项目的投标",
     "tags": [
-      "竞对资讯"
+      "竞对资讯",
+      "招标采购"
     ],
-    "strategic_score": 11,
-    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "strategic_score": 25,
+    "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
     "competitors": [
-      "ReNew"
+      "ReNew",
+      "NTPC Renewable Energy"
     ]
   },
   {
@@ -3634,6 +3865,26 @@
       "GE Vernova",
       "Orsted",
       "Iberdrola",
+      "Masdar"
+    ]
+  },
+  {
+    "country": "中东、南亚、北非",
+    "source_name": "WindInsider",
+    "role": "风电政策/规划/行业",
+    "title": "Masdar And Taaleri Energia Inaugurate 154 MW Čibuk 2 Wind Farm In Serbia",
+    "published_at": "2026-09-15",
+    "url": "https://windinsider.com/2026/09/15/masdar-and-taaleri-energia-inaugurate-154-mw-cibuk-2-wind-farm-in-serbia/",
+    "excerpt": "Masdar And Taaleri Energia Inaugurate 154 MW Čibuk 2 Wind Farm... Mohan Gupta - 15th September 2026 0",
+    "fetch_mode": "listing-fallback",
+    "fetched_at": "2026-10-10T00:28:40+00:00",
+    "translated_title": "新奇布克2风电场:塞尔维亚清洁能源里程碑",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 11,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
       "Masdar"
     ]
   },
@@ -4059,6 +4310,89 @@
     ]
   },
   {
+    "country": "全球",
+    "source_name": "Recharge",
+    "role": "全球风电专业媒体",
+    "title": "Former Orsted US CEO Hardy trades wind for solar in move from GE Vernova",
+    "published_at": "2026-09-10",
+    "url": "https://www.rechargenews.com/people/former-orsted-us-ceo-hardy-trades-wind-for-solar-in-move-from-ge-vernova/2-1-2056789",
+    "excerpt": "Hardy jumps from sector targeted by Trump administration to head business development at solar tracking firm Nextpower\n\nMy Alerts is a service for subscribers. Please login or subscribe in order to use My Alerts.",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:31:17+00:00",
+    "translated_title": "前Orsted 美国首席执行官Hardy用风换太阳能 从GE Vernova移动",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "GE Vernova",
+      "Orsted"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Recharge",
+    "role": "全球风电专业媒体",
+    "title": "Two floating pioneers, twelve turbine failures – but only one wind farm is floundering",
+    "published_at": "2026-09-10",
+    "url": "https://www.rechargenews.com/analysis/two-floating-pioneers-twelve-turbine-failures-but-only-one-wind-farm-is-floundering/2-1-2056067",
+    "excerpt": "Equinor and Masdar’s Hywind Scotland has pulled in profits almost every year despite turbine troubles, while Kincardine has been on a losing streak\n\nMy Alerts is a service for subscribers. Please login or subscribe in order to use My Alerts.",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:30:25+00:00",
+    "translated_title": "两个漂浮的先驱,12个风机故障,但只有一个风电场在漂流",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "Equinor",
+      "Masdar"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Recharge",
+    "role": "全球风电专业媒体",
+    "title": "RWE sells stake in gigawatt-scale UK offshore wind project",
+    "published_at": "2026-09-10",
+    "url": "https://www.rechargenews.com/offshore-wind/rwe-sells-stake-in-gigawatt-scale-uk-offshore-wind-project/2-1-2056509",
+    "excerpt": "German developer sells stake in roughly 1GW project that counts ESB and Sumitomo Corporation as other shareholders\n\nMy Alerts is a service for subscribers. Please login or subscribe in order to use My Alerts.",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-10T00:30:20+00:00",
+    "translated_title": "RWE 出售联合王国千兆瓦规模的岸外风力项目的股权",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 15,
+    "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
+    "competitors": [
+      "RWE"
+    ]
+  },
+  {
+    "country": "印度",
+    "source_name": "Energetica India – Wind Power",
+    "role": "风电行业/项目",
+    "title": "India’s Wind Capacity to Reach 107 GW by FY31 - Asia Pacific | Energetica India Magazine",
+    "published_at": "2026-09-10",
+    "url": "https://www.energetica-india.net/news/indias-wind-capacity-to-reach-107-gw-by-fy31",
+    "excerpt": "Windergy India 2026 highlighted India’s growing wind energy pipeline, with annual installations projected to reach 13.2 GW by FY31.\n\nThe annual installations of the wind energy is expected to reach 8 GW in FY26-27 and scale progressively to 13.2 GW by FY30-31, taking cumulative installed wind capacity to around 107 GW. With 59.2 GW already installed and another 43 GW under construction, India has visibility of 102.2 GW of wind capacity, providing a strong foundation for the next phase of expansion. The growth trajectory is further supported by the INR 1.86 lakh crore Green Energy Corridor Phase-3, which will strengthen transmission infrastructure and enable the integration of growing renewabl",
+    "fetch_mode": "requests",
+    "fetched_at": "2026-10-10T00:24:47+00:00",
+    "translated_title": "印度到31财政年度达到107千兆瓦的风力能力 -- -- 亚太 -- -- 印度能源杂志",
+    "tags": [
+      "竞对资讯",
+      "电网建设"
+    ],
+    "strategic_score": 25,
+    "monitor_reason": "项目涉及电网/送出 · 竞对项目动态 · GW级项目 · 标题明确风电",
+    "competitors": [
+      "ReNew"
+    ]
+  },
+  {
     "country": "印度",
     "source_name": "Renewable Watch",
     "role": "风电政策/项目/规划",
@@ -4313,7 +4647,7 @@
     "url": "https://www.aa.com.tr/en/energy/electricity/scottishpower-masdar-complete-foundation-installation-at-14gw-uk-offshore-wind-project/59103",
     "excerpt": "- Once operational, East Anglia THREE wind farm will generate enough electricity to meet power needs of more than 1.3 million homes - Anadolu Agency",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:29:09+00:00",
+    "fetched_at": "2026-10-10T00:29:29+00:00",
     "translated_title": "ScottishPower, Masdar在1.4GW UK近海风能项目完成地基安装",
     "tags": [
       "竞对资讯"
@@ -4399,7 +4733,7 @@
     "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=364",
     "excerpt": "Date: March 17-19, 2027 Venue: IMPACT EXHIBITION CENTRE, BANGKOK, THAILAND\n\nGuangdong Grandeur International Exhibition Group Co.,Ltd",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:28:32+00:00",
+    "fetched_at": "2026-10-10T00:28:50+00:00",
     "translated_title": "Global Wind Energy Update QQ Siemens Gamesa推出SG 7.0-170,\"加强大型岸上风能发展\".",
     "tags": [
       "竞对资讯"
@@ -4419,7 +4753,7 @@
     "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=372",
     "excerpt": "Date: March 17-19, 2027 Venue: IMPACT EXHIBITION CENTRE, BANGKOK, THAILAND\n\nGuangdong Grandeur International Exhibition Group Co.,Ltd",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:28:31+00:00",
+    "fetched_at": "2026-10-10T00:28:49+00:00",
     "translated_title": "菲律宾128MW风能项目推进东南亚可再生能源增长",
     "tags": [
       "竞对资讯"
@@ -4439,7 +4773,7 @@
     "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=381",
     "excerpt": "Date: March 17-19, 2027 Venue: IMPACT EXHIBITION CENTRE, BANGKOK, THAILAND\n\nGuangdong Grandeur International Exhibition Group Co.,Ltd",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:28:30+00:00",
+    "fetched_at": "2026-10-10T00:28:48+00:00",
     "translated_title": "岸外风潮持续:瓦滕瀑布安全 丹麦两大岸外风波项目",
     "tags": [
       "竞对资讯"
@@ -4459,7 +4793,7 @@
     "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=385",
     "excerpt": "Date: March 17-19, 2027 Venue: IMPACT EXHIBITION CENTRE, BANGKOK, THAILAND\n\nGuangdong Grandeur International Exhibition Group Co.,Ltd",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:28:28+00:00",
+    "fetched_at": "2026-10-10T00:28:47+00:00",
     "translated_title": "泰国DKT1风力项目89.7兆瓦风机供应交易",
     "tags": [
       "竞对资讯"
@@ -4479,7 +4813,7 @@
     "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=394",
     "excerpt": "MANILA, Philippines — ACEN Corporation, the energy platform of the Ayala Group, has completed the second and final phase of its maintenance and upgrade program for the NorthWind wind farm in Bangui Bay, Ilocos Norte, Philippines.\n\nWith an installed capacity of 52 MW across 20 turbines , NorthWind began operations in 2005 and is widely recognized as one of Southeast Asia’s pioneering commercial wind farms. The project has played an important role in the development of the Philippines’ wind energy sector and remains a landmark renewable energy asset in the region. The upgrade program was implemented in two phases between 2025 and 2026 , covering all 20 turbines and involving extensive mechanica",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:28:26+00:00",
+    "fetched_at": "2026-10-10T00:28:44+00:00",
     "translated_title": "ACEN 完成北风农场升级的最后阶段,延长东南亚先锋风能资产的生命",
     "tags": [
       "竞对资讯"
@@ -4499,7 +4833,7 @@
     "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=399",
     "excerpt": "Vestas has secured two new wind turbine orders in August, with a combined capacity of 137 MW across Italy and Peru , highlighting continued activity in international wind markets and providing further indications of improving demand for wind turbine technology.\n\nThe latest orders cover both Europe and Latin America and include turbine supply, long-term service agreements and project execution extending into 2027 and 2028. Together, they demonstrate Vestas’ continued presence across established and emerging wind markets.",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:28:24+00:00",
+    "fetched_at": "2026-10-10T00:28:43+00:00",
     "translated_title": "Vestas 欧洲和拉丁美洲新风令中的137兆瓦",
     "tags": [
       "竞对资讯",
@@ -4515,20 +4849,20 @@
     "country": "中东、南亚、北非",
     "source_name": "WindInsider",
     "role": "风电政策/规划/行业",
-    "title": "New Čibuk 2 Wind Farm: Serbia's Clean Energy Milestone",
+    "title": "Sturdee Energy Expands with 200 MW Masaiti Wind Project in Zambia",
     "published_at": "2026-08-10",
-    "url": "https://windinsider.com/2026/09/15/masdar-and-taaleri-energia-inaugurate-154-mw-cibuk-2-wind-farm-in-serbia/",
-    "excerpt": "Abu Dhabi-based clean energy company Masdar and Finnish renewable energy fund manager Taaleri Energia have inaugurated the 154 MW Čibuk 2 wind farm in Serbia, creating the largest wind power hub in Serbia and the wider Western Balkans.\n\nLocated in the South Banat region, around 40 kilometres from Belgrade, Čibuk 2 operates alongside the 158 MW Čibuk 1 wind farm. Together, the two projects have a combined installed capacity of 312 MW and are expected to generate enough clean electricity to power around 178,800 households.",
+    "url": "https://windinsider.com/2026/09/16/sturdee-energy-acquires-200-mw-masaiti-wind-project-in-zambia/",
+    "excerpt": "Sturdee Energy has acquired the 200 MW Masaiti wind project in Zambia’s Copperbelt region, marking an expansion of its renewable energy development portfolio in Africa. The project is currently in the late development stage and is planned to connect to Zambia’s national grid through a nearby 330 kV transmission line operated by ZESCO.\n\nThe acquisition covers project development activities from Upepo Holdings LLC through its local subsidiary, Upepo Energy Zambia. Sturdee Energy will now advance the Masaiti project through the remaining development stages toward financial close and commercial implementation.",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:28:22+00:00",
-    "translated_title": "新奇布克2风电场:塞尔维亚清洁能源里程碑",
+    "fetched_at": "2026-10-10T00:28:39+00:00",
+    "translated_title": "Sturdee 能源扩展,赞比亚200兆瓦Masaiti风力项目",
     "tags": [
-      "竞对资讯"
+      "竞对资讯",
+      "电网建设"
     ],
-    "strategic_score": 11,
-    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "strategic_score": 21,
+    "monitor_reason": "项目涉及电网/送出 · 竞对项目动态 · 标题明确风电",
     "competitors": [
-      "Masdar",
       "ReNew"
     ]
   },
@@ -4536,43 +4870,21 @@
     "country": "中东、南亚、北非",
     "source_name": "WindInsider",
     "role": "风电政策/规划/行业",
-    "title": "NTPC Invites Bids for 215 MW Wind Power Project in Madhya Pradesh",
+    "title": "Nordex Group Secures 91 MW Wind Turbine Order in Germany",
     "published_at": "2026-08-10",
-    "url": "https://windinsider.com/2026/09/16/ntpc-renewable-energy-invites-bids-for-215-mw-wind-power-project-in-madhya-pradesh/",
-    "excerpt": "NTPC Renewable Energy Limited (NREL), a wholly owned subsidiary of NTPC Limited, has invited bids for the development of a 215 MW wind power project in Madhya Pradesh. The project will be connected to a State Transmission Utility (STU) sub-station and will be developed under a comprehensive engineering, procurement, and construction (EPC) contract.\n\nThe Invitation for Bids (IFB) was issued on September 15, 2026, under Bidding Document No. NRE-CS-5933-003-9. The tender is also listed on the Electronic Tender Services portal under Tender Search Code NTPCREL-2026-TN000037. Eligible domestic entities can participate through a single-stage, two-envelope bidding process involving techno-commercial",
+    "url": "https://windinsider.com/2026/09/17/nordex-group-secures-91-mw-wind-turbine-order-for-brandenburg-project/",
+    "excerpt": "The Nordex Group has received a 91 MW wind turbine order from TEUT Energieprojekte GmbH for a new wind farm in Brandenburg, Germany. The contract also includes a Premium Service agreement covering a period of 20 years.\n\nThe Schönermark-Passow wind farm will be developed near Schwedt/Oder in the Uckermark district of Brandenburg. The project will comprise 13 Nordex N163/6.X wind turbines. Each turbine will have a hub height of 164 metres. Construction activities, along with the delivery and installation of the turbines, are scheduled to begin in September 2027.",
     "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:28:19+00:00",
-    "translated_title": "NTPC 邀请中央邦215兆瓦风能项目的投标",
+    "fetched_at": "2026-10-10T00:28:37+00:00",
+    "translated_title": "德国Nordex集团安全91兆瓦风电机组",
     "tags": [
       "竞对资讯",
-      "招标采购",
-      "电网建设"
+      "招标采购"
     ],
-    "strategic_score": 32,
-    "monitor_reason": "招标/采购节点 · 项目涉及电网/送出 · 竞对项目动态 · 标题明确风电",
+    "strategic_score": 23,
+    "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
     "competitors": [
-      "ReNew",
-      "NTPC Renewable Energy"
-    ]
-  },
-  {
-    "country": "中东、南亚、北非",
-    "source_name": "WindInsider",
-    "role": "风电政策/规划/行业",
-    "title": "ACWA Power Launches 1.5 GW Wind Project in Uzbekistan",
-    "published_at": "2026-08-10",
-    "url": "https://windinsider.com/2026/09/21/acwa-power-advances-2-6-billion-1-5-gw-kungrad-wind-project-in-uzbekistan/",
-    "excerpt": "ACWA Power is advancing the development of its 1.5 GW Kungrad wind project in Uzbekistan’s Karakalpakstan region, following the project’s presentation to President Shavkat Mirziyoyev during his visit to the region. The ceremony marked the launch and commencement of construction of several major development initiatives.\n\nAbid Malik, President of ACWA Central Asia, highlighted the company’s expanding presence in Uzbekistan and the strategic importance of Karakalpakstan in the country’s energy transition. The Kungrad project represents an investment of approximately USD 2.6 billion and is now entering an active construction phase.",
-    "fetch_mode": "requests",
-    "fetched_at": "2026-10-09T00:28:16+00:00",
-    "translated_title": "ACWA 电力预付款2.6亿美元 1.5 GW Kungrad Wind 工程在乌兹别克斯坦",
-    "tags": [
-      "竞对资讯"
-    ],
-    "strategic_score": 15,
-    "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
-    "competitors": [
-      "ACWA Power"
+      "Nordex"
     ]
   },
   {
@@ -4664,33 +4976,12 @@
     "country": "全球",
     "source_name": "Recharge",
     "role": "全球风电专业媒体",
-    "title": "'Even for Orsted and RWE': The case for changing how wind farms are managed",
-    "published_at": "2026-07-10",
-    "url": "https://www.rechargenews.com/interviews/even-for-orsted-and-rwe-the-case-for-changing-how-wind-farms-are-managed/2-1-2054548",
-    "excerpt": "Peak Wind CEO, a former Orsted vice president, makes case for greater use of independent wind power operators\n\nMy Alerts is a service for subscribers. Please login or subscribe in order to use My Alerts.",
-    "fetch_mode": "browser",
-    "fetched_at": "2026-10-09T00:30:01+00:00",
-    "translated_title": "\"即使是Orsted和RWE\": 改变风力发电场管理方式的理由",
-    "tags": [
-      "竞对资讯"
-    ],
-    "strategic_score": 9,
-    "monitor_reason": "竞对项目动态 · 标题明确风电",
-    "competitors": [
-      "Orsted",
-      "RWE"
-    ]
-  },
-  {
-    "country": "全球",
-    "source_name": "Recharge",
-    "role": "全球风电专业媒体",
     "title": "German energy minister denies choking renewables rollout, then scraps wind and solar unit",
     "published_at": "2026-07-10",
     "url": "https://www.rechargenews.com/policy/german-energy-minister-denies-choking-renewables-rollout-then-scraps-wind-and-solar-unit/2-1-2054799",
     "excerpt": "Katherina Reiche says government is keeping net zero target but wants new wind and solar steered to where grid can absorb it\n\nMy Alerts is a service for subscribers. Please login or subscribe in order to use My Alerts.",
     "fetch_mode": "browser",
-    "fetched_at": "2026-10-09T00:29:32+00:00",
+    "fetched_at": "2026-10-10T00:30:53+00:00",
     "translated_title": "德国能源部长否认窒息 可再生能源推出, 然后刮刮风和太阳能单位",
     "tags": [
       "竞对资讯"
@@ -4710,7 +5001,7 @@
     "url": "https://www.rechargenews.com/auctions/norway-sweetens-deal-for-equinor-and-edf-floating-wind-projects/2-1-2055296",
     "excerpt": "Energy ministry has made changes to auction terms it hopes will help two planned floating offshore wind farms come to fruition\n\nMy Alerts is a service for subscribers. Please login or subscribe in order to use My Alerts.",
     "fetch_mode": "browser",
-    "fetched_at": "2026-10-09T00:29:26+00:00",
+    "fetched_at": "2026-10-10T00:30:42+00:00",
     "translated_title": "挪威甜点交易Equinor和EDF浮动风力项目",
     "tags": [
       "竞对资讯",
@@ -4720,6 +5011,27 @@
     "monitor_reason": "正文含招标/采购 · 竞对项目动态 · 标题明确风电",
     "competitors": [
       "Equinor"
+    ]
+  },
+  {
+    "country": "全球",
+    "source_name": "Recharge",
+    "role": "全球风电专业媒体",
+    "title": "'Even for Orsted and RWE': The case for changing how wind farms are managed",
+    "published_at": "2026-07-10",
+    "url": "https://www.rechargenews.com/interviews/even-for-orsted-and-rwe-the-case-for-changing-how-wind-farms-are-managed/2-1-2054548",
+    "excerpt": "Peak Wind CEO, a former Orsted vice president, makes case for greater use of independent wind power operators\n\nMy Alerts is a service for subscribers. Please login or subscribe in order to use My Alerts.",
+    "fetch_mode": "browser",
+    "fetched_at": "2026-10-09T00:30:01+00:00",
+    "translated_title": "\"即使是Orsted和RWE\": 改变风力发电场管理方式的理由",
+    "tags": [
+      "竞对资讯"
+    ],
+    "strategic_score": 9,
+    "monitor_reason": "竞对项目动态 · 标题明确风电",
+    "competitors": [
+      "Orsted",
+      "RWE"
     ]
   },
   {
