@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-10T00:33:19+00:00",
+  "generated_at": "2026-10-11T00:30:37+00:00",
   "period": {
     "days": 7,
-    "start": "2026-10-04",
-    "end": "2026-10-10"
+    "start": "2026-10-05",
+    "end": "2026-10-11"
   },
   "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
   "count": 8,
@@ -74,10 +74,10 @@
     {
       "country": "全球",
       "source_name": "Recharge",
-      "title": "Norway's wind industry suffers worst year ever analysis 06.10.2026",
-      "translated_title": "挪威的风力工业遭受了有史以来最糟糕的一年的分析",
+      "title": "Worker dies at wind turbine tower factory in Portugal accidents and casualties 06.10.2026",
+      "translated_title": "工人死于葡萄牙风力涡轮塔厂事故和伤亡",
       "published_at": "2026-10-09",
-      "url": "https://www.rechargenews.com/analysis/worst-year-ever-for-one-nordic-nations-wind-industry/2-1-2053588",
+      "url": "https://www.rechargenews.com/accidents-and-casualties/worker-dies-at-wind-turbine-tower-factory-in-portugal/2-1-2052625",
       "tags": [
         "竞对资讯",
         "招标采购",
@@ -193,29 +193,29 @@
     {
       "country": "全球",
       "source_name": "Recharge",
-      "title": "Turbine troubles at pioneer project 'not just a floating problem' analysis 06.10.2026",
-      "translated_title": "Vestas风机在先驱项目上的麻烦 \"不仅仅是一个浮出水面的问题\"",
+      "title": "Norway's wind industry suffers worst year ever analysis 06.10.2026",
+      "translated_title": "挪威的风力工业遭受了有史以来最糟糕的一年的分析",
       "published_at": "2026-10-09",
-      "url": "https://www.rechargenews.com/analysis/vestas-turbine-troubles-at-pioneer-project-not-just-a-floating-problem/2-1-2053956",
+      "url": "https://www.rechargenews.com/analysis/worst-year-ever-for-one-nordic-nations-wind-industry/2-1-2053588",
       "tags": [
         "竞对资讯",
         "招标采购",
         "审批政策"
       ],
       "competitors": [
-        "Vestas",
         "GE Vernova",
         "Orsted",
-        "RWE"
+        "RWE",
+        "TotalEnergies"
       ],
       "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
       "signals": [
         "竞对资讯",
         "招标采购",
-        "Vestas"
+        "GE Vernova"
       ],
       "rank": 8,
-      "importance_reason": "竞对资讯 · 招标采购 · Vestas"
+      "importance_reason": "竞对资讯 · 招标采购 · GE Vernova"
     }
   ]
 }

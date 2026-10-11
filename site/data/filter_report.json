@@ -1,19 +1,79 @@
 {
-  "generated_at": "2026-10-10T00:33:19+00:00",
-  "before": 297,
-  "kept": 246,
-  "filtered_out": 51,
+  "generated_at": "2026-10-11T00:30:37+00:00",
+  "before": 301,
+  "kept": 245,
+  "filtered_out": 56,
   "tag_counts": {
-    "竞对资讯": 219,
-    "电网建设": 19,
-    "审批政策": 31,
-    "招标采购": 60,
+    "竞对资讯": 218,
+    "电网建设": 20,
+    "审批政策": 32,
+    "招标采购": 59,
     "市场机制": 8,
     "宏观政策": 3
   },
   "rejected_examples": [
     {
-      "title": "06.10.2026 China completes world’s tallest wind measurement tower",
+      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-10",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-10",
+      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án điện gió An Phúc Đông Hải và Đông Hải 1, 3, 13 (giai đoạn tiếp theo)",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-10",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-dien-gio-an-phuc-dong-hai-va-dong-hai-1-3-13-giai-doan-tiep-theo-36554.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Việt Nam muốn phát triển điện gió ngoài khơi, năng lực logistics cũng phải sẵn sàng",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-10",
+      "url": "https://nangluongvietnam.vn/viet-nam-muon-phat-trien-dien-gio-ngoai-khoi-nang-luc-logistics-cung-phai-san-sang-36561.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "AKROCEAN triển khai thành công chiến dịch đo gió ngoài khơi thông qua hệ thống Floating LiDAR cho dự án Điện gió Nam Bộ 3",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-10",
+      "url": "https://nangluongvietnam.vn/akrocean-trien-khai-thanh-cong-chien-dich-do-gio-ngoai-khoi-thong-qua-he-thong-floating-lidar-cho-du-an-dien-gio-nam-bo-3-36645.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "T&T Group tiếp tục đầu tư dự án Nhà máy điện gió Savan 2 (gần 500 MW) tại Lào",
+      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
+      "published_at": "2026-10-10",
+      "url": "https://nangluongvietnam.vn/tt-group-tiep-tuc-dau-tu-du-an-nha-may-dien-gio-savan-2-gan-500-mw-tai-lao-36748.html",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "China completes world’s tallest wind measurement tower",
       "source_name": "QazaqGreen",
       "published_at": "2026-10-09",
       "url": "https://qazaqgreen.com/en/news/world/3917/",
@@ -51,81 +111,86 @@
       ]
     },
     {
-      "title": "Cargill expands renewable electricity portfolio in the US",
+      "title": "Tech Focus",
       "source_name": "Renewable Watch",
-      "published_at": "2026-10-08",
+      "published_at": "2026-10-09",
+      "url": "https://renewablewatch.in/2026/10/05/india-needs-to-improve-its-design-capabilities-interview-with-gurits-jesper-sloth/",
+      "reasons": [
+        "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "Projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-09",
+      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Projects",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-09",
+      "url": "https://renewablewatch.in/2026/10/05/actis-launches-leo-energies-in-india/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "Hybrids and Energy Storage",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-09",
+      "url": "https://renewablewatch.in/2026/10/05/sumitro-corporation-to-acquire-stake-in-hfes-500-mw-renewable-energy-project-in-karnataka/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "October 9, 2026",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-09",
+      "url": "https://renewablewatch.in/2026/10/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
+    {
+      "title": "International News",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-09",
       "url": "https://renewablewatch.in/2026/10/08/cargill-expands-renewable-electricity-portfolio-in-the-us/",
       "reasons": [
-        "风电相关性不足"
+        "标题无效/栏目标题"
       ]
     },
     {
-      "title": "Quan điểm của Chính phủ trong xử lý các dự án điện gió ở Lâm Đồng chồng lấn với quy hoạch khoáng sản",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-10-06",
-      "url": "https://nangluongvietnam.vn/quan-diem-cua-chinh-phu-trong-xu-ly-cac-du-an-dien-gio-o-lam-dong-chong-lan-voi-quy-hoach-khoang-san-36423.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-10-06",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-10-06",
-      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án điện gió An Phúc Đông Hải và Đông Hải 1, 3, 13 (giai đoạn tiếp theo)",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-10-06",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-dien-gio-an-phuc-dong-hai-va-dong-hai-1-3-13-giai-doan-tiep-theo-36554.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Việt Nam muốn phát triển điện gió ngoài khơi, năng lực logistics cũng phải sẵn sàng",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-10-06",
-      "url": "https://nangluongvietnam.vn/viet-nam-muon-phat-trien-dien-gio-ngoai-khoi-nang-luc-logistics-cung-phai-san-sang-36561.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "AKROCEAN triển khai thành công chiến dịch đo gió ngoài khơi thông qua hệ thống Floating LiDAR cho dự án Điện gió Nam Bộ 3",
-      "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
-      "published_at": "2026-10-06",
-      "url": "https://nangluongvietnam.vn/akrocean-trien-khai-thanh-cong-chien-dich-do-gio-ngoai-khoi-thong-qua-he-thong-floating-lidar-cho-du-an-dien-gio-nam-bo-3-36645.html",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Vardhman Textiles and Serentica partner for captive hybrid project",
+      "title": "Financings",
       "source_name": "Renewable Watch",
-      "published_at": "2026-10-06",
+      "published_at": "2026-10-09",
       "url": "https://renewablewatch.in/2026/10/06/vardhman-textiles-and-serentica-partner-for-captive-hybrid-project/",
       "reasons": [
-        "风电相关性不足"
+        "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "Purvah Green signs 175 MW wind PPA with SECI",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-08",
+      "url": "https://renewablewatch.in/2026/10/08/purvah-green-and-seci-sign-175-mw-wind-ppa/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Inox Green acquires WWIL’s 4.5 GW wind O&M business",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-07",
+      "url": "https://renewablewatch.in/2026/10/07/inox-green-acquires-wwils-4-5-gw-wind-om-business/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
       ]
     },
     {
@@ -175,6 +240,15 @@
       ]
     },
     {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-25",
+      "url": "https://www.aa.com.tr/en/energy/electricity",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
       "title": "Türkiye's first offshore wind YEKA project expected to draw $3B investment",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-25",
@@ -182,15 +256,6 @@
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-25",
-      "url": "https://www.aa.com.tr/en/energy/electricity",
-      "reasons": [
-        "风电相关性不足"
       ]
     },
     {
@@ -233,20 +298,20 @@
       ]
     },
     {
-      "title": "Türkiye seeks stronger international cooperation for resilient wind energy supply chains",
+      "title": "Global wind power capacity to rise by more than 180 GW this year",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-23",
-      "url": "https://www.aa.com.tr/en/energy/wind/turkiye-seeks-stronger-international-cooperation-for-resilient-wind-energy-supply-chains/59763",
+      "url": "https://www.aa.com.tr/en/energy/wind/global-wind-power-capacity-to-rise-by-more-than-180-gw-this-year/59784",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Global wind power capacity to rise by more than 180 GW this year",
+      "title": "Türkiye seeks stronger international cooperation for resilient wind energy supply chains",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-23",
-      "url": "https://www.aa.com.tr/en/energy/wind/global-wind-power-capacity-to-rise-by-more-than-180-gw-this-year/59784",
+      "url": "https://www.aa.com.tr/en/energy/wind/turkiye-seeks-stronger-international-cooperation-for-resilient-wind-energy-supply-chains/59763",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -274,7 +339,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/finance",
+      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
       "reasons": [
         "风电相关性不足"
       ]
@@ -283,7 +348,7 @@
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-19",
-      "url": "https://www.aa.com.tr/en/energy/regulation-renewable",
+      "url": "https://www.aa.com.tr/en/energy/finance",
       "reasons": [
         "风电相关性不足"
       ]
@@ -319,16 +384,6 @@
       ]
     },
     {
-      "title": "GERC Dispute: Solarcraft Seeks Relief from GUVNL for Wind Project",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-09",
-      "url": "https://windinsider.com/2026/09/09/gerc-hears-dispute-with-guvnl-over-200-mw-wind-project-delays/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
       "title": "Europe installs 8.8 GW new wind power capacity in H126",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-04",
@@ -343,16 +398,6 @@
       "source_name": "ANEV",
       "published_at": "2026-09-02",
       "url": "https://www.anev.org/2026/02/09/corso-di-formazione-1-2026-la-sicurezza-nel-parco-eolico/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Last-ditch appeal launched to alter German offshore wind reform",
-      "source_name": "Recharge",
-      "published_at": "2026-08-10",
-      "url": "https://www.rechargenews.com/policy/last-ditch-appeal-launched-to-alter-german-offshore-wind-reform/2-1-2055585",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
