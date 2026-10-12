@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T00:30:37+00:00",
-  "before": 301,
-  "kept": 245,
-  "filtered_out": 56,
+  "generated_at": "2026-10-12T00:32:48+00:00",
+  "before": 296,
+  "kept": 246,
+  "filtered_out": 50,
   "tag_counts": {
-    "竞对资讯": 218,
-    "电网建设": 20,
+    "竞对资讯": 219,
+    "电网建设": 21,
     "审批政策": 32,
-    "招标采购": 59,
+    "招标采购": 58,
     "市场机制": 8,
     "宏观政策": 3
   },
@@ -111,86 +111,21 @@
       ]
     },
     {
-      "title": "Tech Focus",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-09",
-      "url": "https://renewablewatch.in/2026/10/05/india-needs-to-improve-its-design-capabilities-interview-with-gurits-jesper-sloth/",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-09",
-      "url": "https://renewablewatch.in/2026/09/30/cleanmax-and-nuvoco-partner-for-46-4-mw-hybrid-project-in-rajasthan/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Projects",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-09",
-      "url": "https://renewablewatch.in/2026/10/05/actis-launches-leo-energies-in-india/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Hybrids and Energy Storage",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-09",
-      "url": "https://renewablewatch.in/2026/10/05/sumitro-corporation-to-acquire-stake-in-hfes-500-mw-renewable-energy-project-in-karnataka/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "October 9, 2026",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-09",
-      "url": "https://renewablewatch.in/2026/10/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "International News",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-09",
-      "url": "https://renewablewatch.in/2026/10/08/cargill-expands-renewable-electricity-portfolio-in-the-us/",
-      "reasons": [
-        "标题无效/栏目标题"
-      ]
-    },
-    {
-      "title": "Financings",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-09",
-      "url": "https://renewablewatch.in/2026/10/06/vardhman-textiles-and-serentica-partner-for-captive-hybrid-project/",
-      "reasons": [
-        "正文明确涉及风电"
-      ]
-    },
-    {
-      "title": "Purvah Green signs 175 MW wind PPA with SECI",
+      "title": "Cargill expands renewable electricity portfolio in the US",
       "source_name": "Renewable Watch",
       "published_at": "2026-10-08",
-      "url": "https://renewablewatch.in/2026/10/08/purvah-green-and-seci-sign-175-mw-wind-ppa/",
+      "url": "https://renewablewatch.in/2026/10/08/cargill-expands-renewable-electricity-portfolio-in-the-us/",
       "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
+        "风电相关性不足"
       ]
     },
     {
-      "title": "Inox Green acquires WWIL’s 4.5 GW wind O&M business",
+      "title": "Vardhman Textiles and Serentica partner for captive hybrid project",
       "source_name": "Renewable Watch",
-      "published_at": "2026-10-07",
-      "url": "https://renewablewatch.in/2026/10/07/inox-green-acquires-wwils-4-5-gw-wind-om-business/",
+      "published_at": "2026-10-06",
+      "url": "https://renewablewatch.in/2026/10/06/vardhman-textiles-and-serentica-partner-for-captive-hybrid-project/",
       "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
+        "风电相关性不足"
       ]
     },
     {
@@ -298,16 +233,6 @@
       ]
     },
     {
-      "title": "Global wind power capacity to rise by more than 180 GW this year",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-23",
-      "url": "https://www.aa.com.tr/en/energy/wind/global-wind-power-capacity-to-rise-by-more-than-180-gw-this-year/59784",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
       "title": "Türkiye seeks stronger international cooperation for resilient wind energy supply chains",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-23",
@@ -318,12 +243,13 @@
       ]
     },
     {
-      "title": "APTEL Clarifies CERC Arbitration Powers And Corrects DVC Judgment Interpretation",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-22",
-      "url": "https://windinsider.com/2026/09/22/aptel-clarifies-cerc-arbitration-powers-and-corrects-dvc-judgment-interpretation/",
+      "title": "Global wind power capacity to rise by more than 180 GW this year",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-23",
+      "url": "https://www.aa.com.tr/en/energy/wind/global-wind-power-capacity-to-rise-by-more-than-180-gw-this-year/59784",
       "reasons": [
-        "风电相关性不足"
+        "无六类监测标签",
+        "标题明确风电"
       ]
     },
     {
@@ -354,16 +280,6 @@
       ]
     },
     {
-      "title": "NTPC Green Energy Commissions 6.3 MW Second-Part Capacity Of Vanki Wind Project In Gujarat",
-      "source_name": "WindInsider",
-      "published_at": "2026-09-15",
-      "url": "https://windinsider.com/2026/09/15/ntpc-green-energy-commissions-6-3-mw-second-part-capacity-of-vanki-wind-project-in-gujarat/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
       "title": "EBRD backs 131 MW wind farm in North Macedonia",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-11",
@@ -378,6 +294,16 @@
       "source_name": "Energetica India – Wind Power",
       "published_at": "2026-09-10",
       "url": "https://www.energetica-india.net/news/dee-fabricom-secures-inr-55-crore-wind-tower-supply-intent",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Electricity minister reviews Ras Shukeir wind project progress with Orascom Construction",
+      "source_name": "Daily News Egypt",
+      "published_at": "2026-09-06",
+      "url": "https://www.dailynewsegypt.com/2026/09/06/electricity-minister-reviews-ras-shukeir-wind-project-progress-with-orascom-construction/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -404,6 +330,16 @@
       ]
     },
     {
+      "title": "Last-ditch appeal launched to alter German offshore wind reform",
+      "source_name": "Recharge",
+      "published_at": "2026-08-10",
+      "url": "https://www.rechargenews.com/policy/last-ditch-appeal-launched-to-alter-german-offshore-wind-reform/2-1-2055585",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
       "title": "AWE 2027 Welcomes EnvironBuzz Magazine as Media Partner",
       "source_name": "ASEAN Wind Energy Expo",
       "published_at": "2026-08-10",
@@ -423,20 +359,20 @@
       ]
     },
     {
-      "title": "Kazakhstan Takes Another Step Toward Local Wind Energy Manufacturing",
+      "title": "PetroEnergy Completes Full Acquisition of PetroWind’s 49.2 MW Wind Portfolio in the Philippines",
       "source_name": "ASEAN Wind Energy Expo",
       "published_at": "2026-08-10",
-      "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=390",
+      "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=391",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "PetroEnergy Completes Full Acquisition of PetroWind’s 49.2 MW Wind Portfolio in the Philippines",
+      "title": "Kazakhstan Takes Another Step Toward Local Wind Energy Manufacturing",
       "source_name": "ASEAN Wind Energy Expo",
       "published_at": "2026-08-10",
-      "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=391",
+      "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=390",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -460,6 +396,15 @@
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
+      ]
+    },
+    {
+      "title": "APTEL Grants Review Petition: Key Findings on Arbitration Powers",
+      "source_name": "WindInsider",
+      "published_at": "2026-08-10",
+      "url": "https://windinsider.com/2026/09/22/aptel-clarifies-cerc-arbitration-powers-and-corrects-dvc-judgment-interpretation/",
+      "reasons": [
+        "风电相关性不足"
       ]
     },
     {
