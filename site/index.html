@@ -1,58 +1,76 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="全球风电法规政策与标准候选检索、来源运行状态及待核验事项。">
-<title>风电法规政策与战略情报监测 · V5</title>
-<link rel="stylesheet" href="./static/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="国内外风电法规政策、标准与行业动态监测：条款证据、设计影响、商业模式及采集状态。">
+  <meta name="color-scheme" content="light">
+  <title>风电法规政策与战略情报监测 · Wind Policy Intelligence</title>
+  <link rel="stylesheet" href="./static/styles.css">
 </head>
 <body>
-<div class="shell policy-shell">
-<header class="hero policy-hero">
- <div><div class="eyebrow">GLOBAL WIND COMPLIANCE INTELLIGENCE · V5.1</div>
- <h1>风电法规政策与战略情报监测</h1>
- <p>国内外法规 · 标准与认证 · 产品设计影响 · 商业模式变化</p>
- <nav class="main-nav" aria-label="主导航"><a class="selected" href="./index.html">法规政策与标准</a><a href="./news.html">行业动态</a></nav>
- </div>
- <div class="hero-right"><div class="online-pill"><span class="dot"></span>公开信息源</div><div id="policyUpdatedAt" class="last-run">正在读取监测状态…</div></div>
-</header>
-<section class="kpis policy-kpis" aria-label="来源和候选政策统计">
- <article><span>已录入网址</span><strong id="sourceTotal">—</strong></article>
- <article><span>国内信息渠道</span><strong id="cnSourceCount">—</strong></article>
- <article><span>海外及国际渠道</span><strong id="intlSourceCount">—</strong></article>
- <article><span>已轮询渠道</span><strong id="checkedSourceCount">—</strong></article>
- <article><span>风电法规候选</span><strong id="policyCount">—</strong></article>
-</section>
-<section class="notice policy-notice"><strong>核验边界：</strong>“已录入网址”不等于“抓取成功”；系统展示的文件是初筛候选，只有核实条款、适用范围、效力、生效日期及原始附件后，才能据此制定正式的设计或经营对策。数据库检索页、动态页面和单篇文章入口会单独提示，不冒充已完整监测。</section>
-<section class="panel">
- <div class="panel-head"><div><h2>法规政策候选文件</h2><p id="policySummary">正在读取候选文件…</p></div><a class="export-btn" href="./data/policies.csv" download>导出候选 CSV</a></div>
- <div class="policy-toolbar">
-  <input id="policySearch" type="search" aria-label="搜索法规标题和来源" placeholder="搜索文件标题、来源或原文摘录…">
-  <select id="policyRegion" aria-label="区域"><option value="">全部区域</option><option value="中国">中国</option><option value="海外/国际">海外及国际</option></select>
-  <select id="policyProvince" aria-label="省份国家"><option value="">全部省份/国家</option></select>
-  <select id="policyDimension" aria-label="法规维度"><option value="">全部法规维度</option></select>
-  <select id="policyType" aria-label="文件类别"><option value="">全部文件类别</option></select>
- </div>
- <div id="policyList" class="policy-list"></div>
- <div id="policyEmpty" class="empty hidden">当前没有符合条件的法规候选。首次运行前这里为空；未通过风电关联核验的跨行业文件也不会直接进入正式展示。</div>
-</section>
-<section class="panel">
- <div class="panel-head"><div><h2>政策及标准来源目录</h2><p id="sourcesSummary">正在加载来源网址…</p></div><span class="legend">机构名称、原始链接与轮询状态可追溯</span></div>
- <div class="policy-toolbar source-toolbar">
-  <input id="sourceSearch" type="search" aria-label="搜索机构名称和网址" placeholder="搜索地区、机构、网站域名…">
-  <select id="sourceRegion" aria-label="按地区筛选来源"><option value="">全部区域</option><option value="中国">中国</option><option value="海外/国际">海外及国际</option></select>
-  <select id="sourceStatusFilter" aria-label="按运行状态筛选"><option value="">全部运行状态</option><option value="not_checked">尚未轮询</option><option value="ok">本轮已读取</option><option value="needs_adapter">需专用适配</option><option value="error">读取异常</option></select>
- </div>
- <div id="policySourceGrid" class="source-grid policy-source-grid"></div>
- <div id="sourceEmpty" class="empty hidden">没有匹配的来源。</div>
-</section>
-<section class="panel">
- <div class="panel-head"><div><h2>18 个法规监测维度</h2><p>页面显示完整中文维度名称，内部编码不对外展示；支持一项法规关联多个维度。</p></div></div>
- <div id="dimensionsGrid" class="dimension-grid"></div>
-</section>
-<footer>信息仅供监测与研究，正式合规判断应以有效官方条款及专业审查为准。所有来源均保留可点击的原始网址。</footer>
+<div class="container">
+  <header class="hero">
+    <div class="hero-top"><span class="eyebrow">WIND POLICY INTELLIGENCE</span><span class="edition">法规专项 · 自动监测版</span></div>
+    <div class="hero-main"><div><h1>风电法规政策与战略情报监测</h1>
+      <p>国内外法规 · 产品设计与认证 · 市场准入与商业模式 · 应对措施</p>
+    </div><div class="hero-status"><span><i class="small-dot"></i> 公开信息源</span><small id="lastUpdate">等待读取运行记录…</small></div></div>
+    <nav class="tabbar" aria-label="信息类别">
+      <button id="tabPolicy" class="tab active" type="button" aria-selected="true">法规政策与标准</button>
+      <button id="tabIndustry" class="tab" type="button" aria-selected="false">行业动态</button>
+      <button id="tabSource" class="tab" type="button" aria-selected="false">信息源与抓取诊断</button>
+    </nav>
+  </header>
+  <main>
+    <section class="stats" aria-label="监测概况">
+      <article class="stat"><span>已配置法规渠道</span><strong id="sourceCount">—</strong><small>国内及海外渠道</small></article>
+      <article class="stat"><span>法规候选条款</span><strong id="candidateCount">—</strong><small>需人工核验的法规线索</small></article>
+      <article class="stat"><span>待核实 / 观察</span><strong id="reviewCount">—</strong><small>不足以形成确定合规判断</small></article>
+      <article class="stat"><span>本轮发现证据渠道</span><strong id="foundSourceCount">—</strong><small>不等于全部网站抓取成功</small></article>
+      <article class="stat"><span>已核验重要度评分</span><strong id="scoredCount">—</strong><small>需齐全的企业与法规证据</small></article>
+    </section>
+
+    <div id="globalNotice" class="notice"><strong>核验边界</strong>：渠道已配置不等于抓取成功；命中的条款属于法规候选。只有核实法律效力、适用主体、具体义务及企业影响后，才能据此形成合规或产品设计决策。</div>
+
+    <section id="policyPanel" class="view">
+      <div class="panel">
+        <div class="panel-head"><div><div class="section-label">REGULATION DESK</div><h2>法规政策候选条款</h2><p>以具体条款为最小管理单元；重要度分为“初筛审阅顺序”和“正式核验评分”。</p></div><button type="button" id="exportPolicy" class="btn muted">导出候选 CSV ↓</button></div>
+        <div class="filters">
+          <input type="search" id="qPolicy" placeholder="搜索法规名称、条款、国家、影响分析…" aria-label="搜索法规">
+          <select id="regionPolicy" aria-label="区域"><option value="">全部区域</option><option>国内</option><option>海外</option></select>
+          <select id="countryPolicy" aria-label="国家"><option value="">全部国家/地区</option></select>
+          <select id="dimensionPolicy" aria-label="法规维度"><option value="">全部法规维度</option></select>
+          <select id="sortPolicy" aria-label="排序"><option value="review">初筛审阅优先</option><option value="score">已核验重要度优先</option><option value="newest">发布日期优先</option></select>
+        </div>
+        <div class="list-topline"><div id="policyCountText">读取法规记录中…</div><span>标签显示完整中文维度名称</span></div>
+        <div id="policyList" class="cards"></div>
+        <div id="policyEmpty" class="empty hidden"><strong>暂未发现满足强风电法规条件的候选条款。</strong><p>页面不会以演示数据伪装抓取结果。首次部署后请运行 GitHub Actions，随后到“信息源与抓取诊断”查看失败原因及检索门户待适配情况。</p></div>
+      </div>
+      <div class="panel secondary-panel">
+        <div class="panel-head"><div><div class="section-label">NEEDS VERIFICATION</div><h2>政策观察与待核实线索</h2><p>征求意见稿、通用条款及风电适用范围不明确的内容，不直接纳入已核实主库。</p></div><span id="reviewPill" class="count-pill">0 条</span></div>
+        <div id="reviewList" class="review-list"></div>
+        <div id="reviewEmpty" class="empty hidden">目前没有可展示的待核实线索。</div>
+      </div>
+    </section>
+
+    <section id="industryPanel" class="view hidden">
+      <div class="panel"><div class="panel-head"><div><div class="section-label">INDUSTRY WATCH</div><h2>海外行业动态</h2><p>保留原有风电新闻监测和自动精选，不与法规条款混合评分。</p></div><a href="./data/wind_news.csv" download class="btn muted">导出新闻 CSV ↓</a></div>
+        <div class="filters slim"><input id="qNews" type="search" placeholder="搜索中文/外文标题、国家、来源…"><select id="newsTag"><option value="">全部行业标签</option></select></div>
+        <h3 class="small-heading">本周重点动态</h3><div id="focusList" class="news-list"></div><div class="divider"></div>
+        <h3 class="small-heading">最新动态 <span id="newsCountLabel" class="hint"></span></h3><div id="newsList" class="news-list"></div>
+        <div id="newsEmpty" class="empty hidden">暂无符合筛选条件的动态；请查看新闻抓取状态。</div>
+      </div>
+    </section>
+
+    <section id="sourcePanel" class="view hidden">
+      <div class="panel"><div class="panel-head"><div><div class="section-label">SOURCE DIAGNOSTICS</div><h2>网站抓取状态与海外适配</h2><p>逐个网址记录尝试方式、解析页数、候选条款及失败原因；不以“网页能打开”代替“法规抓取成功”。</p></div><span id="sourceSummary" class="count-pill">待运行</span></div>
+        <div class="filters slim"><input id="qSource" type="search" placeholder="搜索来源机构、国家、域名、错误…"><select id="regionSource"><option value="">全部区域</option><option>国内</option><option>海外</option></select><select id="statusSource"><option value="">全部状态</option></select></div>
+        <div id="diagnosticIntro" class="diagnostic-intro"></div><div id="sourceCards" class="sources"></div>
+      </div>
+    </section>
+  </main>
+  <footer><span>WIND POLICY INTELLIGENCE · OPEN SOURCES</span><p>仅供法规监测与研究。法规法律效力、标准强制性及企业应对措施以主管机构原文和专业审查为准。本站不提供付费墙或验证码绕过服务。</p></footer>
 </div>
-<script src="./static/policy.js"></script>
+<script src="./static/app.js" defer></script>
 </body>
 </html>

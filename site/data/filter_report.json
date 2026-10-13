@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T04:06:53+00:00",
+  "generated_at": "2026-10-13T00:34:04+00:00",
   "before": 307,
   "kept": 256,
   "filtered_out": 51,
@@ -243,15 +243,6 @@
       ]
     },
     {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-25",
-      "url": "https://www.aa.com.tr/en/energy/electricity",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
       "title": "Türkiye's first offshore wind YEKA project expected to draw $3B investment",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-25",
@@ -259,6 +250,15 @@
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
+      ]
+    },
+    {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-25",
+      "url": "https://www.aa.com.tr/en/energy/electricity",
+      "reasons": [
+        "风电相关性不足"
       ]
     },
     {
