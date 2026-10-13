@@ -1,9 +1,9 @@
-name: Update wind news and deploy
+name: Update wind policies and news and deploy
 
 on:
   workflow_dispatch:
   schedule:
-    # 北京时间每天 08:00
+    # 北京时间每天 08:00（GitHub Actions cron 使用 UTC）
     - cron: "0 0 * * *"
 
 permissions:
@@ -18,11 +18,16 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,7 +38,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.local/share/argos-translate
-          key: argos-v44-${{ runner.os }}-py311-en-vi-pt-it-ar-zh
+          key: argos-v51-${{ runner.os }}-py311-en-vi-pt-it-ar-zh
 
       - name: Install Python dependencies
         run: |
@@ -44,7 +49,7 @@ jobs:
         run: |
           python -m playwright install --with-deps chromium
 
-      - name: Scrape, filter and build weekly focus
+      - name: Scrape wind news and build weekly focus
         env:
           ENABLE_TRANSLATION: "1"
           MAX_TRANSLATIONS_PER_RUN: "240"
@@ -59,14 +64,18 @@ jobs:
           python strategic_filter.py
           python weekly_focus.py
 
+      - name: Scrape policies and regulations
+        run: |
+          python policy_scrape.py
+
       - name: Save updated monitoring data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add site/data/
-          git diff --cached --quiet || git commit -m "Update strategic wind monitoring"
+          git diff --cached --quiet || git commit -m "Update wind news and policy monitoring"
           git pull --rebase origin main
-          git push
+          git push origin main
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
