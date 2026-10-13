@@ -1,17 +1,95 @@
 {
-  "generated_at": "2026-10-12T00:32:48+00:00",
-  "before": 296,
-  "kept": 246,
-  "filtered_out": 50,
+  "generated_at": "2026-10-13T00:34:04+00:00",
+  "before": 307,
+  "kept": 256,
+  "filtered_out": 51,
   "tag_counts": {
-    "竞对资讯": 219,
+    "竞对资讯": 229,
+    "审批政策": 37,
     "电网建设": 21,
-    "审批政策": 32,
-    "招标采购": 58,
+    "招标采购": 62,
     "市场机制": 8,
     "宏观政策": 3
   },
   "rejected_examples": [
+    {
+      "title": "Hungary could top 6 GW of wind energy by 2040 - report",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-12",
+      "url": "https://renewablesnow.com/news/hungary-could-top-6-gw-of-wind-energy-by-2040-report-1302840/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Ardian adds to portfolio 73 MW of wind power in Sweden, Finland",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-12",
+      "url": "https://renewablesnow.com/news/ardian-adds-to-portfolio-73-mw-of-wind-power-in-sweden-finland-1302814/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Europe’s plan to double down on electricity will require a more robust ETS",
+      "source_name": "WindEurope",
+      "published_at": "2026-10-12",
+      "url": "https://windeurope.org/news/europes-plan-to-double-down-on-electricity-will-require-a-more-robust-ets/",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
+      "title": "12 October 2026 WindEurope opposes reopening of Birds and Habitats Directive",
+      "source_name": "WindEurope",
+      "published_at": "2026-10-12",
+      "url": "https://windeurope.org/news/how-wind-energy-supports-biodiversity/",
+      "reasons": [
+        "正文明确涉及风电"
+      ]
+    },
+    {
+      "title": "Wind industry names new leadership to turn record year into lasting momentum",
+      "source_name": "WindEurope",
+      "published_at": "2026-10-12",
+      "url": "https://windeurope.org/news/wind-industry-names-new-leadership-to-turn-record-year-into-lasting-momentum/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Wind sector commits to strengthening Europe’s literacy to boost skills and fight disinformation",
+      "source_name": "WindEurope",
+      "published_at": "2026-10-12",
+      "url": "https://windeurope.org/news/wind-sector-commits-to-strengthening-europes-literacy-to-boost-skills-and-fight-disinformation/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Wind energy is hiring. Here's how to get a job in it",
+      "source_name": "WindEurope",
+      "published_at": "2026-10-12",
+      "url": "https://windeurope.org/news/wind-energy-is-hiring-heres-how-to-get-a-job-in-it/",
+      "reasons": [
+        "标题明确风电",
+        "低价值内容"
+      ]
+    },
+    {
+      "title": "China completes world’s tallest wind measurement tower",
+      "source_name": "QazaqGreen",
+      "published_at": "2026-10-12",
+      "url": "https://qazaqgreen.com/en/news/world/3917/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
     {
       "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
       "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
@@ -73,16 +151,6 @@
       ]
     },
     {
-      "title": "China completes world’s tallest wind measurement tower",
-      "source_name": "QazaqGreen",
-      "published_at": "2026-10-09",
-      "url": "https://qazaqgreen.com/en/news/world/3917/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
       "title": "Pralhad Joshi to Inaugurate Windergy India 2026 in Chennai",
       "source_name": "Energetica India – Wind Power",
       "published_at": "2026-10-09",
@@ -129,7 +197,7 @@
       ]
     },
     {
-      "title": "SEMINARIO 4/2026 - Power Purchase Agreement per le Rinnovabili per supportare gli obiettivi di crescita del PNIEC - ANEV",
+      "title": "28 Ottobre 2026 - SEMINARIO 4 - Power Purchase Agreement per le Rinnovabili per supportare gli obiettivi di crescita del PNIEC - ANEV",
       "source_name": "ANEV",
       "published_at": "2026-09-29",
       "url": "https://www.anev.org/2026/09/29/seminario-4-2026-power-purchase-agreement-per-le-rinnovabili-per-supportare-gli-obiettivi-di-crescita-del-pniec/",
@@ -168,17 +236,8 @@
     {
       "title": "Anadolu Agency",
       "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-25",
+      "published_at": "2026-09-27",
       "url": "https://www.aa.com.tr/en/energy/renewable",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-25",
-      "url": "https://www.aa.com.tr/en/energy/electricity",
       "reasons": [
         "风电相关性不足"
       ]
@@ -194,42 +253,12 @@
       ]
     },
     {
-      "title": "Europe’s plan to double down on electricity will require a more robust ETS",
-      "source_name": "WindEurope",
-      "published_at": "2026-09-24",
-      "url": "https://windeurope.org/news/europes-plan-to-double-down-on-electricity-will-require-a-more-robust-ets/",
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-25",
+      "url": "https://www.aa.com.tr/en/energy/electricity",
       "reasons": [
         "风电相关性不足"
-      ]
-    },
-    {
-      "title": "Wind industry names new leadership to turn record year into lasting momentum",
-      "source_name": "WindEurope",
-      "published_at": "2026-09-24",
-      "url": "https://windeurope.org/news/wind-industry-names-new-leadership-to-turn-record-year-into-lasting-momentum/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Wind sector commits to strengthening Europe’s literacy to boost skills and fight disinformation",
-      "source_name": "WindEurope",
-      "published_at": "2026-09-24",
-      "url": "https://windeurope.org/news/wind-sector-commits-to-strengthening-europes-literacy-to-boost-skills-and-fight-disinformation/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Wind energy is hiring. Here's how to get a job in it",
-      "source_name": "WindEurope",
-      "published_at": "2026-09-24",
-      "url": "https://windeurope.org/news/wind-energy-is-hiring-heres-how-to-get-a-job-in-it/",
-      "reasons": [
-        "标题明确风电",
-        "低价值内容"
       ]
     },
     {
@@ -300,16 +329,6 @@
       ]
     },
     {
-      "title": "Electricity minister reviews Ras Shukeir wind project progress with Orascom Construction",
-      "source_name": "Daily News Egypt",
-      "published_at": "2026-09-06",
-      "url": "https://www.dailynewsegypt.com/2026/09/06/electricity-minister-reviews-ras-shukeir-wind-project-progress-with-orascom-construction/",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
       "title": "Europe installs 8.8 GW new wind power capacity in H126",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-04",
@@ -359,20 +378,20 @@
       ]
     },
     {
-      "title": "PetroEnergy Completes Full Acquisition of PetroWind’s 49.2 MW Wind Portfolio in the Philippines",
+      "title": "Kazakhstan Takes Another Step Toward Local Wind Energy Manufacturing",
       "source_name": "ASEAN Wind Energy Expo",
       "published_at": "2026-08-10",
-      "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=391",
+      "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=390",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Kazakhstan Takes Another Step Toward Local Wind Energy Manufacturing",
+      "title": "PetroEnergy Completes Full Acquisition of PetroWind’s 49.2 MW Wind Portfolio in the Philippines",
       "source_name": "ASEAN Wind Energy Expo",
       "published_at": "2026-08-10",
-      "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=390",
+      "url": "https://www.aseanwindenergyexpo.com/article/show_article.php?id=391",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -434,16 +453,6 @@
       "url": "https://www.anev.org/2026/08/03/om-e-asset-management-corso-di-formazione-3-2026/",
       "reasons": [
         "风电相关性不足"
-      ]
-    },
-    {
-      "title": "'Stop, reset': Over 600 wind assets exposed to cyberattacks across Europe, finds report",
-      "source_name": "Recharge",
-      "published_at": "2026-07-10",
-      "url": "https://www.rechargenews.com/energy-security/stop-reset-over-600-wind-assets-exposed-to-cyberattacks-across-europe-finds-report/2-1-2054937",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
       ]
     },
     {
