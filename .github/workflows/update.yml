@@ -1,9 +1,9 @@
-name: Update wind policies and news and deploy
+name: Update V6.1 wind policies and news and deploy
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
-    # 北京时间每天 08:00（GitHub Actions cron 使用 UTC）
+    # Beijing 08:00, GitHub Actions uses UTC
     - cron: "0 0 * * *"
 
 permissions:
@@ -13,43 +13,59 @@ permissions:
 
 concurrency:
   group: wind-monitor-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 150
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Cache offline translation models
         uses: actions/cache@v4
         with:
           path: ~/.local/share/argos-translate
-          key: argos-v51-${{ runner.os }}-py311-en-vi-pt-it-ar-zh
-
+          key: argos-v6-${{ runner.os }}-py311-en-vi-pt-it-ar-zh
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
+      - name: Validate source schema and legal display
+        run: |
+          python -m unittest discover -s tests -p "test_policy_v6*.py" -v
+          node tests/test_frontend_policy_v6.cjs
       - name: Install Chromium
         run: |
           python -m playwright install --with-deps chromium
-
-      - name: Scrape wind news and build weekly focus
+      - name: Prepare per-site first-seen dates (no network)
+        run: python policy_scrape.py --prepare
+      - name: Persist first-seen dates before long crawler run
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/policy_source_checkpoints.json
+          git diff --cached --quiet || (git commit -m "Store first-seen date for 121 policy sources" && git push origin main)
+      - name: Check 121 sites with independent bootstrap and daily checkpoints
+        env:
+          POLICY_BROWSER_FALLBACK: "1"
+          POLICY_REQUEST_TIMEOUT: "10"
+          POLICY_WORKERS: "5"
+          POLICY_DETAILS_PER_SOURCE: "32"
+          POLICY_LIST_PAGES: "5"
+        run: |
+          python policy_scrape.py --mode auto
+      - name: Scrape news and build weekly focus
+        continue-on-error: true
         env:
           ENABLE_TRANSLATION: "1"
           MAX_TRANSLATIONS_PER_RUN: "240"
@@ -63,28 +79,21 @@ jobs:
           python scrape.py
           python strategic_filter.py
           python weekly_focus.py
-
-      - name: Scrape policies and regulations
-        run: |
-          python policy_scrape.py
-
       - name: Save updated monitoring data
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add site/data/
-          git diff --cached --quiet || git commit -m "Update wind news and policy monitoring"
+          git diff --cached --quiet || git commit -m "Update V6.1 independent policy checkpoints and wind news"
           git pull --rebase origin main
           git push origin main
-
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
-
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
