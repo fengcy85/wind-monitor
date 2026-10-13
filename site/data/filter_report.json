@@ -1,32 +1,31 @@
 {
-  "generated_at": "2026-10-13T07:50:58+00:00",
-  "before": 310,
+  "generated_at": "2026-10-13T08:53:26+00:00",
+  "before": 313,
   "kept": 258,
-  "filtered_out": 52,
+  "filtered_out": 55,
   "tag_counts": {
     "竞对资讯": 231,
-    "招标采购": 61,
-    "审批政策": 33,
-    "电网建设": 21,
+    "招标采购": 63,
+    "电网建设": 19,
     "市场机制": 8,
+    "审批政策": 32,
     "宏观政策": 3
   },
   "rejected_examples": [
+    {
+      "title": "Offshore Wind",
+      "source_name": "Renewables Now",
+      "published_at": "2026-10-13",
+      "url": "https://renewablesnow.com/news/offshore-wind/",
+      "reasons": [
+        "标题无效/栏目标题"
+      ]
+    },
     {
       "title": "Jackets can go deeper cheaper, UK offshore wind planners are told",
       "source_name": "Recharge",
       "published_at": "2026-10-13",
       "url": "https://www.rechargenews.com/offshore-wind/jackets-can-go-deeper-cheaper-uk-offshore-wind-planners-are-told/2-1-2057411",
-      "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
-      ]
-    },
-    {
-      "title": "Alfanar accepts KPI Green Energy’s binding offer for 507.9 MW Bhuj wind portfolio; proceeds to fund 3 GW India pipeline",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-13",
-      "url": "https://renewablewatch.in/2026/10/13/alfanar-accepts-kpi-green-energys-binding-offer-for-507-9-mw-bhuj-wind-portfolio-proceeds-to-fund-3-gw-india-pipeline/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -39,6 +38,16 @@
       "url": "https://renewablewatch.in/2026/10/13/eskom-launches-6-gw-renewables-tender/",
       "reasons": [
         "风电相关性不足"
+      ]
+    },
+    {
+      "title": "Alfanar accepts KPI Green Energy’s binding offer for 507.9 MW Bhuj wind portfolio; proceeds to fund 3 GW India pipeline",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-13",
+      "url": "https://renewablewatch.in/2026/10/13/alfanar-accepts-kpi-green-energys-binding-offer-for-507-9-mw-bhuj-wind-portfolio-proceeds-to-fund-3-gw-india-pipeline/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
       ]
     },
     {
@@ -100,20 +109,20 @@
       ]
     },
     {
-      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
+      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
       "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
       "published_at": "2026-10-10",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
+      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Khánh thành tổ hợp nhà máy điện gió Krông Búk 1, Krông Búk 2, Cư Né 1 và Cư Né 2",
+      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Điện gió Đình Lập 1.1 (tỉnh Lạng Sơn)",
       "source_name": "Tạp chí Năng lượng Việt Nam（越南能源杂志）",
       "published_at": "2026-10-10",
-      "url": "https://nangluongvietnam.vn/khanh-thanh-to-hop-nha-may-dien-gio-krong-buk-1-krong-buk-2-cu-ne-1-va-cu-ne-2-36504.html",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-dien-gio-dinh-lap-11-tinh-lang-son-36479.html",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -262,6 +271,16 @@
       ]
     },
     {
+      "title": "Global wind power capacity to rise by more than 180 GW this year",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-23",
+      "url": "https://www.aa.com.tr/en/energy/wind/global-wind-power-capacity-to-rise-by-more-than-180-gw-this-year/59784",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
       "title": "Türkiye seeks stronger international cooperation for resilient wind energy supply chains",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-23",
@@ -272,13 +291,12 @@
       ]
     },
     {
-      "title": "Global wind power capacity to rise by more than 180 GW this year",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-23",
-      "url": "https://www.aa.com.tr/en/energy/wind/global-wind-power-capacity-to-rise-by-more-than-180-gw-this-year/59784",
+      "title": "APTEL Clarifies CERC Arbitration Powers And Corrects DVC Judgment Interpretation",
+      "source_name": "WindInsider",
+      "published_at": "2026-09-22",
+      "url": "https://windinsider.com/2026/09/22/aptel-clarifies-cerc-arbitration-powers-and-corrects-dvc-judgment-interpretation/",
       "reasons": [
-        "无六类监测标签",
-        "标题明确风电"
+        "风电相关性不足"
       ]
     },
     {
@@ -306,6 +324,16 @@
       "url": "https://www.aa.com.tr/en/energy/finance",
       "reasons": [
         "风电相关性不足"
+      ]
+    },
+    {
+      "title": "NTPC Green Energy Commissions 6.3 MW Second-Part Capacity Of Vanki Wind Project In Gujarat",
+      "source_name": "WindInsider",
+      "published_at": "2026-09-15",
+      "url": "https://windinsider.com/2026/09/15/ntpc-green-energy-commissions-6-3-mw-second-part-capacity-of-vanki-wind-project-in-gujarat/",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
       ]
     },
     {
@@ -428,15 +456,6 @@
       ]
     },
     {
-      "title": "APTEL Grants Review Petition: Key Findings on Arbitration Powers",
-      "source_name": "WindInsider",
-      "published_at": "2026-08-10",
-      "url": "https://windinsider.com/2026/09/22/aptel-clarifies-cerc-arbitration-powers-and-corrects-dvc-judgment-interpretation/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
       "title": "Alfanar Group Sells Wind Projects to KPI Green Energy Limited",
       "source_name": "WindInsider",
       "published_at": "2026-08-10",
@@ -466,10 +485,10 @@
       ]
     },
     {
-      "title": "Purvah Green Signs PPA with SECI for 175 MW Wind Project - Asia Pacific | Energetica India Magazine",
-      "source_name": "Energetica India – Wind Power",
+      "title": "'Stop, reset': Over 600 wind assets exposed to cyberattacks across Europe, finds report",
+      "source_name": "Recharge",
       "published_at": "2026-07-10",
-      "url": "https://www.energetica-india.net/news/purvah-green-signs-ppa-with-seci-for-175-mw-wind-project",
+      "url": "https://www.rechargenews.com/energy-security/stop-reset-over-600-wind-assets-exposed-to-cyberattacks-across-europe-finds-report/2-1-2054937",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -480,6 +499,16 @@
       "source_name": "Energetica India – Wind Power",
       "published_at": "2026-07-10",
       "url": "https://www.energetica-india.net/news/inox-green-completes-inr-550-crore-wwil-wind-om-deal",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "Purvah Green Signs PPA with SECI for 175 MW Wind Project - Asia Pacific | Energetica India Magazine",
+      "source_name": "Energetica India – Wind Power",
+      "published_at": "2026-07-10",
+      "url": "https://www.energetica-india.net/news/purvah-green-signs-ppa-with-seci-for-175-mw-wind-project",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"

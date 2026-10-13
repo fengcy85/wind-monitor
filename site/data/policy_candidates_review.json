@@ -1,5 +1,1976 @@
 [
   {
+    "title": "Attached the copy of \"Revised Guidelines for installation of prototype wind turbine models dated 12.06.2025\" [ PDF, 1.20 MB]",
+    "url": "https://niwe.res.in/static/pdf/Latest_Prototype_guidlines_dated_12062025.pdf",
+    "source_id": "policy_119_6cdaef",
+    "source_name": "niwe.res.in",
+    "region": "海外",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:57:06+00:00"
+  },
+  {
+    "title": "ePayment gateway Policy & Terms",
+    "url": "https://gov.om/en/epayment-gateway-policy-terms",
+    "source_id": "policy_120_4583d3",
+    "source_name": "gov.om",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:57:03+00:00"
+  },
+  {
+    "title": "Privacy Policy & Terms",
+    "url": "https://gov.om/en/privacy-policy-terms",
+    "source_id": "policy_120_4583d3",
+    "source_name": "gov.om",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:57:03+00:00"
+  },
+  {
+    "title": "Wind Power Policy",
+    "url": "https://niwe.res.in/downloads/power_policy",
+    "source_id": "policy_119_6cdaef",
+    "source_name": "niwe.res.in",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:57:03+00:00"
+  },
+  {
+    "title": "Regulation for the Quality of Drinking Water",
+    "url": "https://gov.om/documents/20117/787647/%D9%84%D8%A7%D9%8A%D9%94%D8%AD%D8%A9%20%D8%AA%D9%86%D8%B8%D9%8A%D9%85%20%D8%AC%D9%88%D8%AF%D8%A9%20%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87%20%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%AD%D8%A9%20%D9%84%D9%84%D8%B4%D8%B1%D8%A8/8643adc6-1662-647b-0e0c-eff2c742bee8",
+    "source_id": "policy_120_4583d3",
+    "source_name": "gov.om",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:57:02+00:00"
+  },
+  {
+    "title": "Grid Rules",
+    "url": "https://gov.om/documents/20117/787647/%D9%82%D9%88%D8%A7%D8%B9%D8%AF%20%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A9/c0aedff1-7a6a-8044-0fe7-a4b1e2da2aff",
+    "source_id": "policy_120_4583d3",
+    "source_name": "gov.om",
+    "region": "海外",
+    "reason": "详情读取失败：Document exceeds 7MB crawl budget",
+    "checked_at": "2026-10-13T08:57:01+00:00"
+  },
+  {
+    "title": "Revised Guidelines For Wind Power Project",
+    "url": "https://niwe.res.in/downloads/information_hwed/",
+    "source_id": "policy_119_6cdaef",
+    "source_name": "niwe.res.in",
+    "region": "海外",
+    "reason": "未识别为法规政策或技术标准文件",
+    "checked_at": "2026-10-13T08:57:01+00:00"
+  },
+  {
+    "title": "Tenders",
+    "url": "https://niwe.res.in/Tenders/tender_data/",
+    "source_id": "policy_119_6cdaef",
+    "source_name": "niwe.res.in",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:57:00+00:00"
+  },
+  {
+    "title": "Water and Wastewater Sector Regulation Law",
+    "url": "https://gov.om/documents/20117/787647/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AA%D9%86%D8%B8%D9%8A%D9%85%20%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87%20%D9%88%D8%A7%D9%84%D8%B5%D8%B1%D9%81%20%D8%A7%D9%84%D8%B5%D8%AD/b32764b5-f440-bf70-641d-df3d89572cad",
+    "source_id": "policy_120_4583d3",
+    "source_name": "gov.om",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:59+00:00"
+  },
+  {
+    "title": "Guide to Resolution Decisions on Subscribers' Complaints",
+    "url": "https://gov.om/documents/20117/787647/%D8%AF%D9%84%D9%8A%D9%84%20%D9%82%D8%B1%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D9%81%D9%8A%20%D8%B4%D9%83%D8%A7%D9%88%D9%89%20%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D9%8A%D9%86/fafd28d9-fad4-71ac-140c-5dd99dc778a8",
+    "source_id": "policy_120_4583d3",
+    "source_name": "gov.om",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:58+00:00"
+  },
+  {
+    "title": "Offshore Wind Development",
+    "url": "https://niwe.res.in/department/department_owd/",
+    "source_id": "policy_119_6cdaef",
+    "source_name": "niwe.res.in",
+    "region": "海外",
+    "reason": "未识别为法规政策或技术标准文件",
+    "checked_at": "2026-10-13T08:56:57+00:00"
+  },
+  {
+    "title": "宁夏宁东能源化工基地",
+    "url": "http://ningdong.nx.gov.cn/",
+    "source_id": "policy_113_3625a2",
+    "source_name": "宁夏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:56+00:00"
+  },
+  {
+    "title": "Standards & Regulation",
+    "url": "https://niwe.res.in/department/department_s&r/",
+    "source_id": "policy_119_6cdaef",
+    "source_name": "niwe.res.in",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:56:56+00:00"
+  },
+  {
+    "title": "Quality Policy",
+    "url": "https://niwe.res.in/about/about_qlty_ply/",
+    "source_id": "policy_119_6cdaef",
+    "source_name": "niwe.res.in",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:56:54+00:00"
+  },
+  {
+    "title": "自治区交通运输厅",
+    "url": "https://jtt.nx.gov.cn/",
+    "source_id": "policy_113_3625a2",
+    "source_name": "宁夏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:53+00:00"
+  },
+  {
+    "title": "National Institute of Wind Energy",
+    "url": "https://niwe.res.in/",
+    "source_id": "policy_119_6cdaef",
+    "source_name": "niwe.res.in",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:56:53+00:00"
+  },
+  {
+    "title": "宁夏回族自治区人民政府关于《宁夏体育事业发展“十五五”规划》的批复",
+    "url": "https://www.nx.gov.cn/zwgk/qzfwj/202610/t20261012_5369169.html",
+    "source_id": "policy_113_3625a2",
+    "source_name": "宁夏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:48+00:00"
+  },
+  {
+    "title": "宁夏回族自治区人民政府关于印发《宁夏现代化应急体系建设“十五五”规划》的通知",
+    "url": "https://www.nx.gov.cn/zwgk/qzfwj/202609/t20260930_5361901.html",
+    "source_id": "policy_113_3625a2",
+    "source_name": "宁夏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:48+00:00"
+  },
+  {
+    "title": "废止文件( )",
+    "url": "https://www.nx.gov.cn/zwgk/qzfwj/5620/7228/index.html",
+    "source_id": "policy_113_3625a2",
+    "source_name": "宁夏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:47+00:00"
+  },
+  {
+    "title": "宁夏回族自治区人民政府关于《宁夏残疾人保障和发展“十五五”规划》的批复",
+    "url": "https://www.nx.gov.cn/zwgk/qzfwj/202610/t20261012_5369188.html",
+    "source_id": "policy_113_3625a2",
+    "source_name": "宁夏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:47+00:00"
+  },
+  {
+    "title": "宁夏回族自治区人民政府办公厅关于印发《宁夏现代渔业高质量发展实施方案（2026—2030年）》的通知",
+    "url": "https://www.nx.gov.cn/zwgk/qzfwj/202610/t20261012_5369182.html",
+    "source_id": "policy_113_3625a2",
+    "source_name": "宁夏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:47+00:00"
+  },
+  {
+    "title": "国土资源、能源( )",
+    "url": "https://www.nx.gov.cn/zwgk/qzfwj/5619/5624/index.html",
+    "source_id": "policy_113_3625a2",
+    "source_name": "宁夏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:46+00:00"
+  },
+  {
+    "title": "部门规范性文件( )",
+    "url": "https://www.nx.gov.cn/zwgk/qzfwj/5620/5650/index.html",
+    "source_id": "policy_113_3625a2",
+    "source_name": "宁夏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:46+00:00"
+  },
+  {
+    "title": "青海省人民政府 关于印发《青海省应急管理发展 “十五五”规划》的通知",
+    "url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/zfwj/202610/t20261012_446782.html",
+    "source_id": "policy_110_9f2cf6",
+    "source_name": "青海省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:43+00:00"
+  },
+  {
+    "title": "西藏自治区发展和改革委员会关于印发《关于促进西藏自治区 光伏产业高质量发展的意见》的通知",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/202301/t20230116_337525.html",
+    "source_id": "policy_103_c7db7e",
+    "source_name": "西藏发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:43+00:00"
+  },
+  {
+    "title": "行政规范性文件",
+    "url": "http://www.qinghai.gov.cn/xxgk/xxgk/fd/lzyj/gfxwj/",
+    "source_id": "policy_110_9f2cf6",
+    "source_name": "青海省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:42+00:00"
+  },
+  {
+    "title": "国土资源、能源",
+    "url": "http://www.qinghai.gov.cn/xxgk/8/13/",
+    "source_id": "policy_110_9f2cf6",
+    "source_name": "青海省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:42+00:00"
+  },
+  {
+    "title": "西藏自治区涉案财物价格认定条例",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/202302/t20230228_343660.html",
+    "source_id": "policy_103_c7db7e",
+    "source_name": "西藏发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:42+00:00"
+  },
+  {
+    "title": "《未成年人网络保护条例》",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/202310/t20231025_382306.html",
+    "source_id": "policy_103_c7db7e",
+    "source_name": "西藏发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:41+00:00"
+  },
+  {
+    "title": "西藏自治区发展改革委等部门印发 《关于促进汽车消费的若干措施》的通知",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/202310/t20231020_381761.html",
+    "source_id": "policy_103_c7db7e",
+    "source_name": "西藏发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:41+00:00"
+  },
+  {
+    "title": "关于印发《自治区发展改革委（粮储局）行政执法“轻微不罚、首违免罚”事项清单》的通知",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/202407/t20240726_427398.html",
+    "source_id": "policy_103_c7db7e",
+    "source_name": "西藏发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:40+00:00"
+  },
+  {
+    "title": "西藏自治区冰川保护条例",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/202408/t20240813_429934.html",
+    "source_id": "policy_103_c7db7e",
+    "source_name": "西藏发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:38+00:00"
+  },
+  {
+    "title": "《西藏自治区深入推进以人为本的新型城镇化战略五年行动计划实施方案》​政策解读",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/202503/t20250310_466243.html",
+    "source_id": "policy_103_c7db7e",
+    "source_name": "西藏发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:37+00:00"
+  },
+  {
+    "title": "财政部国家发展改革委中国人民银行 金融监管总局关于优化实施设备更新 贷款财政贴息政策的通知",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/202602/t20260214_525371.html",
+    "source_id": "policy_103_c7db7e",
+    "source_name": "西藏发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:36+00:00"
+  },
+  {
+    "title": "关于印发《全国统一大市场建设指引(试行)》的通知(发改体改〔2024〕1742号)",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/202503/t20250324_468916.html",
+    "source_id": "policy_103_c7db7e",
+    "source_name": "西藏发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:36+00:00"
+  },
+  {
+    "title": "西藏自治区人民政府办公厅关于印发《西藏自治区电子政务外网管理办法》的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/zfxxgk/fdzdgknr/zc/xzgfxwj/202601/t20260105_517583.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:32+00:00"
+  },
+  {
+    "title": "西藏自治区人民政府办公厅印发《关于进一步降低用电成本助力高原特色产业高质量发展的实施方案》的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/zfxxgk/fdzdgknr/zc/xzgfxwj/202601/t20260105_517564.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:32+00:00"
+  },
+  {
+    "title": "西藏自治区人民政府关于印发《西藏自治区劳模待遇规定（试行）》的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/zfxxgk/fdzdgknr/zc/xzgfxwj/202512/t20251211_513694.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:32+00:00"
+  },
+  {
+    "title": "西藏自治区人民政府办公厅印发《西藏自治区关于进一步推动开发区(园区)高质量发展的若干措施》的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/zfxxgk/fdzdgknr/zc/xzgfxwj/202604/t20260421_536012.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:31+00:00"
+  },
+  {
+    "title": "西藏自治区人民政府办公厅印发《西藏自治区关于2026年促进农牧民增收的若干政策措施》的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/zfxxgk/fdzdgknr/zc/xzgfxwj/202604/t20260413_534510.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:31+00:00"
+  },
+  {
+    "title": "能源安全监督管理",
+    "url": "https://nyj.guizhou.gov.cn/zwgk/xxgkml/zdlyxx/nyaqgl/",
+    "source_id": "policy_097_dbb30d",
+    "source_name": "贵州省能源局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:30+00:00"
+  },
+  {
+    "title": "能源节约和科技装备管理",
+    "url": "https://nyj.guizhou.gov.cn/zwgk/xxgkml/zdlyxx/nykjgl/",
+    "source_id": "policy_097_dbb30d",
+    "source_name": "贵州省能源局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:30+00:00"
+  },
+  {
+    "title": "西藏自治区人民政府办公厅关于印发《西藏自治区促进残疾人就业三年行动方案(2025—2027年)》的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/xxfb/zbwj/202604/t20260423_536481.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:30+00:00"
+  },
+  {
+    "title": "西藏自治区人民政府办公厅关于修改《西藏自治区普通高等学校招生报考条件规定》的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/xxfb/zbwj/202604/t20260423_536446.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:30+00:00"
+  },
+  {
+    "title": "已失效废止规范性文件",
+    "url": "https://nyj.guizhou.gov.cn/zwgk/xxgkml/zcwj_2/jnwj/gfxwj/",
+    "source_id": "policy_097_dbb30d",
+    "source_name": "贵州省能源局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:29+00:00"
+  },
+  {
+    "title": "规范性文件清理信息",
+    "url": "https://nyj.guizhou.gov.cn/zwgk/xxgkml/zcwj_2/gfxwjqlxx/",
+    "source_id": "policy_097_dbb30d",
+    "source_name": "贵州省能源局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:29+00:00"
+  },
+  {
+    "title": "​西藏自治区人民政府办公厅关于印发《西藏自治区人民政府2026年度立法工作计划》的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/xxfb/zbwj/202606/t20260609_544646.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:29+00:00"
+  },
+  {
+    "title": "省能源局关于煤矿企业安全生产许可证办理情况的公告（第一百...",
+    "url": "https://nyj.guizhou.gov.cn/xwzx/gsgg/202610/t20261008_90965650.html",
+    "source_id": "policy_097_dbb30d",
+    "source_name": "贵州省能源局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:28+00:00"
+  },
+  {
+    "title": "省能源局召开能源安全生产专题会",
+    "url": "https://nyj.guizhou.gov.cn/xwzx/xydt/202609/t20260930_90957734.html",
+    "source_id": "policy_097_dbb30d",
+    "source_name": "贵州省能源局",
+    "region": "国内",
+    "reason": "未识别为法规政策或技术标准文件",
+    "checked_at": "2026-10-13T08:56:28+00:00"
+  },
+  {
+    "title": "西藏自治区人民政府办公厅关于印发《西藏自治区支持绿色建材产业高质量​发展若干措施》的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/zfxxgk/fdzdgknr/zc/xzgfxwj/202607/t20260727_551431.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:28+00:00"
+  },
+  {
+    "title": "​西藏自治区人民政府办公厅关于印发《西藏自治区建立长期护理保险制度实施方案)的通知",
+    "url": "https://www.xizang.gov.cn/zwgk/zfxxgk/fdzdgknr/zc/xzgfxwj/202607/t20260701_547842.html",
+    "source_id": "policy_101_eca587",
+    "source_name": "西藏人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:28+00:00"
+  },
+  {
+    "title": "关于采购公务用车社会车辆租赁服务项目的公告",
+    "url": "https://nyj.guizhou.gov.cn/xwzx/gsgg/202610/t20261010_90975253.html",
+    "source_id": "policy_097_dbb30d",
+    "source_name": "贵州省能源局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:27+00:00"
+  },
+  {
+    "title": "省能源局关于印发《贵州省煤炭洗选管理办法（试行）》的通知",
+    "url": "https://nyj.guizhou.gov.cn/xwzx/gsgg/202610/t20261009_90970602.html",
+    "source_id": "policy_097_dbb30d",
+    "source_name": "贵州省能源局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:27+00:00"
+  },
+  {
+    "title": "省能源局召开2026年第32次党组会和第24次局务会",
+    "url": "https://nyj.guizhou.gov.cn/xwzx/xydt/202610/t20261012_90979977.html",
+    "source_id": "policy_097_dbb30d",
+    "source_name": "贵州省能源局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:56:26+00:00"
+  },
+  {
+    "title": "集中采购目录、标准、采购实施情况",
+    "url": "http://jxt.hubei.gov.cn/fbjd/xxgkml/zfcg/jzcgml/",
+    "source_id": "policy_074_22ff31",
+    "source_name": "湖北省经信厅",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:42+00:00"
+  },
+  {
+    "title": "政策执行及落实情况",
+    "url": "http://jxt.hubei.gov.cn/fbjd/xxgkml/qtzdgknr/zczxjlsqk/",
+    "source_id": "policy_074_22ff31",
+    "source_name": "湖北省经信厅",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:42+00:00"
+  },
+  {
+    "title": "省经信厅办公室关于开展2026年湖北省首版次软件产品申报工作的通知",
+    "url": "http://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202610/t20261012_6031558.shtml",
+    "source_id": "policy_074_22ff31",
+    "source_name": "湖北省经信厅",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:42+00:00"
+  },
+  {
+    "title": "规划和技术改造处",
+    "url": "http://jxt.hubei.gov.cn/fbjd/xxgkml/jgzn/nsjg/ghhjsgzc/",
+    "source_id": "policy_074_22ff31",
+    "source_name": "湖北省经信厅",
+    "region": "国内",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:55:41+00:00"
+  },
+  {
+    "title": "Reasons for Decision - Regulatory Rules on Network Charges for Third-Party Transportation of Energy 8 April 2025",
+    "url": "https://www.nersa.org.za/electricity/file/5801",
+    "source_id": "policy_009_f87db8",
+    "source_name": "nersa.org.za",
+    "region": "海外",
+    "reason": "详情读取失败：404 Client Error: Not Found for url: https://www.nersa.org.za/electricity/file/5801",
+    "checked_at": "2026-10-13T08:55:39+00:00"
+  },
+  {
+    "title": "规范性文件清理",
+    "url": "http://gxt.shandong.gov.cn/col/col103864/index.html?number=SD020205",
+    "source_id": "policy_067_42aef9",
+    "source_name": "山东省工信厅",
+    "region": "国内",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:55:38+00:00"
+  },
+  {
+    "title": "福建省人民政府关于郑立敏任职的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222681.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:28+00:00"
+  },
+  {
+    "title": "福建省人民政府关于潘臻颖免职的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222682.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:27+00:00"
+  },
+  {
+    "title": "福建省人民政府关于朱真免职的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222683.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:26+00:00"
+  },
+  {
+    "title": "福建省人民政府关于陈虔免职的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222684.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:25+00:00"
+  },
+  {
+    "title": "福建省人民政府关于张新怿免职的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222685.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:55:23+00:00"
+  },
+  {
+    "title": "福建省人民政府关于王哲林、孙树群职务任免的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222686.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:55:22+00:00"
+  },
+  {
+    "title": "福建省人民政府关于庄源源免职的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222687.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:21+00:00"
+  },
+  {
+    "title": "福建省工业和信息化厅关于开展2026年生物制造标志性产品征集申报工作的通知",
+    "url": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202610/t20261008_7221553.htm",
+    "source_id": "policy_061_65e404",
+    "source_name": "福建省工信厅",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:20+00:00"
+  },
+  {
+    "title": "福建省工业和信息化厅关于公布“金旅客车大规模个性化快速定制数智化工业互联网平台”等73个2026年省级数字化转型项目的通知",
+    "url": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202609/t20260930_7220369.htm",
+    "source_id": "policy_061_65e404",
+    "source_name": "福建省工信厅",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:20+00:00"
+  },
+  {
+    "title": "福建省人民政府关于吴卫云、肖申华任职的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222688.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:20+00:00"
+  },
+  {
+    "title": "福建省工业和信息化厅等四部门关于公布2026年福建省重点用水企业水效领跑者的通知",
+    "url": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202610/t20261009_7222615.htm",
+    "source_id": "policy_061_65e404",
+    "source_name": "福建省工信厅",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:19+00:00"
+  },
+  {
+    "title": "福建省人民政府关于蔡晓季任职的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222689.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:19+00:00"
+  },
+  {
+    "title": "省政府政策文件",
+    "url": "https://fgw.fujian.gov.cn/zwgk/fgzd/szcfg/",
+    "source_id": "policy_060_170222",
+    "source_name": "福建省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:18+00:00"
+  },
+  {
+    "title": "福建省工业和信息化厅 福建省发展和改革委员会关于组织开展2026年度享受增值税加计抵减政策的集成电路企业申报工作的通知",
+    "url": "https://gxt.fujian.gov.cn/zwgk/zfxxgk/fdzdgknr/gzdt/202610/t20261012_7223896.htm",
+    "source_id": "policy_061_65e404",
+    "source_name": "福建省工信厅",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:18+00:00"
+  },
+  {
+    "title": "福建省人民政府关于朱百里免职的通知",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/202610/t20261009_7222690.htm",
+    "source_id": "policy_059_e57dd9",
+    "source_name": "福建省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:18+00:00"
+  },
+  {
+    "title": "江苏省交通运输厅",
+    "url": "http://jtyst.jiangsu.gov.cn/",
+    "source_id": "policy_052_6aaafa",
+    "source_name": "江苏省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:15+00:00"
+  },
+  {
+    "title": "省政府办公厅印发关于支持青年社区建设若干措施的通知",
+    "url": "http://www.jiangsu.gov.cn/art/2026/10/10/art_46144_11840065.html",
+    "source_id": "policy_052_6aaafa",
+    "source_name": "江苏省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:12+00:00"
+  },
+  {
+    "title": "省级重大规划专栏",
+    "url": "https://fzggw.jiangsu.gov.cn/col/col84480/index.html",
+    "source_id": "policy_052_6aaafa",
+    "source_name": "江苏省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:11+00:00"
+  },
+  {
+    "title": "江苏省发展改革委关于印发《江苏省产业技术工程化中心管理办法》的通知",
+    "url": "https://fzggw.jiangsu.gov.cn/art/2026/9/30/art_51007_11839493.html",
+    "source_id": "policy_053_d75025",
+    "source_name": "江苏省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:10+00:00"
+  },
+  {
+    "title": "江苏省发展改革委关于印发《江苏省新兴产业创新中心管理办法》的通知",
+    "url": "https://fzggw.jiangsu.gov.cn/art/2026/9/30/art_51007_11839500.html",
+    "source_id": "policy_053_d75025",
+    "source_name": "江苏省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:10+00:00"
+  },
+  {
+    "title": "关于公布江苏省政府定价涉企收费项目目录（截至2026年9月）的通知",
+    "url": "https://fzggw.jiangsu.gov.cn/art/2026/9/30/art_84097_11839626.html",
+    "source_id": "policy_053_d75025",
+    "source_name": "江苏省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:10+00:00"
+  },
+  {
+    "title": "关于印发《江苏省新能源汽车充换电设施建设财政奖补资金安排实施细则》的通知",
+    "url": "https://fzggw.jiangsu.gov.cn/art/2026/10/9/art_84097_11839536.html",
+    "source_id": "policy_053_d75025",
+    "source_name": "江苏省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:09+00:00"
+  },
+  {
+    "title": "省发展改革委 省委网信办 省工业和信息化厅 省财政厅 省数据局关于印发江苏省支持人工智能创新发展有关实施方案的通知",
+    "url": "https://fzggw.jiangsu.gov.cn/art/2026/10/9/art_84097_11839356.html",
+    "source_id": "policy_053_d75025",
+    "source_name": "江苏省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:09+00:00"
+  },
+  {
+    "title": "现行有效规范性文件库",
+    "url": "http://fz.sft.jiangsu.gov.cn:18002/",
+    "source_id": "policy_052_6aaafa",
+    "source_name": "江苏省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:09+00:00"
+  },
+  {
+    "title": "关于开展2026年度工程咨询单位监督检查工作的通知",
+    "url": "https://fzggw.jiangsu.gov.cn/art/2026/10/9/art_51012_11839640.html",
+    "source_id": "policy_053_d75025",
+    "source_name": "江苏省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:08+00:00"
+  },
+  {
+    "title": "江苏省发展改革委等部门关于建设现代化国有林场的实施意见",
+    "url": "https://fzggw.jiangsu.gov.cn/art/2026/10/9/art_51012_11839593.html",
+    "source_id": "policy_053_d75025",
+    "source_name": "江苏省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:08+00:00"
+  },
+  {
+    "title": "行政规范性文件",
+    "url": "https://www.jiangsu.gov.cn/col/col84241/index.html",
+    "source_id": "policy_052_6aaafa",
+    "source_name": "江苏省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:08+00:00"
+  },
+  {
+    "title": "关于我市居民瓶装液化石油气基准价的通知",
+    "url": "https://fgw.sh.gov.cn/fgw_jggl/20261009/5bba81a9129a468cb813b9ab8bd859f0.html",
+    "source_id": "policy_051_795d2f",
+    "source_name": "上海市发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:04+00:00"
+  },
+  {
+    "title": "上海市人民政府关于进一步加强本市培训机构管理引导培训市场健康发展的意见 2025-01-02",
+    "url": "https://www.shanghai.gov.cn/nw12344/20250102/5ad7b9cd98e14ebb98386d3d3a9ddb54.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:01+00:00"
+  },
+  {
+    "title": "上海市人民政府关于印发《上海知识产权创新奖评审表彰办法》的通知 2025-01-02",
+    "url": "https://www.shanghai.gov.cn/nw12344/20250102/f1e50fa24c5a47908374ed903aca4e80.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:01+00:00"
+  },
+  {
+    "title": "上海市人民政府关于印发修订后的《上海市居住证申办实施细则》的通知 2025-12-01",
+    "url": "https://www.shanghai.gov.cn/nw12344/20251201/ed714f24b362482a998de9a1652440f2.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:00+00:00"
+  },
+  {
+    "title": "上海市人民政府关于印发《上海市引进人才申办本市常住户口办法》《持有〈上海市居... 2025-11-30",
+    "url": "https://www.shanghai.gov.cn/nw12344/20251130/60b0fb0e670748a99ce7dd8fdb0e0939.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:55:00+00:00"
+  },
+  {
+    "title": "上海市人民政府关于深化推进困境儿童保障工作的实施意见 2025-12-25",
+    "url": "https://www.shanghai.gov.cn/nw12344/20251225/9eeed46a308c46d3bc6983983b0177ec.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:59+00:00"
+  },
+  {
+    "title": "上海市人民政府关于印发《上海市公益林划定和管理办法》的通知 2025-12-16",
+    "url": "https://www.shanghai.gov.cn/nw12344/20251216/6120f1fde30e496b970e7f19bfba4447.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:59+00:00"
+  },
+  {
+    "title": "上海市人民政府关于印发《上海市饮用水水源保护缓冲区管理办法》的通知 2026-08-20",
+    "url": "https://www.shanghai.gov.cn/nw12344/20260820/b583611c288745cd9753885af042c7fa.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:58+00:00"
+  },
+  {
+    "title": "上海市人民政府关于印发《上海市市级政府投资管理办法》的通知 2026-07-31",
+    "url": "https://www.shanghai.gov.cn/nw12344/20260731/a637d94307e44a6789df18fa31f34c4b.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:58+00:00"
+  },
+  {
+    "title": "上海市人民政府关于印发修订后的《上海市城乡居民基本医疗保险办法》的通知 2025-12-31",
+    "url": "https://www.shanghai.gov.cn/nw12344/20251231/d13d1df12a5f4101a1ea9c872f7b331f.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:58+00:00"
+  },
+  {
+    "title": "上海市人民政府关于印发《上海市征收集体土地房屋补偿规定》的通知 2026-09-29",
+    "url": "https://www.shanghai.gov.cn/nw12344/20260929/c46749fb022146cba0b3058a29d85b17.html",
+    "source_id": "policy_049_6fa2c1",
+    "source_name": "上海市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:57+00:00"
+  },
+  {
+    "title": "辽宁省农村供水管理办法",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2023n/289A627AE15C4789AA425375A1665109/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:48+00:00"
+  },
+  {
+    "title": "辽宁省医疗保障基金监督管理办法",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2023n/D8BEFBCFC72B4F238E4F4C5DBB2D7ED4/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:48+00:00"
+  },
+  {
+    "title": "辽宁省内部审计工作规定",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/zfwj2022_148485/5801A6FC376A426789DBD627BF089AEB/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:48+00:00"
+  },
+  {
+    "title": "辽宁省税费服务和征管保障办法",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2024n/2024032815320616025/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:47+00:00"
+  },
+  {
+    "title": "辽宁省重大行政决策程序规定",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2023n/2023032314363847830/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:47+00:00"
+  },
+  {
+    "title": "辽宁省实施行政处罚适用听证程序数额规定",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2025n/2025011615105977489/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:46+00:00"
+  },
+  {
+    "title": "辽宁省人民政府关于废止和修改部分省政府规章的决定",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2025n/2025021715423933095/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:45+00:00"
+  },
+  {
+    "title": "我为辽宁‘十五五’规划献一策",
+    "url": "https://fgw.ln.gov.cn/fgw/wwlnswwgh/index.shtml",
+    "source_id": "policy_041_eb0991",
+    "source_name": "辽宁省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:44+00:00"
+  },
+  {
+    "title": "辽宁省发展和改革委员会关于印发《辽宁省新兴产业创新中心管理办法》的通知",
+    "url": "https://fgw.ln.gov.cn/fgw/zc/zxzc/2026101217232318045/index.shtml",
+    "source_id": "policy_041_eb0991",
+    "source_name": "辽宁省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:44+00:00"
+  },
+  {
+    "title": "辽宁省发展和改革委员会关于印发《辽宁省产业技术工程化中心管理办法》的通知",
+    "url": "https://fgw.ln.gov.cn/fgw/zc/zxzc/2026101217195653146/index.shtml",
+    "source_id": "policy_041_eb0991",
+    "source_name": "辽宁省发改委",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:44+00:00"
+  },
+  {
+    "title": "辽宁省规章行政规范性文件备案审查办法",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2026n/2026011914204111637/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:44+00:00"
+  },
+  {
+    "title": "辽宁省人民政府关于废止和修改部分省政府规章的决定",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2026n/2026101010322587588/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:43+00:00"
+  },
+  {
+    "title": "交通运输发展处",
+    "url": "https://fgw.ln.gov.cn/fgw/jg/jgsz/jtysfzcsgfdywyhjtzbbgs/index.shtml",
+    "source_id": "policy_041_eb0991",
+    "source_name": "辽宁省发改委",
+    "region": "国内",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:54:43+00:00"
+  },
+  {
+    "title": "海洋经济发展处",
+    "url": "https://fgw.ln.gov.cn/fgw/jg/jgsz/hyjjfzc/index.shtml",
+    "source_id": "policy_041_eb0991",
+    "source_name": "辽宁省发改委",
+    "region": "国内",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:54:43+00:00"
+  },
+  {
+    "title": "辽宁省无线电管理办法",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2026n/2026072217134924366/index.shtml",
+    "source_id": "policy_040_6fc22a",
+    "source_name": "辽宁省人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:43+00:00"
+  },
+  {
+    "title": "Reasons for Decision on Grid Capacity Allocation Rules 5 December 2025",
+    "url": "https://www.nersa.org.za/electricity/file/8234/ReasonsforDecisiononGridCapacityAllocationRules.pdf",
+    "source_id": "policy_009_f87db8",
+    "source_name": "nersa.org.za",
+    "region": "海外",
+    "reason": "详情读取失败：404 Client Error: Not Found for url: https://www.nersa.org.za/electricity/file/8234/ReasonsforDecisiononGridCapacityAllocationRule",
+    "checked_at": "2026-10-13T08:54:41+00:00"
+  },
+  {
+    "title": "Approved Grid Capacity Allocation Rules 5 December 2025",
+    "url": "https://www.nersa.org.za/electricity/file/8233/ApprovedGridCapacityAllocationRules_12November2025.pdf",
+    "source_id": "policy_009_f87db8",
+    "source_name": "nersa.org.za",
+    "region": "海外",
+    "reason": "详情读取失败：404 Client Error: Not Found for url: https://www.nersa.org.za/electricity/file/8233/ApprovedGridCapacityAllocationRules_12November",
+    "checked_at": "2026-10-13T08:54:40+00:00"
+  },
+  {
+    "title": "Regulatory Rules",
+    "url": "https://www.nersa.org.za/electricity/electricity/regulatory-rules",
+    "source_id": "policy_009_f87db8",
+    "source_name": "nersa.org.za",
+    "region": "海外",
+    "reason": "详情读取失败：404 Client Error: Not Found for url: https://www.nersa.org.za/electricity/electricity/regulatory-rules",
+    "checked_at": "2026-10-13T08:54:39+00:00"
+  },
+  {
+    "title": "Electricity",
+    "url": "https://www.nersa.org.za/electricity/overview",
+    "source_id": "policy_009_f87db8",
+    "source_name": "nersa.org.za",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:37+00:00"
+  },
+  {
+    "title": "Grid Code",
+    "url": "https://www.nersa.org.za/electricity/electricity/grid-code",
+    "source_id": "policy_009_f87db8",
+    "source_name": "nersa.org.za",
+    "region": "海外",
+    "reason": "详情读取失败：404 Client Error: Not Found for url: https://www.nersa.org.za/electricity/electricity/grid-code",
+    "checked_at": "2026-10-13T08:54:37+00:00"
+  },
+  {
+    "title": "【 津政办规 】 天津市人民政府办公厅关于印发天津市国旗升挂使用管理规定的通知",
+    "url": "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzfbgt/202609/t20260930_7385606.html",
+    "source_id": "policy_028_4a1872",
+    "source_name": "天津市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:19+00:00"
+  },
+  {
+    "title": "【 津政函 】 天津市人民政府关于《天津市数字经济发展“十五五”规划》的批复",
+    "url": "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzf/202609/t20260930_7385632.html",
+    "source_id": "policy_028_4a1872",
+    "source_name": "天津市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:17+00:00"
+  },
+  {
+    "title": "【 津政办发 】 天津市人民政府办公厅关于印发天津市加快场景创新和应用工作方案的通知",
+    "url": "https://www.tj.gov.cn/zwgk/szfwj/tjsrmzfbgt/202610/t20261012_7619639.html",
+    "source_id": "policy_028_4a1872",
+    "source_name": "天津市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:14+00:00"
+  },
+  {
+    "title": "北京市经济和信息化局关于开展2026年度国家绿色制造单位征集推荐工作的通知",
+    "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202609/t20260930_4887977.html",
+    "source_id": "policy_026_53268b",
+    "source_name": "北京市经济和信息化局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:07+00:00"
+  },
+  {
+    "title": "北京市经济和信息化局关于2026年度享受增值税加计抵减政策的集成电路企业清单制定工作有关要求的通知",
+    "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202610/t20261008_4893433.html",
+    "source_id": "policy_026_53268b",
+    "source_name": "北京市经济和信息化局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:07+00:00"
+  },
+  {
+    "title": "本单位行政规范性文件",
+    "url": "https://csglw.beijing.gov.cn/zwxx/2024zcwj/2024bdwxzgfxwj/",
+    "source_id": "policy_027_2d3a08",
+    "source_name": "北京市城市管理委员会",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:06+00:00"
+  },
+  {
+    "title": "北京市经济和信息化局关于征集《先进技术产品转化应用目录（2026年度）》技术产品的通知",
+    "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202610/t20261009_4894731.html",
+    "source_id": "policy_026_53268b",
+    "source_name": "北京市经济和信息化局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:06+00:00"
+  },
+  {
+    "title": "北京市经济和信息化局 北京市卫生健康委员会 北京市药品监督管理局关于开展 2026年高端医疗装备推广应用项目申报工作的通知",
+    "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202610/t20261009_4895089.html",
+    "source_id": "policy_026_53268b",
+    "source_name": "北京市经济和信息化局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:05+00:00"
+  },
+  {
+    "title": "[现行有效] 北京市发展和改革委员会关于公示北京市2026年新能源供热新技术目录清单的通知",
+    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/bwqtwj/202610/t20261008_4893253.htm",
+    "source_id": "policy_025_d763d5",
+    "source_name": "北京市发展和改革委员会",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:05+00:00"
+  },
+  {
+    "title": "[现行有效] 北京市发展和改革委员会关于公示拟履行市政府固定资产投资评估流程供热 管网更新及智能化改造项目清单的通知",
+    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/bwqtwj/202610/t20261008_4893330.htm",
+    "source_id": "policy_025_d763d5",
+    "source_name": "北京市发展和改革委员会",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:04+00:00"
+  },
+  {
+    "title": "北京市经济和信息化局等六部门关于深化专项信用报告替代有无违法违规记录证明工作的通知",
+    "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202610/t20261013_4899910.html",
+    "source_id": "policy_026_53268b",
+    "source_name": "北京市经济和信息化局",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:04+00:00"
+  },
+  {
+    "title": "北京市国防科学技术工业办公室关于开展高端装备领域“寻宝”工作的通知",
+    "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202610/t20261012_4898157.html",
+    "source_id": "policy_026_53268b",
+    "source_name": "北京市经济和信息化局",
+    "region": "国内",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:54:04+00:00"
+  },
+  {
+    "title": "国家标准外文版 (National standards in foreign language version)",
+    "url": "https://openstd.samr.gov.cn/bzgk/std/std_list_type?p.p1=6&p.p90=circulation_date&p.p91=desc",
+    "source_id": "policy_022_318d84",
+    "source_name": "国家标准全文公开系统",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:03+00:00"
+  },
+  {
+    "title": "关于组织召开申报注册装备承制单位第十一次培训会的通知",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261009_4894214.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:03+00:00"
+  },
+  {
+    "title": "中共北京市委办公厅 北京市人民政府办公厅 关于做好第二轮土地承包到期后再延长30年试点工作的实施意见",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261009_4893848.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:03+00:00"
+  },
+  {
+    "title": "北京市经济和信息化局关于征集《先进技术产品转化应用目录（2026年度）》技术产品的通知",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261009_4895135.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:03+00:00"
+  },
+  {
+    "title": "[现行有效] 北京市人力资源和社会保障局 北京市发展和改革委员会关于印发《北京市“十五五”时期促进高质量充分就业规划》的通知",
+    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/ghjhwb/wngh/202610/t20261010_4896838.htm",
+    "source_id": "policy_025_d763d5",
+    "source_name": "北京市发展和改革委员会",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:03+00:00"
+  },
+  {
+    "title": "[现行有效] 北京市人民政府关于印发《北京市“十五五”时期现代化基础设施发展规划》的通知",
+    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/ghjhwb/wngh/202610/t20261008_4893451.htm",
+    "source_id": "policy_025_d763d5",
+    "source_name": "北京市发展和改革委员会",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:03+00:00"
+  },
+  {
+    "title": "北京市科学技术委员会、中关村科技园区管理委员会关于开展北京市新技术新产品新服务（总第二十二批）认定工作的通知",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261010_4896829.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:02+00:00"
+  },
+  {
+    "title": "北京市市场监督管理局关于修改和废止部分行政规范性文件的通知",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261012_4897856.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:02+00:00"
+  },
+  {
+    "title": "规划计划 (361)",
+    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/ghjhwb/",
+    "source_id": "policy_025_d763d5",
+    "source_name": "北京市发展和改革委员会",
+    "region": "国内",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:54:02+00:00"
+  },
+  {
+    "title": "[现行有效] 北京市人民政府关于印发《北京市“十五五”时期社会公共服务发展规划》的通知",
+    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/ghjhwb/wngh/202610/t20261010_4897023.htm",
+    "source_id": "policy_025_d763d5",
+    "source_name": "北京市发展和改革委员会",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:02+00:00"
+  },
+  {
+    "title": "中国人民银行 金融监管总局印发《关于改革完善房地产信贷管理 推动加快构建房地产发展 新模式的意见》的通知",
+    "url": "https://www.gov.cn/gongbao/2026/issue_13026/202610/content_7082770.html",
+    "source_id": "policy_023_b74bb8",
+    "source_name": "国务院部门文件",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:01+00:00"
+  },
+  {
+    "title": "推荐性国家标准",
+    "url": "https://openstd.samr.gov.cn/bzgk/std/std_list_type?p.p1=2&p.p90=circulation_date&p.p91=desc",
+    "source_id": "policy_022_318d84",
+    "source_name": "国家标准全文公开系统",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:01+00:00"
+  },
+  {
+    "title": "北京市人民政府关于印发《北京市“十五五”时期深化国际消费中心城市建设规划》的通知",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261009_4894923.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:01+00:00"
+  },
+  {
+    "title": "北京市人民政府关于印发《北京市“十五五”时期社会公共服务发展规划》的通知",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261010_4896677.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:01+00:00"
+  },
+  {
+    "title": "法律法规规章 (120)",
+    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/flfggz/",
+    "source_id": "policy_025_d763d5",
+    "source_name": "北京市发展和改革委员会",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:01+00:00"
+  },
+  {
+    "title": "本委规范性文件 (117)",
+    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/bwgfxwj/",
+    "source_id": "policy_025_d763d5",
+    "source_name": "北京市发展和改革委员会",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:01+00:00"
+  },
+  {
+    "title": "《医疗康复护理扩容提升工程实施方案》政策解读",
+    "url": "https://www.gov.cn/zhengce/202610/content_7082717.htm",
+    "source_id": "policy_023_b74bb8",
+    "source_name": "国务院部门文件",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:00+00:00"
+  },
+  {
+    "title": "北京市国防科学技术工业办公室关于开展高端装备领域“寻宝”工作的通知",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261012_4898310.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:00+00:00"
+  },
+  {
+    "title": "北京市人民政府关于印发《北京市“十五五”时期现代综合交通运输体系发展规划》的通知",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261012_4898783.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:00+00:00"
+  },
+  {
+    "title": "北京市规划和自然资源委员会关于印发《关于本市住宅公共空间品质提升的意见（试行）》的通知",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261013_4899326.html",
+    "source_id": "policy_024_047001",
+    "source_name": "北京市人民政府",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:54:00+00:00"
+  },
+  {
+    "title": "国家标准目录查询",
+    "url": "https://std.samr.gov.cn/gb/gbQuery",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:59+00:00"
+  },
+  {
+    "title": "国家标准样品查询",
+    "url": "https://std.samr.gov.cn/gsm/query",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:59+00:00"
+  },
+  {
+    "title": "文化和旅游部关于印发《艺术发展“十五五”规划》的通知",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082561.htm",
+    "source_id": "policy_023_b74bb8",
+    "source_name": "国务院部门文件",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:59+00:00"
+  },
+  {
+    "title": "商务部电子商务司负责人解读《关于实施品质电商“五优”行动的通知》",
+    "url": "https://www.gov.cn/zhengce/202610/content_7082909.htm",
+    "source_id": "policy_023_b74bb8",
+    "source_name": "国务院部门文件",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:59+00:00"
+  },
+  {
+    "title": "强制性国家标准",
+    "url": "https://openstd.samr.gov.cn/bzgk/std/std_list_type?p.p1=1&p.p90=circulation_date&p.p91=desc",
+    "source_id": "policy_022_318d84",
+    "source_name": "国家标准全文公开系统",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:59+00:00"
+  },
+  {
+    "title": "推标草案征求意见 征",
+    "url": "https://std.samr.gov.cn/gb/gbPlanDraft",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:58+00:00"
+  },
+  {
+    "title": "国家标准立项建议征集 征",
+    "url": "https://std.samr.gov.cn/qbprop/introduce",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:58+00:00"
+  },
+  {
+    "title": "国家标准计划查询",
+    "url": "https://std.samr.gov.cn/gb/gbProcessInfo",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:58+00:00"
+  },
+  {
+    "title": "商务部等7部门关于实施品质电商“五优”行动的通知",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7082906.htm",
+    "source_id": "policy_023_b74bb8",
+    "source_name": "国务院部门文件",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:58+00:00"
+  },
+  {
+    "title": "关于印发医疗康复护理扩容提升工程实施方案的通知",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7082724.htm",
+    "source_id": "policy_023_b74bb8",
+    "source_name": "国务院部门文件",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:58+00:00"
+  },
+  {
+    "title": "拟立项标准公示 征",
+    "url": "https://std.samr.gov.cn/gb/gbSuggestionPlan",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:57+00:00"
+  },
+  {
+    "title": "拟立项标准样品公示 征",
+    "url": "https://std.samr.gov.cn/gsm/gsmPlanPublic",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:57+00:00"
+  },
+  {
+    "title": "强标草案征求意见 征",
+    "url": "https://std.samr.gov.cn/gb/gbqSuggestion",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:57+00:00"
+  },
+  {
+    "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082493.htm",
+    "source_id": "policy_023_b74bb8",
+    "source_name": "国务院部门文件",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:57+00:00"
+  },
+  {
+    "title": "交通运输部 工业和信息化部 国家能源局关于印发《内河新能源船舶推广应用行动方案（2026—2030年）》的通知",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7083107.htm",
+    "source_id": "policy_023_b74bb8",
+    "source_name": "国务院部门文件",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:57+00:00"
+  },
+  {
+    "title": "国家标准实施信息反馈",
+    "url": "https://std.samr.gov.cn/gb/gbOpinion",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:56+00:00"
+  },
+  {
+    "title": "国家标准复审结论公示 征",
+    "url": "https://std.samr.gov.cn/gb/withdrawnReview",
+    "source_id": "policy_021_f93f31",
+    "source_name": "全国标准信息公共服务平台",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:56+00:00"
+  },
+  {
+    "title": "国务院关于《国家残疾预防行动计划（2026—2030年）》的批复",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7082738.htm",
+    "source_id": "policy_023_b74bb8",
+    "source_name": "国务院部门文件",
+    "region": "国内",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:56+00:00"
+  },
+  {
+    "title": "Agenda Regulatória",
+    "url": "https://www.gov.br/aneel/pt-br/assuntos/governanca-regulatoria/agenda-regulatoria",
+    "source_id": "policy_014_6c5fe6",
+    "source_name": "gov.br",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:53+00:00"
+  },
+  {
+    "title": "National case-law",
+    "url": "https://eur-lex.europa.eu/collection/n-law/n-case-law.html",
+    "source_id": "policy_017_355531",
+    "source_name": "EUR-Lex 欧盟法规库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:52+00:00"
+  },
+  {
+    "title": "JURE case-law",
+    "url": "https://eur-lex.europa.eu/collection/n-law/jure.html",
+    "source_id": "policy_017_355531",
+    "source_name": "EUR-Lex 欧盟法规库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:52+00:00"
+  },
+  {
+    "title": "LAW IN FOCUS New Union Customs Code",
+    "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=OJ%3AL_202602108",
+    "source_id": "policy_017_355531",
+    "source_name": "EUR-Lex 欧盟法规库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:52+00:00"
+  },
+  {
+    "title": "LAW IN FOCUS Communication: an EU approach to online child safety",
+    "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX%3A52026DC0680",
+    "source_id": "policy_017_355531",
+    "source_name": "EUR-Lex 欧盟法规库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:52+00:00"
+  },
+  {
+    "title": "LAW IN FOCUS Proposal: EU Kids Act",
+    "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX%3A52026PC0681",
+    "source_id": "policy_017_355531",
+    "source_name": "EUR-Lex 欧盟法规库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:52+00:00"
+  },
+  {
+    "title": "Cookies policy",
+    "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html",
+    "source_id": "policy_017_355531",
+    "source_name": "EUR-Lex 欧盟法规库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:52+00:00"
+  },
+  {
+    "title": "Privacy e Cookie policy",
+    "url": "https://www.normattiva.it/staticPage/privacy_policy",
+    "source_id": "policy_015_00e069",
+    "source_name": "normattiva.it",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:51+00:00"
+  },
+  {
+    "title": "Lawmaking procedures",
+    "url": "https://eur-lex.europa.eu/collection/legislative-procedures.html",
+    "source_id": "policy_017_355531",
+    "source_name": "EUR-Lex 欧盟法规库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:51+00:00"
+  },
+  {
+    "title": "Case-law",
+    "url": "https://eur-lex.europa.eu/collection/eu-law/eu-case-law.html",
+    "source_id": "policy_017_355531",
+    "source_name": "EUR-Lex 欧盟法规库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:51+00:00"
+  },
+  {
+    "title": "Directory of case-law",
+    "url": "https://eur-lex.europa.eu/browse/directories/new-case-law.html",
+    "source_id": "policy_017_355531",
+    "source_name": "EUR-Lex 欧盟法规库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:51+00:00"
+  },
+  {
+    "title": "Sandboxes Regulatórios",
+    "url": "https://www.gov.br/aneel/pt-br/assuntos/governanca-regulatoria/sandboxes-regulatorios",
+    "source_id": "policy_014_6c5fe6",
+    "source_name": "gov.br",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:51+00:00"
+  },
+  {
+    "title": "Current Tariff From April 2026",
+    "url": "https://egyptera.org/en/TarrifApril2026.aspx",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:53:50+00:00"
+  },
+  {
+    "title": "Gestão do Estoque Regulatório",
+    "url": "https://www.gov.br/aneel/pt-br/centrais-de-conteudos/relatorios-e-indicadores/estoque-regulatorio",
+    "source_id": "policy_014_6c5fe6",
+    "source_name": "gov.br",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:50+00:00"
+  },
+  {
+    "title": "Selo de Boas Práticas Regulatórias",
+    "url": "https://www.gov.br/aneel/pt-br/assuntos/governanca-regulatoria/selo-de-boas-praticas-regulatorias",
+    "source_id": "policy_014_6c5fe6",
+    "source_name": "gov.br",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:50+00:00"
+  },
+  {
+    "title": "Energy union indicators webtool",
+    "url": "https://energy.ec.europa.eu/data-and-analysis/energy-union-indicators-webtool_en",
+    "source_id": "policy_016_fea2e5",
+    "source_name": "欧盟能源总司风电专题",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:49+00:00"
+  },
+  {
+    "title": "Avaliação de Resultado Regulatório",
+    "url": "https://www.gov.br/aneel/pt-br/assuntos/governanca-regulatoria/avaliacao-de-resultado-regulatorio-arr",
+    "source_id": "policy_014_6c5fe6",
+    "source_name": "gov.br",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:49+00:00"
+  },
+  {
+    "title": "Energy prices and costs in Europe",
+    "url": "https://energy.ec.europa.eu/data-and-analysis/energy-prices-and-costs-europe_en",
+    "source_id": "policy_016_fea2e5",
+    "source_name": "欧盟能源总司风电专题",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:48+00:00"
+  },
+  {
+    "title": "Energy modelling",
+    "url": "https://energy.ec.europa.eu/data-and-analysis/energy-modelling_en",
+    "source_id": "policy_016_fea2e5",
+    "source_name": "欧盟能源总司风电专题",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:48+00:00"
+  },
+  {
+    "title": "EU energy statistical pocketbook and country datasheets",
+    "url": "https://energy.ec.europa.eu/data-and-analysis/eu-energy-statistical-pocketbook-and-country-datasheets_en",
+    "source_id": "policy_016_fea2e5",
+    "source_name": "欧盟能源总司风电专题",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:48+00:00"
+  },
+  {
+    "title": "Renewal license of generation from Renewable Energy Resources",
+    "url": "https://egyptera.org/en/RenewLicRequest.aspx",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:53:48+00:00"
+  },
+  {
+    "title": "Permit Application for Distribution Grid",
+    "url": "https://egyptera.org/en/DisPerRequest.aspx",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:53:48+00:00"
+  },
+  {
+    "title": "Decisions of the Committee for Renewable of license/permit",
+    "url": "https://egyptera.org/en/LicDis.aspx",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "详情读取失败：404 Client Error: Not Found for url: https://egyptera.org/en/LicDis.aspx",
+    "checked_at": "2026-10-13T08:53:48+00:00"
+  },
+  {
+    "title": "Energy union",
+    "url": "https://energy.ec.europa.eu/strategy/energy-union_en",
+    "source_id": "policy_016_fea2e5",
+    "source_name": "欧盟能源总司风电专题",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:47+00:00"
+  },
+  {
+    "title": "Equality platform for the energy sector",
+    "url": "https://energy.ec.europa.eu/strategy/equality-platform-energy-sector_en",
+    "source_id": "policy_016_fea2e5",
+    "source_name": "欧盟能源总司风电专题",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:47+00:00"
+  },
+  {
+    "title": "Standards and Specifications",
+    "url": "https://egyptera.org/en/download%5Cpdf%5CENMSNew2018.pdf",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:47+00:00"
+  },
+  {
+    "title": "Governança Regulatória",
+    "url": "https://www.gov.br/aneel/pt-br/assuntos/governanca-regulatoria",
+    "source_id": "policy_014_6c5fe6",
+    "source_name": "gov.br",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:47+00:00"
+  },
+  {
+    "title": "Programa de Integridade",
+    "url": "https://www.gov.br/aneel/pt-br/acesso-a-informacao/acoes-e-programas/programa-de-integridade",
+    "source_id": "policy_014_6c5fe6",
+    "source_name": "gov.br",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:47+00:00"
+  },
+  {
+    "title": "Análise de Impacto Regulatório",
+    "url": "https://www.gov.br/aneel/pt-br/assuntos/governanca-regulatoria/analise-de-impacto-regulatorio",
+    "source_id": "policy_014_6c5fe6",
+    "source_name": "gov.br",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:47+00:00"
+  },
+  {
+    "title": "AccelerateEU to strengthen EU energy resilience",
+    "url": "https://energy.ec.europa.eu/strategy/accelerateeu-strengthen-eu-energy-resilience_en",
+    "source_id": "policy_016_fea2e5",
+    "source_name": "欧盟能源总司风电专题",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:46+00:00"
+  },
+  {
+    "title": "REPowerEU – phase out of Russian energy imports",
+    "url": "https://energy.ec.europa.eu/strategy/repowereu-phase-out-russian-energy-imports_en",
+    "source_id": "policy_016_fea2e5",
+    "source_name": "欧盟能源总司风电专题",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:46+00:00"
+  },
+  {
+    "title": "Other Laws",
+    "url": "https://egyptera.org/en/OtherLaws.aspx",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "详情读取失败：404 Client Error: Not Found for url: https://egyptera.org/en/OtherLaws.aspx",
+    "checked_at": "2026-10-13T08:53:45+00:00"
+  },
+  {
+    "title": "Electricty Rules",
+    "url": "https://egyptera.org/en/EleLaw.aspx",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "详情读取失败：404 Client Error: Not Found for url: https://egyptera.org/en/EleLaw.aspx",
+    "checked_at": "2026-10-13T08:53:44+00:00"
+  },
+  {
+    "title": "Law Secondary Legislative",
+    "url": "https://egyptera.org/en/SidePages/img/works/pdf/SitePDF/ExecutiveRegulationsforeleclow.pdf",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:43+00:00"
+  },
+  {
+    "title": "Electricity Law",
+    "url": "https://egyptera.org/en/SidePages/img/works/pdf/SitePDF/law2015.pdf",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:42+00:00"
+  },
+  {
+    "title": "Presidential Decree",
+    "url": "https://egyptera.org/en/SidePages/img/works/pdf/SitePDF/2000dec339.pdf",
+    "source_id": "policy_012_e0736a",
+    "source_name": "egyptera.org",
+    "region": "海外",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:53:41+00:00"
+  },
+  {
+    "title": "Tenders",
+    "url": "https://nrea.gov.eg/test/en/Investors/Tender/1",
+    "source_id": "policy_011_5e1a2e",
+    "source_name": "nrea.gov.eg",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:53:39+00:00"
+  },
+  {
+    "title": "Tenders",
+    "url": "https://nrea.gov.eg/test/en/Investors/Tender",
+    "source_id": "policy_011_5e1a2e",
+    "source_name": "nrea.gov.eg",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:53:39+00:00"
+  },
+  {
+    "title": "Wind Energy In Egypt",
+    "url": "https://nrea.gov.eg/test/en/Technology/WindStations",
+    "source_id": "policy_011_5e1a2e",
+    "source_name": "nrea.gov.eg",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:53:38+00:00"
+  },
+  {
+    "title": "Solar Energy In Egypt",
+    "url": "https://nrea.gov.eg/test/en/Technology/HeatingSystems",
+    "source_id": "policy_011_5e1a2e",
+    "source_name": "nrea.gov.eg",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:53:38+00:00"
+  },
+  {
+    "title": "Renewable Energy Legislation",
+    "url": "https://nrea.gov.eg/test/en/Investors/Legislation",
+    "source_id": "policy_011_5e1a2e",
+    "source_name": "nrea.gov.eg",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:53:38+00:00"
+  },
+  {
+    "title": "25.08.2026 KEGOC JSC briefs the Government on grid readiness for the 2026-2027 autumn-winter period",
+    "url": "https://www.kegoc.kz/en/press-center/press-releases/168689/",
+    "source_id": "policy_002_7c4c26",
+    "source_name": "kegoc.kz",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:37+00:00"
+  },
+  {
+    "title": "Integrated sustainable energy strategy",
+    "url": "https://nrea.gov.eg/test/en/About/Strategy",
+    "source_id": "policy_011_5e1a2e",
+    "source_name": "nrea.gov.eg",
+    "region": "海外",
+    "reason": "无法核实发布日期：不应混入最近两周或每日增量结果",
+    "checked_at": "2026-10-13T08:53:37+00:00"
+  },
+  {
+    "title": "Tenders",
+    "url": "https://powersaudiarabia.com.sa/esop/guest/pages/browserNotSupported.jsp?_ncp=1791881615728.24289-2",
+    "source_id": "policy_008_3fecee",
+    "source_name": "powersaudiarabia.com.sa",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:36+00:00"
+  },
+  {
+    "title": "Regulator Members",
+    "url": "https://www.nersa.org.za/electricity/about-us/regulator-members",
+    "source_id": "policy_009_f87db8",
+    "source_name": "nersa.org.za",
+    "region": "海外",
+    "reason": "详情读取失败：404 Client Error: Not Found for url: https://www.nersa.org.za/electricity/about-us/regulator-members",
+    "checked_at": "2026-10-13T08:53:36+00:00"
+  },
+  {
+    "title": "On the approval of regulatory legal acts governing the system of vocational education",
+    "url": "https://lex.uz/en/docs/8523305",
+    "source_id": "policy_003_c8fd2b",
+    "source_name": "乌兹别克国家法律数据库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:34+00:00"
+  },
+  {
+    "title": "Privacy Policy",
+    "url": "https://adilet.zan.kz/privacy",
+    "source_id": "policy_001_fbcedf",
+    "source_name": "Adilet 哈萨克法规库",
+    "region": "海外",
+    "reason": "正文不足或 PDF 为扫描图片，待人工核验",
+    "checked_at": "2026-10-13T08:53:33+00:00"
+  },
+  {
+    "title": "Security and law enforcement",
+    "url": "https://lex.uz/en/classifiers/7484",
+    "source_id": "policy_003_c8fd2b",
+    "source_name": "乌兹别克国家法律数据库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:33+00:00"
+  },
+  {
+    "title": "International relations. International law",
+    "url": "https://lex.uz/en/classifiers/7658",
+    "source_id": "policy_003_c8fd2b",
+    "source_name": "乌兹别克国家法律数据库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:33+00:00"
+  },
+  {
+    "title": "On approval of the market rules for the first stage of the transition to the principles of wholesale and retail electricity markets-the “Purchases under bilateral contracts” stage",
+    "url": "https://lex.uz/en/docs/8522944",
+    "source_id": "policy_003_c8fd2b",
+    "source_name": "乌兹别克国家法律数据库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:33+00:00"
+  },
+  {
+    "title": "Constitutional Law Dictionary (in Uzbek)",
+    "url": "https://lex.uz/en/dictionary",
+    "source_id": "policy_003_c8fd2b",
+    "source_name": "乌兹别克国家法律数据库",
+    "region": "海外",
+    "reason": "未找到明确的风电业务适用证据",
+    "checked_at": "2026-10-13T08:53:32+00:00"
+  },
+  {
     "title": "省发展改革委 省工业和信息化厅联合印发《关于进一步完善煤改电清洁取暖工商业用户电价支持政策有关事项的通...",
     "url": "https://fgw.ln.gov.cn/fgw/zc/zxzc/2026080410583482996/index.shtml",
     "source_id": "cn_19f05d3cb300",
@@ -34,24 +2005,6 @@
     "region": "中国",
     "reason": "尚未证实该文件与风电业务的适用关系",
     "checked_at": "2026-10-13T04:08:32+00:00"
-  },
-  {
-    "title": "辽宁省人民政府关于废止和修改部分省政府规章的决定",
-    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2026n/2026101010322587588/index.shtml",
-    "source_id": "cn_2d4b5e05e647",
-    "source_name": "辽宁省人民政府",
-    "region": "中国",
-    "reason": "尚未证实该文件与风电业务的适用关系",
-    "checked_at": "2026-10-13T04:08:31+00:00"
-  },
-  {
-    "title": "辽宁省人民政府关于废止和修改部分省政府规章的决定",
-    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/2025n/2025021715423933095/index.shtml",
-    "source_id": "cn_2d4b5e05e647",
-    "source_name": "辽宁省人民政府",
-    "region": "中国",
-    "reason": "尚未证实该文件与风电业务的适用关系",
-    "checked_at": "2026-10-13T04:08:31+00:00"
   },
   {
     "title": "【 津政函 】 天津市人民政府关于《天津市老龄事业发展和养老服务体系建设“十五五”规划》的批复",
@@ -106,33 +2059,6 @@
     "region": "中国",
     "reason": "尚未证实该文件与风电业务的适用关系",
     "checked_at": "2026-10-13T04:07:08+00:00"
-  },
-  {
-    "title": "北京市经济和信息化局关于开展2026年度国家绿色制造单位征集推荐工作的通知",
-    "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202609/t20260930_4887977.html",
-    "source_id": "cn_1003b870a030",
-    "source_name": "北京市经济和信息化局",
-    "region": "中国",
-    "reason": "尚未证实该文件与风电业务的适用关系",
-    "checked_at": "2026-10-13T04:07:07+00:00"
-  },
-  {
-    "title": "北京市经济和信息化局 北京市卫生健康委员会 北京市药品监督管理局关于开展 2026年高端医疗装备推广应用项目申报工作的通知",
-    "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202610/t20261009_4895089.html",
-    "source_id": "cn_1003b870a030",
-    "source_name": "北京市经济和信息化局",
-    "region": "中国",
-    "reason": "尚未证实该文件与风电业务的适用关系",
-    "checked_at": "2026-10-13T04:07:06+00:00"
-  },
-  {
-    "title": "[现行有效] 北京市发展和改革委员会关于公示北京市2026年新能源供热新技术目录清单的通知",
-    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/bwqtwj/202610/t20261008_4893253.htm",
-    "source_id": "cn_24e54ba38a1a",
-    "source_name": "北京市发展和改革委员会",
-    "region": "中国",
-    "reason": "尚未证实该文件与风电业务的适用关系",
-    "checked_at": "2026-10-13T04:07:03+00:00"
   },
   {
     "title": "[现行有效] 北京市发展和改革委员会 北京市规划和自然资源委员会关于印发北京市先进制造业和现代服务业融合示范园区和试点企业认定及支持办法的通知",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T07:50:58+00:00",
+  "generated_at": "2026-10-13T08:53:26+00:00",
   "period": {
     "days": 7,
     "start": "2026-10-07",
@@ -121,6 +121,29 @@
     },
     {
       "country": "全球",
+      "source_name": "Renewables Now",
+      "title": "CIP buys into 1-GW Five Estuaries offshore wind project",
+      "translated_title": "",
+      "published_at": "2026-10-13",
+      "url": "https://renewablesnow.com/news/cip-buys-into-1-gw-five-estuaries-offshore-wind-project-1302879/",
+      "tags": [
+        "竞对资讯"
+      ],
+      "competitors": [
+        "CIP",
+        "ReNew"
+      ],
+      "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
+      "signals": [
+        "1 GW",
+        "竞对资讯",
+        "CIP"
+      ],
+      "rank": 5,
+      "importance_reason": "1 GW · 竞对资讯 · CIP"
+    },
+    {
+      "country": "全球",
       "source_name": "Recharge",
       "title": "CIP follows up on EDF to buy into gigascale UK offshore wind project",
       "translated_title": "CIP追踪EDF 买入千兆级的英国岸外风力项目",
@@ -138,7 +161,7 @@
         "竞对资讯",
         "CIP"
       ],
-      "rank": 5,
+      "rank": 6,
       "importance_reason": "1 GW · 竞对资讯 · CIP"
     },
     {
@@ -164,7 +187,7 @@
         "招标采购",
         "Nordex"
       ],
-      "rank": 6,
+      "rank": 7,
       "importance_reason": "竞对资讯 · 招标采购 · Nordex"
     },
     {
@@ -189,30 +212,8 @@
         "竞对资讯",
         "招标采购"
       ],
-      "rank": 7,
-      "importance_reason": "215 MW · 竞对资讯 · 招标采购"
-    },
-    {
-      "country": "印度",
-      "source_name": "Energetica India – Wind Power",
-      "title": "Rezolv Energy Energises 192 MW Wind Project in Romania",
-      "translated_title": "罗马尼亚Rezolv能源能源能源192兆瓦风能项目",
-      "published_at": "2026-10-09",
-      "url": "https://www.energetica-india.net/news/rezolv-energy-energises-192-mw-wind-project-in-romania",
-      "tags": [
-        "竞对资讯"
-      ],
-      "competitors": [
-        "ReNew"
-      ],
-      "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
-      "signals": [
-        "13.2 GW",
-        "竞对资讯",
-        "ReNew"
-      ],
       "rank": 8,
-      "importance_reason": "13.2 GW · 竞对资讯 · ReNew"
+      "importance_reason": "215 MW · 竞对资讯 · 招标采购"
     }
   ]
 }
