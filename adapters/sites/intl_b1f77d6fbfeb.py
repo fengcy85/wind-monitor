@@ -1,0 +1,5 @@
+# 专站配置：国际/国别政策。未声称已经通过该站的实网抓取验收。
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'intl_b1f77d6fbfeb', 'source_name': '国际/国别政策', 'official_url': 'https://www.iea.org/policies?topic%5B0%5D=Power', 'strategy': 'iea_public_policy_index', 'legacy_adapter': 'iea_policy_search', 'entry_urls': ['https://www.iea.org/policies?topic%5B0%5D=Power', 'https://www.iea.org/policies', 'https://www.iea.org/search/policies?q=wind'], 'list_selectors': ['.results a[href]', '.search-results a[href]', 'a[href*="/policies/"]', 'a[href*="/doc/"]', 'table tr a[href]', 'article a[href]'], 'date_selectors': ['time[datetime]', '.date', '.published', '.timestamp', 'meta[property="article:published_time"]'], 'body_selectors': ['article', '.article-body', '.entry-content', '.content', 'main'], 'next_selectors': ['a[rel=next]', '.pagination a[href]'], 'url_path_hint': '/policies', 'detail_path_signals': [], 'ui_search_term': 'wind', 'needs_browser_ui': True, 'allow_iframe': False, 'original_site_verified': False, 'selectors_live_verified': False, 'verification_note': '该站配置了独立的栏目/选择器规则；尚待该站实网列表、日期及正文逐项验收', 'source_country': '国际'}
+def build():
+    return SiteAdapter(PROFILE)

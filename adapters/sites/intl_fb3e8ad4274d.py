@@ -1,0 +1,5 @@
+# 专站配置：nrea.gov.eg。未声称已经通过该站的实网抓取验收。
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'intl_fb3e8ad4274d', 'source_name': 'nrea.gov.eg', 'official_url': 'https://nrea.gov.eg/test/en/Home', 'strategy': 'institution_publications', 'legacy_adapter': '', 'entry_urls': ['https://nrea.gov.eg/test/en/Home'], 'list_selectors': ['article a[href]', '.listing a[href]', '.result a[href]', '.news a[href]', 'table tr a[href]', 'ul li a[href]'], 'date_selectors': ['time[datetime]', '.date', '.published', '.timestamp', 'meta[property="article:published_time"]'], 'body_selectors': ['article', '.article-body', '.entry-content', '.content', 'main'], 'next_selectors': ['a[rel=next]', '.pagination a[href]'], 'url_path_hint': '/home', 'detail_path_signals': [], 'ui_search_term': 'wind', 'needs_browser_ui': False, 'allow_iframe': False, 'original_site_verified': False, 'selectors_live_verified': False, 'verification_note': '该站配置了独立的栏目/选择器规则；尚待该站实网列表、日期及正文逐项验收', 'source_country': '埃及', 'date_format_hint': 'year-first, day-first, ISO, month-name'}
+def build():
+    return SiteAdapter(PROFILE)

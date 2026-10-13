@@ -1,0 +1,5 @@
+# 专站配置：广东省人民政府。未声称已经通过该站的实网抓取验收。
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'cn_a05a053fbf35', 'source_name': '广东省人民政府', 'official_url': 'http://www.gd.gov.cn/zwgk/wjk/qbwj/index.html', 'strategy': 'institution_publications', 'legacy_adapter': '', 'entry_urls': ['http://www.gd.gov.cn/zwgk/wjk/qbwj/index.html'], 'list_selectors': ['.list li a[href]', '.news-list li a[href]', '.zwgk-list li a[href]', '.policy-list li a[href]', 'ul li a[href]', 'table tr a[href]'], 'date_selectors': ['time[datetime]', '.date', '.time', '.publish-time', '.pubtime', 'span[class*=date]'], 'body_selectors': ['#UCAP-CONTENT', '.TRS_Editor', '#zoom', '.article-content', '#content', 'article', 'main'], 'next_selectors': ['a[rel=next]', 'a.next', 'a:contains(下一页)'], 'url_path_hint': '/index', 'detail_path_signals': ['/art/', '/content_', '/t20'], 'ui_search_term': '风电', 'needs_browser_ui': False, 'allow_iframe': False, 'original_site_verified': False, 'selectors_live_verified': False, 'verification_note': '该站配置了独立的栏目/选择器规则；尚待该站实网列表、日期及正文逐项验收', 'source_country': '中国'}
+def build():
+    return SiteAdapter(PROFILE)

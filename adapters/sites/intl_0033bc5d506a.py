@@ -1,0 +1,5 @@
+# 专站配置：越南国家法律法规数据库。未声称已经通过该站的实网抓取验收。
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'intl_0033bc5d506a', 'source_name': '越南国家法律法规数据库', 'official_url': 'https://vbpl.vn/', 'strategy': 'legal_database', 'legacy_adapter': '', 'entry_urls': ['https://vbpl.vn/'], 'list_selectors': ['.results a[href]', '.search-results a[href]', 'a[href*="/policies/"]', 'a[href*="/doc/"]', 'table tr a[href]', 'article a[href]'], 'date_selectors': ['time[datetime]', '.date', '.published', '.timestamp', 'meta[property="article:published_time"]'], 'body_selectors': ['article', '.article-body', '.entry-content', '.content', 'main'], 'next_selectors': ['a[rel=next]', '.pagination a[href]'], 'url_path_hint': '/', 'detail_path_signals': ['/doc/', '/document/', '/en/', '/eng/'], 'ui_search_term': 'wind', 'needs_browser_ui': False, 'allow_iframe': False, 'original_site_verified': False, 'selectors_live_verified': False, 'verification_note': '该站配置了独立的栏目/选择器规则；尚待该站实网列表、日期及正文逐项验收', 'source_country': '越南', 'date_format_hint': 'year-first, day-first, ISO, month-name'}
+def build():
+    return SiteAdapter(PROFILE)

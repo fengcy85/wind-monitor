@@ -1,0 +1,5 @@
+# 专站配置：江西省发改委。未声称已经通过该站的实网抓取验收。
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'cn_257f0497a96d', 'source_name': '江西省发改委', 'official_url': 'https://drc.jiangxi.gov.cn/jxsfzhggwyh/col/col65569/index.html', 'strategy': 'cms_column', 'legacy_adapter': '', 'entry_urls': ['https://drc.jiangxi.gov.cn/jxsfzhggwyh/col/col65569/index.html'], 'list_selectors': ['.module-list a[href]', '.list-content li a[href]', '.article-list li a[href]', 'li a[href]', 'table tr a[href]'], 'date_selectors': ['time[datetime]', '.date', '.time', '.publish-time', '.pubtime', 'span[class*=date]'], 'body_selectors': ['#UCAP-CONTENT', '.TRS_Editor', '#zoom', '.article-content', '#content', 'article', 'main'], 'next_selectors': ['a[rel=next]', 'a.next', 'a:contains(下一页)'], 'url_path_hint': '/index', 'detail_path_signals': ['/art/', '/col/', '/content_', '/t20'], 'ui_search_term': '风电', 'needs_browser_ui': False, 'allow_iframe': False, 'original_site_verified': False, 'selectors_live_verified': False, 'verification_note': '该站配置了独立的栏目/选择器规则；尚待该站实网列表、日期及正文逐项验收', 'source_country': '中国'}
+def build():
+    return SiteAdapter(PROFILE)

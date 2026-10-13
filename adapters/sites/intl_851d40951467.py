@@ -1,0 +1,5 @@
+# 专站配置：印度国家风能研究院。未声称已经通过该站的实网抓取验收。
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'intl_851d40951467', 'source_name': '印度国家风能研究院', 'official_url': 'https://niwe.res.in/department/department_s%26r/', 'strategy': 'institution_publications', 'legacy_adapter': '', 'entry_urls': ['https://niwe.res.in/department/department_s%26r/'], 'list_selectors': ['article a[href]', '.listing a[href]', '.result a[href]', '.news a[href]', 'table tr a[href]', 'ul li a[href]'], 'date_selectors': ['time[datetime]', '.date', '.published', '.timestamp', 'meta[property="article:published_time"]'], 'body_selectors': ['article', '.article-body', '.entry-content', '.content', 'main'], 'next_selectors': ['a[rel=next]', '.pagination a[href]'], 'url_path_hint': '/department_s%26r', 'detail_path_signals': [], 'ui_search_term': 'wind', 'needs_browser_ui': False, 'allow_iframe': False, 'original_site_verified': False, 'selectors_live_verified': False, 'verification_note': '该站配置了独立的栏目/选择器规则；尚待该站实网列表、日期及正文逐项验收', 'source_country': '印度'}
+def build():
+    return SiteAdapter(PROFILE)

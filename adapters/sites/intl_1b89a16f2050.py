@@ -1,0 +1,5 @@
+# 专站配置：摩洛哥司法法规门户。未声称已经通过该站的实网抓取验收。
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'intl_1b89a16f2050', 'source_name': '摩洛哥司法法规门户', 'official_url': 'https://adala.justice.gov.ma/fr/resources/411', 'strategy': 'legal_database', 'legacy_adapter': '', 'entry_urls': ['https://adala.justice.gov.ma/fr/resources/411'], 'list_selectors': ['.results a[href]', '.search-results a[href]', 'a[href*="/policies/"]', 'a[href*="/doc/"]', 'table tr a[href]', 'article a[href]'], 'date_selectors': ['time[datetime]', '.date', '.published', '.timestamp', 'meta[property="article:published_time"]'], 'body_selectors': ['article', '.article-body', '.entry-content', '.content', 'main'], 'next_selectors': ['a[rel=next]', '.pagination a[href]'], 'url_path_hint': '/411', 'detail_path_signals': ['/doc/', '/document/', '/en/', '/eng/'], 'ui_search_term': 'wind', 'needs_browser_ui': False, 'allow_iframe': False, 'original_site_verified': False, 'selectors_live_verified': False, 'verification_note': '该站配置了独立的栏目/选择器规则；尚待该站实网列表、日期及正文逐项验收', 'source_country': '摩洛哥'}
+def build():
+    return SiteAdapter(PROFILE)
