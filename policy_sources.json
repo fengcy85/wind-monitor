@@ -1,0 +1,2059 @@
+[
+  {
+    "id": "cn_d4013c1b2a1e",
+    "region": "中国",
+    "country": "中国",
+    "province": "",
+    "group": "政策项",
+    "name": "中央国务院及各部委",
+    "url": "https://sousuo.www.gov.cn/zcwjk/policyRetrieval",
+    "entry_urls": [
+      "https://sousuo.www.gov.cn/zcwjk/policyRetrieval"
+    ],
+    "source_type": "政策综合",
+    "crawl_mode": "special_adapter",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_37cf03ee8fd2",
+    "region": "中国",
+    "country": "中国",
+    "province": "",
+    "group": "政策项",
+    "name": "省市地区政府门户",
+    "url": "https://www.gov.cn/home/2023-03/29/content_5748954.htm",
+    "entry_urls": [
+      "https://www.gov.cn/home/2023-03/29/content_5748954.htm"
+    ],
+    "source_type": "政策综合",
+    "crawl_mode": "single_document",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "intl_b1f77d6fbfeb",
+    "region": "海外/国际",
+    "country": "国际",
+    "province": "",
+    "group": "政策项",
+    "name": "国际/国别政策",
+    "url": "https://www.iea.org/policies?topic%5B0%5D=Power",
+    "entry_urls": [
+      "https://www.iea.org/policies?topic%5B0%5D=Power"
+    ],
+    "source_type": "政策综合",
+    "crawl_mode": "special_adapter",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_68fd9b24ba66",
+    "region": "中国",
+    "country": "中国",
+    "province": "",
+    "group": "标准法规项",
+    "name": "全国标准信息公共服务平台",
+    "url": "https://std.samr.gov.cn/",
+    "entry_urls": [
+      "https://std.samr.gov.cn/"
+    ],
+    "source_type": "标准法规",
+    "crawl_mode": "special_adapter",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_b7b7d481ef53",
+    "region": "中国",
+    "country": "中国",
+    "province": "",
+    "group": "标准法规项",
+    "name": "国家标准全文公开系统",
+    "url": "https://openstd.samr.gov.cn/bzgk/gb/index",
+    "entry_urls": [
+      "https://openstd.samr.gov.cn/bzgk/gb/index"
+    ],
+    "source_type": "标准法规",
+    "crawl_mode": "special_adapter",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_9abe6d2f93c7",
+    "region": "中国",
+    "country": "中国",
+    "province": "",
+    "group": "国家部委",
+    "name": "国务院部门文件",
+    "url": "https://sousuo.www.gov.cn/zcwjk/policyDocumentLibrary?q=&t=zhengcelibrary&orpro=",
+    "entry_urls": [
+      "https://sousuo.www.gov.cn/zcwjk/policyDocumentLibrary?q=&t=zhengcelibrary&orpro="
+    ],
+    "source_type": "国家部委",
+    "crawl_mode": "special_adapter",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_8101686d3883",
+    "region": "中国",
+    "country": "中国",
+    "province": "北京市",
+    "group": "北京市",
+    "name": "北京市人民政府",
+    "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/",
+    "entry_urls": [
+      "https://www.beijing.gov.cn/zhengce/zhengcefagui/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_24e54ba38a1a",
+    "region": "中国",
+    "country": "中国",
+    "province": "北京市",
+    "group": "北京市",
+    "name": "北京市发展和改革委员会",
+    "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/",
+    "entry_urls": [
+      "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_1003b870a030",
+    "region": "中国",
+    "country": "中国",
+    "province": "北京市",
+    "group": "北京市",
+    "name": "北京市经济和信息化局",
+    "url": "https://jxj.beijing.gov.cn/zwgk/2024zcwj/",
+    "entry_urls": [
+      "https://jxj.beijing.gov.cn/zwgk/2024zcwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_ad5b4fd78be8",
+    "region": "中国",
+    "country": "中国",
+    "province": "北京市",
+    "group": "北京市",
+    "name": "北京市城市管理委员会",
+    "url": "https://csglw.beijing.gov.cn/zwxx/2024zcwj/",
+    "entry_urls": [
+      "https://csglw.beijing.gov.cn/zwxx/2024zcwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_bcae52a0ff64",
+    "region": "中国",
+    "country": "中国",
+    "province": "天津市",
+    "group": "天津市",
+    "name": "天津市人民政府",
+    "url": "https://www.tj.gov.cn/zwgk/szfwj/index.html",
+    "entry_urls": [
+      "https://www.tj.gov.cn/zwgk/szfwj/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_17bffa52408e",
+    "region": "中国",
+    "country": "中国",
+    "province": "天津市",
+    "group": "天津市",
+    "name": "天津发展和改革委员会",
+    "url": "https://fzgg.tj.gov.cn/zwgk_47325/zcfg_47338/zcwjx/fgwj/",
+    "entry_urls": [
+      "https://fzgg.tj.gov.cn/zwgk_47325/zcfg_47338/zcwjx/fgwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_5dc355c1a7a8",
+    "region": "中国",
+    "country": "中国",
+    "province": "天津市",
+    "group": "天津市",
+    "name": "天津工业和信息化局",
+    "url": "https://gyxxh.tj.gov.cn/ZWGK4147/ZCWJ6355/wjwj/",
+    "entry_urls": [
+      "https://gyxxh.tj.gov.cn/ZWGK4147/ZCWJ6355/wjwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_9218a245fb7e",
+    "region": "中国",
+    "country": "中国",
+    "province": "河北",
+    "group": "河北",
+    "name": "河北省人民政府",
+    "url": "https://www.hebei.gov.cn/columns/49f13cc2-db03-4d0c-b4fe-2f3f659d3b6e/index.html",
+    "entry_urls": [
+      "https://www.hebei.gov.cn/columns/49f13cc2-db03-4d0c-b4fe-2f3f659d3b6e/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_bcbd7c678a4f",
+    "region": "中国",
+    "country": "中国",
+    "province": "河北",
+    "group": "河北",
+    "name": "河北省发展和改革委员会",
+    "url": "https://hbdrc.hebei.gov.cn/jhlm/jhzcfg/index.html",
+    "entry_urls": [
+      "https://hbdrc.hebei.gov.cn/jhlm/jhzcfg/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_72b1e5bf6cc8",
+    "region": "中国",
+    "country": "中国",
+    "province": "山西",
+    "group": "山西",
+    "name": "山西省人民政府",
+    "url": "https://www.shanxi.gov.cn/zcwjk/swwj/",
+    "entry_urls": [
+      "https://www.shanxi.gov.cn/zcwjk/swwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_0cedc4affbe8",
+    "region": "中国",
+    "country": "中国",
+    "province": "山西",
+    "group": "山西",
+    "name": "山西省能源局",
+    "url": "https://nyj.shanxi.gov.cn/zfxxgk/fdzdgknr/sjwj/fdzdgknr_11759.html",
+    "entry_urls": [
+      "https://nyj.shanxi.gov.cn/zfxxgk/fdzdgknr/sjwj/fdzdgknr_11759.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_f967a158ac3f",
+    "region": "中国",
+    "country": "中国",
+    "province": "山西",
+    "group": "山西",
+    "name": "山西省工信厅",
+    "url": "https://gxt.shanxi.gov.cn/zcwj/wjfb/",
+    "entry_urls": [
+      "https://gxt.shanxi.gov.cn/zcwj/wjfb/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_05f1f10b143f",
+    "region": "中国",
+    "country": "中国",
+    "province": "山西",
+    "group": "山西",
+    "name": "山西省发改委",
+    "url": "https://fgw.shanxi.gov.cn/sxfgwzwgk/sxsfgwxxgk/xxgkml/zfxxgkxgwj/",
+    "entry_urls": [
+      "https://fgw.shanxi.gov.cn/sxfgwzwgk/sxsfgwxxgk/xxgkml/zfxxgkxgwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_09b66c7ebd13",
+    "region": "中国",
+    "country": "中国",
+    "province": "内蒙古",
+    "group": "内蒙古",
+    "name": "内蒙古人民政府",
+    "url": "https://www.nmg.gov.cn/zwgk/zfxxgk/zfxxgkml/?gk=3&cid=3696",
+    "entry_urls": [
+      "https://www.nmg.gov.cn/zwgk/zfxxgk/zfxxgkml/?gk=3&cid=3696"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_c6f9b3f56fe8",
+    "region": "中国",
+    "country": "中国",
+    "province": "内蒙古",
+    "group": "内蒙古",
+    "name": "内蒙古发改委",
+    "url": "https://fgw.nmg.gov.cn/zfxxgk/fdzdgknr/?gk=3#iframe",
+    "entry_urls": [
+      "https://fgw.nmg.gov.cn/zfxxgk/fdzdgknr/?gk=3#iframe"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "special_adapter",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_eb58eb83050f",
+    "region": "中国",
+    "country": "中国",
+    "province": "内蒙古",
+    "group": "内蒙古",
+    "name": "内蒙古能源局",
+    "url": "https://nyj.nmg.gov.cn/zwgk/zfxxgkzl/fdzdgknr/?gk=2#iframe",
+    "entry_urls": [
+      "https://nyj.nmg.gov.cn/zwgk/zfxxgkzl/fdzdgknr/?gk=2#iframe"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "special_adapter",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_2d4b5e05e647",
+    "region": "中国",
+    "country": "中国",
+    "province": "辽宁",
+    "group": "辽宁",
+    "name": "辽宁省人民政府",
+    "url": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/index.shtml",
+    "entry_urls": [
+      "https://www.ln.gov.cn/web/zwgkx/zfwj/szfl/index.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_19f05d3cb300",
+    "region": "中国",
+    "country": "中国",
+    "province": "辽宁",
+    "group": "辽宁",
+    "name": "辽宁省发改委",
+    "url": "https://fgw.ln.gov.cn/fgw/zc/zxzc/index.shtml",
+    "entry_urls": [
+      "https://fgw.ln.gov.cn/fgw/zc/zxzc/index.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_a7894e2e7488",
+    "region": "中国",
+    "country": "中国",
+    "province": "辽宁",
+    "group": "辽宁",
+    "name": "辽宁省工信厅",
+    "url": "https://gxt.ln.gov.cn/gxt/zfxxgk/zc/xzgfxwj/index.shtml",
+    "entry_urls": [
+      "https://gxt.ln.gov.cn/gxt/zfxxgk/zc/xzgfxwj/index.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_6e5b97b3f899",
+    "region": "中国",
+    "country": "中国",
+    "province": "吉林",
+    "group": "吉林",
+    "name": "吉林省人民政府",
+    "url": "https://xxgk.jl.gov.cn/szf/gkml/",
+    "entry_urls": [
+      "https://xxgk.jl.gov.cn/szf/gkml/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_f259071d32e9",
+    "region": "中国",
+    "country": "中国",
+    "province": "吉林",
+    "group": "吉林",
+    "name": "吉林省发改委",
+    "url": "https://xxgk.jl.gov.cn/zcbm/fgw/xxgkmlqy/",
+    "entry_urls": [
+      "https://xxgk.jl.gov.cn/zcbm/fgw/xxgkmlqy/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_825a7f07379f",
+    "region": "中国",
+    "country": "中国",
+    "province": "吉林",
+    "group": "吉林",
+    "name": "吉林省工信部",
+    "url": "https://xxgk.jl.gov.cn/zcbm/fgw_97953/xxgkmlqy/",
+    "entry_urls": [
+      "https://xxgk.jl.gov.cn/zcbm/fgw_97953/xxgkmlqy/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_b63369516842",
+    "region": "中国",
+    "country": "中国",
+    "province": "黑龙江",
+    "group": "黑龙江",
+    "name": "黑龙江省人民政府",
+    "url": "https://www.hlj.gov.cn/hlj/c108371/zfxxgk_search.shtml",
+    "entry_urls": [
+      "https://www.hlj.gov.cn/hlj/c108371/zfxxgk_search.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_44010e5dee56",
+    "region": "中国",
+    "country": "中国",
+    "province": "黑龙江",
+    "group": "黑龙江",
+    "name": "黑龙江工信部",
+    "url": "https://gxt.hlj.gov.cn/gxt/c106981/zfxxgk.shtml?tab=gfxwj",
+    "entry_urls": [
+      "https://gxt.hlj.gov.cn/gxt/c106981/zfxxgk.shtml?tab=gfxwj"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_87fa1f258405",
+    "region": "中国",
+    "country": "中国",
+    "province": "黑龙江",
+    "group": "黑龙江",
+    "name": "黑龙江发改委",
+    "url": "https://drc.hlj.gov.cn/drc/c111444/common_zfxxgk.shtml?tab=gfxwj",
+    "entry_urls": [
+      "https://drc.hlj.gov.cn/drc/c111444/common_zfxxgk.shtml?tab=gfxwj"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_b69797184d9c",
+    "region": "中国",
+    "country": "中国",
+    "province": "上海",
+    "group": "上海",
+    "name": "上海市人民政府",
+    "url": "https://www.shanghai.gov.cn/nw42944/index.html",
+    "entry_urls": [
+      "https://www.shanghai.gov.cn/nw42944/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_af2a8aa1ca7d",
+    "region": "中国",
+    "country": "中国",
+    "province": "上海",
+    "group": "上海",
+    "name": "上海市经信委",
+    "url": "https://www.sheitc.sh.gov.cn/zcfg/index.html",
+    "entry_urls": [
+      "https://www.sheitc.sh.gov.cn/zcfg/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_7653a390fcaa",
+    "region": "中国",
+    "country": "中国",
+    "province": "上海",
+    "group": "上海",
+    "name": "上海市发改委",
+    "url": "https://fgw.sh.gov.cn/fgw_zcwjfl/index.html",
+    "entry_urls": [
+      "https://fgw.sh.gov.cn/fgw_zcwjfl/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_a883bbb06ca3",
+    "region": "中国",
+    "country": "中国",
+    "province": "江苏",
+    "group": "江苏",
+    "name": "江苏省人民政府",
+    "url": "https://www.jiangsu.gov.cn/col/col84242/index.html",
+    "entry_urls": [
+      "https://www.jiangsu.gov.cn/col/col84242/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_479693b22725",
+    "region": "中国",
+    "country": "中国",
+    "province": "江苏",
+    "group": "江苏",
+    "name": "江苏省发改委",
+    "url": "https://fzggw.jiangsu.gov.cn/module/jslib/zcjd/zcjd.htm",
+    "entry_urls": [
+      "https://fzggw.jiangsu.gov.cn/module/jslib/zcjd/zcjd.htm"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_0cd5fbd4bc1c",
+    "region": "中国",
+    "country": "中国",
+    "province": "江苏",
+    "group": "江苏",
+    "name": "江苏省工信部",
+    "url": "https://gxt.jiangsu.gov.cn/col/col80179/index.html",
+    "entry_urls": [
+      "https://gxt.jiangsu.gov.cn/col/col80179/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_9ed6ba68d005",
+    "region": "中国",
+    "country": "中国",
+    "province": "浙江",
+    "group": "浙江",
+    "name": "浙江省政府及部门文件",
+    "url": "https://www.zj.gov.cn/col/col1228964496/index.html",
+    "entry_urls": [
+      "https://www.zj.gov.cn/col/col1228964496/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_7d39bc12f2c5",
+    "region": "中国",
+    "country": "中国",
+    "province": "安徽",
+    "group": "安徽",
+    "name": "安徽省人民政府",
+    "url": "https://www.ah.gov.cn/public/column/1681?type=4&action=list&nav=3&catId=6708461",
+    "entry_urls": [
+      "https://www.ah.gov.cn/public/column/1681?type=4&action=list&nav=3&catId=6708461"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_d17b407d740e",
+    "region": "中国",
+    "country": "中国",
+    "province": "安徽",
+    "group": "安徽",
+    "name": "安徽省发改委",
+    "url": "https://fzggw.ah.gov.cn/public/column/7011?type=6&action=xinzheng",
+    "entry_urls": [
+      "https://fzggw.ah.gov.cn/public/column/7011?type=6&action=xinzheng"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_6453286d1907",
+    "region": "中国",
+    "country": "中国",
+    "province": "安徽",
+    "group": "安徽",
+    "name": "安徽省工信厅",
+    "url": "https://jx.ah.gov.cn/public/column/6991?type=6&action=xinzheng",
+    "entry_urls": [
+      "https://jx.ah.gov.cn/public/column/6991?type=6&action=xinzheng"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_2369e492e104",
+    "region": "中国",
+    "country": "中国",
+    "province": "福建",
+    "group": "福建",
+    "name": "福建省人民政府",
+    "url": "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/",
+    "entry_urls": [
+      "https://www.fujian.gov.cn/zwgk/zxwj/szfwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_6498a25962c1",
+    "region": "中国",
+    "country": "中国",
+    "province": "福建",
+    "group": "福建",
+    "name": "福建省发改委",
+    "url": "https://fgw.fujian.gov.cn/zwgk/fgzd/sfgwgfxwj/",
+    "entry_urls": [
+      "https://fgw.fujian.gov.cn/zwgk/fgzd/sfgwgfxwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_2d0a019b4bda",
+    "region": "中国",
+    "country": "中国",
+    "province": "福建",
+    "group": "福建",
+    "name": "福建省工信厅",
+    "url": "https://gxt.fujian.gov.cn/zwgk/zxwj/",
+    "entry_urls": [
+      "https://gxt.fujian.gov.cn/zwgk/zxwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_e39b53a4af2b",
+    "region": "中国",
+    "country": "中国",
+    "province": "江西",
+    "group": "江西",
+    "name": "江西省人民政府",
+    "url": "https://www.jiangxi.gov.cn/jxsrmzf/szfwj/pc/list.html",
+    "entry_urls": [
+      "https://www.jiangxi.gov.cn/jxsrmzf/szfwj/pc/list.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_b025f1552bfa",
+    "region": "中国",
+    "country": "中国",
+    "province": "江西",
+    "group": "江西",
+    "name": "江西省发改委",
+    "url": "https://drc.jiangxi.gov.cn/jxsfzhggwyh/col/col65569/index.html",
+    "entry_urls": [
+      "https://drc.jiangxi.gov.cn/jxsfzhggwyh/col/col65569/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_7b3144f87ec9",
+    "region": "中国",
+    "country": "中国",
+    "province": "江西",
+    "group": "江西",
+    "name": "江西省工信厅",
+    "url": "https://gxt.jiangxi.gov.cn/jxsgyhxxht/zcwj/index.html",
+    "entry_urls": [
+      "https://gxt.jiangxi.gov.cn/jxsgyhxxht/zcwj/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_daa756af0d72",
+    "region": "中国",
+    "country": "中国",
+    "province": "山东",
+    "group": "山东",
+    "name": "山东省人民政府",
+    "url": "http://www.shandong.gov.cn/col/col320658/index.html",
+    "entry_urls": [
+      "http://www.shandong.gov.cn/col/col320658/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_690b9a34d050",
+    "region": "中国",
+    "country": "中国",
+    "province": "山东",
+    "group": "山东",
+    "name": "山东省发改委",
+    "url": "http://fgw.shandong.gov.cn/col/col333896/index.html",
+    "entry_urls": [
+      "http://fgw.shandong.gov.cn/col/col333896/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_15524d4136b7",
+    "region": "中国",
+    "country": "中国",
+    "province": "山东",
+    "group": "山东",
+    "name": "山东省工信厅",
+    "url": "http://gxt.shandong.gov.cn/col/col103862/index.html?number=SD020203",
+    "entry_urls": [
+      "http://gxt.shandong.gov.cn/col/col103862/index.html?number=SD020203"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_abc7edd2d808",
+    "region": "中国",
+    "country": "中国",
+    "province": "山东",
+    "group": "山东",
+    "name": "山东省能源局",
+    "url": "http://nyj.shandong.gov.cn/art/2025/7/11/art_100396_10309213.html?xxgkhide=1",
+    "entry_urls": [
+      "http://nyj.shandong.gov.cn/art/2025/7/11/art_100396_10309213.html?xxgkhide=1"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "single_document",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_7a64c14c56ad",
+    "region": "中国",
+    "country": "中国",
+    "province": "河南",
+    "group": "河南",
+    "name": "河南省人民政府",
+    "url": "https://www.henan.gov.cn/zwgk/fgwj/szfl/",
+    "entry_urls": [
+      "https://www.henan.gov.cn/zwgk/fgwj/szfl/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_df7a9cf21c58",
+    "region": "中国",
+    "country": "中国",
+    "province": "河南",
+    "group": "河南",
+    "name": "河南省发改委",
+    "url": "https://fgw.henan.gov.cn/zwgk/wfgw/",
+    "entry_urls": [
+      "https://fgw.henan.gov.cn/zwgk/wfgw/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_209cd022d5c0",
+    "region": "中国",
+    "country": "中国",
+    "province": "河南",
+    "group": "河南",
+    "name": "河南省工信厅",
+    "url": "https://gxt.henan.gov.cn/xxgk/wjjb/",
+    "entry_urls": [
+      "https://gxt.henan.gov.cn/xxgk/wjjb/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_24c1229e2d0c",
+    "region": "中国",
+    "country": "中国",
+    "province": "湖北",
+    "group": "湖北",
+    "name": "湖北省人民政府",
+    "url": "https://www.hubei.gov.cn/site/hubei/search.html#/file?",
+    "entry_urls": [
+      "https://www.hubei.gov.cn/site/hubei/search.html#/file?"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "special_adapter",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_553c5c03c8cc",
+    "region": "中国",
+    "country": "中国",
+    "province": "湖北",
+    "group": "湖北",
+    "name": "湖北省发改委",
+    "url": "https://fgw.hubei.gov.cn/fbjd/zc/gfwj/",
+    "entry_urls": [
+      "https://fgw.hubei.gov.cn/fbjd/zc/gfwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_b46298d23637",
+    "region": "中国",
+    "country": "中国",
+    "province": "湖北",
+    "group": "湖北",
+    "name": "湖北省经信厅",
+    "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
+    "entry_urls": [
+      "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_229bcc780105",
+    "region": "中国",
+    "country": "中国",
+    "province": "湖南",
+    "group": "湖南",
+    "name": "湖南省人民政府",
+    "url": "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szfwj/wjk_glrb.html",
+    "entry_urls": [
+      "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szfwj/wjk_glrb.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_5b428389935b",
+    "region": "中国",
+    "country": "中国",
+    "province": "湖南",
+    "group": "湖南",
+    "name": "湖南省工信厅",
+    "url": "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szbm/szfzcbm_19689/sjjhxxhwyh_19708/gfxwj_19709/index.html",
+    "entry_urls": [
+      "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szbm/szfzcbm_19689/sjjhxxhwyh_19708/gfxwj_19709/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_ffe1eee45c23",
+    "region": "中国",
+    "country": "中国",
+    "province": "湖南",
+    "group": "湖南",
+    "name": "湖南省发改委",
+    "url": "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szbm/szfzcbm_19689/sfzhggwyh_19690/gfxwj_19691/index.html",
+    "entry_urls": [
+      "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szbm/szfzcbm_19689/sfzhggwyh_19690/gfxwj_19691/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_bb4da4572d87",
+    "region": "中国",
+    "country": "中国",
+    "province": "广东",
+    "group": "广东",
+    "name": "广东省人民政府",
+    "url": "http://www.gd.gov.cn/zwgk/wjk/qbwj/index.html",
+    "entry_urls": [
+      "http://www.gd.gov.cn/zwgk/wjk/qbwj/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_10f90ee358af",
+    "region": "中国",
+    "country": "中国",
+    "province": "广东",
+    "group": "广东",
+    "name": "广东省发改委",
+    "url": "https://drc.gd.gov.cn/qtwj/index.html",
+    "entry_urls": [
+      "https://drc.gd.gov.cn/qtwj/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_e76873553df5",
+    "region": "中国",
+    "country": "中国",
+    "province": "广东",
+    "group": "广东",
+    "name": "广东省工信厅",
+    "url": "https://gdii.gd.gov.cn/zcgh3227/index.html",
+    "entry_urls": [
+      "https://gdii.gd.gov.cn/zcgh3227/index.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_982b327ff7c1",
+    "region": "中国",
+    "country": "中国",
+    "province": "广东",
+    "group": "广东",
+    "name": "广东省能源局",
+    "url": "https://drc.gd.gov.cn/gdsnyj/gkmlpt/policy",
+    "entry_urls": [
+      "https://drc.gd.gov.cn/gdsnyj/gkmlpt/policy"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_dc5c3fb359d1",
+    "region": "中国",
+    "country": "中国",
+    "province": "广西",
+    "group": "广西",
+    "name": "广西省人民政府",
+    "url": "http://www.gxzf.gov.cn/zcwjk/policyList/",
+    "entry_urls": [
+      "http://www.gxzf.gov.cn/zcwjk/policyList/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_e1fee5ff89e0",
+    "region": "中国",
+    "country": "中国",
+    "province": "广西",
+    "group": "广西",
+    "name": "广西省工信厅",
+    "url": "http://gxt.gxzf.gov.cn/xxgk/fgzc/",
+    "entry_urls": [
+      "http://gxt.gxzf.gov.cn/xxgk/fgzc/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_f8d592e48007",
+    "region": "中国",
+    "country": "中国",
+    "province": "广西",
+    "group": "广西",
+    "name": "广西省发改委",
+    "url": "http://fgw.gxzf.gov.cn/zfxxgkzl/wjzx/zyzc/",
+    "entry_urls": [
+      "http://fgw.gxzf.gov.cn/zfxxgkzl/wjzx/zyzc/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_992e5f62736a",
+    "region": "中国",
+    "country": "中国",
+    "province": "海南",
+    "group": "海南",
+    "name": "海南省人民政府",
+    "url": "https://www.hainan.gov.cn/hainan/zfwj/szfzcwj.shtml?ddtab=true",
+    "entry_urls": [
+      "https://www.hainan.gov.cn/hainan/zfwj/szfzcwj.shtml?ddtab=true"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_69d7e431290a",
+    "region": "中国",
+    "country": "中国",
+    "province": "海南",
+    "group": "海南",
+    "name": "海南省工信厅",
+    "url": "https://iitb.hainan.gov.cn/iitb/bmwjjj/list3.shtml?ddtab=true",
+    "entry_urls": [
+      "https://iitb.hainan.gov.cn/iitb/bmwjjj/list3.shtml?ddtab=true"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_7c1b3c83b1b3",
+    "region": "中国",
+    "country": "中国",
+    "province": "海南",
+    "group": "海南",
+    "name": "海南省发改委",
+    "url": "https://plan.hainan.gov.cn/sfgw/0503/list3.shtml?ddtab=true",
+    "entry_urls": [
+      "https://plan.hainan.gov.cn/sfgw/0503/list3.shtml?ddtab=true"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_0df681493753",
+    "region": "中国",
+    "country": "中国",
+    "province": "重庆",
+    "group": "重庆",
+    "name": "重庆市人民政府",
+    "url": "https://www.cq.gov.cn/zwgk/zfxxgkml/szfwj/",
+    "entry_urls": [
+      "https://www.cq.gov.cn/zwgk/zfxxgkml/szfwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_8d9829dca749",
+    "region": "中国",
+    "country": "中国",
+    "province": "重庆",
+    "group": "重庆",
+    "name": "重庆市发改委",
+    "url": "https://fzggw.cq.gov.cn/zwgk/zfxxgkml/zcwj/",
+    "entry_urls": [
+      "https://fzggw.cq.gov.cn/zwgk/zfxxgkml/zcwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_d0e1e7cbbbd8",
+    "region": "中国",
+    "country": "中国",
+    "province": "重庆",
+    "group": "重庆",
+    "name": "重庆市经信委",
+    "url": "https://jjxxw.cq.gov.cn/zwgk_213/zcwj/qtwj/",
+    "entry_urls": [
+      "https://jjxxw.cq.gov.cn/zwgk_213/zcwj/qtwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_3656ef9d8608",
+    "region": "中国",
+    "country": "中国",
+    "province": "四川",
+    "group": "四川",
+    "name": "四川省人民政府",
+    "url": "https://www.sc.gov.cn/10462/c103041/newzfwj.shtml?channelid=9c2314405df140af83649dff8f30055b",
+    "entry_urls": [
+      "https://www.sc.gov.cn/10462/c103041/newzfwj.shtml?channelid=9c2314405df140af83649dff8f30055b"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_33a95a0f222c",
+    "region": "中国",
+    "country": "中国",
+    "province": "四川",
+    "group": "四川",
+    "name": "四川省发改委",
+    "url": "https://fgw.sc.gov.cn/sfgw/zcwj/olist.shtml",
+    "entry_urls": [
+      "https://fgw.sc.gov.cn/sfgw/zcwj/olist.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_8503453c6f26",
+    "region": "中国",
+    "country": "中国",
+    "province": "四川",
+    "group": "四川",
+    "name": "四川省经信厅",
+    "url": "https://jxt.sc.gov.cn/scjxt/xzgfxwj/zcgfxwj_list.shtml",
+    "entry_urls": [
+      "https://jxt.sc.gov.cn/scjxt/xzgfxwj/zcgfxwj_list.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_ef7a6358dcaf",
+    "region": "中国",
+    "country": "中国",
+    "province": "贵州",
+    "group": "贵州",
+    "name": "贵州省人民政府",
+    "url": "https://www.guizhou.gov.cn/zwgk/zcfg/szfwj/szfl/",
+    "entry_urls": [
+      "https://www.guizhou.gov.cn/zwgk/zcfg/szfwj/szfl/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_5b4d7e22b3d8",
+    "region": "中国",
+    "country": "中国",
+    "province": "贵州",
+    "group": "贵州",
+    "name": "贵州省工信厅",
+    "url": "https://gxt.guizhou.gov.cn/zwgk/xxgkml/zcwj/gfxwj/",
+    "entry_urls": [
+      "https://gxt.guizhou.gov.cn/zwgk/xxgkml/zcwj/gfxwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_9ad4f3f9f250",
+    "region": "中国",
+    "country": "中国",
+    "province": "贵州",
+    "group": "贵州",
+    "name": "贵州省发改委",
+    "url": "https://fgw.guizhou.gov.cn/zwgk/xxgkml/zcfg/zcwj/",
+    "entry_urls": [
+      "https://fgw.guizhou.gov.cn/zwgk/xxgkml/zcfg/zcwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_3a0098eda1cb",
+    "region": "中国",
+    "country": "中国",
+    "province": "贵州",
+    "group": "贵州",
+    "name": "贵州省能源局",
+    "url": "https://nyj.guizhou.gov.cn/zwgk/xxgkml/zcwj_2/jnwj/ptwj_2/",
+    "entry_urls": [
+      "https://nyj.guizhou.gov.cn/zwgk/xxgkml/zcwj_2/jnwj/ptwj_2/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_373bf2a67a6a",
+    "region": "中国",
+    "country": "中国",
+    "province": "云南",
+    "group": "云南",
+    "name": "云南省人民政府",
+    "url": "https://www.yn.gov.cn/zwgk/zcwj/zxwj/",
+    "entry_urls": [
+      "https://www.yn.gov.cn/zwgk/zcwj/zxwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_3848e6d50507",
+    "region": "中国",
+    "country": "中国",
+    "province": "云南",
+    "group": "云南",
+    "name": "云南省发改委",
+    "url": "https://yndrc.yn.gov.cn/html/zhengwugongkai/zhengcewenjian/xingzhengguifanxingwenjian/",
+    "entry_urls": [
+      "https://yndrc.yn.gov.cn/html/zhengwugongkai/zhengcewenjian/xingzhengguifanxingwenjian/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_abeaaa19aeaf",
+    "region": "中国",
+    "country": "中国",
+    "province": "云南",
+    "group": "云南",
+    "name": "云南省工信部",
+    "url": "https://gxt.yn.gov.cn/zwgk/zc/zfwj2ynsgxw",
+    "entry_urls": [
+      "https://gxt.yn.gov.cn/zwgk/zc/zfwj2ynsgxw"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_0ec2ce74ee21",
+    "region": "中国",
+    "country": "中国",
+    "province": "西藏",
+    "group": "西藏",
+    "name": "西藏人民政府",
+    "url": "https://www.xizang.gov.cn/zwgk/zfxxgk/fdzdgknr/zc/xzgfxwj/",
+    "entry_urls": [
+      "https://www.xizang.gov.cn/zwgk/zfxxgk/fdzdgknr/zc/xzgfxwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_d3b58f0e5eb3",
+    "region": "中国",
+    "country": "中国",
+    "province": "西藏",
+    "group": "西藏",
+    "name": "西藏经信厅",
+    "url": "http://jxt.xizang.gov.cn/xzweb/xzgovlist/63",
+    "entry_urls": [
+      "http://jxt.xizang.gov.cn/xzweb/xzgovlist/63"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_c88abf0afe5b",
+    "region": "中国",
+    "country": "中国",
+    "province": "西藏",
+    "group": "西藏",
+    "name": "西藏发改委",
+    "url": "https://drc.xizang.gov.cn/zwgk_1941/zc/",
+    "entry_urls": [
+      "https://drc.xizang.gov.cn/zwgk_1941/zc/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_cbe1e711da4e",
+    "region": "中国",
+    "country": "中国",
+    "province": "陕西",
+    "group": "陕西",
+    "name": "陕西省人民政府",
+    "url": "https://www.shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/nszfwj/szf/",
+    "entry_urls": [
+      "https://www.shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/nszfwj/szf/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_586db4a9d62b",
+    "region": "中国",
+    "country": "中国",
+    "province": "陕西",
+    "group": "陕西",
+    "name": "陕西省发改委",
+    "url": "https://sndrc.shaanxi.gov.cn/zfxxgk/zc/fgwj/sfzggwwj/2025/",
+    "entry_urls": [
+      "https://sndrc.shaanxi.gov.cn/zfxxgk/zc/fgwj/sfzggwwj/2025/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_5b16ef7061a6",
+    "region": "中国",
+    "country": "中国",
+    "province": "陕西",
+    "group": "陕西",
+    "name": "陕西省工信厅",
+    "url": "https://gxt.shaanxi.gov.cn/xxgk/gfxwj/",
+    "entry_urls": [
+      "https://gxt.shaanxi.gov.cn/xxgk/gfxwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_31d5a70346a7",
+    "region": "中国",
+    "country": "中国",
+    "province": "甘肃",
+    "group": "甘肃",
+    "name": "甘肃省人民政府",
+    "url": "https://www.gansu.gov.cn/gsszf/c100055/xxgk_zc.shtml",
+    "entry_urls": [
+      "https://www.gansu.gov.cn/gsszf/c100055/xxgk_zc.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_a938b931355a",
+    "region": "中国",
+    "country": "中国",
+    "province": "甘肃",
+    "group": "甘肃",
+    "name": "甘肃省发改委",
+    "url": "https://fzgg.gansu.gov.cn/fzgg/c106108/zfxxgkzd.shtml",
+    "entry_urls": [
+      "https://fzgg.gansu.gov.cn/fzgg/c106108/zfxxgkzd.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_6d17c8db02a7",
+    "region": "中国",
+    "country": "中国",
+    "province": "甘肃",
+    "group": "甘肃",
+    "name": "甘肃省工信厅",
+    "url": "https://gxt.gansu.gov.cn/gxt/c107558/xxgk_infolist.shtml",
+    "entry_urls": [
+      "https://gxt.gansu.gov.cn/gxt/c107558/xxgk_infolist.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_849d81cd0731",
+    "region": "中国",
+    "country": "中国",
+    "province": "青海",
+    "group": "青海",
+    "name": "青海省人民政府",
+    "url": "http://www.qinghai.gov.cn/xxgk/1/",
+    "entry_urls": [
+      "http://www.qinghai.gov.cn/xxgk/1/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_74fce3cf9af2",
+    "region": "中国",
+    "country": "中国",
+    "province": "青海",
+    "group": "青海",
+    "name": "青海省发改委",
+    "url": "http://fgw.qinghai.gov.cn/zfxxgk/sdzdgknr/fgwwj/",
+    "entry_urls": [
+      "http://fgw.qinghai.gov.cn/zfxxgk/sdzdgknr/fgwwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_73b71da2b6fa",
+    "region": "中国",
+    "country": "中国",
+    "province": "青海",
+    "group": "青海",
+    "name": "青海省工信厅",
+    "url": "https://gxt.qinghai.gov.cn/gongxintingwenjian.html",
+    "entry_urls": [
+      "https://gxt.qinghai.gov.cn/gongxintingwenjian.html"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "single_document",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_020e3237b936",
+    "region": "中国",
+    "country": "中国",
+    "province": "宁夏",
+    "group": "宁夏",
+    "name": "宁夏人民政府",
+    "url": "https://www.nx.gov.cn/zwgk/qzfwj/",
+    "entry_urls": [
+      "https://www.nx.gov.cn/zwgk/qzfwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_b16924b6f5db",
+    "region": "中国",
+    "country": "中国",
+    "province": "宁夏",
+    "group": "宁夏",
+    "name": "宁夏工信厅",
+    "url": "https://gxt.nx.gov.cn/zwgk/fdzdgknr/zcfg/gxtwj/",
+    "entry_urls": [
+      "https://gxt.nx.gov.cn/zwgk/fdzdgknr/zcfg/gxtwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_b21191aa502d",
+    "region": "中国",
+    "country": "中国",
+    "province": "宁夏",
+    "group": "宁夏",
+    "name": "宁夏发改委",
+    "url": "https://fzggw.nx.gov.cn/zcgh/fgwwj/",
+    "entry_urls": [
+      "https://fzggw.nx.gov.cn/zcgh/fgwwj/"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_6470542a78a1",
+    "region": "中国",
+    "country": "中国",
+    "province": "新疆",
+    "group": "新疆",
+    "name": "新疆人民政府",
+    "url": "https://www.xinjiang.gov.cn/xinjiang/zfl/zfxxgk_zhengce_list.shtml?cnName=%E6%94%BF%E5%BA%9C%E4%BB%A4",
+    "entry_urls": [
+      "https://www.xinjiang.gov.cn/xinjiang/zfl/zfxxgk_zhengce_list.shtml?cnName=%E6%94%BF%E5%BA%9C%E4%BB%A4"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_b2fb4de562c3",
+    "region": "中国",
+    "country": "中国",
+    "province": "新疆",
+    "group": "新疆",
+    "name": "新疆工信厅",
+    "url": "https://gxt.xinjiang.gov.cn/gxt/gfxwj/zfxxgk_gknrz.shtml",
+    "entry_urls": [
+      "https://gxt.xinjiang.gov.cn/gxt/gfxwj/zfxxgk_gknrz.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "cn_4712cd950c17",
+    "region": "中国",
+    "country": "中国",
+    "province": "新疆",
+    "group": "新疆",
+    "name": "新疆发改委",
+    "url": "https://xjdrc.xinjiang.gov.cn/xjfgw/c108358/zfxxgk_gknrz.shtml",
+    "entry_urls": [
+      "https://xjdrc.xinjiang.gov.cn/xjfgw/c108358/zfxxgk_gknrz.shtml"
+    ],
+    "source_type": "地方政府及部门",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内信息元.xlsx"
+  },
+  {
+    "id": "intl_d2aa3a2a84eb",
+    "region": "海外/国际",
+    "country": "哈萨克",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "哈萨克 · adilet.zan.kz",
+    "url": "https://adilet.zan.kz/eng/",
+    "entry_urls": [
+      "https://adilet.zan.kz/eng/"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_5bf26a0463b6",
+    "region": "海外/国际",
+    "country": "哈萨克",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "哈萨克 · kegoc.kz",
+    "url": "https://www.kegoc.kz/en/",
+    "entry_urls": [
+      "https://www.kegoc.kz/en/"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_22f54785fc0c",
+    "region": "海外/国际",
+    "country": "乌兹别克",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "乌兹别克 · lex.uz",
+    "url": "https://lex.uz/en/",
+    "entry_urls": [
+      "https://lex.uz/en/"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_7b1e84dd7d83",
+    "region": "海外/国际",
+    "country": "越南",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "越南 · vbpl.vn",
+    "url": "https://vbpl.vn/",
+    "entry_urls": [
+      "https://vbpl.vn/"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_86b94a4048f6",
+    "region": "海外/国际",
+    "country": "越南",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "越南 · moit.gov.vn",
+    "url": "https://moit.gov.vn/van-ban-phap-luat",
+    "entry_urls": [
+      "https://moit.gov.vn/van-ban-phap-luat"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_e413724b9f7e",
+    "region": "海外/国际",
+    "country": "土耳其",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "土耳其 · resmigazete.gov.tr",
+    "url": "https://www.resmigazete.gov.tr/",
+    "entry_urls": [
+      "https://www.resmigazete.gov.tr/"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_a0cdcfa4d8ac",
+    "region": "海外/国际",
+    "country": "土耳其",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "土耳其 · epdk.gov.tr",
+    "url": "https://www.epdk.gov.tr/detay/icerik/23-2-3/mevzuat",
+    "entry_urls": [
+      "https://www.epdk.gov.tr/detay/icerik/23-2-3/mevzuat"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_570048890491",
+    "region": "海外/国际",
+    "country": "沙特",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "沙特 · powersaudiarabia.com.sa",
+    "url": "https://powersaudiarabia.com.sa/web/index.html",
+    "entry_urls": [
+      "https://powersaudiarabia.com.sa/web/index.html"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_70254ff795ca",
+    "region": "海外/国际",
+    "country": "南非",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "南非 · nersa.org.za",
+    "url": "https://www.nersa.org.za/electricity/regulatory-rules",
+    "entry_urls": [
+      "https://www.nersa.org.za/electricity/regulatory-rules"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_21639aaa8fc3",
+    "region": "海外/国际",
+    "country": "南非",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "南非 · ntcsa.co.za",
+    "url": "https://www.ntcsa.co.za/grid-code-management-2/",
+    "entry_urls": [
+      "https://www.ntcsa.co.za/grid-code-management-2/"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_cf2c9a688979",
+    "region": "海外/国际",
+    "country": "埃及",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "埃及 · nrea.gov.eg",
+    "url": "https://nrea.gov.eg/test/en/Home",
+    "entry_urls": [
+      "https://nrea.gov.eg/test/en/Home"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_02afdc67ebd5",
+    "region": "海外/国际",
+    "country": "埃及",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "埃及 · egyptera.org",
+    "url": "https://egyptera.org/en/Rules.aspx",
+    "entry_urls": [
+      "https://egyptera.org/en/Rules.aspx"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_04fc5afbf0e1",
+    "region": "海外/国际",
+    "country": "摩洛哥",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "摩洛哥 · anre.ma",
+    "url": "https://anre.ma/regulations/tarification/",
+    "entry_urls": [
+      "https://anre.ma/regulations/tarification/"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_9208869e00d2",
+    "region": "海外/国际",
+    "country": "巴西",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "巴西 · gov.br",
+    "url": "https://www.gov.br/aneel/pt-br/assuntos/geracao/regulacao",
+    "entry_urls": [
+      "https://www.gov.br/aneel/pt-br/assuntos/geracao/regulacao"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_fce817fb18fd",
+    "region": "海外/国际",
+    "country": "意大利",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "意大利 · normattiva.it",
+    "url": "https://www.normattiva.it/",
+    "entry_urls": [
+      "https://www.normattiva.it/"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_15d3c99c0a62",
+    "region": "海外/国际",
+    "country": "欧盟",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "欧盟 · energy.ec.europa.eu",
+    "url": "https://energy.ec.europa.eu/topics/renewable-energy/eu-wind-energy_en",
+    "entry_urls": [
+      "https://energy.ec.europa.eu/topics/renewable-energy/eu-wind-energy_en"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_db988787243d",
+    "region": "海外/国际",
+    "country": "欧盟",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "欧盟 · eur-lex.europa.eu",
+    "url": "https://eur-lex.europa.eu/homepage.html",
+    "entry_urls": [
+      "https://eur-lex.europa.eu/homepage.html"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "single_document",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_318f38ebb08f",
+    "region": "海外/国际",
+    "country": "印度",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "印度 · niwe.res.in",
+    "url": "https://niwe.res.in/department/department_s%26r/",
+    "entry_urls": [
+      "https://niwe.res.in/department/department_s%26r/"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_9b2b8bf5c09f",
+    "region": "海外/国际",
+    "country": "阿曼",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "阿曼 · gov.om",
+    "url": "https://gov.om/en/authority-for-public-services-regulation",
+    "entry_urls": [
+      "https://gov.om/en/authority-for-public-services-regulation"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  },
+  {
+    "id": "intl_f7e1f136f797",
+    "region": "海外/国际",
+    "country": "摩洛哥",
+    "province": "",
+    "group": "海外法规及标准",
+    "name": "摩洛哥 · adala.justice.gov.ma",
+    "url": "https://adala.justice.gov.ma/fr/resources/411",
+    "entry_urls": [
+      "https://adala.justice.gov.ma/fr/resources/411"
+    ],
+    "source_type": "海外政策法规",
+    "crawl_mode": "html_listing",
+    "url_status": "已提供，未逐站验证",
+    "priority": "正常",
+    "origin": "国内+海外政策信息渠道10.12.xlsx"
+  }
+]
