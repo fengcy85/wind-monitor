@@ -1,0 +1,41 @@
+/* V5.2: compact policy index. One policy equals one primary table row. */
+.policy-toolbar{display:grid;grid-template-columns:minmax(210px,2.2fr) repeat(6,minmax(110px,1fr));gap:9px;padding:0 22px 18px}
+.policy-list{border-top:1px solid #e1e8ee;min-height:60px}
+.policy-table-wrap{width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+.policy-table{border-collapse:separate;border-spacing:0;width:100%;min-width:1190px;table-layout:fixed;font-size:13px}
+.policy-table thead th{text-align:left;background:#f5f8fc;color:#53677c;font-size:12px;font-weight:750;letter-spacing:.01em;padding:12px 11px;border-bottom:1px solid #dce6ed;white-space:nowrap;position:sticky;top:0;z-index:1}
+.policy-table td{padding:12px 11px;vertical-align:middle;border-bottom:1px solid #e9eff3;color:#41536b;line-height:1.45}
+.policy-table tr.policy-row:hover td{background:#f5fafc}
+.policy-table th:nth-child(1),.policy-table td:nth-child(1){width:103px}
+.policy-table th:nth-child(2),.policy-table td:nth-child(2){width:91px}
+.policy-table th:nth-child(3),.policy-table td:nth-child(3){width:32%}
+.policy-table th:nth-child(4),.policy-table td:nth-child(4){width:18%}
+.policy-table th:nth-child(5),.policy-table td:nth-child(5){width:98px}
+.policy-table th:nth-child(6),.policy-table td:nth-child(6){width:88px}
+.policy-table th:nth-child(7),.policy-table td:nth-child(7){width:148px}
+.policy-table th:nth-child(8),.policy-table td:nth-child(8){width:120px}
+.policy-title-link{display:block;text-decoration:none;color:#153d5c;font-weight:750;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:13px}
+.policy-title-link:hover,.policy-table a:hover{text-decoration:underline;color:#0e6990}
+.policy-nowrap{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.policy-dimension-cell{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#4b7288}
+.policy-inline-badge{display:inline-block;border-radius:5px;background:#eef3fa;color:#31577c;padding:4px 6px;font-size:11px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;vertical-align:middle}
+.policy-inline-badge.inactive{background:#fff1e9;color:#a35120}.policy-inline-badge.unknown{background:#f2f3f5;color:#66768a}
+.policy-row-actions{display:flex;gap:8px;align-items:center;white-space:nowrap}
+.policy-action{border:0;background:transparent;color:#185f7d;font-weight:750;cursor:pointer;font-size:12px;padding:4px 0}
+.policy-action:hover{text-decoration:underline}
+.policy-original{color:#185f7d;text-decoration:none;font-size:12px;font-weight:700}
+.policy-detail-row[hidden]{display:none}.policy-detail-row td{padding:0!important;background:#f8fafc;border-bottom:1px solid #dce7ec!important}
+.policy-expand{padding:16px 20px 18px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 25px;font-size:12px;line-height:1.65;color:#53697c}
+.policy-expand section{min-width:0}.policy-expand h4{font-size:12px;color:#274f68;margin:0 0 5px}.policy-expand p{margin:0}.policy-expand .full{grid-column:1/-1}
+.policy-list-note{padding:9px 22px;color:#6e8192;font-size:11px;background:#fcfdff}
+.source-error{color:#a84935;font-size:11px;margin-top:7px;line-height:1.55;overflow-wrap:anywhere}
+.source-subtle{color:#677b90;font-size:11px;margin-top:8px;line-height:1.5}
+.status-tiny.blocked,.status-tiny.connection_error,.status-tiny.timeout,.status-tiny.error,.status-tiny.detail_error{background:#fcebe9;color:#ac423e}
+.status-tiny.ok_no_recent,.status-tiny.ok_no_candidates,.status-tiny.ok_with_results{background:#e9f7f1;color:#1b795c}
+.status-tiny.not_checked{background:#edf0f4;color:#667789}
+.policy-source-grid .source-card{min-height:118px}
+@media(max-width:1300px){.policy-toolbar{grid-template-columns:repeat(3,minmax(0,1fr))}.policy-toolbar input{grid-column:1/-1}}
+@media(max-width:740px){.policy-toolbar{grid-template-columns:repeat(2,minmax(0,1fr));padding:0 13px 13px}.policy-toolbar input{grid-column:1/-1}.source-toolbar{grid-template-columns:1fr}.policy-expand{grid-template-columns:1fr}.policy-expand .full{grid-column:auto}.policy-table td{padding:12px 8px}.policy-list-note{padding:10px 14px}}
+
+.source-toolbar{grid-template-columns:2fr 1fr 1fr}
+@media(max-width:740px){.source-toolbar{grid-template-columns:1fr}}
