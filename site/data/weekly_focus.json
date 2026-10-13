@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:34:04+00:00",
+  "generated_at": "2026-10-13T07:50:58+00:00",
   "period": {
     "days": 7,
     "start": "2026-10-07",
@@ -17,11 +17,11 @@
   ],
   "tag_counts": {
     "竞对资讯": 7,
-    "招标采购": 6,
+    "招标采购": 5,
     "市场机制": 1,
     "电网建设": 2,
     "宏观政策": 0,
-    "审批政策": 3
+    "审批政策": 1
   },
   "items": [
     {
@@ -72,29 +72,29 @@
     {
       "country": "全球",
       "source_name": "Recharge",
-      "title": "Vattenfall wind chief breaks ranks to back Germany's offshore tender plan interviews 12.10.2026",
-      "translated_title": "Vattenfall风头断层 支持德国海外招标计划面试 12.10.2026",
+      "title": "Vestas joins Neretek's push into deeper-water offshore wind as hybrids challenge floating offshore wind 06.10.2026",
+      "translated_title": "维斯塔斯加入内雷特克的冲入 更深水的岸外风 混合体挑战漂浮",
       "published_at": "2026-10-12",
-      "url": "https://www.rechargenews.com/interviews/vattenfall-wind-chief-breaks-ranks-to-back-germanys-offshore-tender-plan/2-1-2055971",
+      "url": "https://www.rechargenews.com/offshore-wind/vestas-joins-nereteks-push-into-deeper-water-offshore-wind-as-hybrids-challenge-floating/2-1-2054562",
       "tags": [
         "竞对资讯",
         "招标采购",
         "审批政策"
       ],
       "competitors": [
+        "Vestas",
         "Nordex",
         "GE Vernova",
-        "Orsted",
-        "RWE"
+        "Orsted"
       ],
-      "monitor_reason": "招标/采购节点 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
+      "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
       "signals": [
         "竞对资讯",
         "招标采购",
-        "Nordex"
+        "Vestas"
       ],
       "rank": 3,
-      "importance_reason": "竞对资讯 · 招标采购 · Nordex"
+      "importance_reason": "竞对资讯 · 招标采购 · Vestas"
     },
     {
       "country": "全球",
@@ -122,56 +122,50 @@
     {
       "country": "全球",
       "source_name": "Recharge",
-      "title": "Bruce Valpy Why Taiwan’s offshore wind auction was only a two-horse race – and what needs to change opinion 12.10.2026",
-      "translated_title": "布鲁斯·瓦尔皮 为什么台湾的岸外风情拍卖只是一场两匹马的赛车,",
-      "published_at": "2026-10-12",
-      "url": "https://www.rechargenews.com/opinion/why-taiwan-s-offshore-wind-auction-was-only-a-two-horse-race-and-what-needs-to-change/2-1-2056392",
+      "title": "CIP follows up on EDF to buy into gigascale UK offshore wind project",
+      "translated_title": "CIP追踪EDF 买入千兆级的英国岸外风力项目",
+      "published_at": "2026-10-13",
+      "url": "https://www.rechargenews.com/offshore-wind/cip-follows-up-on-edf-to-buy-into-gigascale-uk-offshore-wind-project/2-1-2057638",
+      "tags": [
+        "竞对资讯"
+      ],
+      "competitors": [
+        "CIP"
+      ],
+      "monitor_reason": "竞对项目动态 · GW级项目 · 标题明确风电",
+      "signals": [
+        "1 GW",
+        "竞对资讯",
+        "CIP"
+      ],
+      "rank": 5,
+      "importance_reason": "1 GW · 竞对资讯 · CIP"
+    },
+    {
+      "country": "全球",
+      "source_name": "Recharge",
+      "title": "Vattenfall wind chief breaks ranks to back Germany's offshore tender plan interviews 12.10.2026",
+      "translated_title": "Vattenfall风头断层 支持德国海外招标计划面试 12.10.2026",
+      "published_at": "2026-10-13",
+      "url": "https://www.rechargenews.com/interviews/vattenfall-wind-chief-breaks-ranks-to-back-germanys-offshore-tender-plan/2-1-2055971",
       "tags": [
         "竞对资讯",
-        "招标采购",
-        "审批政策"
+        "招标采购"
       ],
       "competitors": [
         "Nordex",
-        "GE Vernova",
         "Orsted",
-        "RWE"
+        "CIP",
+        "Vattenfall"
       ],
-      "monitor_reason": "招标/采购节点 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
+      "monitor_reason": "招标/采购节点 · 竞对项目动态 · 标题明确风电",
       "signals": [
         "竞对资讯",
         "招标采购",
         "Nordex"
       ],
-      "rank": 5,
-      "importance_reason": "竞对资讯 · 招标采购 · Nordex"
-    },
-    {
-      "country": "全球",
-      "source_name": "Recharge",
-      "title": "Vestas joins Neretek's push into deeper-water offshore wind as hybrids challenge floating offshore wind 06.10.2026",
-      "translated_title": "维斯塔斯加入内雷特克的冲入 更深水的岸外风 混合体挑战漂浮",
-      "published_at": "2026-10-12",
-      "url": "https://www.rechargenews.com/offshore-wind/vestas-joins-nereteks-push-into-deeper-water-offshore-wind-as-hybrids-challenge-floating/2-1-2054562",
-      "tags": [
-        "竞对资讯",
-        "招标采购",
-        "审批政策"
-      ],
-      "competitors": [
-        "Vestas",
-        "Nordex",
-        "GE Vernova",
-        "Orsted"
-      ],
-      "monitor_reason": "正文含招标/采购 · 正文涉及审批/许可 · 竞对项目动态 · 标题明确风电",
-      "signals": [
-        "竞对资讯",
-        "招标采购",
-        "Vestas"
-      ],
       "rank": 6,
-      "importance_reason": "竞对资讯 · 招标采购 · Vestas"
+      "importance_reason": "竞对资讯 · 招标采购 · Nordex"
     },
     {
       "country": "印度",

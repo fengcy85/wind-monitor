@@ -1,5 +1,24 @@
 {
-  "last_run_at": null,
+  "last_run_at": "2026-10-13T07:50:58+00:00",
   "source_total": 121,
-  "warning": "尚未执行首次抓取。初次网页展示不得使用假法规记录。"
+  "checked_source_count": 121,
+  "sources_with_http_response": 59,
+  "sources_with_candidate_evidence": 2,
+  "new_candidate_clauses": 3,
+  "total_candidate_clauses": 3,
+  "pending_review_clauses": 18,
+  "verified_and_scored_clauses": 0,
+  "source_status_count": {
+    "search_adapter_required": 6,
+    "no_wind_regulations": 44,
+    "robots_unavailable": 39,
+    "partial_failure": 2,
+    "robots_denied": 14,
+    "no_listing_links": 5,
+    "found": 2,
+    "access_restricted": 4,
+    "http_error": 5
+  },
+  "warning": "站点访问成功 ≠ 完成法规检索。全部自动分析仅供初筛，效力及企业适用性须人工核验；检索平台可能需要专用官方接口。",
+  "crawler_mode": "HTML / official RSS / text PDF / optional browser fallback; robots + retry + error diagnostics"
 }

@@ -1,35 +1,44 @@
 {
-  "generated_at": "2026-10-13T00:34:04+00:00",
-  "before": 307,
-  "kept": 256,
-  "filtered_out": 51,
+  "generated_at": "2026-10-13T07:50:58+00:00",
+  "before": 310,
+  "kept": 258,
+  "filtered_out": 52,
   "tag_counts": {
-    "竞对资讯": 229,
-    "审批政策": 37,
+    "竞对资讯": 231,
+    "招标采购": 61,
+    "审批政策": 33,
     "电网建设": 21,
-    "招标采购": 62,
     "市场机制": 8,
     "宏观政策": 3
   },
   "rejected_examples": [
     {
-      "title": "Hungary could top 6 GW of wind energy by 2040 - report",
-      "source_name": "Renewables Now",
-      "published_at": "2026-10-12",
-      "url": "https://renewablesnow.com/news/hungary-could-top-6-gw-of-wind-energy-by-2040-report-1302840/",
+      "title": "Jackets can go deeper cheaper, UK offshore wind planners are told",
+      "source_name": "Recharge",
+      "published_at": "2026-10-13",
+      "url": "https://www.rechargenews.com/offshore-wind/jackets-can-go-deeper-cheaper-uk-offshore-wind-planners-are-told/2-1-2057411",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Ardian adds to portfolio 73 MW of wind power in Sweden, Finland",
-      "source_name": "Renewables Now",
-      "published_at": "2026-10-12",
-      "url": "https://renewablesnow.com/news/ardian-adds-to-portfolio-73-mw-of-wind-power-in-sweden-finland-1302814/",
+      "title": "Alfanar accepts KPI Green Energy’s binding offer for 507.9 MW Bhuj wind portfolio; proceeds to fund 3 GW India pipeline",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-13",
+      "url": "https://renewablewatch.in/2026/10/13/alfanar-accepts-kpi-green-energys-binding-offer-for-507-9-mw-bhuj-wind-portfolio-proceeds-to-fund-3-gw-india-pipeline/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
+      ]
+    },
+    {
+      "title": "Eskom launches 6 GW renewables tender",
+      "source_name": "Renewable Watch",
+      "published_at": "2026-10-13",
+      "url": "https://renewablewatch.in/2026/10/13/eskom-launches-6-gw-renewables-tender/",
+      "reasons": [
+        "风电相关性不足"
       ]
     },
     {
@@ -188,15 +197,6 @@
       ]
     },
     {
-      "title": "Vardhman Textiles and Serentica partner for captive hybrid project",
-      "source_name": "Renewable Watch",
-      "published_at": "2026-10-06",
-      "url": "https://renewablewatch.in/2026/10/06/vardhman-textiles-and-serentica-partner-for-captive-hybrid-project/",
-      "reasons": [
-        "风电相关性不足"
-      ]
-    },
-    {
       "title": "28 Ottobre 2026 - SEMINARIO 4 - Power Purchase Agreement per le Rinnovabili per supportare gli obiettivi di crescita del PNIEC - ANEV",
       "source_name": "ANEV",
       "published_at": "2026-09-29",
@@ -243,6 +243,15 @@
       ]
     },
     {
+      "title": "Anadolu Agency",
+      "source_name": "Anadolu Agency Energy – Wind",
+      "published_at": "2026-09-25",
+      "url": "https://www.aa.com.tr/en/energy/electricity",
+      "reasons": [
+        "风电相关性不足"
+      ]
+    },
+    {
       "title": "Türkiye's first offshore wind YEKA project expected to draw $3B investment",
       "source_name": "Anadolu Agency Energy – Wind",
       "published_at": "2026-09-25",
@@ -250,15 +259,6 @@
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
-      ]
-    },
-    {
-      "title": "Anadolu Agency",
-      "source_name": "Anadolu Agency Energy – Wind",
-      "published_at": "2026-09-25",
-      "url": "https://www.aa.com.tr/en/energy/electricity",
-      "reasons": [
-        "风电相关性不足"
       ]
     },
     {
@@ -323,6 +323,16 @@
       "source_name": "Energetica India – Wind Power",
       "published_at": "2026-09-10",
       "url": "https://www.energetica-india.net/news/dee-fabricom-secures-inr-55-crore-wind-tower-supply-intent",
+      "reasons": [
+        "无六类监测标签",
+        "标题明确风电"
+      ]
+    },
+    {
+      "title": "GERC Hears Dispute With GUVNL Over 200 MW Wind Project Delays",
+      "source_name": "WindInsider",
+      "published_at": "2026-09-09",
+      "url": "https://windinsider.com/2026/09/09/gerc-hears-dispute-with-guvnl-over-200-mw-wind-project-delays/",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
@@ -456,20 +466,20 @@
       ]
     },
     {
-      "title": "Inox Green Completes INR 550 Crore WWIL Wind O&M Deal - Asia Pacific | Energetica India Magazine",
+      "title": "Purvah Green Signs PPA with SECI for 175 MW Wind Project - Asia Pacific | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
       "published_at": "2026-07-10",
-      "url": "https://www.energetica-india.net/news/inox-green-completes-inr-550-crore-wwil-wind-om-deal",
+      "url": "https://www.energetica-india.net/news/purvah-green-signs-ppa-with-seci-for-175-mw-wind-project",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"
       ]
     },
     {
-      "title": "Purvah Green Signs PPA with SECI for 175 MW Wind Project - Asia Pacific | Energetica India Magazine",
+      "title": "Inox Green Completes INR 550 Crore WWIL Wind O&M Deal - Asia Pacific | Energetica India Magazine",
       "source_name": "Energetica India – Wind Power",
       "published_at": "2026-07-10",
-      "url": "https://www.energetica-india.net/news/purvah-green-signs-ppa-with-seci-for-175-mw-wind-project",
+      "url": "https://www.energetica-india.net/news/inox-green-completes-inr-550-crore-wwil-wind-om-deal",
       "reasons": [
         "无六类监测标签",
         "标题明确风电"

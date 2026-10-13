@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "change_type": "new_clause_candidate",
+    "title": "北京市城市管理委员会关于印发北京市2026年电力市场化交易方案、绿色电力交易方案的通知（京管发〔2025〕4号）",
+    "clause_id": "段落81",
+    "url": "https://csglw.beijing.gov.cn/zwxx/2024zcwj/202512/t20251209_4330220.html",
+    "observed_at": "2026-10-13T07:50:58+00:00"
+  },
+  {
+    "change_type": "new_clause_candidate",
+    "title": "（失效）北京市城市管理委员会关于印发北京市2025年电力市场化交易方案、绿色电力交易方案的通知（京管发〔2024〕11号）",
+    "clause_id": "段落76",
+    "url": "https://csglw.beijing.gov.cn/zwxx/2024zcwj/202412/t20241213_3965483.html",
+    "observed_at": "2026-10-13T07:50:58+00:00"
+  },
+  {
+    "change_type": "new_clause_candidate",
+    "title": "福建省发展和改革委员会 国家能源局福建监管办公室关于印发《福建省深化新能源上网电价市场化改革 促进新能源高质量发展实施方案》的通知 _ 省发改委政策文件 _ 福建省发展和改革委员会",
+    "clause_id": "段落40",
+    "url": "https://fgw.fujian.gov.cn/zwgk/fgzd/sfgwgfxwj/202510/t20251028_7027029.htm",
+    "observed_at": "2026-10-13T07:50:58+00:00"
+  }
+]
